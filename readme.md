@@ -4,19 +4,27 @@ Se tiene un modelo orientado a objetos para guiar el proceso de programacion del
 
 Esta es la vista principal:
 https://wireframe.cc/pro/pp/974790be8853710
+<br>
 La documentacion:
 https://wireframe.cc/pro/pp/68696c11e853720
+<br>
 Seleccionar el tipo de evaluacion:
 https://wireframe.cc/pro/pp/9a3a95c6b853778
+<br>
 Realizar quiz (se muestra con pregunta de alternativa):
 https://wireframe.cc/pro/pp/974790be8853709
+<br>
 Realizar certamen (se muestra con pregunta de V y F):
 https://wireframe.cc/pro/pp/7932e225d853781
+<br>
 Realizar quiz (se muestra con pregunta de alternativa respondida erroneamente):
 https://wireframe.cc/pro/pp/93cbe3647853783
+<br>
 Realizar quiz (se muestra con explicacion de pregunta de alternativas respondida erroneamente):
 https://wireframe.cc/pro/pp/ed75952dc853784
+<br>
 Seccion de preguntas favoritas guardadas:
 https://wireframe.cc/pro/pp/0909e15f7853711
+<br>
 Seccion de agradecimientos:
 https://wireframe.cc/pro/pp/0bc416e9e853785
