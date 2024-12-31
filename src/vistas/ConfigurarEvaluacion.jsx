@@ -18,7 +18,7 @@ function ConfigurarEvaluacion() {
         <div className="row justify-content-center">
           {/* Cuadro para Quiz */}
           <div className="col-12 col-md-5 mb-4">
-            <div className="border p-4 rounded" style={{ height: '490px', position: 'relative' }}>
+            <div className="border p-4 rounded" style={{ minHeight: '490px', position: 'relative' }}>
               <h4>Quiz</h4>
               <p style={{ textAlign: 'justify' }}>
                 Evaluacion que se debe realizar al final
@@ -101,7 +101,7 @@ function ConfigurarEvaluacion() {
 
           {/* Cuadro para Certamen */}
           <div className="col-12 col-md-5 mb-4" >
-            <div className="border p-4 rounded" style={{ height: '490px', position: 'relative' }}>
+            <div className="border p-4 rounded" style={{ minHeight: '490px', position: 'relative' }}>
               <h4>Certamen</h4>
               <p style={{ textAlign: 'justify' }}>
                 La  evaluación final  del curso,  donde se
