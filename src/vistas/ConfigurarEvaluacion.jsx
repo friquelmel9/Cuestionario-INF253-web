@@ -3,8 +3,20 @@ import TopMenu from '/src/componentes/TopMenu';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function ConfigurarEvaluacion() {
-  
 
+
+  const [DatosDelCertamen, setDatosDelCertamen] = useState({
+    type: "",
+    agregarTiempo: false
+  });
+
+
+  const [DatosDelQuiz, setDatosDelQuiz] = useState({
+    type: "Certamen Quiz",
+    agregarTiempo: false,
+    unidad: 1,
+    tipoPregunta: {},
+  });
 
   return (
     <>
@@ -42,21 +54,20 @@ function ConfigurarEvaluacion() {
                   Elige la unidad
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li>
-                    <a className="dropdown-item" href="#">Unidad 1</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">Unidad 2</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">Unidad 3</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">Unidad 4</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">Unidad 5</a>
-                  </li>
+                  {[1, 2, 3, 4, 5].map((unidad) => (
+                    <li key={unidad}>
+                      <a
+                        className="dropdown-item"
+                        onClick={() => setDatosDelQuiz((prev) => {
+                          const updatedQuiz = { ...prev };
+                          updatedQuiz.unidad = unidad;
+                          return updatedQuiz;
+                        })}
+                      >
+                        Unidad {unidad}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </div>
 
@@ -68,19 +79,27 @@ function ConfigurarEvaluacion() {
                   id="dropdownMenuButton"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  
                 >
                   Tipo de pregunta
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li>
-                    <a className="dropdown-item" href="#">De evaluaciones pasadas</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">Inventadas por la comunidad</a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">Ambas</a>
-                  </li>
+                  {[{tipo: 1, texto: "De evaluaciones pasadas"}, 
+                    {tipo: 2, texto: "Inventadas por la comunidad"},
+                    {tipo: 3, texto: "Ambas"}].map((tipoPregunta) => (
+                    <li key={tipoPregunta.tipo}>
+                      <a
+                        className="dropdown-item"
+                        onClick={() => setDatosDelQuiz((prev) => {
+                          const updatedQuiz = { ...prev };
+                          updatedQuiz.tipoPregunta = tipoPregunta;
+                          return updatedQuiz;
+                        })}
+                      >
+                        {tipoPregunta.texto}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </div>
               </div>
@@ -88,7 +107,13 @@ function ConfigurarEvaluacion() {
               <div style={{ position: 'absolute', bottom: '30px', width: '80%' }}>
                 {/* Checkbox tiempo quiz */}
                 <div className="form-check mt-4">
-                    <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                    <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" checked={DatosDelQuiz.agregarTiempo} onChange={() => {
+                      setDatosDelQuiz((prev) => {
+                        const updatedQuiz = { ...prev };
+                        updatedQuiz.agregarTiempo = !updatedQuiz.agregarTiempo;
+                        return updatedQuiz;
+                      }
+                    )}}/>
                     <label className="form-check-label" htmlFor="defaultCheck1">
                     Agregar tiempo (15 min)
                     </label>
@@ -114,7 +139,13 @@ function ConfigurarEvaluacion() {
               <div style={{ position: 'absolute', bottom: '30px', width: '80%' }}>
                 {/* Checkbox tiempo certamen */}
                 <div className="form-check mt-4">
-                    <input className="form-check-input" type="checkbox" value="" id="defaultCheck2" />
+                    <input className="form-check-input" type="checkbox" value="" id="defaultCheck2" checked={DatosDelCertamen.agregarTiempo} onChange={() => {
+                      setDatosDelCertamen((prev) => {
+                        const updatedCertamen = { ...prev };
+                        updatedCertamen.agregarTiempo = !updatedCertamen.agregarTiempo;
+                        return updatedCertamen;
+                      })
+                    }}/>
                     <label className="form-check-label" htmlFor="defaultCheck2">
                     Agregar tiempo (70 min)
                     </label>
