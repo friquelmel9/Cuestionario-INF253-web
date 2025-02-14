@@ -1,22 +1,56 @@
 import { useState } from 'react';
 import TopMenu from '/src/componentes/TopMenu';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import ReactDOM from 'react-dom/client'; 
+import RendirEvaluacion from './RendirEvaluacion/RendirEvaluacion';
+
+async function obtenerPreguntas(cantidadPreguntas, seccion) {
+  // Genera las URLs dinámicamente usando import.meta.env.BASE_URL
+  const urls = Array.from({ length: 5 }, (_, i) => 
+    `${import.meta.env.BASE_URL}jsonFiles/quiz${i + 1}.json`
+  );
+
+  try {
+    // Obtiene todas las preguntas de cada archivo
+    const respuestas = await Promise.all(urls.map(url => fetch(url).then(res => res.json())));
+    
+    // Combina todas las preguntas de la sección especificada ("vf" o "alt")
+    const todasLasPreguntas = respuestas.flatMap(data => data[seccion] || []);
+
+    // Mezcla las preguntas aleatoriamente y selecciona la cantidad deseada
+    const preguntasAleatorias = todasLasPreguntas
+      .sort(() => Math.random() - 0.5)
+      .slice(0, cantidadPreguntas);
+
+    console.log(preguntasAleatorias);
+    return preguntasAleatorias;
+  } catch (error) {
+    console.error("Error al obtener las preguntas:", error);
+  }
+}
+
+
 
 function ConfigurarEvaluacion() {
 
 
   const [DatosDelCertamen, setDatosDelCertamen] = useState({
-    type: "",
-    agregarTiempo: false
+    type: "Certamen",
+    agregarTiempo: false,
+    preguntas: []
   });
 
 
   const [DatosDelQuiz, setDatosDelQuiz] = useState({
-    type: "Certamen Quiz",
+    type: "Quiz",
     agregarTiempo: false,
     unidad: 1,
     tipoPregunta: {},
+    preguntasVF: [],
+    preguntasAlt: []
   });
+
+  //const root = ReactDOM.createRoot(document.getElementById('root'));
 
   return (
     <>
@@ -118,8 +152,8 @@ function ConfigurarEvaluacion() {
                     Agregar tiempo (15 min)
                     </label>
                 </div>
-                {/* Botón para realizar el certamen */}
-                <button className="btn btn-primary mt-3 w-100">Realizar quiz</button>
+                {/* Botón para realizar el quiz */}
+                <button className="btn btn-primary mt-3 w-100" onClick={() => {ReactDOM.createRoot(document.getElementById('root')).render(<RendirEvaluacion datosEvaluacion={DatosDelQuiz} />)}}>Realizar quiz</button>
               </div>
             </div>
           </div>
@@ -151,7 +185,34 @@ function ConfigurarEvaluacion() {
                     </label>
                 </div>
                 {/* Botón para realizar el certamen */}
-                <button className="btn btn-primary mt-3 w-100">Realizar Certamen</button>
+                <button className="btn btn-primary mt-3 w-100" onClick={async () => {
+                  
+
+                  try {
+                    // Obtiene las preguntas de forma asíncrona
+                    const preguntasVF = await obtenerPreguntas(15, "vf");
+                    const nuevasPreguntas = await obtenerPreguntas(20, "alt");
+
+                    // Combina y actualiza el estado en una sola llamada
+                    setDatosDelCertamen((prev) => {
+                      const updatedCertamen = { ...prev };
+                      updatedCertamen.preguntas = [...preguntasVF, ...nuevasPreguntas];
+                    
+                      // Desordena el arreglo aleatoriamente
+                      updatedCertamen.preguntas.sort(() => Math.random() - 0.5);
+                    
+                      return updatedCertamen;
+                    });
+
+                    ReactDOM.createRoot(document.getElementById('root')).render(<RendirEvaluacion datosEvaluacion={DatosDelCertamen} />)
+                  } catch (error) {
+                    
+                    console.error("Error al obtener las preguntas:", error);
+                  
+                  }
+
+                  
+                  }}>Realizar Certamen</button>
               </div>
             </div>
           </div>
