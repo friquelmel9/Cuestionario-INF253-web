@@ -4,1221 +4,1433 @@
             "pregunta": "Prolog es un lenguaje basado en logica simbolica y programacion declarativa. ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 808
         },
         {
             "pregunta": "Prolog es un lenguaje basado en logica simbolica y programacion funcional. ",
             "respuesta": "F",
             "explicacion": " Es programacion declarativa, no funcional",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 809
         },
         {
             "pregunta": "Prolog es un lenguaje basado en logica simbolica y programacion imperativa. ",
             "respuesta": "F",
             "explicacion": " Es programacion declarativa, no imperativa",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 810
         },
         {
             "pregunta": "Aplicaciones de Lenguaje Prolog son pruebas Matematicas, Inteligencia Artificial y consultas a bases de datos ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 811
         },
         {
             "pregunta": "Aplicaciones de Lenguaje Prolog son funciones lambda, Inteligencia Artificial, y consultas a bases de datos ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 812
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    progenitor(maria,carola). \n   Corresponde a un hecho ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 813
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    progenitor(maria,pedro). \n    Corresponde a una consulta ",
             "respuesta": "F",
             "explicacion": " Corresponde a la definicion de un hecho",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 814
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(maria,pedro). \n     Corresponde a una consulta ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 815
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(maria,pedro). \n     Corresponde a una hecho ",
             "respuesta": "F",
             "explicacion": " Esta realizadno una Preguntas",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 816
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(maria,pedro). \n     Corresponde a una consulta ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 817
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(maria,pedro). \n     Entregara yes si Maria es progenitor de Pedro ",
             "respuesta": "F",
             "explicacion": " Entrega true. Pregunta trampa",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 818
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(maria,pedro). \n     Entregara true si Maria es progenitor de Pedro ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 819
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(maria,pedro). \n     Entregara true si Pedro es progenitor de Maria ",
             "respuesta": "F",
             "explicacion": " Entregara si es Maria progenitor. Esta escrito al revez.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 820
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,carola). \n    Entregara todos los progenitores de Carola ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 821
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,carola). \n    Entregara solo un progenitor de Carola ",
             "respuesta": "F",
             "explicacion": " Si Carola posee mas de uno, tambien lo Entregara",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 822
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,carola). \n    Entregara todos los que tenga de progenitor a Carola ",
             "respuesta": "F",
             "explicacion": " Entregara los progenitores de Carola, no sus hijos.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 823
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(pedro,X). \n     Entregara todos los que tenga de progenitor a Pedro ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 824
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,Y),progenitor(Y,aldo). \n  Entregara todos los progenitores de los progenitores de Aldo ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 825
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,Y),progenitor(Y,aldo). \n  Entregara todos los que tengan de progenitor a progenitores de Aldo ",
             "respuesta": "F",
             "explicacion": " Entregara todos los progenitores de los progenitores de Aldo",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 826
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,Y),progenitor(Y,aldo). \n  Es equivalente a decir \n    Existe un X,Y tal que (X es progenitor de Y) interseccion (Y es progenitor de aldo) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 827
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,Y),progenitor(Y,aldo). \n  Es equivalente a decir \n    Existe un X,Y tal que (X es progenitor de Y) union (Y es progenitor de aldo) ",
             "respuesta": "F",
             "explicacion": " Es interseccion, no union",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 828
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,Y),progenitor(Y,aldo). \n  Es equivalente a decir \n    Existe un X,Y tal que (Y es progenitor de X) interseccion (Y es progenitor de aldo) ",
             "respuesta": "F",
             "explicacion": " Es (X es progenitor de Y)",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 829
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(juan,X),progenitor(X,Y). \n  Es equivalente a decir \n    Existe un X,Y tal que (juan es progenitor de X) interseccion (X es progenitor de Y) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 830
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(juan,X),progenitor(X,Y). \n  Es equivalente a decir \n    Existe un X,Y tal que (juan es progenitor de X) interseccion (Y es progenitor de X) ",
             "respuesta": "F",
             "explicacion": " Es (X es progenitor de Y)",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 831
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(juan,X),progenitor(X,Y). \n  Es equivalente a decir \n    Existe un X,Y tal que (juan es progenitor de X) iunion (X es progenitor de Y) ",
             "respuesta": "F",
             "explicacion": " Es interseccion, no union",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 832
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(juan,X),progenitor(X,Y). \n  Entregara los X e Y que cumplan ambos progenitores ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 833
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(juan,X),progenitor(X,Y). \n  Entregara solo los Y que cumplan ambos progenitores ",
             "respuesta": "F",
             "explicacion": " Entregara los X y los Y. Ambos",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 834
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(juan,X),progenitor(X,Y). \n  Entregara solo los X que cumplan ambos progenitores ",
             "respuesta": "F",
             "explicacion": " Entregara los X y los Y. Ambos",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 835
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,ana),progenitor(X,paty). \n    Es equivalente a decir \n  Existe un X tal que (X es progenitor de ana) interseccion (X es progenitor de paty) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 836
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,ana),progenitor(X,paty). \n    Es equivalente a decir \n  Existe un X tal que (ana es progenitor de X) interseccion (paty es progenitor de X) ",
             "respuesta": "F",
             "explicacion": " Es al revez, si X es progenitor de ambas...",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 837
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    ?- progenitor(X,ana),progenitor(X,paty). \n    Es equivalente a decir \n  Existe un X tal que (X es progenitor de ana) union (X es progenitor de paty) ",
             "respuesta": "F",
             "explicacion": " Es interseccion, no union",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 838
         },
         {
             "pregunta": "En Prolog, decir que a es subconjunto de b, se expresa como: \n  a :- b ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 839
         },
         {
             "pregunta": "En Prolog, decir que a es subconjunto de b, se expresa como: \n  a :=: b ",
             "respuesta": "F",
             "explicacion": " Es :-, no :=:",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 840
         },
         {
             "pregunta": "En Prolog, decir que a es subconjunto de b, se expresa como: \n  a ;- b ",
             "respuesta": "F",
             "explicacion": " Es :-, no ;-",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 841
         },
         {
             "pregunta": "En Prolog, una clausula del tipo \"a subconjunto de b\" se les denomina reglas ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 842
         },
         {
             "pregunta": "En Prolog, previo a un :- corresponde a la cabeza (conclusion) de la regla, mientras que a su derecha se encuentra el cuerpo (proposicion definida) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 843
         },
         {
             "pregunta": "En Prolog, previo a un :- corresponde al cuerpo (conclusion) de la regla, mientras que a su derecha se encuentra la cabeza (proposicion definida) ",
             "respuesta": "F",
             "explicacion": " Cuerpo y cabeza estan intercambiados",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 844
         },
         {
             "pregunta": "En Prolog, previo a un :- corresponde a la cabeza (proposicion) de la regla, mientras que a su derecha se encuentra el cuerpo (conclusion) ",
             "respuesta": "F",
             "explicacion": " Conclusion y proposicion estan intercambiados",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 845
         },
         {
             "pregunta": "En Prolog, se pueden realizar tanto como relaciones unarias, como binarias ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 846
         },
         {
             "pregunta": "En Prolog, el siguiente codigo: \n   antepasado(X,Z) :- progenitor (X,Z). \n   antepasado(X,Z) :- progenitor(X,Y),antepasado(Y,Z). \n    Corresponde a un ejemplo de Reglas Recursivas ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 847
         },
         {
             "pregunta": "En Prolog, el siguiente codigo: \n   antepasado(X,Z) :- progenitor (X,Z). \n   antepasado(X,Z) :- progenitor(X,Y),antepasado(Y,Z). \n    No funcionara porque la regla se define dos veces ",
             "respuesta": "F",
             "explicacion": " Prolog permite esto.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 848
         },
         {
             "pregunta": "En Prolog, el siguiente codigo: \n   antepasado(X,Z) :- progenitor (X,Z). \n   antepasado(X,Z) :- progenitor(X,Y),antepasado(Y,Z). \n    antepasado (maria,X). \n   Devolvera todo aquel que tenga de progenitor a maria ",
             "respuesta": "F",
             "explicacion": " No solo progenitor, incluye progenitores que tiene de progenitor a Maria, o sea, no tan directo.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 849
         },
         {
             "pregunta": "En Prolog, el siguiente codigo: \n   antepasado(X,Z) :- progenitor (X,Z). \n   antepasado(X,Z) :- progenitor(X,Y),antepasado(Y,Z). \n    antepasado (maria,X). \n   Devolvera todo aquel que tenga de progenitor a maria, directamente o por medio de otros progenitores ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 850
         },
         {
             "pregunta": "En Prolog, Las variables y constantes son consideradas derivados de Objetos simples ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 851
         },
         {
             "pregunta": "En Prolog, los atomos y numeros son considerados derivados de Constantes ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 852
         },
         {
             "pregunta": "En Prolog, los atomos y numeros son considerados derivados de Variables ",
             "respuesta": "F",
             "explicacion": " Son derivados de Constantes, no Variables",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 853
         },
         {
             "pregunta": "En Prolog, los atomos son considerados derivados de Numeros ",
             "respuesta": "F",
             "explicacion": " Ambos derivan de Constantes",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 854
         },
         {
             "pregunta": "En Prolog, los objetos estructurados son considerados derivados de objetos simples ",
             "respuesta": "F",
             "explicacion": " Ambos se derivan de Objetos de Datos",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 855
         },
         {
             "pregunta": "En Prolog, los objetso estructurados son considerados derivados de Objetos de datos ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 856
         },
         {
             "pregunta": "En Prolog, las variables siempre han de comenzar en mayuscula ",
             "respuesta": "F",
             "explicacion": " Pueden empezar con _, lo cual no es mayuscula",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 857
         },
         {
             "pregunta": "En Prolog, las variables siempre han de comenzar con mayuscula si empieza con un caracter ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 858
         },
         {
             "pregunta": "En Prolog, las variables siempre han de escribirse en mayuscula ",
             "respuesta": "F",
             "explicacion": " Solo han de empezar en mayuscula",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 859
         },
         {
             "pregunta": "En Prolog, los atomos siempre han de comenzar en minuscula ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 860
         },
         {
             "pregunta": "En Prolog, los atomos siempre han de comenzar en mayuscula ",
             "respuesta": "F",
             "explicacion": " Las variables empiezan con mayuscula",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 861
         },
         {
             "pregunta": "Los siguientes nombres de variables son validos en Prolog: \n    X, _X1, _x1 ",
             "respuesta": "V",
             "explicacion": " En teoria, Ni idea... Verificar.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 862
         },
         {
             "pregunta": "Los siguientes nombres de variables son validos en Prolog: \n    X, _X2, x1 ",
             "respuesta": "F",
             "explicacion": " x1 no empieza con Mayus.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 863
         },
         {
             "pregunta": "Los siguientes nombres de variables son validos en Prolog: \n    Resultado, X, _1_2_ ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 864
         },
         {
             "pregunta": "Los siguientes nombres de variables son validos en Prolog: \n    _XXX -x X1 ",
             "respuesta": "F",
             "explicacion": "  -x no es valido (entiendo)",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 865
         },
         {
             "pregunta": "De las caracteristicas de Prolog, uno de sus fuertes son la utilizacion de numeros ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 866
         },
         {
             "pregunta": "De las caracteristicas de Prolog, uno de sus debilidades es que los numeros no los computa muy bien ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 867
         },
         {
             "pregunta": "De las caracteristicas de Prolog, se puede decir que sus variables son todas globales ",
             "respuesta": "F",
             "explicacion": " Depende de la clausula de donde las contiene",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 868
         },
         {
             "pregunta": "De las caracteristicas de Prolog, se puede decir que sus variables poseen ambitos ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 869
         },
         {
             "pregunta": "En Prolog, objetos estructurados son aquellos objetos que tienen varias componentes, pero son tratadas como un unico objeto ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 870
         },
         {
             "pregunta": "En Prolog, objetos estructurados son aquellos parecidos a las listas ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 871
         },
         {
             "pregunta": "En Prolog, objetos estructurados son aquellos que poseen relaciones entre ellos ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 872
         },
         {
             "pregunta": "En Prolog, para construir un objeto estructurado se utiliza el comando List ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 873
         },
         {
             "pregunta": "En Prolog, para construir un objeto estructurado se utiliza un functor ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 874
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n     triangulo(punto(4,2), punto(6,4), punto(7,1)) \n  Corresponde a un ejemplo de Objeto Estructurado ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 875
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n     triangulo(punto(4,2), punto(6,4), punto(7,1)) \n  No funciona porque esta siendo definido como un hecho ",
             "respuesta": "F",
             "explicacion": " De igual manera puede funcionar",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 876
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n     T = triangulo(punto(4,2), punto(6,4), punto(7,1)) \n  Funcionara sin errores ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 877
         },
         {
             "pregunta": "El calce en Prolog corresponde a la unificacion de calculo de predicados ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 878
         },
         {
             "pregunta": "El calce en Prolog corresponde al proceso de varias funciones conectadas ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 879
         },
         {
             "pregunta": "En Prolog, dos terminos calzan si son identicos y ambas variables han de ser instaciadas para ellos ",
             "respuesta": "F",
             "explicacion": " No es necesario instanciarlas para que sean identicas",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 880
         },
         {
             "pregunta": "En Prolog, dos terminos calzan si son identicos o, si es que son variables, al instanciarse sean identicos ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 881
         },
         {
             "pregunta": "En Prolog, dos terminos calzan si son identicos, unicamente si son variables ",
             "respuesta": "F",
             "explicacion": " No han de ser obligatoriamente variables",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 882
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n   ?-fecha(D,M,2000)=fecha(D1,mayo,A1). \n hace que D = D1, M = mayo y 2000 = A1 ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 883
         },
         {
             "pregunta": "En Prolog, dos terminos calzan si son el mismo objeto, en el caso de constantes ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 884
         },
         {
             "pregunta": "En Prolog, dos terminos calzan si son el mismo objeto, en el caso de variables ",
             "respuesta": "F",
             "explicacion": " Ha de ser instaciado, no ser el mismo objeto",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 885
         },
         {
             "pregunta": "En Prolog, si S es una variable y T cualquier cosa, entonces calzan unicamente si S es instaciado como T ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 886
         },
         {
             "pregunta": "En Prolog, si S es una variable y T cualquier cosa, entonces calzan unicamente si T se instancia como S ",
             "respuesta": "F",
             "explicacion": " T puede ser cualquier cosa, no necesariamente una variable",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 887
         },
         {
             "pregunta": "En Prolog, dos estructuras calzan si tienen el mismo functor y todos sus correspondientes calzan ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 888
         },
         {
             "pregunta": "En Prolog, dos estructuras calzan si tiene el mismo functor o todos sus correspondientes calzan ",
             "respuesta": "F",
             "explicacion": " Ambas condiciones han de cumplirse",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 889
         },
         {
             "pregunta": "En Prolog, dos estructuras calzan unicamente si sus elementos calzan entre ellos ",
             "respuesta": "F",
             "explicacion": " Han de tener el mismo functor",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 890
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea1 devolvera false ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 891
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea1 devolvera true ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 892
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea2 devolvera false ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 893
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea2 devolvera true ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 894
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea3 devolvera true ",
             "respuesta": "F",
             "explicacion": " Devolvera una asociacion Y = algo",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 895
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea3 devolvera Y = 1 ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 896
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea3 devolvera 1 ",
             "respuesta": "F",
             "explicacion": " Devuelve este valor asociado a Y, o sea, Y=1",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 897
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea4 devolvera error ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 898
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea4 devolvera Y = (2,H561) ",
             "respuesta": "F",
             "explicacion": " Devuelve el hecho, no una lista (o lo que sea que entrege)",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 899
         },
         {
             "pregunta": "El siguiente codigo en Prolog: \n    vertical(seg(punto(X,Y),punto(X,Y1))).\n    horizontal(seg(punto(X,Y),punto(X,Y1))).\n    \n    ?- vertical(seg(punto(1,1),punto(1,2))). %Linea1\n    ?- vertical(seg(punto(1,1),punto(2,Y))). %Linea2\n    ?- horizontal(seg(punto(1,1),punto(2,Y))). %Linea3\n    ?- vertical(seg(punto(2,3),Y)). %Linea4\n    ?- vertical(S), horizontal(S). %Linea5\n\n La linea4 devolvera Y = punto(2,H561) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 900
         },
         {
             "pregunta": "La clausula P :- Q,R. se interpreta declarativamente como \"P es verdadero si Q y R son verdaderos\" ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 901
         },
         {
             "pregunta": "La clausula P :- Q,R. se interpreta declarativamente como \"P es verdadero si Q o R son verdaderos\" ",
             "respuesta": "F",
             "explicacion": " Ambas han de ser verdadero",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 902
         },
         {
             "pregunta": "La clausula P :- Q,R. se interpreta proceduralmente como \"P es verdadero si Q y R son verdaderos\" ",
             "respuesta": "F",
             "explicacion": " Es declarativo esta interpretacion",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 903
         },
         {
             "pregunta": "La clausula P :- Q,R se interpreta declarativamente como \"De Q y R se deriva P\" ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 904
         },
         {
             "pregunta": "La clausula P :- Q,R se interpreta declarativamente como \"De P deriva Q y R\" ",
             "respuesta": "F",
             "explicacion": " Es al revez, \"Q y R se deriva P\"",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 905
         },
         {
             "pregunta": "La clausula P :- Q,R se interpreta proceduralmente como \"Para resolver P, se debe resolver Q y luego R\" ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 906
         },
         {
             "pregunta": "La clausula P :- Q,R se interpreta declarativamente como \"Para resolver P, se debe resolver Q y luego R\" ",
             "respuesta": "F",
             "explicacion": " Es proceduralmente",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 907
         },
         {
             "pregunta": "La clausula P :- Q,R se interpreta proceduralmente como \"Para resolver Q y R, ha de resolverse P\" ",
             "respuesta": "F",
             "explicacion": " es al revez",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 908
         },
         {
             "pregunta": "La clausula P :- Q;R. se interpreta como \n     P :- Q. \n  P :- R. \n ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 909
         },
         {
             "pregunta": "La clausula P :- Q;R. dara error ",
             "respuesta": "F",
             "explicacion": " No dara error, pese al ;",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 910
         },
         {
             "pregunta": "La clausula P :- Q,R; \n    S,T,U. \n Se interpreta como: P :- Q,R. y P :- S,T,U. ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 911
         },
         {
             "pregunta": "La clausula P :- Q,R; \n    S,T,U. \n Se interpreta como: P :- Q,R,S,T,U ",
             "respuesta": "F",
             "explicacion": "  Se interpreta como P :- Q,R. y P :- S,T,U.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 912
         },
         {
             "pregunta": "El significado procedural (En Prolog) se especifica como se ha de responder a una pregunta ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 913
         },
         {
             "pregunta": "Para obtener una respuesta en Prolog, es necesario satisfacer una lista de metas ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 914
         },
         {
             "pregunta": "Un ejemplo de lista en Prolog se puede escribir como: [perro,gato,raton,loro] ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 915
         },
         {
             "pregunta": "Un ejemplo de lista en Prolog se puede escribir como: (list x y) ",
             "respuesta": "F",
             "explicacion": " Es scheme",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 916
         },
         {
             "pregunta": "Una lista en Prolog corresponde de la forma .(Cabeza,Cola) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 917
         },
         {
             "pregunta": "La lista de Prolog: [perro,gato,raton,loro] es equivalente a .(perro,gato,raton,loro,()) ",
             "respuesta": "F",
             "explicacion": " Nada que verdadero",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 918
         },
         {
             "pregunta": "La lista de Prolog: [perro,gato,raton,loro] es equivalente a .(perro, .(gato, .(raton, .(loro)))) ",
             "respuesta": "F",
             "explicacion": " Le falta la lista vacia del final",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 919
         },
         {
             "pregunta": "La lista de Prolog: [perro,gato,raton,loro] es equivalente a .(perro, .(gato, .(raton, .(loro, [])))) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 920
         },
         {
             "pregunta": "La lista de Prolog son parecidas a la de Scheme, en el sentido que el primer elemento es una funcion a evaluar ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 921
         },
         {
             "pregunta": "La lista de Prolog son parecidos a la de Scheme, en el sentido que la lista el ultimo elemento es una lista vacia ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 922
         },
         {
             "pregunta": "Una lista en Prolog son parecidos a la listas propias de Scheme, en el sentido que se definen como arbol binario ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 923
         },
         {
             "pregunta": "La definicion L = [a | b] corresponde a una lista en donde a es el elemento inicial, y b el elemento final ",
             "respuesta": "F",
             "explicacion": " b ha de ser una lista, no elemento",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 924
         },
         {
             "pregunta": "La definicion L = [a | b] corresponde a una lista en donde a es el elemento inicial, y b la cola de la lista ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 925
         },
         {
             "pregunta": "La definicion L = [a | b] dara error puesto que L no es asignado mediante \"is\" ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 926
         },
         {
             "pregunta": "La definicion L = [a | b] dara error si a es una lista ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 927
         },
         {
             "pregunta": "El comando member(X,L) en Prolog recibe una variable X, y busca si esta es parte de la lista L ",
             "respuesta": "F",
             "explicacion": " Devuelve todos los elementos de X como X=a, X=b...",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 928
         },
         {
             "pregunta": "El comando member(X,L) devolvera todos los miembros de L en la variable X ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 929
         },
         {
             "pregunta": "El comando append(L1,L2) concatenara la lista L1 a la lista L2 ",
             "respuesta": "F",
             "explicacion": " El comando append necesita de un tercer elemento",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 930
         },
         {
             "pregunta": "El comando append(L1,L2) concatenara la lista L2 a la lista L1 ",
             "respuesta": "F",
             "explicacion": " El comando append necesita de un tercer elemento",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 931
         },
         {
             "pregunta": "El comando append(L1,L2,L3) concatenara la lista L1 a L2, y lo guardara en L3 ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 932
         },
         {
             "pregunta": "El comando append(L1,L2,L3) concatenara la lista L2 a L3, y lo guardara en L1 ",
             "respuesta": "F",
             "explicacion": " La definicion lo guarda en L3.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 933
         },
         {
             "pregunta": "El comando delete(L,X,L1) borrara el elemento X de la lista L1, devolviendo la nueva lista en L ",
             "respuesta": "F",
             "explicacion": " L1 y L estan intercambiados en la definicion",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 934
         },
         {
             "pregunta": "El comando delete(L,X,L1) borrara el elemento X de la lista L, devolviendo la nueva lista en L1 ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 935
         },
         {
             "pregunta": "La expresion +(*(2,a),*(b,c)) es equivalente a escribir 2*a+b*c (En Prolog) ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 936
         },
         {
             "pregunta": "La expresion +(*(2,a),*(b,c)) es una expresion en Prolog que devolvera error por mala sintaxis ",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 937
         },
         {
             "pregunta": "La expresion en Prolog: \n X = +(*(2,3),*(4,5)). \n dara como resultado X = 26 ",
             "respuesta": "F",
             "explicacion": " No esta siendo evaluado",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 938
         },
         {
             "pregunta": "La expresion en Prolog: \n X = +(*(2,3),*(4,5)). \n dara como resultado X = 2 * 3 + 4 * 5 ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 939
         },
         {
             "pregunta": "La expresion en Prolog: \n X is +(*(2,3),*(4,5)). \n dara como resultado X = 26 ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 940
         },
         {
             "pregunta": "La expresion en Prolog: \n X is +(*(2,3),*(4,5)). \n dara como resultado X = 2 * 3 + 4 * 5 ",
             "respuesta": "F",
             "explicacion": " is esta siendo evaluado",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 941
         },
         {
             "pregunta": "Prolog realiza Backtracking automatico en caso que falle una de las reglas definidas ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 942
         },
         {
             "pregunta": "Prolog realiza Backtracking automatico a todas las reglas definidas, independientemente del codigo al interior ",
             "respuesta": "F",
             "explicacion": " Comando cut si puede afectar a esto",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 943
         },
         {
             "pregunta": "El comando cut o ! modifica el significado procedural del programa ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 944
         },
         {
             "pregunta": "El comando cut o ! modifica el significado declarativo del programa ",
             "respuesta": "F",
             "explicacion": " Cambia el procedural, no el declarativo.",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 945
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Para finalizar una sentencia, se debe utilizar . ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 946
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Toda sentencia en Prolog ha de empezar con un . ",
             "respuesta": "F",
             "explicacion": " Ha de terminar con un punto",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 947
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Toda linea en prolog termina con un . ",
             "respuesta": "F",
             "explicacion": " Puede terminar con una , para continuat algun proceso",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 948
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) En Prolog, no hay manerea de definir un hecho dinamicamente ",
             "respuesta": "F",
             "explicacion": " Se utiliza el comando assertz",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 949
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Prolog: \n assertz(tiene(puerta,ventana)) \n Es una forma de definir un hecho ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 950
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Prolog: \n assertz(tiene(puerta,ventana)) \n Es una forma de eliminar un hecho ",
             "respuesta": "F",
             "explicacion": " Es una forma de definirlo",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 951
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Prolog: \n assertz(tiene(puerta,ventana)) \n Es una forma de saber si este hecho existe ",
             "respuesta": "F",
             "explicacion": " Es una forma de definirlo",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 952
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Prolog: \n retract(tiene(cabeza,cola)) \n Elimina un hecho previamente definido ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 953
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Prolog: \n retract(tiene(cabeza,cola)) \n Crea un hecho nuevo ",
             "respuesta": "F",
             "explicacion": " Elimina un hecho definido previamente",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 954
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Prolog: \n retractall(tiene(_,_)). \n Elimina todos los hechos definidos previamente",
             "respuesta": "F",
             "explicacion": " Elimina solo los hechos \"tiene\". Pregunta trampa",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 955
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Prolog: \n retractall(tiene(_,_)). \n Elimina todos los hechos definididos como tiene",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 956
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considerando los siguientes hechos: \n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n La siguiente pregunta: \n progenitor(pedro,ana) \n Retornara true ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 957
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considerando los siguientes hechos: \n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n La siguiente pregunta: \n progenitor(pedro,ana) \n Retornara #t ",
             "respuesta": "F",
             "explicacion": " El retorono #t es de scheme, no de Prolog",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 958
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considerando los siguientes hechos: \n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n La siguiente pregunta: \n progenitor(X,aldo) \n Retornara true ",
             "respuesta": "F",
             "explicacion": " Retornara los valores de X que cumplen el hecho",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 959
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considerando los siguientes hechos: \n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n La siguiente pregunta: \n progenitor(X,aldo) \n Retornara X = paty ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 960
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considerando los siguientes hechos: \n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n La siguiente pregunta: \n progenitor(X,aldo) \n Retornara paty ",
             "respuesta": "F",
             "explicacion": " Retornara los valores de X que cumplen el hecho, no solo paty. Retornara X = paty",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 961
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) En prolog, los hechos no pueden ser definidos dinamicante ",
             "respuesta": "F",
             "explicacion": " El comando assertz permite definir hechos y reglas dinamicamente",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 962
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente codigo en Prolog: \n /(5,3) =:= 5/3 \n Dara error puesto que la operacion /(5,3) no tiene sentido en Prolog ",
             "respuesta": "F",
             "explicacion": " Si funciona, es valida",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 963
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente codigo en Prolog: \n /(5,3) =:= 5/3 \n Retornara true ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 964
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente codigo en Prolog: \n /(5,3) = 5/3 \n Retornara false ",
             "respuesta": "F",
             "explicacion": " Son considerados la misma expresion",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 965
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente codigo en Prolog: \n    f(X, 0) :- X < 3. %linea1\n    f(X, 2) :- X >= 3, X < 6, !. %linea2\n    f(X, 4) :- X >= 6. %linea3\n    \n EL significado procedural de f no es afectado por el cut ",
             "respuesta": "F",
             "explicacion": " Si es afectado, el declarativo no",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 966
         },
         {
             "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente codigo en Prolog: \n    f(X, 0) :- X < 3. %linea1\n    f(X, 2) :- X >= 3, X < 6, !. %linea2\n    f(X, 4) :- X >= 6. %linea3\n    \n EL significado declarativo de f no es afectado por el cut ",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 967
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P5) Unificaci\u00c3\u00b3n es el resultado de integrar hechos y reglas en una base de conocimiento centralizada.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 968
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P6) El backtracking se aplica cuando se alcanza la satisfacci\u00c3\u00b3n de una cl\u00c3\u00a1usula.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 969
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P7) En Prolog, no hay posibilidad de evitar que se ejecute el backtracking en su totalidad.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 970
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P8) Dentro de las reglas de calce de Prolog entre dos estructuras, es suficiente que tengan el mismo functor y el mismo n\u00c3\u00bamero de componentes.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 971
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P9) Suponer que se tienen x predicados a e y predicados b; luego, el n\u00c3\u00bamero m\u00c3\u00a1ximo de resultados que podr\u00c3\u00ada entregar la consulta: ?-a;b es x+y.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 972
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P10) Las listas de Prolog permiten elementos de cualquier tipo.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 973
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P11) Prolog corresponde a un lenguaje de programaci\u00c3\u00b3n no declarativo, donde se programa indicando c\u00c3\u00b3mo lograr un resultado.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 974
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P12) Aplicaciones donde el uso de Prolog es conveniente considera los sistemas expertos (rama de la inteligencia artificial) y las aplicaciones intensivas de datos num\u00c3\u00a9ricos (propias de la ciencia de datos).",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 975
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P13) En cuanto al \u00c3\u00a1mbito de una variable, en Prolog corresponde al de todas las cl\u00c3\u00a1usulas con el mismo functor.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 976
         },
         {
             "pregunta": "([2021-2] - Mart\u00c3\u00ad Q5P14) En general, Prolog realiza el calce en la forma m\u00c3\u00a1s general posible.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 977
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P1) Dos t\u00c3\u00a9rminos calzan si son id\u00c3\u00a9nticos o las variables en ambos t\u00c3\u00a9rminos pueden ser instanciados, sustituyendo variables, tal que los t\u00c3\u00a9rminos se hacen id\u00c3\u00a9nticos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 978
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P2) Si S es una variable y T cualquier cosa, entonces calzan y S se instancia como T. Viceversa, si T es variable, entonces T se instancia como S.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 979
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P3) En Prolog las operaciones siempre son prefijos.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 980
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P4) Los objetos simples constan de \u00c3\u00a1tomos y n\u00c3\u00bameros.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 981
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P5) El significado declarativo corresponde a cuando se tiene la cl\u00c3\u00a1usula P:-Q, R, se satisface P si es que se debe satisfacer Q y luego R.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 982
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P6) La expresi\u00c3\u00b3n .(perro, gato, raton, loto, []) no tiene problema de satisfacer un matching con [X-T].",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 983
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P7) Si Y tiene el valor 3, la expresi\u00c3\u00b3n X = Y + 1 es equivalente con X = 4.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 984
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P8) Unificaci\u00c3\u00b3n es el proceso que permite inferir proposiciones de otras dadas.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 985
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P9) La programaci\u00c3\u00b3n l\u00c3\u00b3gica corresponde a un tipo de programaci\u00c3\u00b3n declarativa.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 986
         },
         {
             "pregunta": "([2022-2] - Carmona Q5P10) Instanciaci\u00c3\u00b3n es la asignaci\u00c3\u00b3n temporal de valores a variables.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 987
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P1) La programaci\u00c3\u00b3n l\u00c3\u00b3gica corresponde a un tipo programaci\u00c3\u00b3n declarativa.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 988
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P2) Unificaci\u00c3\u00b3n es el proceso que permite inferir proposiciones de otras dadas.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 989
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P3) En Prolog, no hay posibilidad de evitar que se ejecute el backtracking en su totalidad.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 990
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P4) La expresi\u00c3\u00b3n .(perro, gato, raton, loro, [ ]) no tiene problema de satisfacer un matching con [X palito T].",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 991
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P5) Si Y tiene el valor 3, la expresi\u00c3\u00b3n X = Y + 1 es equivalente con X = 4.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 992
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P6) Dentro de las reglas de calce de Prolog, dos estructuras lo har\u00c3\u00a1n si el functor de ambas coincide y tienen el mismo n\u00c3\u00bamero de componentes.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 993
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P7) Instanciaci\u00c3\u00b3n es la asignaci\u00c3\u00b3n temporal de valores a variables.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 994
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P8) Unificaci\u00c3\u00b3n es el resultado de integrar hechos y reglas en una base de conocimiento centralizada.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 995
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P9) La cl\u00c3\u00a1usula P :- Q, R. s\u00c3\u00b3lo tiene una interpretaci\u00c3\u00b3n procedural.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 996
         },
         {
             "pregunta": "([2022-2] - Mart\u00c3\u00ad Q5P10) En Prolog, es posible definir nuevos operadores, s\u00c3\u00b3lo de tipo prefijo o postfijo.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 997
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P1) Al realizarse backtracking, de ser posible, se instanciaran variables con otros valores.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 998
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P2) En Prolog las operaciones binarias solo se pueden escribir en notaci\u00c3\u00b3n de functor, esto es, nombre(operando1, operando2).",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 999
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P3) Al haber una negaci\u00c3\u00b3n es posible cambiar el orden de las cl\u00c3\u00a1usulas sin afectar el significado declarativo.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1000
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P4) Prolog corresponde a un lenguaje de programaci\u00c3\u00b3n no procedural o no imperativo, donde se programa qu\u00c3\u00a9 debe hacerse y no c\u00c3\u00b3mo hacerlo.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1001
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P5) En Prolog el backtracking es autom\u00c3\u00a1tico y no puede controlarse en c\u00c3\u00b3digo.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1002
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P6) Es posible que a\u00c3\u00b1adir un cut cambie el significado declarativo de una cl\u00c3\u00a1usula.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1003
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P7) En Prolog, al ser declarativo, no se pueden resolver los mismos problemas que en lenguajes imperativos como C.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1004
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P8) El siguiente calce ser\u00c3\u00a1 exitoso: pr(ma, fe, mp(A,A,B)) = pr(L, S, mp(y, C, m)).",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1005
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P9) Se puede comparar estructuralmente si dos expresiones aritm\u00c3\u00a9ticas son iguales con el operador \"=\".",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1006
         },
         {
             "pregunta": "([2022-2] - D\u00c3\u00adaz Q5P10) La unificaci\u00c3\u00b3n de una variable y una expresi\u00c3\u00b3n aritm\u00c3\u00a9tica asigna el resultado de evaluar la expresi\u00c3\u00b3n a la variable.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1007
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P1) La programacion logica se puede ver como un estilo de programacion orientado a las metas ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1008
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P2) Aplicaciones tipicas de la programacion logica han sido la demostracion de teoremas, calculos cientificos y sistemas expertos ",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1009
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P3) La estructura de una regla considera una proposicion en el lado izquierdo (cabeza de la regla), cuyo valor depende de una conclusion a validar ",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1010
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P4) Formalmente, en la programacion logicas, las unicas respuestas son verdadero y falso ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1011
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P5) En Prolog, el tipo de datos se reconoce por su forma sintatica, por ejemplo, los atomos comienzan con minuscula ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1012
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P6) En Prolog, el ambito de una variable es global ",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1013
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P7) La operacion mas importatnte sobre terminos en la instanciacion que corresponde a la unificacion propia del calculo de predicados ",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1014
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P8) En Prolog, es posible la definicion de nuevos operadores, cada uno de los cuales tendra asociado un nombre, precedencia, asociativa, y tipo de notacion (prefija, postfija, infija) ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1015
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P9) En algunas situaciones, el backtracking automatico es ineficiente, de ahi la conveniencia de usar el operador de corte en cierto casos ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1016
         },
         {
             "pregunta": "([2024-2] - Jose Luis Marti. Q5P10) El uso del operador de corte puede influir solo en el significado declarativo ",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1017
         },
         {
             "pregunta": "([2021-x]  Jose Luis Marti C1P19) En prolog, no hay posibilidad de evitar que se ejecute el backtracking en su totalidad ",
             "respuesta": "F",
-            "explicacion": " set! si permite esto"
+            "explicacion": " set! si permite esto",
+            "id": 1018
         },
         {
             "pregunta": "([2021-x]  Jose Luis Marti C1P20) Dentro de las reglas de calce en Prolog, entre dos estructuras es suficiente que tengan el mismo functor y el mismo numero de componentes para realizar el calce ",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1019
         }
     ],
     "alt": [
@@ -1226,228 +1438,266 @@
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nAsuma que los siguientes hechos y reglas existen en Prolog:\n\n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n\n    progenitor(X,Y). % Linea1\n    masculino(X). % Linea2\n    femenino(Y). % Linea3\n    papa(X,Y) :- progenitor(X,Y), masculino(X). % Linea4\n    mama(X,Y) :- progenitor(X,Y), femenino(Y). % Linea5\n    hermana(X,Y) :- progenitor(Z,X), progenitor(Z,Y), femenino(X). % Linea6\n    \nSi se llama a la regla papa(X,Y), con X personas. Que condiciones deben cumplirse para que devuelva true?\n\na. X ha de ser hijo de Y e X ha de ser masculino\nb. X ha de ser padre de Y e X ha de ser masculino\nc. X ha de ser padre de Y o ser masculino\nd. X ha de ser hijo de Y \n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1194
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nAsuma que los siguientes hechos y reglas existen en Prolog:\n\n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n\n    progenitor(X,Y). % Linea1\n    masculino(X). % Linea2\n    femenino(Y). % Linea3\n    papa(X,Y) :- progenitor(X,Y), masculino(X). % Linea4\n    mama(X,Y) :- progenitor(X,Y), femenino(Y). % Linea5\n    hermana(X,Y) :- progenitor(Z,X), progenitor(Z,Y), femenino(X). % Linea6\n    \nSi se llama a la regla hermana(X,Y), habra algo que no deberia de hacer. Cual de las siguientes es el error que posee la funcion?\n\na. La regla hermana no esta bien definida, puesto que Z no fue definida previamente\nb. La regla hermana tiene definido el Z como X, tendria que darse vuelta para de verdad devolver un hermana\nc. La regla hermana no se asegura que si misma sea hermana de si misma, puesto que ella misma cumple sus propias condiciones\nd. La regla hermana no se asegura que compartan padre y madre, pueden ser medios hermanos y no contaria como hermano\n\n",
             "respuesta": "c",
             "explicacion": " En estricto rigor, la d podria ser, pero habla de un \"hermano\", cuando no tiene nada que ver",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1195
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nAsuma que los siguientes hechos y reglas existen en Prolog:\n\n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n\n    progenitor(X,Y). % Linea1\n    masculino(X). % Linea2\n    femenino(Y). % Linea3\n    papa(X,Y) :- progenitor(X,Y), masculino(X). % Linea4\n    mama(X,Y) :- progenitor(X,Y), femenino(Y). % Linea5\n    hermana(X,Y) :- progenitor(Z,X), progenitor(Z,Y), femenino(X). % Linea6\n    \n\nSi se llama a hermana(X, paty), que sera lo que devolvera? (asumiendo que nombre femenino se asocia al hecho femenino)\na. X = ana;\nb. X = ana; false.\nc. X = ana; X = paty.\nd. X = ana; X = paty; false.\n\n",
             "respuesta": "d",
             "explicacion": " Cuidado con el false y como la funcion no revisa si hermana y la buscada son distintos",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1196
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere la siguiente operacion en Prolog:\n    X = 3 + 5\n\nCual sera el resultado que retornara?\na. X = 3 + 5\nb. X = 8\nc. true.\nd. Error\n\n",
             "respuesta": "a",
             "explicacion": " Notar que = indica que va a ser explicitamente lo dicho",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1197
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere la siguiente operacion en Prolog:\n    X is 3 + 5\n\nCual sera el resultado que retornara?\na. X = 3 + 5\nb. X = 8\nc. true.\nd. Error\n\n",
             "respuesta": "b",
             "explicacion": " Notar que el is realiza la operacion",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1198
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes codigos en Prolog:\n    I. [1,2] = [1,2]\n    II. [1,2] =:= [1,2]\n    III. 3 + 5 = 5 + 3\n    IV.  3 + 5 =:= 5 +3\n\nCual de aquellos retornara true=\na. I y III\nb. I y IV\nc. II y III\nd. II y IV\n\n",
             "respuesta": "b",
             "explicacion": " El comparador = revisa si son exactamente iguales, mientras que =:= revisa su evaluacion (pendiente de revision esta explicacion)",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1199
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nCual de estas listas no es una definicion correcta? (En Prolog):\na. L1 = [perro,gato,rata,loro]\nb. L2 = .(perro, .(gato, .(rata, .(loro, []))))\nc. L3 = [perro | [gato | [raton | [loro]]]]\nd. L4 = cons(perro, cons(gato, cons(raton, cons(loro, nil))))\n\n",
             "respuesta": "c",
             "explicacion": " Notar que a c usa constructor pero le falta la lista vacia al final de esta",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1200
         },
         {
             "pregunta": "\n\nCual de las siguientes frases son correctas respecto al operador de Corte?\n    I. Una ventaja es que la operacion es util para aumentar la eficiencia\n    II. Una desventaja es que se pueden expresar reglas mutuamente excluyentes\n    III. Una desventaja es que el significado declarativo y procedural se pierde en cierta parte\na. Solo I\nb. Solo II\nc. Solo III\nd. Solo I y II\ne. Solo II y III\nf. Solo I y III\ng. Solo I, II y III\nh. Ninguna de las anteriores\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "referencia": "Original"
+            "referencia": "Original",
+            "id": 1201
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P1",
             "pregunta": "\nEn Prolog, una de las siguientes expresiones no es equivalente al resto.\n\na. .b. [perro, gato, raton, loro]\nc. [perro | [gato, raton, loro]]\nd. .",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1202
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P2",
             "pregunta": "\nDado el siguiente c\u00c3\u00b3digo C:\n\nchar codigo{\n    switch    {\n        case 4: return('x'); break;\n        case 8: return('y'); break;\n        default: return('z'):\n    }\n}\n\nCual es la version equivalente en el lenguaje Prolog?\n\na. codigo(_,'z').\n   codigo(4,'x').\n   codigo(8,'y').\nb. codigo(_,'z'):-!.\n   codigo(4,'x').\n   codigo(8,'y').\nc. codigo(4,'x'):-!.\n   codigo(8,'y'):-!.\n   codigo(_,'z').\nd. codigo(4,'x').\n   codigo(8,'y').\n   codigo(_,'z').\n",
             "respuesta": "c",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1203
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P3",
             "pregunta": "\nConsiderando los siguientes predicados sobre activades:\n    comienzo    duracion\u00c2\u00bfCu\u00c3\u00a1l de las siguientes definiciones es la correcta para el predicado fin(Actividad, Tiempo), que permite saber\ncu\u00c3\u00a1ndo terminar\u00c3\u00a1 una actividad?\n\na. fin(Actividad, Tiempo):-\n    comienzo(Actividad, Tiempo1),\n    duracion(Actividad, Duracion),\n    Tiempo is Tiempo1 + Duracion.\nb. fin(Actividad, Tiempo):-\n    comienzo(Actividad, tiempo),\n    duracion(Actividad, duracion),\n    Tiempo is tiempo + duracion.\na. fin(Actividad, Tiempo):-\n    comienzo(Actividad, Tiempo),\n    duracion(Actividad, Duracion),\n    Tiempo += Duracion.\na. fin(Actividad, Tiempo):-\n    comienzo(Actividad1, Tiempo),\n    duracion(Actividad1, Duracion),\n    Tiempo is Tiempo + Duracion.\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1204
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P4",
             "pregunta": "\nCu\u00c3\u00a1ntos llamados recursivos y qu\u00c3\u00a9 tipo de resultado queda en el par\u00c3\u00a1metro R, al ejecutar el siguiente programa\nProlog, para una lista de N n\u00c3\u00bameros enteros?\n\nqueHago([], R):- R is 0, !, fail.\nqueHago([X | Z ] , R):-queHago(Z, R1), R is (X + R1).\n\na. N llamadas, false.\nb. N llamadas, R = 0.\nc. 1 llamada, true.\nd. 1 llamada, R = 0.\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1205
         },
         {
             "referencia": "[2022-1] - Salas Q5P1",
             "pregunta": "\n\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- br(X,c).\n\na. true\nb. false\nc. X = a\n   false\nd. X = b\n   false\ne. X = c\n   false\nf. X = d\n   False\ng. X = e\n   False\nh. X = f\n   false\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1206
         },
         {
             "referencia": "[2022-1] - Salas Q5P2",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- co(d,Y).\n\na. true\nb. false\nc. Y = a\nd. Y = b\ne. Y = c\nf. Y = d\ng. Y = e\nh. Y = f\n",
             "respuesta": "h",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1207
         },
         {
             "referencia": "[2022-1] - Salas Q5P3",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- gr(X,c).\n\na. true\nb. false\nc. X = b, Y = a\nd. X = d, Y = b\ne. X = e, Y = c\nf. X = f, Y = a\ng. X = c, Y = d\nh. X = a, Y = f\n",
             "respuesta": "b",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1208
         },
         {
             "referencia": "[2022-1] - Salas Q5P5",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- br(b,c).\n\na. true\nb. false\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1209
         },
         {
             "referencia": "[2022-1] - Salas Q5P6",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- de(e,a).\n\na. true\nb. false\nc. true, true\nd. true, false\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1210
         },
         {
             "referencia": "[2022-1] - Salas Q5P7",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- f1\na. true\nb. false\n",
             "respuesta": "b",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1211
         },
         {
             "referencia": "[2022-1] - Salas Q5P8",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- 5 + 3 = 2 + 6.\n\na. true\nb. false\n",
             "respuesta": "b",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1212
         },
         {
             "referencia": "[2022-1] - Salas Q5P9",
             "pregunta": "\nDado los siguientes predicados:\n\nsl([], 0).\nsl([H|T], Sum):- sl(T, Rest), Sum is H + Rest.\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- sl([3,2,4], N).\n\na. True\nb. false\nc. 3\nd. 9\ne. 4\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1213
         },
         {
             "referencia": "[2022-1] - Salas Q5P10",
             "pregunta": "\nDados los siguientes predicados:\n\ndj([],_).\ndj([X|L],K):- not(member(X,K)), dj(L,K).\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- dj([a, c, e, f], [b, d]).\n\na. true\nb. false\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1214
         },
         {
             "referencia": "[2022-1] - Salas Q5P11",
             "pregunta": "\nDados los siguientes predicados:\n\nocc(1,[X|_],X):-!.\nocc(N,[_|L],X):- N > 1, M is N-1, occ(M,L,X).\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- occ(3,[a, c, e, f],X).\n\na. true\nb. false\nc. X = a\nd. X = e\ne. X = f\nf. X = a; false\ng. X = e; false\nh. X = f; false\n",
             "respuesta": "b",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1215
         },
         {
             "referencia": "[2022-2] - Carmona Q5P11",
             "pregunta": "\n\n\nDado el siguiente c\u00c3\u00b3digo, \u00c2\u00bfCu\u00c3\u00a1les ser\u00c3\u00a1n las respuestas a la consulta\ncodigo([1, 2, 3, 4, 5], X)?\n\ncodigo([X], X).\ncodigo([X|_],X).\ncodigo([_|R],X):-\n    codigo(R,X).\n\na. X = 5\nb. X = 1\nc. X = 1;\n   X = 2;\n   X = 3;\n   X = 4;\n   X = 5\nd. X = 1;\n   X = 2;\n   X = 3;\n   X = 4;\n   X = 5;\n   X = 5\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1216
         },
         {
             "referencia": "[2022-2] - Carmona Q5P12 (MOD)",
             "pregunta": "\nCon respecto al operador cut en Prolog, su uso puede:\n(1) Disminuir el tiempo de ejecuci\u00c3\u00b3n.\n(2) Expresar reglas mutuamente excluyentes.\n(3) Permitir la reducci\u00c3\u00b3n de c\u00c3\u00b3digo.\n\u00c2\u00bfCu\u00c3\u00a1les de estas sentencias son verdaderas?\n\na. 1 y 3.\nb. 2 y 3.\nc. Solo 2.\nd. Ninguna de las anteriores.\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1217
         },
         {
             "referencia": "[2022-2] - Carmona Q5P13",
             "pregunta": "\nSi la cl\u00c3\u00a1usula de convergencia (o condici\u00c3\u00b3n de t\u00c3\u00a9rmino) del predicado\nlargo(Lista, Largo) fuera largo([], 0), \u00c2\u00bfCu\u00c3\u00a1l ser\u00c3\u00ada la definici\u00c3\u00b3n correcta\nde la cl\u00c3\u00a1usula recursiva?\n\na. largo([H|T], Largo):- largo(T, LargoT), Largo is LargoT + 1.\nb. largo([H|T], Largo):- largo(T, Largo), Largo = Largo + 1.\nc. largo([H|T], Largo):- largo(T, LargoT), Largo = LargoT + 1.\nd. largo([H|T], Largo):- largo(T, LargoT), return(LargoT + 1).\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1218
         },
         {
             "referencia": "[2022-2] - Carmona Q5P14",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes definiciones permite chequear si el argumento recibido es una lista,\nincluyendo la posibilidad de que sea una lista vac\u00c3\u00ada?\n\na. esLista(L, resultado):-\n   append(L/2, L/2, L),\n   resultado = true.\nb. esLista(L, Resultado):-\n   append([H1|T1], [H2|T2], L),\n   Resultado = true.\nc. esLista(L, Resultado):-\n   L = [H|T],\n   true.\nd. esLista(L):-\n   append(_, _, L).\n\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1219
         },
         {
             "referencia": "[2022-2] - Carmona Q5P15",
             "pregunta": "\nDada la siguiente base de conocimiento, \u00c2\u00bfCu\u00c3\u00a1l es la tercera\nsalida que entrega la consulta: ?- b(M,N).?\n\na(0,1).\na(2,2).\na(2,1).\nb(3,1).\nb(1,1):- !.\nb(1,2):- !, fail.\nb(X,Y):-\n    !, a(X,Y1), a(Y,X), not(b(Y1,X)).\nb(X,Y):-\n    b(A,B), b(B,A), X is A\u00e2\u02c6\u20191, Y is B + 1 .\n\na. No hay.\nb. M = 1, N = 2\nc. false.\nd. No alcanza a generarse, pues se cae en un ciclo infinito producto de la recursividad mal controlada.\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1220
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P11",
             "pregunta": "\n\n\u00c2\u00bfCu\u00c3\u00a1l es la salida de la siguiente consulta?\n\n?. [1, 2, [], 4, [5, 6, [7]]] = [_,_,_|[H,_|T]].\n\na. false\nb. H = 4, T = []\nc. H = [4], t = [5, 6, [7]]\nd. H = 4, T = [[5, 6, [7]]]\n",
             "respuesta": "b",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1221
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P12",
             "pregunta": "\nSi la cl\u00c3\u00a1usula de convergencia (o condici\u00c3\u00b3n de t\u00c3\u00a9rmino) del predicado\nlargo(Lista, Largo), fuera largo([], 0), \u00c2\u00bfCu\u00c3\u00a1l ser\u00c3\u00ada la definici\u00c3\u00b3n\ncorrecta de la cl\u00c3\u00a1usula recursiva?\n\na. largo([H|T], Largo):- largo(T, LargoT), Largo is LargoT + 1.\nb. largo([H|T], Largo):- largo(T, Largo), Largo = Largo + 1.\nc. largo([H|T], Largo):- largo(T, LargoT), Largo = LargoT + 1.\nd. largo([H|T], Largo):- largo(T, LargoT), return(LargoT + 1).\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1222
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P13",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes definiciones permite chequear si el argumento\nrecibido es una lista, incluyendo la posibilidad de que sea una lista vac\u00c3\u00ada?\n\na. esLista(L, resultado):- append(L/2, L/2, L), resultado = true.\nb. esLista(L, Resultado):- append([H1|T1], [H2|T2], L), Resultado = true.\nc. esLista(L, Resultado):- L = [H|T], true.\nd. esLista(L) :- append(_,_,L).\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1223
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P14",
             "pregunta": "\nDados hechos del tipo: cargo(nombreCargo, jefatura), para saber si dos cargos distintos\ntienen misma jefatura, la consulta correcta debe ser:\n\na. ?- cargo(C, J), cargo(C1, J).\nb. ?- cargo(_,J), cargo(_,J).\nc. ?- cargo(C, J), cargo(C1, J), not(C = C1).\nd. ?- cargo",
             "respuesta": "c",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1224
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P15",
             "pregunta": "\nDada la siguiente base de conocimiento, \u00c2\u00bfCu\u00c3\u00a1l es la tercera\nsalida que entrega la consulta: ?- b(M,N).?\n\na(0,1).\na(2,2).\na(2,1).\nb(3,1).\nb(1,1):\u00e2\u02c6\u2019 !.\nb(1,2):\u00e2\u02c6\u2019 !, fail.\nb(X,Y):\u00e2\u02c6\u2019\n    !, a(X,Y1), a(Y,X), not(b(Y1,X)).\nb(X,Y):\u00e2\u02c6\u2019\n    b(A,B), b(B,A), X is A\u00e2\u02c6\u20191, Y is B + 1 .\n\na. No hay.\nb. M = 1, N = 2\nc. false.\nd. No alcanza a generarse, pues se cae en un ciclo\ninfinito producto de la recursividad mal controlada.\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1225
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P11",
             "pregunta": "\n\n\nUsando solo un predicado append, una definici\u00c3\u00b3n correcta de ultimo(L, U) es:\n\na. ultimo(Lista, Ultimo):- append(_, [Ultimo], Lista).\nb. ultimo(Lista, Ultimo):- append(_, [Ultimo|_], Lista).\nc. ultimo(Lista, Ultimo):- append([Ultimo|_], _, Lista).\nd. ultimo(Lista, Ultimo):- append([Ultimo|_], _, Lista).\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1226
         },
         {
             "pregunta": "\n([2022-2] - D\u00c3\u00adaz Q5P12) \n\nConsidere la siguiente consulta:\n\n?- mascota(A, A, macho) = mascota(canada, gato, X).\n\nEl resultado de esta consulta ser\u00c3\u00a1:\n\na. true, ya que ambas tienen el mismo functor y n\u00c3\u00bamero de componentes.\nb. false, debido a que hay una variable repetida.\nc. false, pues no es posible que hayan dos variables a cada lado de la unificaci\u00c3\u00b3n.\nd. false, puesto que no es posible calzar A con los \u00c3\u00a1tomos canada y gato a la vez.\n",
             "respuesta": "d",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1227
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P13",
             "pregunta": "\nConsidere las siguientes reglas en Prolog:\n\ndelit(0, [_|L1], L1).\ndelit(S, [A|L1], [A|L2]):- S1 is S-1, delit(S1,L1,L2), !.\n\nSe puede interpretar declarativamente la consulta delit(S, L1, L2) como:\n\na. L2 es la lista L1 sin el elemento S.\nb. L2 es la lista L1 sin el elemento en la posici\u00c3\u00b3n S.\nc. L2 es la lista L1 sin las instancias que est\u00c3\u00a1n en la lista S.\nd. L2 es la lista L1 con cada elemento decrementado en uno.\n",
             "respuesta": "b",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1228
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P14",
             "pregunta": "\nConsidere la siguiente consulta:\n\n?- transportarse(paris, roma, Costo), alojamiento(roma, hotel, Costo).\n\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes corresponde a una interpretaci\u00c3\u00b3n procedural de esta consulta?\n\na. Calcular el valor del Costo de transportarse de paris a roma y alojarse en un hotel.\nb. \u00c2\u00bfCu\u00c3\u00a1l es el Costo de transportarse de par\u00c3\u00ads a roma si me alojo en un hotel?\nc. Se debe encontrar un valor para Costo tal que se satisface transportarse entre paris y roma\nalojamiento en un hotel en roma.\nd. Existe un Costo tal que es posible transportarse entre paris y toma y alojarse en un hotel.\n",
             "respuesta": "c",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1229
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P15",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes listas no es equivalente al resto?\n\na. [comun|[raro, epico, legendario]].\nb. [comun|[raro|[epico][legendario|[]]]].\nc. [comun[raro, epico, legendario, []]].\nd. [comun, raro, epico, legendario].\n\n",
             "respuesta": "c",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1230
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q5P11",
             "pregunta": "\nUsando solo un predicado append, \u00c2\u00bfel codigo correcto para insertar un nuevo elemento al final de una lista?\na. insertarAlFinalb. insertarAlFinalc. insertarAlFinald. insertarAlFinal\n",
             "respuesta": "a",
-            "explicacion": "No explicacion entregada"
+            "explicacion": "No explicacion entregada",
+            "id": 1231
         }
     ]
 }
