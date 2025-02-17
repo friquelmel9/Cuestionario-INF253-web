@@ -11,6 +11,11 @@ function Inicio() {
             Configurar una evaluación
             </a>
         </h5>
+        <h5>
+            <a href={`${import.meta.env.BASE_URL}Documentacion`} className="text-decoration-none">
+            Documentacion
+            </a>
+        </h5>
     </>
   );
 };

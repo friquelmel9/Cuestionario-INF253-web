@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '/src/componentes/QuestionBox.css';
 
 // question is the question to show, boxState the type of box
-const QuestionBox = ({ question, boxState }) => {
+const QuestionBox = ({ question, boxState, answer }) => {
 
     if (boxState == "visualizacion") {
         return (

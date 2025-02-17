@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import QuestionBox from '/src/componentes/questionBox.jsx'
+import QuestionBox from '/src/componentes/QuestionBox.jsx'
+import TopMenu from '/src/componentes/TopMenu.jsx'
 
 function Documentacion() {
 
@@ -22,7 +23,7 @@ function Documentacion() {
 
     return (
         <>
-            <h1>Titulo Momentaneo</h1>
+            <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
             <QuestionBox question={selectedQuestion} boxState="visualizacion"></QuestionBox>
         </>
     );
