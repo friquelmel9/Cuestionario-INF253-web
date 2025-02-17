@@ -24,6 +24,8 @@ while count < 6:
             if "id" not in question:
                 question["id"] = idCount
                 idCount += 1
+            if "intAnswers" not in question:
+                question["intAnswers"] = 4
 
     with open(stringJson, 'w') as file:
         json.dump(list, file, indent=4)

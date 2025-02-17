@@ -14,3 +14,7 @@
     - Respuesta: Muestra respuesta correcta y explicacion
 
 - Buscar si vale la pena realizar pregunta y respuesta, puesto que para usarla se tendria que ver en la otra seccion.
+
+# Json
+
+- Parece que las preguntas del quiz4 se bugearon. Verlas despues
