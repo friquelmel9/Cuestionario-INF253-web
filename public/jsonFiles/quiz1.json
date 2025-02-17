@@ -564,6 +564,10 @@
     "alt": [
         {
             "pregunta": "\nCual de las siguientes definiciones respecto a la sintaxis son correctas?\n    I. Sintaxis lexica: Define reglas para los tokens (tales como identificadores, literales, operadores...)\n    II. Sintaxis concreta: Refiere a una representacion de un programa segun simbolos del alfabeto\n    III. Sintaxis abstracta: Solo lleva la informacion escencial del programa, util para usar previo a la generacion del codigo\na. Solo II\nb. Solo I y II\nc. Solo II y III\nd. Todas las anteriores\n\n",
+            "respuestas":
+            [
+                "a"
+            ],
             "respuesta": "b",
             "explicacion": " La III es falsa por que se utiliza para la generacion del codigo, no previa a esta",
             "referencia": "Original",
