@@ -4,9 +4,9 @@ import '/src/componentes/QuestionBox.css';
 // question is the question to show, boxState the type of box
 const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
 
-    const [isAnswer, setIsAnswer] = useState(mostrarRespuesta);
+    const [showAnswer, setShowAnswer] = useState(mostrarRespuesta);
     const toggleAnswer = () => {
-        setIsAnswer(prevState => !prevState)
+        setShowAnswer(prevState => !prevState)
     }
 
     return (
@@ -19,10 +19,13 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
                         <div class="id-number"># {question.id}</div>
                         <div class="top-right-elements">{question.referencia}</div>
                     </div>
-                    {!isAnswer ? (
+                    {!showAnswer ? (
                         <div className="enunciado">{question.pregunta} </div>
                     ) : (
-                        <div className="enunciado">{question.explicacion} </div>
+                        <>
+                            <div className="enunciado">La respuesta correcta es: "{question.respuesta}" </div>
+                            <div className="enunciado">Explicacion: {question.explicacion} </div>
+                        </>
                     )}
                     {isTest ? 
                     (
@@ -30,7 +33,7 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
                     ) : (
                         <div className="button-container">
                             <button onClick={toggleAnswer}>
-                                {!isAnswer ? "Mostrar respuesta" : "Volver a pregunta"}
+                                {!showAnswer ? "Mostrar respuesta" : "Volver a pregunta"}
                             </button>
                         </div>  
                     )}

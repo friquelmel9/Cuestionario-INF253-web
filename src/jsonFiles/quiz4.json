@@ -1,0 +1,2600 @@
+{
+    "vf": [
+        {
+            "pregunta": "El paradigma Funcional se basa en funciones matematicas lambda",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 523
+        },
+        {
+            "pregunta": "El paradigma Funcional es equivalente al imperativo mediante funciones matematicas ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 524
+        },
+        {
+            "pregunta": "El primer lenguaje funcional fue LISP, de donde derivan Scheme, Haskell, entre otros ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 525
+        },
+        {
+            "pregunta": "El primer lenguaje funcional fue Scheme, de donde derivan LISP, Haskell, entre otros ",
+            "respuesta": "F",
+            "explicacion": " Scheme deriva de LISP",
+            "referencia": "Original",
+            "id": 526
+        },
+        {
+            "pregunta": "El primer lenguaje funcional fue Common LISP, de donde derivan LISP, Scheme, entre otros ",
+            "respuesta": "F",
+            "explicacion": " Common LISP deriva de LISP",
+            "referencia": "Original",
+            "id": 527
+        },
+        {
+            "pregunta": "La programacion funcional pura no usa variables ni asignacion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 528
+        },
+        {
+            "pregunta": "La programacion funcional pura no usa variables, pero si asignacion ",
+            "respuesta": "F",
+            "explicacion": " Ninguno de las dos la usa",
+            "referencia": "Original",
+            "id": 529
+        },
+        {
+            "pregunta": "En programacion funcional, un programa consiste en la defincion de funciones y su aplicacion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 530
+        },
+        {
+            "pregunta": "Para lograr ciclos en programacion funcional, ha de lograrse mediante recursion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 531
+        },
+        {
+            "pregunta": "La siguiente definicion corresponde a una funcion matematica: \n cubo(x) = x*x*x ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 532
+        },
+        {
+            "pregunta": "La siguiente definicion corresponde a una funcion lambda: \n cubo(x) = x*x*X ",
+            "respuesta": "F",
+            "explicacion": " No esta el lambda, no separa funcion de su nombre",
+            "referencia": "Original",
+            "id": 533
+        },
+        {
+            "pregunta": "La siguiente definicion corresponde a una notacion lambda: \n lambda(x) x*x*x ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 534
+        },
+        {
+            "pregunta": "La siguiente definicion corresponde a una notacion lambda: \n lambda(x) = x*x*x ",
+            "respuesta": "F",
+            "explicacion": " Lambda no asigna nombre con = (que imperativo de tu parte...)",
+            "referencia": "Original",
+            "id": 535
+        },
+        {
+            "pregunta": "Las funciones en programacion funcional corresponden a un elemento de primer orden ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 536
+        },
+        {
+            "pregunta": "Las funciones en programacion funcional han de ser puras, o sea, siempre devolver la misma salida para misma entrada ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 537
+        },
+        {
+            "pregunta": "Las funciones en programacion funcional han de ser puras, o sea, siempre devolver la misma salida ",
+            "respuesta": "F",
+            "explicacion": " Misma entrada, misma salida. No solamente la salida sin entrada.",
+            "referencia": "Original",
+            "id": 538
+        },
+        {
+            "pregunta": "Las funciones en programacion funcional no han de ser puras ",
+            "respuesta": "F",
+            "explicacion": " Si han de ser puras",
+            "referencia": "Original",
+            "id": 539
+        },
+        {
+            "pregunta": "En programacion funcional, se consideran objetos inmutables, aquellos que no cambian de estado ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 540
+        },
+        {
+            "pregunta": "En programacion funcional, la inmutabilidad libera de pensar en los cambios sufridos para un objeto a lo largo de la ejecucion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 541
+        },
+        {
+            "pregunta": "En programacion funcional, la inmutabilidad genera problemas debido a su poca seguridad para trabajar con ellos ",
+            "respuesta": "F",
+            "explicacion": " Son automaticamente seguros al ser inmutables",
+            "referencia": "Original",
+            "id": 542
+        },
+        {
+            "pregunta": "En programacion funcional, la inmutabilidad permite acceder a ellos sin consecuencias ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 543
+        },
+        {
+            "pregunta": "La trasparencia referencial se debe asegurar en programacion funcional ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 544
+        },
+        {
+            "pregunta": "La trasparencia referencial se debe asegurar que cualquier expresion se pueda sustituir su valor, independientemente de las consecuencias ",
+            "respuesta": "F",
+            "explicacion": " Tiene que asegurar que no altere el programa",
+            "referencia": "Original",
+            "id": 545
+        },
+        {
+            "pregunta": "Caracteristicas de Scheme es que es peque\u00c3\u00b1o, con sintaxis y semantica simple ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 546
+        },
+        {
+            "pregunta": "Caracteristicas de Scheme es que posee recolector de basura automatico ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 547
+        },
+        {
+            "pregunta": "Caracteristicas de Scheme es que es un lenguaje de programacion funcional puro ",
+            "respuesta": "F",
+            "explicacion": " Es impuro, sus estructuras de datos no son inmutables",
+            "referencia": "Original",
+            "id": 548
+        },
+        {
+            "pregunta": "Caracteristicas de Scheme es que sus estructuras de datos son inmutables ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 549
+        },
+        {
+            "pregunta": "REPL corresponde al ciclo de leer, evaluar e imprimir ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 550
+        },
+        {
+            "pregunta": "REPL corresponde al ciclo de evaluar e imprimir ",
+            "respuesta": "F",
+            "explicacion": " Falta la lectura. Ha de ser leer, evaluar e imprimir",
+            "referencia": "Original",
+            "id": 551
+        },
+        {
+            "pregunta": "Caracteristicas de Scheme es que sus funciones son de primera clase, y por tanto, pueden ser tratadas como cualquier valor ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 552
+        },
+        {
+            "pregunta": "Identificadores en Scheme corresponden a palabras claves, variables o simbolos sensibles a mayusculas ",
+            "respuesta": "F",
+            "explicacion": " No son sensibles a las mayusculas",
+            "referencia": "Original",
+            "id": 553
+        },
+        {
+            "pregunta": "Identificadores en Scheme no pueden comenzar con un numero ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 554
+        },
+        {
+            "pregunta": "Los siguientes identificadores son validos en Scheme? \n X3, ?$!!!, Abcd ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 555
+        },
+        {
+            "pregunta": "Los siguientes identificadores son validos en Scheme? \n 3X, AbCd, id8 ",
+            "respuesta": "F",
+            "explicacion": " 3X no es valido al empezar con un numero",
+            "referencia": "Original",
+            "id": 556
+        },
+        {
+            "pregunta": "La siguiente constante es valida en Scheme? \n \"Hola, soy un String\" ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 557
+        },
+        {
+            "pregunta": "La siguiente constante es valida en scheme? \n #\\a ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 558
+        },
+        {
+            "pregunta": "La siguiente constante es valida en scheme? \n #\\hola ",
+            "respuesta": "F",
+            "explicacion": " Esta corresponde a un caracter, no un string",
+            "referencia": "Original",
+            "id": 559
+        },
+        {
+            "pregunta": "La siguiente constante es valida en scheme? \n 1.3e27 ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 560
+        },
+        {
+            "pregunta": "La siguiente constante es valida en scheme? \n 1/4 ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 561
+        },
+        {
+            "pregunta": "La siguiente constante es valida en scheme? \n 3.4@-0.5 ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 562
+        },
+        {
+            "pregunta": "La siguiente constante es valida en scheme? \n 14,13 ",
+            "respuesta": "F",
+            "explicacion": " El decimal debe ser punto, no coma",
+            "referencia": "Original",
+            "id": 563
+        },
+        {
+            "pregunta": "La siguiente constante es valida en scheme? \n #t ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 564
+        },
+        {
+            "pregunta": "En Scheme, los numeros complejos pueden ser representados en polares y coordenadas rectangulares? ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 565
+        },
+        {
+            "pregunta": "En Scheme, los nombres +, -, * y \\ son reservados para operaciones aritmeticas? ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 566
+        },
+        {
+            "pregunta": "El resultado de la siguiente expresion: \n (+ 1/2 1/2) es 1? ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 567
+        },
+        {
+            "pregunta": "El resultado de la siguiente expresion: \n (/ (* 6/6 6/2) (- 4.5 1.5)) es 1? ",
+            "respuesta": "F",
+            "explicacion": " Es 1.0 debido a la notacion",
+            "referencia": "Original",
+            "id": 568
+        },
+        {
+            "pregunta": "El resultado de la siguiente expresion: \n (- 2 (* 4 1/4)) es 0? ",
+            "respuesta": "F",
+            "explicacion": " Da 1",
+            "referencia": "Original",
+            "id": 569
+        },
+        {
+            "pregunta": "En Scheme, una lista puede contener cualquier elemento, incluso listas anidadas ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 570
+        },
+        {
+            "pregunta": "En Scheme, una funcion se escribe como una lista, en donde el ultimo elemento corresponde a la funcion? ",
+            "respuesta": "F",
+            "explicacion": " Es el primer elemento",
+            "referencia": "Original",
+            "id": 571
+        },
+        {
+            "pregunta": "En Scheme, utilizar quote indica que la lista no es evaluada ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 572
+        },
+        {
+            "pregunta": "El operador car en Scheme devuelve el primer elemento de la lista ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 573
+        },
+        {
+            "pregunta": "El operador car en Scheme devuelve el ultimo elemento de una lista ",
+            "respuesta": "F",
+            "explicacion": " Devuelve el primero, no el ultimo",
+            "referencia": "Original",
+            "id": 574
+        },
+        {
+            "pregunta": "El operador cdr en Scheme devuelve el primer elemento de una lista ",
+            "respuesta": "F",
+            "explicacion": " Es car el que devuelve el primero",
+            "referencia": "Original",
+            "id": 575
+        },
+        {
+            "pregunta": "El operador cdr en Scheme devuelve solo el ultimo elemento de una lista ",
+            "respuesta": "F",
+            "explicacion": " Devuelve todo elemento menos el primero, eso no necesariamente indica que es solo el ultimo",
+            "referencia": "Original",
+            "id": 576
+        },
+        {
+            "pregunta": "El operador cdr en Scheme devuelve la lista a la que se llamo sin el primer elemento ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 577
+        },
+        {
+            "pregunta": "Un equivalente de car y cdr son first y rest, respectivamente ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 578
+        },
+        {
+            "pregunta": "El ultimo elemento de una lista siempre es vacio ",
+            "respuesta": "V",
+            "explicacion": " Notar que, incluso si la lista es (a b c), c sera un par donde el ultimo es vacio.",
+            "referencia": "Original",
+            "id": 579
+        },
+        {
+            "pregunta": "Un constructor en scheme crea una lista con car como argumento ",
+            "respuesta": "F",
+            "explicacion": " Posee car y cdr como argumentos",
+            "referencia": "Original",
+            "id": 580
+        },
+        {
+            "pregunta": "El siguiente constructor en Scheme: \n (cons (car '(a b c))(cdr '(a b c))) \n devolvera la lista (a c) ",
+            "respuesta": "F",
+            "explicacion": " Devolvera la lista (a b c)",
+            "referencia": "Original",
+            "id": 581
+        },
+        {
+            "pregunta": "El siguiente comando en Scheme: \n (append '(a b) '(c d)) \n devolvera la lista (a b c d) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 582
+        },
+        {
+            "pregunta": "El siguiente comando en Scheme: \n (append '(a b) \"c\") \n devolvera la lista (a b c) ",
+            "respuesta": "F",
+            "explicacion": " devolvera la lista (a b \"c\"). Notar que c no necesariamente es un string",
+            "referencia": "Original",
+            "id": 583
+        },
+        {
+            "pregunta": "El comando let en Scheme permite definir variables ligadas a un valor en la evaluacion de expresiones ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 584
+        },
+        {
+            "pregunta": "El comando let en Scheme crea variables para un ambito global ",
+            "respuesta": "F",
+            "explicacion": " El ambito es local",
+            "referencia": "Original",
+            "id": 585
+        },
+        {
+            "pregunta": "El comando lambda permite crear procedimientos que no poseen nombres ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 586
+        },
+        {
+            "pregunta": "El siguiente codigo de Scheme: \n(let ((square (lambda (x) (* x x))))\n                    (list (square 2)\n                          (square 3)\n                          (square 4)\n                    )\n)\n\n entrega como resultado (4 9 16) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 587
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(let ((square (lambda (x) (* x x))))\n                    (list (square 2)\n                          (square 3)\n                          (square 4)\n                    )\n)\n\n corresponde a recursion simple ",
+            "respuesta": "F",
+            "explicacion": " No hay recursion",
+            "referencia": "Original",
+            "id": 588
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (let ((var1 val1) \u00e2\u20ac\u00a6 (var_m val_m)) exp_1 \u00e2\u20ac\u00a6 exp_n) \n Es equivalente a \n ((lambda (var1 \u00e2\u20ac\u00a6 var_m) exp_1 \u00e2\u20ac\u00a6 exp_n) va1 \u00e2\u20ac\u00a6 val_m) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 589
+        },
+        {
+            "pregunta": "El ambito por let y lambda es local, mientras que define permite un ambito global ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 590
+        },
+        {
+            "pregunta": "El ambito por lambda es local, mientras que let y define permiten un ambito global ",
+            "respuesta": "F",
+            "explicacion": " let posee ambito local",
+            "referencia": "Original",
+            "id": 591
+        },
+        {
+            "pregunta": "Se puede realizar ocultamiento de informacion, mediante let, el cual oculta la variable con mismo nombre de orden superior ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 592
+        },
+        {
+            "pregunta": "La forma: \n (define var_0 (lambda(var_1 ... var_n) e_1 ...)) \n es equivalente a (define (var_0 var_1 ... var_n) e_1 ...) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 593
+        },
+        {
+            "pregunta": "define puede ser utilizado para definir variables tales como \n (define pi 3.1415) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 594
+        },
+        {
+            "pregunta": "Una lista propia de parametros es de la forma (var_1 var_2 ... var_n ) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 595
+        },
+        {
+            "pregunta": "Una lista propia de parametros es de la forma (var_1 var_2 ... var_n . var_r) ",
+            "respuesta": "F",
+            "explicacion": " Esta corresponde a una lista impropia",
+            "referencia": "Original",
+            "id": 596
+        },
+        {
+            "pregunta": "Una lista impropia de parametros es de la forma (var_1 var_2 ... var_n . var_r) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 597
+        },
+        {
+            "pregunta": "Una lista impropia de parametros es de la forma (var_1 var_2 ... var_n ) ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 598
+        },
+        {
+            "pregunta": "En Scheme, es posible realizar condicionales ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 599
+        },
+        {
+            "pregunta": "En Scheme, la unica herramienta para realizar condicionales es if ",
+            "respuesta": "F",
+            "explicacion": " Tambien se puede usar cond",
+            "referencia": "Original",
+            "id": 600
+        },
+        {
+            "pregunta": "En Scheme, se puede realizar multiples condicionales mediante if y elif ",
+            "respuesta": "F",
+            "explicacion": " Es mediante cond",
+            "referencia": "Original",
+            "id": 601
+        },
+        {
+            "pregunta": "En Scheme, se puede realizar multiple condicionales mediante cond ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 602
+        },
+        {
+            "pregunta": "En Scheme, un else es equivalente a usar un #f ",
+            "respuesta": "F",
+            "explicacion": " El else es equivalente a colocar #t",
+            "referencia": "Original",
+            "id": 603
+        },
+        {
+            "pregunta": "En Scheme, las expresiones relacionales son =, <, >, <=, >= ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 604
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme \n (= 3 4) \n Retornara #f ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 605
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme \n (= 3 3.0) \n Retornara #f ",
+            "respuesta": "F",
+            "explicacion": " Pese a ser representaciones distintas, son considerados el mismo numero",
+            "referencia": "Original",
+            "id": 606
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme \n(define (abs n) (if (> n 0)\n        n\n        (- 0 n)))\n\n entregara n en caso de que este sea menor que 0 ",
+            "respuesta": "F",
+            "explicacion": " Retornara la segunda funcion",
+            "referencia": "Original",
+            "id": 607
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme \n(define (abs n) (if (> n 0)\n        n\n        (- 0 n)))\n\n entregara el negativo de n si es menor que 0 ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 608
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme \n(define (abs n) (if (> n 0)\n        n\n        (- 0 n)))\n\n Si evaluamos (abs -27), retornara 27 ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 609
+        },
+        {
+            "pregunta": "Las unicas expresiones logicas son or y and ",
+            "respuesta": "F",
+            "explicacion": " Tambien existe el not",
+            "referencia": "Original",
+            "id": 610
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (null? ()) \n Retornara #t ",
+            "respuesta": "F",
+            "explicacion": " Retornara error, puesto que no se pasa la lista con '",
+            "referencia": "Original",
+            "id": 611
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (null? '()) \n Retornara #t ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 612
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (eqv? 3 3.0) \n Retornara #t ",
+            "respuesta": "F",
+            "explicacion": " Retornara #f, debido a los tipos",
+            "referencia": "Original",
+            "id": 613
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (eqv? () '()) \n Retornara #t ",
+            "respuesta": "F",
+            "explicacion": " Retornara error, puesto que no se pasa la lista con '",
+            "referencia": "Original",
+            "id": 614
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (pair? '(a b c)) \n Retornara #t ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 615
+        },
+        {
+            "pregunta": "Usar pair? es equivalente a usar list? ",
+            "respuesta": "F",
+            "explicacion": " pair? comprueba si esta construido con cons, o sea, que posea un algo ligado al final. En cambio list verifica si esta termina en lista vacia",
+            "referencia": "Original",
+            "id": 616
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (number? '3) \n Retornara #t ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 617
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (number? 1.3e27) \n Retornara #f ",
+            "respuesta": "F",
+            "explicacion": " Corresponde a un numero elevado a 27, por tanto es #t",
+            "referencia": "Original",
+            "id": 618
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (number? 3.4@-0.5) \n Retornara #t ",
+            "respuesta": "V",
+            "explicacion": " Corresponde a un numero imaginario",
+            "referencia": "Original",
+            "id": 619
+        },
+        {
+            "pregunta": "El siguiente codigo: \n (string? \"3\") \n Retornara #t ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 620
+        },
+        {
+            "pregunta": "Los tipos de recursion en Scheme pueden separar como directa o indirecta ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 621
+        },
+        {
+            "pregunta": "En Scheme, una recursion directa ocurre cuando una funcion se llama a si misma ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 622
+        },
+        {
+            "pregunta": "En Scheme, una recursion directa ocurre cuando una funcion se llama a si misma o a otras que la llamaran despues ",
+            "respuesta": "F",
+            "explicacion": " Esta puede corresponder de tipo indirecto",
+            "referencia": "Original",
+            "id": 623
+        },
+        {
+            "pregunta": "En Scheme, una recursion indirecta ocurre cuando una funcion puede o no llamarse a si misma ",
+            "respuesta": "F",
+            "explicacion": " Si se llama a si misma, solo que puede que sea tras un monton de otras funciones",
+            "referencia": "Original",
+            "id": 624
+        },
+        {
+            "pregunta": "En Scheme, una recursion indirecta ocurre cuando una funcion llama a otras funciones que terminan llamando a la primera ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 625
+        },
+        {
+            "pregunta": "En Scheme, tipos de recursion pueden ser lineal, multiple y anidada ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 626
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion lineal indica que solamente existe una invocacion recursiva ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 627
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion multiple indica que hay mas de una funcion recursiva ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 628
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion anidada es cuando de parametro se tiene otra invocacion recursiva ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 629
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion anidada es cuando una funcion ha de hacer recursion de otra funcion ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 630
+        },
+        {
+            "pregunta": "En Scheme, se separan los tipos de recursion segun cuando empiezen, siendo de Cabeza, Intermedia, o de Cola ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 631
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion De Cabeza indica que la recursion ocurre antes que se haga todo lo demas ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 632
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion De Cabeza indica que la recursion no necesita ser llamada directamente ",
+            "respuesta": "F",
+            "explicacion": " Nada que ver...",
+            "referencia": "Original",
+            "id": 633
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion Intermedia indica que la recursion no se cumple en su totalidad ",
+            "respuesta": "F",
+            "explicacion": " Es cuando la recursion esta entre medio de sentencias",
+            "referencia": "Original",
+            "id": 634
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion Intermedia indica que la recursion se encuentra entre medio de sentencias ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 635
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion De Cola indica que la recursion se realiza al finalizar toda las sentencias ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 636
+        },
+        {
+            "pregunta": "En Scheme, el tipo de recursion De Cola indica que la recursion se realiza tras terminar otra recursion ",
+            "respuesta": "F",
+            "explicacion": " No necesariamente ha de terminar una recursion para iniciar",
+            "referencia": "Original",
+            "id": 637
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define length\n (lambda (ls)\n        (if (null? ls)\n            0\n            (+ 1 (length (cdr ls))))))\n\n corresponde a un ejemplo de Recursion Directa ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 638
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define length\n (lambda (ls)\n        (if (null? ls)\n            0\n            (+ 1 (length (cdr ls))))))\n\n Si llamamos al siguiente codigo: \n (length '(a b c d)) \n Este retornara 4 ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 639
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define memv\n (lambda (x ls)\n         (cond ((null? ls) ())\n                ((eqv? x (car ls)) (cdr ls))\n                (else (memv x (cdr ls))))))\n\n Corresponde a un ejemplo de Recursion directa ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 640
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define memv\n (lambda (x ls)\n         (cond ((null? ls) ())\n                ((eqv? x (car ls)) (cdr ls))\n                (else (memv x (cdr ls))))))\n\n Si llamamos al siguiente codigo: \n (memv 'c '(a b c d e)) \n Devolvera 3 ",
+            "respuesta": "F",
+            "explicacion": " Retorna el cdr desde esa posicion",
+            "referencia": "Original",
+            "id": 641
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define memv\n (lambda (x ls)\n         (cond ((null? ls) ())\n                ((eqv? x (car ls)) (cdr ls))\n                (else (memv x (cdr ls))))))\n\n Si llamamos al siguiente codigo: \n (memv 'c '(a b c d e)) \n Devolvera (a b) ",
+            "respuesta": "F",
+            "explicacion": " Retorna el cdr desde esa posicion",
+            "referencia": "Original",
+            "id": 642
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define memv\n (lambda (x ls)\n         (cond ((null? ls) ())\n                ((eqv? x (car ls)) (cdr ls))\n                (else (memv x (cdr ls))))))\n\n Si llamamos al siguiente codigo: \n (memv 'c '(a b c d e)) \n Devolvera (d e) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 643
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define remv\n (lambda (x ls)\n        (cond ((null? ls) \u00e2\u20ac\u02dc())\n            ((eqv? x (car ls)) (remv x (cdr ls)))\n            (else (cons (car ls) (remv x (cdr ls)))))))\n\n Si llamamos al siguiente codigo: \n (remv 'c '(a b c d e)) \n Devolvera (d e) ",
+            "respuesta": "F",
+            "explicacion": " Retornara toda la lista sin el miembro al que se llamo",
+            "referencia": "Original",
+            "id": 644
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define remv\n (lambda (x ls)\n        (cond ((null? ls) \u00e2\u20ac\u02dc())\n            ((eqv? x (car ls)) (remv x (cdr ls)))\n            (else (cons (car ls) (remv x (cdr ls)))))))\n\n Si llamamos al siguiente codigo: \n (remv 'c '(a b c d e)) \n Devolvera (a b d e) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 645
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define remv\n (lambda (x ls)\n        (cond ((null? ls) \u00e2\u20ac\u02dc())\n            ((eqv? x (car ls)) (remv x (cdr ls)))\n            (else (cons (car ls) (remv x (cdr ls)))))))\n\n Si llamamos al siguiente codigo: \n (remv 'c '(a b c d e)) \n Devolvera 1 ",
+            "respuesta": "F",
+            "explicacion": " Retornara toda la lista sin el miembro al que se llamo",
+            "referencia": "Original",
+            "id": 646
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n (lambda () (if (g) (f) #f)) \n Corresponde a un llamado de cola con respecto a f ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 647
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n (lambda () (if (g) (f) #f)) \n Corresponde a un llamado de cola con respecto a g ",
+            "respuesta": "F",
+            "explicacion": " Corresponde con respecto a f",
+            "referencia": "Original",
+            "id": 648
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n (lambda () (if (g) (f) #f)) \n Corresponde a un llamado intermedio con respecto a f ",
+            "respuesta": "F",
+            "explicacion": " Corresponde de cola",
+            "referencia": "Original",
+            "id": 649
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n (lambda () (or (g) (f))) \n Corresponde a un llamado de cola con respecto a f ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 650
+        },
+        {
+            "pregunta": "El problema de la recursion en Scheme es que puede causar Overflow del stack ",
+            "respuesta": "F",
+            "explicacion": " Debido a que funciona como goto, no se genera este problema",
+            "referencia": "Original",
+            "id": 651
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define factorial\n (lambda (n)\n         (let fact ((i n))\n                  (if (= i 0)\n                             1\n                             (* i (fact (- i 1)))))))\n\n Corresponde a una implementacion de recursion simple ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 652
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define factorial\n (lambda (n)\n         (let fact ((i n))\n                  (if (= i 0)\n                             1\n                             (* i (fact (- i 1)))))))\n\n Corresponde a una implementacion de recursion de Cola ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 653
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n(define factorial\n (lambda (n)\n         (let fact ((i n) (a 1))\n                  (if (= i 0)\n                             a\n                             (fact (- i 1) (* a i))))))\n\n Corresponde a una implementacion de recursion simple ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 654
+        },
+        {
+            "pregunta": "El siguiente codigo de Scheme: \n(define factorial\n (lambda (n)\n         (let fact ((i n) (a 1))\n                  (if (= i 0)\n                             a\n                             (fact (- i 1) (* a i))))))\n\n Corresponde a una implementacion de recursion de cola ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 655
+        },
+        {
+            "pregunta": "En Scheme, el comando let es equivalente al comando define ",
+            "respuesta": "F",
+            "explicacion": " Let es local, mientras que define permite ligar a nivel superior",
+            "referencia": "Original",
+            "id": 656
+        },
+        {
+            "pregunta": "En Scheme, el comando let permite ligar un valor a una nueva variable en ambito local ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 657
+        },
+        {
+            "pregunta": "En Scheme, el comando let permite ligar un valor a una nueva variable en un ambito superior ",
+            "respuesta": "F",
+            "explicacion": " Es un ambito local",
+            "referencia": "Original",
+            "id": 658
+        },
+        {
+            "pregunta": "En Scheme, los comando let y define permite definir variables y cdambiar su ligado ",
+            "respuesta": "F",
+            "explicacion": " No permite el cambio de ligado como asignacion",
+            "referencia": "Original",
+            "id": 659
+        },
+        {
+            "pregunta": "En Scheme, el comando set! permite re-ligar una variable existente a un nuevo valor, tal como una asignacion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 660
+        },
+        {
+            "pregunta": "En Scheme, el comando set! corresponde a uno de la programacion funcional ",
+            "respuesta": "F",
+            "explicacion": " Permite asignacion, por tanto, es como de programacion imperativa",
+            "referencia": "Original",
+            "id": 661
+        },
+        {
+            "pregunta": "En Scheme, el comando set! establece un nuevo ligado a una variable existente ",
+            "respuesta": "F",
+            "explicacion": " No establece uno nuevo, si no que lo reasigna",
+            "referencia": "Original",
+            "id": 662
+        },
+        {
+            "pregunta": "En Scheme, el comando set! cambia el ligado existente al que se llamo ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 663
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El primer codigo corresponde a un parametro de lista propia? ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 664
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El segundo codigo corresponde a un parametro de lista propia? ",
+            "respuesta": "F",
+            "explicacion": " Corresponde a un parametro de lista impropia",
+            "referencia": "Original",
+            "id": 665
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El tercer codigo corresponde a un parametro de lista propia? ",
+            "respuesta": "F",
+            "explicacion": " Corresponde a un parametro de variable unica",
+            "referencia": "Original",
+            "id": 666
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El primer codigo corresponde a un parametro de lista impropia? ",
+            "respuesta": "F",
+            "explicacion": " Corresponde a un parametro de lista propia",
+            "referencia": "Original",
+            "id": 667
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El segundo codigo corresponde a un parametro de lista impropia? ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 668
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El tercer codigo corresponde a un parametro de lista impropia? ",
+            "respuesta": "F",
+            "explicacion": " Corresponde a un parametro de variable unica",
+            "referencia": "Original",
+            "id": 669
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El segundo codigo devolvera la lista (3 4) ",
+            "respuesta": "F",
+            "explicacion": " Devolvera la lista (3 (4))",
+            "referencia": "Original",
+            "id": 670
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El segundo codigo devolvera la lista (3 (4)) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 671
+        },
+        {
+            "pregunta": "El siguiente codigo en Scheme: \n((lambda (x y) (+ x y)) 3 4)\n((lambda (x . y) (list x y)) 3 4)\n((lambda x x ) 3 4)\n\n El tercer codigo devolvera la lista (3 4) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 672
+        },
+        {
+            "pregunta": "El comando let en Scheme debe ser usado para valores independientes en donde no importe el orden de evaluacion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 673
+        },
+        {
+            "pregunta": "El comando let en Scheme debe ser usado si hay una dependencia entre los valores, donde importe el orden de evaluacion ",
+            "respuesta": "F",
+            "explicacion": " Esta descripcion corresponde al comando let*",
+            "referencia": "Original",
+            "id": 674
+        },
+        {
+            "pregunta": "El comando let y let* son equivalentes, solo que cambia que uno permite ligado a una variable local, mientras que el otro a variables globales ",
+            "respuesta": "F",
+            "explicacion": " Su diferencia radica en la dependencia entre valores",
+            "referencia": "Original",
+            "id": 675
+        },
+        {
+            "pregunta": "El comando let* en Scheme debe ser usado para valores independientes en donde no importe el orden de evaluacion ",
+            "respuesta": "F",
+            "explicacion": " Esta descripcion corresponde al comando let",
+            "referencia": "Original",
+            "id": 676
+        },
+        {
+            "pregunta": "El comando let* en Scheme debe ser usado si hay una dependencia entre los valores, donde importe el orden de evaluacion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 677
+        },
+        {
+            "pregunta": "El comando let* asegura que las expresiones se evaluen de derecha a izquierda ",
+            "respuesta": "F",
+            "explicacion": " Es de izquierda a derecha",
+            "referencia": "Original",
+            "id": 678
+        },
+        {
+            "pregunta": "El comando let* asegura que las expresiones se evaluen de izquierda a derecha ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 679
+        },
+        {
+            "pregunta": "El comando let* corresponde a uno relacionado con la programacion funcional ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 680
+        },
+        {
+            "pregunta": "El comando let* corresponde a uno relacionado con la programacion imperativa ",
+            "respuesta": "F",
+            "explicacion": " No asigna nada, no es imperativo (no es unica razon)",
+            "referencia": "Original",
+            "id": 681
+        },
+        {
+            "pregunta": "El comando letrec en Scheme es equivalente a let ",
+            "respuesta": "F",
+            "explicacion": " No funcionan de igual manera, no son equivalentes",
+            "referencia": "Original",
+            "id": 682
+        },
+        {
+            "pregunta": "El comando letrec en Scheme permite que todos los valores estan dentro del ambito, o sea, permite definir procesos mutualmente recursivos ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 683
+        },
+        {
+            "pregunta": "El comando letrec en Scheme debe ser usado para valores independientes en donde no importe el orden de evaluacion ",
+            "respuesta": "F",
+            "explicacion": " Esta descripcion corresponde al comando let",
+            "referencia": "Original",
+            "id": 684
+        },
+        {
+            "pregunta": "El comando letrec en Scheme debe ser usado para valores y variables que posean una dependencia circular entre ellos, sin importar el orden de evaluacion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 685
+        },
+        {
+            "pregunta": "El comando letrec en Scheme debe ser usado para valores y variables que posean una dependencia circular entre ellos, y donde el orden de evaluacion importa ",
+            "respuesta": "F",
+            "explicacion": " El orden de evaluacion no deberia de importar si usas letrec",
+            "referencia": "Original",
+            "id": 686
+        },
+        {
+            "pregunta": "El comando letrec en Scheme permite que cada valor pueda ser evaluable dependiendo obligatoriamente de los valores previamente definidos ",
+            "respuesta": "F",
+            "explicacion": " La restriccion exige que no debe haber esta necesidad",
+            "referencia": "Original",
+            "id": 687
+        },
+        {
+            "pregunta": "El comando letrec en Scheme permite que cada valor pueda ser evaluable sin necesidad de evaluar otros valores ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 688
+        },
+        {
+            "pregunta": "El comando letrec corresponde a uno relacionado con la programacion imperativa ",
+            "respuesta": "F",
+            "explicacion": " No es imperativo, cuenta para funcional",
+            "referencia": "Original",
+            "id": 689
+        },
+        {
+            "pregunta": "Utilizar eq? eqv? o equal? en Scheme es practicamente hacer lo mismo, ya que son equivalentes ",
+            "respuesta": "F",
+            "explicacion": " No son equivalentes, peque\u00c3\u00b1as diferencias",
+            "referencia": "Original",
+            "id": 690
+        },
+        {
+            "pregunta": "El comando eqv? es similar a eq? solo que no depende de la implementacion, a costa de ser mas costoso ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 691
+        },
+        {
+            "pregunta": "El comando eqv? es similar a eq? solo que eqv? depende de la implementacion ",
+            "respuesta": "F",
+            "explicacion": " Es eq? el que depende de la implementacion",
+            "referencia": "Original",
+            "id": 692
+        },
+        {
+            "pregunta": "El comando eq? no permite comparar numeros de manera fiable ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 693
+        },
+        {
+            "pregunta": "El comando eqv? no permite comparar numeros de manera fiable ",
+            "respuesta": "F",
+            "explicacion": " Es eq? el que no permite",
+            "referencia": "Original",
+            "id": 694
+        },
+        {
+            "pregunta": "El comando equal? es similar a eqv?, solo que equal? funciona tambien con strings, pares y vectores ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 695
+        },
+        {
+            "pregunta": "El comando equal? es similar a eqv?, solo que eqv? funciona tambien con strings, pares y vectores ",
+            "respuesta": "F",
+            "explicacion": " Es equal el que puede trabajar con estos",
+            "referencia": "Original",
+            "id": 696
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) El siguiente comando en Scheme: \n (eqv? (cons '(a b) '(c)) (list '(a b) '(c))) \n Retornara #f ",
+            "respuesta": "V",
+            "explicacion": " Las listas son generadas de distinta manera y dan distinto resultado",
+            "referencia": "Original",
+            "id": 697
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) Los comandos (cdr '(a b)) y (cdr '(a.b)) daran la misma salida ",
+            "respuesta": "F",
+            "explicacion": " El primero devuelve (b), mientras que el segundo b.",
+            "referencia": "Original",
+            "id": 698
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) El comando (eqv? 1 '1) retornara #t ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 699
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) El comando (number? '1) retornara #f ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 700
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) El comando (pair? '(1 2 3)) retornara #t ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 701
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) El comando (pair? '(1 2 3 4)) retornara (2 4) ",
+            "respuesta": "F",
+            "explicacion": " Retorna true, indicando que hay pair",
+            "referencia": "Original",
+            "id": 702
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) El comando (eqv? '(1 2 3) '(1 2 3)) retornara #t ",
+            "respuesta": "F",
+            "explicacion": " Devuelve falso ya que eqv compara el espacio de memoria utilizado. Como son dos listas distintas, dos espacios de memoria distintos",
+            "referencia": "Original",
+            "id": 703
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) La diferencia entre recursion de pila y de cola es que en el de cola no queda nada pendiente tras la recursion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 704
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considere el siguiente codigo en Scheme: \n(define factorial\n   (lambda (n)\n\t    (let fact ((i n))\n\t\t          (if (= i 0)\n\t\t\t       1\n\t\t\t       (* i (fact (- i 1)))\n                   )\n        )\n    )\n)\n\n(define factorial2\n   (lambda (n)\n\t    (let fact ((i n) (a 1))\n\t\t   (if (= i 0)\n\t\t\ta\n\t\t\t(fact (- i 1) (* a i)))\n        )\n    )\n)\n\n Se puede decir que factorial corresponde a una funcion que posee recursion directa? ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 705
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considere el siguiente codigo en Scheme: \n(define factorial\n   (lambda (n)\n\t    (let fact ((i n))\n\t\t          (if (= i 0)\n\t\t\t       1\n\t\t\t       (* i (fact (- i 1)))\n                   )\n        )\n    )\n)\n\n(define factorial2\n   (lambda (n)\n\t    (let fact ((i n) (a 1))\n\t\t   (if (= i 0)\n\t\t\ta\n\t\t\t(fact (- i 1) (* a i)))\n        )\n    )\n)\n\n Se puede decir que factorial2 corresponde a una funcion que posee recursion directa? ",
+            "respuesta": "F",
+            "explicacion": " Corresponde a recursion de cola",
+            "referencia": "Original",
+            "id": 706
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considere el siguiente codigo en Scheme: \n(define factorial\n   (lambda (n)\n\t    (let fact ((i n))\n\t\t          (if (= i 0)\n\t\t\t       1\n\t\t\t       (* i (fact (- i 1)))\n                   )\n        )\n    )\n)\n\n(define factorial2\n   (lambda (n)\n\t    (let fact ((i n) (a 1))\n\t\t   (if (= i 0)\n\t\t\ta\n\t\t\t(fact (- i 1) (* a i)))\n        )\n    )\n)\n\n Se podria decir que ambas funciones trabajan en el paradigma funcional? ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 707
+        },
+        {
+            "pregunta": "([2024-2] Wladimir Ejercicios de clase) Considere el siguiente codigo en Scheme: \n(define factorial\n   (lambda (n)\n\t    (let fact ((i n))\n\t\t          (if (= i 0)\n\t\t\t       1\n\t\t\t       (* i (fact (- i 1)))\n                   )\n        )\n    )\n)\n\n(define factorial2\n   (lambda (n)\n\t    (let fact ((i n) (a 1))\n\t\t   (if (= i 0)\n\t\t\ta\n\t\t\t(fact (- i 1) (* a i)))\n        )\n    )\n)\n\n Se podria decir que ambas funciones trabajan en el paradigma imperativo? ",
+            "respuesta": "F",
+            "explicacion": " Ambas trabajan en el funcional",
+            "referencia": "Original",
+            "id": 708
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P1) En el momento de evaluar una expresi\u00c3\u00b3n lambda, se ligan par\u00c3\u00a1metros formales con los actuales, pudiendo ser los primeros una lista propia, una lista impropia o una variable \u00c3\u00banica.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 709
+        },
+        {
+            "referencia": "define (combinatoria n k",
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P2) La funci\u00c3\u00b3n combinatoria(n k), definida a continuaci\u00c3\u00b3n, s\u00c3\u00b3lo hace uso de un registro de activaci\u00c3\u00b3n\n\t\t\t\t\t\t\n",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 710
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P3) La programaci\u00c3\u00b3n funcional es una variante de los lenguajes imperativos, basada en una extensi\u00c3\u00b3n de una m\u00c3\u00a1quina de von Neuman.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 711
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P5) Los nombres usados en Scheme tienen \u00c3\u00a1mbito din\u00c3\u00a1mico.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 712
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P7) Scheme tiene un recolector autom\u00c3\u00a1tico de basura.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 713
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P8) En Scheme, variables de nivel superior pueden ser definidas mediante let y lambda.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 714
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P9) Una funci\u00c3\u00b3n se escribe como una lista, donde el primer elemento es el nombre de la funci\u00c3\u00b3n y los siguientes los par\u00c3\u00a1metros.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 715
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P10) La caracter\u00c3\u00adsta exclusiva de los lenguajes funcionales de contar con recursi\u00c3\u00b3n de cola, ha hecho que \u00c3\u00a9stos se utilicen fuertemente en aplicaciones matem\u00c3\u00a1ticas y similares.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 716
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P11) La programaci\u00c3\u00b3n funcional pura no usa variales ni asignaci\u00c3\u00b3n.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 717
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P12) La recursi\u00c3\u00b3n de cola facilita el manejo del stack ya que reduce el tama\u00c3\u00b1o del registro de activaci\u00c3\u00b3n de cada invocaci\u00c3\u00b3n.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 718
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P13) En la programaci\u00c3\u00b3n funcional pura, la repetici\u00c3\u00b3n debe lograrse con recursi\u00c3\u00b3n.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 719
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P14) Para que una lista sea evaluada se le antecede con una citaci\u00c3\u00b3n simple.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 720
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P16) En la programaci\u00c3\u00b3n funcional, la evaluaci\u00c3\u00b3n de las funciones est\u00c3\u00a1 controlada por secuencias e iteraciones.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 721
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P17) Una expresi\u00c3\u00b3n lambda es un objeto tipo procedimiento que no tiene nombre.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 722
+        },
+        {
+            "pregunta": "([2021-2] - Mart\u00c3\u00ad Q4P18) S\u00c3\u00b3lo recientemente existen arquitecturas de computadores que apoyan una ejecuci\u00c3\u00b3n eficiente de un programa funcional.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 723
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P1) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n F1 tiene recursion de cola",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 724
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P2) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n F2 tiene recursion de cola",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 725
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P3) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n F1 tiene recursion directa",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 726
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P4) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n F2 tiene recursion directa",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 727
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P5) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n Contador valdra 0 siempre ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 728
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P6) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n En la funcion cuenta, se puede cambiar el set! por un let sin problemas ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 729
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P7) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n Cuenta tiene recursion intermedia ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 730
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P8) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n Suma tiene recursion de cola ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 731
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P9) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n En la definicion de suma, se puede cambiar letrec por let sin problemas ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 732
+        },
+        {
+            "referencia": "define (f1 a",
+            "pregunta": "([2022-1] - Diaz Q4P10) Considerando el siguiente codigo en Scheme: \n    )\n\n    )\n\n\n(define cuenta\n                    contador\n    )\n)\n\n(letrec ((suma\n        (lambda [ls]\n                0\n                )\n        ))\n    )\n Cuenta imprimira 0 siempre ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 733
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P6) En Scheme, variables de nivel superior pueden ser definidas por let y lambda.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 734
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P7) En Scheme, los nombres solo tienen \u00c3\u00a1mbito din\u00c3\u00a1mico.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 735
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P8) Las definiciones de nivel superior permiten visibilidad en cada expresi\u00c3\u00b3n donde no sean escondidas por otro ligado.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 736
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P9) En Scheme, una funci\u00c3\u00b3n se escribe como una lista en notaci\u00c3\u00b3n prefija, siendo el primer elemento el nombre de la funci\u00c3\u00b3n.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 737
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P10) La recursi\u00c3\u00b3n de cola facilita el manejo del Stack ya que reduce el tama\u00c3\u00b1o del registro de activaci\u00c3\u00b3n de cada invocaci\u00c3\u00b3n incurrida.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 738
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P11) El resultado de evaluar la expresi\u00c3\u00b3n: (first (rest ( rest (rest (first (a b c (d e)) ((f g (h)))))))) es ((d e)).",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 739
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P12) El resultado de evaluar la expresi\u00c3\u00b3n: (cons 0 (list (cons '(1 2) (list '(3 (4 5)))))) es (0 ((1 2) (3 (4 5)))).",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 740
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P13) El resultado de evaluar la siguiente expresi\u00c3\u00b3n es #t \n (or (< 6 0) (member 30 '(1 2 3)) (= (abs -6) 60) (zero? 0)) ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 741
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P14) El resultado de evaluar las siguientes expresiones lambda es 12. \n (define f (lambda (x) (g x))) \n (define g (lambda (x) (+ x x))) \n (f (g (f (g 3)))) ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 742
+        },
+        {
+            "pregunta": "([2022-1] - Mart\u00c3\u00ad Q4P15) El resultado de evaluar la expresi\u00c3\u00b3n: (map (lambda (x) (* x x)) '(5 4 3)) es: ((25) (16) (9)). ",
+            "respuesta": "F",
+            "explicacion": " Es (25 16 9)",
+            "id": 743
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P1) El ciclo de Scheme corresponde a: Leer, Evaluar e Imprimir.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 744
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P2) Las expresiones se escriben seg\u00c3\u00ban la notaci\u00c3\u00b3n post-fija.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 745
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P3) Una funci\u00c3\u00b3n de Scheme se escribe como una lista en notaci\u00c3\u00b3n pre-fija.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 746
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P4) La recursi\u00c3\u00b3n de cola es menos eficiente en memoria que la recursi\u00c3\u00b3n intermedia simple.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 747
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P5) Scheme utiliza el Heap para almacenar objetos (por ejemplo, las funciones lambda).",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 748
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P6) En Scheme, los nombres solo tiene \u00c3\u00a1mbito din\u00c3\u00a1mico.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 749
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P7) La recursi\u00c3\u00b3n de cola facilita el manejo del Stack ya que reduce el tama\u00c3\u00b1o del registro de activaci\u00c3\u00b3n de cada invocaci\u00c3\u00b3n.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 750
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P8) En el momento de evaluar una expresi\u00c3\u00b3n lambda, se ligan par\u00c3\u00a1metros formales con los actuales pudiendo ser los primeros una lista propia, una lista impropia o una variable \u00c3\u00banica.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 751
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P9) La programaci\u00c3\u00b3n funcional es una variante de los lenguajes imperativos, basada en una extensi\u00c3\u00b3n de una m\u00c3\u00a1quina de Von Neuman.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 752
+        },
+        {
+            "pregunta": "([2022-2] - Carmona Q4P10) Una expresi\u00c3\u00b3n lambda es un objeto tipo procedimiento que no tiene nombre.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 753
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P1) La programaci\u00c3\u00b3n funcional corresponde a un tipo de programaci\u00c3\u00b3n declarativa.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 754
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P2) La notaci\u00c3\u00b3n lambda permite separar la definici\u00c3\u00b3n de una funci\u00c3\u00b3n de su nombre.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 755
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P3) En la programaci\u00c3\u00b3n funcional, los programas se construyen sobre la base de funciones anidadas.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 756
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P4) Al ser elementos de segundo orden, las funciones se pueden guardar en estructuras de datos, pasarse como argumentos e incluso ser devueltas sobre otras funciones.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 757
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P5) El c\u00c3\u00b3digo de la programaci\u00c3\u00b3n funcional debe asegurar que la transparencia referencial est\u00c3\u00a9 presente en lo menos posible.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 758
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P6) Scheme permite el manejo de diferentes tipos de n\u00c3\u00bameros como enteros, en notaci\u00c3\u00b3n cient\u00c3\u00adfica y complejos.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 759
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P7) En Scheme, las variables tienen \u00c3\u00a1mbito local si est\u00c3\u00a1n dentro de una expresi\u00c3\u00b3n let, y \u00c3\u00a1mbito global si es dentro de una expresi\u00c3\u00b3n define.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 760
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P8) El resultado de evaluar la consulta (pair? 2) es verdadero.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 761
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P9) La ausencia de un recolector autom\u00c3\u00a1tico de basura en Scheme incentiva el uso de recursi\u00c3\u00b3n de cola.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 762
+        },
+        {
+            "pregunta": "([2022-2] - Mart\u00c3\u00ad Q4P10) El uso de letrec asemeja a una programaci\u00c3\u00b3n de tipo imperativa, dado que establece una dependencia lineal entre las variables y los valores.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 763
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P1) En Scheme, los booleanos se representan por los valores #t y #f.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 764
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P2) En Scheme, los n\u00c3\u00bameros complejos solo pueden ser representados en coordenadas rectangulares.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 765
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P3) La recursi\u00c3\u00b3n de cola es exclusiva de lenguajes funcionales (o aquellos principalmente funcionales).",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 766
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P4) En Scheme, una expresi\u00c3\u00b3n lambda siempre recibir\u00c3\u00a1 un n\u00c3\u00bamero fijo de par\u00c3\u00a1metros.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 767
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P5) En Scheme, la expresi\u00c3\u00b3n let* asegura orden de evaluaci\u00c3\u00b3n de las expresiones de variables a diferencia de let.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 768
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P6) La recursi\u00c3\u00b3n mutua se puede considerar como tipo de recursi\u00c3\u00b3n indirecta.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 769
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P7) En Scheme, las variables de nivel superior pueden ser definidas mediante let y lambda.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 770
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P8) Una expresi\u00c3\u00b3n lambda es un objeto tipo procedimiento que no tiene nombre.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 771
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P9) Scheme tiene un recolector autom\u00c3\u00a1tico de basura.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 772
+        },
+        {
+            "pregunta": "([2022-2] - D\u00c3\u00adaz Q4P10) Evaluar la expresi\u00c3\u00b3n (map (lambda x (* (car x) (cadr x))) (list 2 3 5) '(4 8 9)) arroja un error.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 773
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P1]) Los programas funcionales se construyen mediante la composici\u00c3\u00b3n de funciones.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 774
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P2]) En la programaci\u00c3\u00b3n funcional, la evaluaci\u00c3\u00b3n de las funciones est\u00c3\u00a1 controlada por recursi\u00c3\u00b3n y condiciones.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 775
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P3]) La programaci\u00c3\u00b3n funcional pura usa variables y asignaci\u00c3\u00b3n.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 776
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P4]) Una expresi\u00c3\u00b3n lambda es un objeto tipo procedimiento que tiene nombre.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 777
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P5]) En Scheme, variables de nivel superior pueden ser definidas mediante let y lambda.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 778
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P6]) El operador let* se asemeja a una asignaci\u00c3\u00b3n tradicional, lo que se aleja del paradigma funcional en cuanto a tener objetos inmutables.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 779
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P7]) Scheme tiene un recolector autom\u00c3\u00a1tico de basura.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 780
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P8]) Para que una lista sea evaluada se le antecede con una citaci\u00c3\u00b3n simple.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 781
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P9]) La recursi\u00c3\u00b3n de cola facilita el manejo del stack ya que reduce el tama\u00c3\u00b1o del registro de activaci\u00c3\u00b3n de cada invocaci\u00c3\u00b3n.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 782
+        },
+        {
+            "pregunta": "([2023-1 - Mart\u00c3\u00ad Q4P10]) La evaluaci\u00c3\u00b3n perezosa es una t\u00c3\u00a9cnica exclusiva de la programaci\u00c3\u00b3n funcional, destinada a disminuir la cantidad de memoria usada.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 783
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P1) Los programas funcionales se construyen mediante la composici\u00c3\u00b3n de funciones.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 784
+        },
+        {
+            "pregunta": "([2023-2] - Marti Q4P2) En la programaci\u00c3\u00b3n funcional, la evaluaci\u00c3\u00b3n de las funciones est\u00c3\u00a1 controlada por recursi\u00c3\u00b3n y condiciones.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 785
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P3) La programaci\u00c3\u00b3n funcional pura usa variables y asignaci\u00c3\u00b3n.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 786
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P4) Una expresi\u00c3\u00b3n lambda es un objeto tipo procedimiento que tiene nombre.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 787
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P5) En Scheme, variables de nivel superior pueden ser definidas mediante let y lambda.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 788
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P6) El operador let* se asemeja a una asignaci\u00c3\u00b3n tradicional, lo que se aleja del paradigma funcional en cuanto a tener objetos inmutables.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 789
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P7) Scheme tiene un recolector autom\u00c3\u00a1tico de basura.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 790
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P8) Para que una lista sea evaluada se le antecede con una citaci\u00c3\u00b3n simple.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 791
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P9) La recursi\u00c3\u00b3n de cola facilita el manejo del Stack ya que reduce el tama\u00c3\u00b1o del registro de activaci\u00c3\u00b3n de cada invocaci\u00c3\u00b3n.",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 792
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q4P10) La evaluaci\u00c3\u00b3n perezosa es una t\u00c3\u00a9cnica exclusiva de la programaci\u00c3\u00b3n funcional, destinada a disminuir la cantidad de memoria usada.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 793
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P1) La programacion funcional pura no utiliza asignaciones, dado que se basa en la composicion de funciones ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 794
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P2) En la programacion funcional pura, se trabaja solo con recursion de cola y condicionales ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 795
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P3) En la programacion funcional, daod que las funciones son objeto de tercer orden dentro del lenguaje, pueden guardarse en estructuras de datos, pasarse como argumentos y devolverse desde otras funciones ",
+            "respuesta": "F",
+            "explicacion": " No son de tercer orden, son primer",
+            "id": 796
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P4) Scheme no es un lenguaje funcional puro,  de ahi la necesidad de eliminar manualmente la basura que vaya quedando en el heap ",
+            "respuesta": "F",
+            "explicacion": "  No es manual, es automatico",
+            "id": 797
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P5) Los tres constructores de listas en Scheme son cons, list, append ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 798
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P6) En Scheme, las variables definidas con let y lambda tienen un ambito local, mientras que con set! se tiene ambito global ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 799
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P7) Los predicados de Scheme para determinar si un numero es par o impar son pair? y odd? ",
+            "respuesta": "F",
+            "explicacion": " pair? indica si es una lista, puesto que estan compuesta de cabeza - cola, un par",
+            "id": 800
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P8) Con la recursion de cola, es posible que el heap reutilice el mismo registro de activacion. de modo de disminuir el tiempo de ejecucion ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 801
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P9) Las listas de asociacion de Scheme son listas propias, cuyos elementos son todos de la forma clave - valor ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 802
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q4P10) La evaluacion perezosa se usa para ahorrar computacion, es decir, evitar calculos que no son necesarios de momento ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 803
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P15) En general, la recursividad de cola es conveniente pues permite ahorrar memoria de stack ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 804
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P16) En Scheme, las variables de nivel superior se definen mediante un define ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 805
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P17) En la programacion funcional pura, la composicion de funciones debe considerar el uso adecuado de variables y operaciones de asignacion ",
+            "respuesta": "F",
+            "explicacion": " Deberia no importar",
+            "id": 806
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P18) En la programacion funcional, la repeticion debe ser lograda por recursion ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 807
+        }
+    ],
+    "alt": [
+        {
+            "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (+ 0.5+0.i 1/2)\nQue sera lo que retornara?\na. 1.0 \nb. 1\nc. 1.0+0i\nd. Dara error\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1108,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (+ 1/2 0.5+0.i)\nQue sera lo que retornara?\na. 1.0 \nb. 1\nc. 1.0+0i\nd. Dara error\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1109,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (+ 0.5 5e-1)\nQue sera lo que retornara?\na. 1.0 \nb. 1e0\nc. 1\nd. Dara error\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1110,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '(a b c) '(1 2))\nQue sera lo que retornara?\na. ((a b c).(1 2))\nb. ((a b c) 1 2)\nc. (a b c 1 2)\nd. Dara error\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1111,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '(a b c) '())\nQue sera lo que retornara?\na. ((a b c))\nb. (a b c)\nc. ()\nd. Dara error\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1112,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '() '(1 2))\nQue sera lo que retornara?\na. (() (1 2)) \nb. (1 2)\nc. (() 1 2)\nd. Dara error\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1113,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '() '())\nQue sera lo que retornara?\na. (() ()) \nb. (())\nc. ()\nd. Dara error\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1114,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (list '(a b c) '(1 2))\nQue sera lo que retornara?\na. ((a b c) (1 2))\nb. ((a b c) 1 2)\nc. (a b c 1 2)\nd. (a b c (1 2))\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1115,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (list '(a b c) '())\nQue sera lo que retornara?\na. ((a b c))\nb. (a b c)\nc. (a b c ())\nd. ((a b c) ())\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1116,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (list '() '(1 2))\nQue sera lo que retornara?\na. (1 2)\nb. (() 1 2)\nc. (() (1 2))\nd. ()\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1117,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (append '(a b c) '(1 2))\nQue sera lo que retornara?\na. ((a b c).(1 2))\nb. ((a b c) 1 2)\nc. (a b c 1 2)\nd. Dara error\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1118,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (append '(a b c) '())\nQue sera lo que retornara?\na. ((a b c))\nb. (a b c)\nc. (a b c ())\nd. ((a b c) ())\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1119,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cdr '(a b))\nQue sera lo que retornara?\na. a\nb. b\nc. (a)\nd. (b)\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1120,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cdr '(b))\nQue sera lo que retornara?\na. b\nb. (b)\nc. ()\nd. Dara error\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1121,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cdr '(a . b))\nQue sera lo que retornara?\na. b\nb. (b)\nc. ()\nd. Dara error\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1122,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons 'a '(b))\nQue sera lo que retornara?\na. (a b)\nb. (a (b))\nc. (a . b)\nd. (a . (b))\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1123,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons 'a 'b)\nQue sera lo que retornara?\na. (a b)\nb. (a (b))\nc. (a . b)\nd. (a . (b))\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1124,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    ('(a b . ()))\nQue sera lo que retornara?\na. (a b)\nb. (a (b))\nc. (a . b)\nd. (a . (b))\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1125,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (let\n        ((a 3))\n        (* (+ a a) (+ a a))\n    )\nCual seria el resultado que entregara?\na. 3\nb. 9\nc. 36\nd. 81\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1126,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (let\n        ((- +))\n        (- 1 1)\n    )\nCual seria el resultado que entregara?\na. 2\nb. 0\nc. 1\nd. Dara error, puesto que no podemos asignar este tipo de operaciones a otras\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1127,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    (let ((x 1) (y 2)) (+ x y)) ; Funcion1\n    ((lambda (x y) (+ x y)) 1 2) ; Funcion2\nEn relacion con estos, hemos de decir que:\n    I. Ambos arrojaran el mismo resultado\n    II. El comando eqv? retornara #f si usamos de argumentos ambas funciones\n    III. Se puede decir que Funcion1 posee variables, mientras que la Funcion2 no\na. Solo I\nb. I y II\nc. I y III\nd. Todas las anteriores\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1128,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    ((lambda x (list x)) 1 2 3) ; Funcion1\n    ((lambda (x y) (list x y)) 1 2 3) ; Funcion2 \nCual de los siguientes retornos es el correcto?\na. ((1 2 3)) | Error\nb. ((1 2 3)) | ((1 2 3))\nc. Error | '((1 2 3))\nd. Error | Error\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1129,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    (\n    let (\n            (duplicador (lambda (x) (* 2 x)))\n        )\n    (list   (duplicador 2)\n            (duplicador 3)\n            (duplicador 4))\n    )\nQue sera lo que retornara este let?\na. Error, puesto que el list esta llamando fuera del contexto del let\nb. Retornara la lista '(4 6 8), puesto que se llaman individualmente y se unen en una lista\nc. Retornara las listas '(4), '(6) y '(8), puesto que list crea una lista para cada resultado\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1130,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes codigos en Scheme:\n    ((lambda (x y) (list x y)) 1 2 3) ; lambda1\n    ((lambda (x . y) (list x y)) 1 2 3) ;lambda2\nQue se puede decir sobre ambas funciones lambda?\na. Ninguna funcionara puesto que recibe 3 parametros cuando se piden 2.\nb. Ambas retornaran la misma lista si se les entregara la cantidad de parametros correctos\nc. Solo lambda2 es capaz de devolver un resultado, ya que lambda1 da error\nd. Solo lambda1 es capaz de devolver un resultado, ya que lambda2 da error\n\n",
+            "respuesta": "c",
+            "explicacion": " Note que al ser impropia los parametros en lambda2, considera x como el primer elemento recibido e y como todos los demas, uniendolos en una lista",
+            "referencia": "Original",
+            "id": 1131,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes codigos en Scheme:\n    ((lambda (x y) (list x y)) 1 2) ; lambda1\n    ((lambda (x . y) (list x y)) 1 2) ; lambda2\n    ((lambda x (list x)) 1 2) ;  lambda3\nCuales seran los resultados de las funciones lambda? Considere el orden lambda1 / lambda2 / lambda3\na. (1 2) / (1 (2)) / ((1 2))\nb. ((1) (2)) / (1 2) / ((1) (2))\nc. (1 2) / (1 2) / ((1) (2))\nd. (1 2) / (1 (2)) / (1 2)\ne. ((1) (2)) / (1 (2)) / ((1 2))\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1132,
+            "intAnswers": 5
+        },
+        {
+            "pregunta": "\n\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    (define (length ls)\n            (if (null? ls)\n                0\n                (+ 1 (length (cdr ls)))\n            )\n    )\nCual de las siguientes comandos son validos para el codigo (o sea, que no retornaran error)?\n    I. (length '())\n    II. (length '(1 2))\n    III. (length '(1 . 2))\na. Solo I\nb. Solo II\nc. I y II\nd. II y III \n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1133,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define lista '(a b c d e))\nCual de estas operaciones hara un cambio a la asignacion de lista?\n    I. (assign lista '(a b))\n    II. (cdr lista)\n    III. (set! lista)\na. Solo I\nb. Solo II\nc. I y III\nd. Solo III\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1134,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (+ x x) ;Linea1\n    (define x 10) ;Linea2\n    (+ x x) ;Linea3\nQue se puede deducir sobre este codigo?\n    I. Habra un error en la Linea1, al no definirse x previamente\n    II. Si cambiamos Linea1 y Linea2, el resultado que nos dara la suma en la linea3 sera 30, mas no quedara asignado\n    III. Si cambiamos Linea1 y Linea2, el x quedara asignado como 30.\na. Solo I\nb. I y II\nc. I y III\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1135,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define duplicador_2 (lambda (x) (duplicador x))) ;Linea1\n    (duplicador_2 2) ;Linea2\n    (define duplicador (lambda (x) (* 2 x))) ;Linea3\nQue se puede deducir sobre este codigo?\n    I. Habra un error en la linea1 ya que duplicador no esta definido\n    II. Para que el codigo funcione, la Linea2 ha de estar antes de la Linea1\n    III. Como duplicador esta dentro de duplicador2, solo se puede llamar si se llama a duplicador2\na. Solo I\nb. I y II\nc. I y III\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1136,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (let ((x 1) (y 2));\n        (let ((x y) (y x));\n            (list x y)\n        )\n    )\nEl valor que retornara este let sera;\na. (1 2)\nb. (1 1)\nc. (2 2)\nd. (2 1)\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1137,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (let ((x 1) (y 2));\n        (let* ((x y) (y x));\n            (list x y)\n        )\n    )\nEl valor que retornara este let sera;\na. (1 2)\nb. (1 1)\nc. (2 2)\nd. (2 1)\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1138,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (let ((suma (lambda (ls)\n                    (if (null? ls)\n                    0\n                    (+ (car ls) (suma (cdr ls)))\n                    )\n                )\n            ))\n        (suma '(1 2 3 4 5 6))\n    )\nQue es cierto sobre este programa?\na. Se recibe una lista y se suma todos los numeros en orden. Retorna el numero\nb. El programa se cae si recibe una lista vacia\nc. El codigo no funciona debido a que suma no esta definido para el procedimiento\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "c",
+            "explicacion": " El problema es que let no deja que suma se defina previo  a la definicion del lambda",
+            "referencia": "Original",
+            "id": 1139,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (letrec ((suma (lambda (ls)\n                    (if (null? ls)\n                    0\n                    (+ (car ls) (suma (cdr ls)))\n                    )\n                )\n            ))\n        (suma '(1 2 3 4 5 6))\n    )\nQue es cierto sobre este programa?\na. Se recibe una lista y se suma todos los numeros en orden. Retorna el numero\nb. El programa se cae si recibe una lista vacia\nc. El codigo no funciona debido a que suma no esta definido para el procedimiento\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "a",
+            "explicacion": " Letrec si permite que suma se refiera a si misma dentro de la definicion",
+            "referencia": "Original",
+            "id": 1140,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (letrec ((y (+ x 2)) \n            (x 1)\n            )\n    y)\nQue es cierto sobre este programa?\na. El programa retorna la suma de y + 2\nb. El programa utiliza variables que han de ser evaluadas de izquierda a derecha, ya que importa el orden de evaluacion\nc. El programa no funciona, debido a que y no esta definido previamente\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1141,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (letrec ((f (lambda () (+ x 2)));\n            (x 1)\n            )\n    (f)\n    )\nQue es cierto sobre este programa?\na. El programa retorna la suma de x + 2\nb. El programa no devuelve nada puesto que no se llama a nada.\nc. El programa no funciona, debido a que x no esta definido previamente\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1142,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (eq? '(a b c) '(a b c . ())) ; Retorno1\n    (eqv? '(a b c) '(a b c . ())) ; retorno2\n    (equal? '(a b c) '(a b c . ())) ; Retorno3\nQue sera lo que retornara cada funcion? Considere el orden retorno1, retorno2 y retorno3\na. #t #f #t\nb. #f #f #t\nc. #t #t #f\nd. #t #t #t\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1143,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (apply + '(5 -1 3 5)) ;Linea1\n    (+ 5 -1 3 5) ;Linea2\nCual de los siguientes procedimientos devolvera #t al tener de argumentos linea1 y linea2?\n    I. (eq? (+ 5 -1 3 5) (apply + '(5 -1 3 5)))\n    II. (eqv? (+ 5 -1 3 5) (apply + '(5 -1 3 5)))\n    III. (equal? (+ 5 -1 3 5) (apply + '(5 -1 3 5)))\na. I y II\nb. I y III\nc. Todas las anteriores\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1144,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (map (lambda (x y z) (+ y x z))\n        '(1 2 -1)\n        '(0 2 -1)\n        '(0 2 -1)\n    )\nCual sera el resultado que va a entregar?\na. (2 1 1)\nb. (1 6 -3)\nc. (1 1 1)\nd. (2 3 4)\n\n",
+            "respuesta": "b",
+            "explicacion": " Notar que pese a que este escrito con enter, las listas son (1 2 -1) (0 2 -1) y (0 2 -1), el map evaluara por indice, o sea, x,y,z = 1,0,0 / 2,2,2 / -1,-1,-1 para cada caso",
+            "referencia": "Original",
+            "id": 1145,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define (plus1 n)\n            (delay (+ 1 n) ))\n\n    (define prom1 (plus1 1))\n    (define prom2 (plus1 -1))\nQue se vera en pantalla cuando se llame:\n    (display prom1)\n    (display prom2)\na. 2 0\nb. 2 1\nc. #<promise:plus1>\nd. #<promise:plus1>#<promise:plus1>\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1146,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define (plus1 n)\n            (delay (+ 1 n) ))\n\n    (define prom1 (plus1 1))\n    (define prom2 (plus1 -1))\nQue se vera en pantalla cuando se llame:\n    (force prom1)\n    (force prom2)\na. 2 0\nb. 2 1\nc. #<promise:plus1>\nd. #<promise:plus1>#<promise:plus1>\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1147,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n\n\nCon respecto a pair?, se puede decir que...\na. Recibe una lista y devuelve #t si esta contiene un numero par de elementos contenidos en ella\nb. (pair? (cons 1 2)) dara #f ya que no se le especifico con que elemento termina la lista\nc. Como las listas estan hechas de pares, entregarle argumentos como '(a b c) y '() dara #t, ya que son listas y por tanto, contienen pares\nd. pair? no es equivalente a list? debido a que hay casos donde algo es una lista pero no es par\n\n",
+            "respuesta": "d",
+            "explicacion": " Considera que (pair? '()) dara #f, mientras que (list '()) dara #t",
+            "referencia": "Original",
+            "id": 1148,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\nCon respecto al siguiente codigo en Scheme:\n    (cdr '(a b)) ; Linea1\n    (cdr '(b)) ; Linea2\n    (cdr '(a . b)) ; Linea3\nQue sera lo que se imprimira cuando se ande el codigo? Cosnidere el orden Linea1 / Linea2 / Linea3\na. (b) -|- b -|- ()\nb. (b) -|- () -|- b\nc. (b) -|- (b) -|- b\nd. (b) -|- () -|- (b)\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1149,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\nSi consideramos las siguientes lineas de codigo en Scheme:\n    (define lista '(1 2 3)) ; Linea1\n    (append lista '(4 5)) ; Linea2\n    (display lista) ; Linea3\nQue ocurre en la ejecucion del codigo?\na. Ocurre un error en la linea2, puesto que append no puede modificar un define\nb. La linea3 mostrara por pantalla (1 2 3 4 5)\nc. La linea3 mostrara por pantalla (1 2 3)\nd. Ocurre un error en la linea2, puesto que necesita tener un set! para funcionar\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1150,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2021-2] - Mart\u00c3\u00ad Q4P4",
+            "pregunta": "\n\u00c2\u00bfQu\u00c3\u00a9 tipos de recursi\u00c3\u00b3n se tiene en el siguiente c\u00c3\u00b3digo?:\n    (define maximo\n                                                                            \na. Recursi\u00c3\u00b3n directa, de \u00c3\u00a1rbol, no de cola.\nb. Recursi\u00c3\u00b3n no directa, lineal, no de cola.\nc. Recursi\u00c3\u00b3n directa, lineal, de cola.\nd. Recursi\u00c3\u00b3n no directa, de \u00c3\u00a1rbol, de cola.\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1151,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2021-2] - Mart\u00c3\u00ad Q4P6",
+            "pregunta": "\nEn relaci\u00c3\u00b3n a las listas en Scheme es falso que:\n\na. Las funciones first y rest se utilizan para obtener el primer elemento y una lista con el resto de los elementos\nrespectivamente.\nb. Las listas pueden contener elementos de cualquier tipo.\nc. Una funci\u00c3\u00b3n se escribe como una lista, donde el primer elemento es la funci\u00c3\u00b3n y los\nsiguientes los par\u00c3\u00a1metros.\nd. Para que una lista sea evaluada, necesariamente, se debe considerar el uso de las funciones map o eval.\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1152,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2021-2] - Mart\u00c3\u00ad Q4P15",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes funciones siempre usar\u00c3\u00a1 la cantidad m\u00c3\u00adnima de memoria en el stack?:\n\na. (define factorizacion\n                                                                            \nb. (define remove\n                                                    \nc.(define fibonacci\n                                0\n                                            a1\n                \nd. Todas las alternativas.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1153,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P1",
+            "pregunta": "\n\nDado el siguiente c\u00c3\u00b3digo, indique cu\u00c3\u00a1l es la salida:\n                        #f)))\na. hola\nb. chao\nc. #F\nd. Ninguna de las anteriores.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1154,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P3",
+            "pregunta": "\nDada la siguiente ecuaci\u00c3\u00b3n matem\u00c3\u00a1tica, cu\u00c3\u00a1l ser\u00c3\u00ada el c\u00c3\u00b3digo correcto para realizar el c\u00c3\u00a1lculo?\n    (4 + (5 * ((6/2)-5))) - 2\n\na. b. c. d. e. Ninguna de las anteriores.\n",
+            "respuesta": "e",
+            "explicacion": "No explicacion entregada",
+            "id": 1155,
+            "intAnswers": 5
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P4",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                                            \na. b. c. d. e. Ninguna de las anteriores.\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1156,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P5",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                                                                                        x)\n                \na. b. a \nc. d. e. Ninguna de las anteriores.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1157,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P6",
+            "pregunta": "\n6. \u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n    (define neg-relu \n                                    0\n                x)))\n    \na. b. c. d. e. Ninguna de las anteriores.\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1158,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P7",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n    (define funcion \n                    (cond [(not (number? n)) \"no es numero\"]\n                [(= n 0) \"infinito]\n                [#t    \na. b. 2/3\nc. d. e. Ninguna de las anteriores.\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1159,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P8",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                        1\n                \na. 5\nb. 15\nc. 16\nd. 30\ne. Ninguna de los anteriores.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1160,
+            "intAnswers": 5
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P9",
+            "pregunta": "\nLa siguiente expresi\u00c3\u00b3n:\n                                            variable\n                                \na. Retorna 15 y es recursi\u00c3\u00b3n simple.\nb. Retorna 15 y es recursi\u00c3\u00b3n de cola.\nc. Retorna 5 y es recursi\u00c3\u00b3n simple.\nd. Retorna 15 y es recursi\u00c3\u00b3n de cola.\ne. Ninguna de los anteriores.\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1161,
+            "intAnswers": 5
+        },
+        {
+            "referencia": "[2022-1] - Salas Q4P10",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                \na. 0\nb. 1\nc. 2\nd. tic\ne. f. Ninguna de las anteriores.\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1162,
+            "intAnswers": 6
+        },
+        {
+            "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P1",
+            "pregunta": "\n\n\nUna de las siguientes frases sobre la Programaci\u00c3\u00b3n Funcional y/o Scheme no es cierta:\na. La programaci\u00c3\u00b3n funcional pura no usa variables ni asignaci\u00c3\u00b3n.\nb. En la programaci\u00c3\u00b3n funcional, la evaluaci\u00c3\u00b3n de las funciones est\u00c3\u00a1 controlada por secuencias e iteraciones.\nc. En Scheme, las funciones son entidades de primera clase.\nd. Scheme tiene recolecci\u00c3\u00b3n autom\u00c3\u00a1tica de basura.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1163,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P2",
+            "pregunta": "\n\u00c2\u00bfCual de las siguientes expresiones lambda no entrega el resultado asociado?\na. ((lambda (x y z) (+ x y z)) 3 4 5) --> resultado: 12\nb. c. d. ",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1164,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P3",
+            "pregunta": "\n\u00c2\u00bfQu\u00c3\u00a9 tipos de recursi\u00c3\u00b3n se tiene en el siguiente c\u00c3\u00b3digo?\n    (define maximo\n                                                                            \na. Recursi\u00c3\u00b3n directa, de \u00c3\u00a1rbol, no de cola.\nb. Recursi\u00c3\u00b3n directa, lineal, de cola.\nc. Recursi\u00c3\u00b3n no directa, lineal, no de cola.\nd. Recursi\u00c3\u00b3n no directa, de \u00c3\u00a1rbol, de cola.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1165,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P4",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es la salida que entrega la ejecuci\u00c3\u00b3n de los siguientes c\u00c3\u00b3digos?\n                        \n                        \na. b. c. d. ",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1166,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P5",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes funciones usar\u00c3\u00a1 la menor cantidad de memoria en el stack?\n\na.                         \nb.                         a\n            \nc.                                     \nd. Todas usan la misma cantidad de memoria.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1167,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - D\u00c3\u00adaz Q4P16",
+            "pregunta": "\n\nEn relaci\u00c3\u00b3n a lo visto sobre predicados en Scheme, se puede afirmar que:\n\na. Scheme no soporta expresiones relacionales como =, < y >.\nb. el operador null? elimina todos los elementos de una lista.\nc. Scheme soporta los operadores l\u00c3\u00b3gicos or, and y not.\nd. number? verifica si un n\u00c3\u00bamero es flotante.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1168,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - D\u00c3\u00adaz Q4P17",
+            "pregunta": "\nRespecto a recursi\u00c3\u00b3n de cola, es incorrecto decir que:\n\na. Es un tipo de recursi\u00c3\u00b3n directa.\nb. Debe necesariamente existir m\u00c3\u00a1s de una invocaci\u00c3\u00b3n recursiva para ser llamada recursi\u00c3\u00b3n en cola.\nc. Corresponde a una recursi\u00c3\u00b3n de cola cuando el llamado del procedimiento aparece al final de la expresi\u00c3\u00b3n lambda.\nd. Se puede hacer un n\u00c3\u00bamero indefinido de llamadas de cola sin provocar overflow.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1169,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Carmona Q4P11",
+            "pregunta": "\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado del siguiente programa?\n                                    )\n    )\n\na. 5\nb. 6\nc. 7\nd. Error en tiempo de ejecuci\u00c3\u00b3n.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1170,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Carmona Q4P12",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1les de los siguientes principios no corresponde a la Programaci\u00c3\u00b3n Funcional?\n\na. Se debe asegurar la transparencia referencial.\nb. Las funciones son elementos de primer orden en el lenguaje.\nc. Las funciones pueden ser puras.\nd. Programar considerando objetos inmutables.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1171,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Carmona Q4P13",
+            "pregunta": "\nEl siguiente c\u00c3\u00b3digo corresponde a un lenguaje desconocido. \u00c2\u00bfQu\u00c3\u00a9 l\u00c3\u00adnea le indica que no es funcional y por qu\u00c3\u00a9?\n\n    d =\n        [x, y] =>\n            {x - y}\n    \n    f =\n        [x, y] =>\n            {x + y}\n    \n    f\na. La l\u00c3\u00adnea 3 y 6, porque no usa la notaci\u00c3\u00b3n prefija.\nb. La l\u00c3\u00adnea 1 y 4, porque tiene asignaciones directas con el s\u00c3\u00admbolo =\nc. La l\u00c3\u00adnea 8, porque las funciones no son puras.\nd. Ninguna l\u00c3\u00adnea puede indicar que el paradigma no es funcional.\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1172,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Carmona Q4P14",
+            "pregunta": "\nEn relaci\u00c3\u00b3n a las listas de Scheme es falso que:\n\na. Las listas contemplan elementos de cualquier tipo.\nb. Una funci\u00c3\u00b3n se escribe como una lista donde el primer elemento es la funci\u00c3\u00b3n y los siguientes los par\u00c3\u00a1metros.\nc. Para que una lista sea evaluada se le antecede con una citaci\u00c3\u00b3n simple.\nd. Las funciones first y rest se utilizan para obtener el primer elemento y una lista con el resto de los elementos respectivamente.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1173,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P11",
+            "pregunta": "\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de evaluar las siguientes dos expresiones?\n        \na. b. c. d. 1\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1174,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P12",
+            "pregunta": "\nAl intentar ejecutar las siguientes dos expresiones:\n        Se obtiene:\n\na. El mismo valor para ambas.\nb. Solo se puede ejecutar la expresi\u00c3\u00b3n apply.\nc. Solo se puede ejecutar la expresi\u00c3\u00b3n min.\nd. Ninguna se puede ejecutar.\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1175,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P13",
+            "pregunta": "\nLa ejecuci\u00c3\u00b3n de la siguiente expresi\u00c3\u00b3n:\n            '        'entrega como resultado:\n\na. b. c. Un error, dado que solo puede tener sublistas de largo 2 para ligar a x e y.\nd. Un error, dado que no es posible mapear una expresi\u00c3\u00b3n lambda a un c\u00c3\u00b3digo.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1176,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P14",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes expresiones no entregar\u00c3\u00a1 una lista vac\u00c3\u00ada en su ejecuci\u00c3\u00b3n?\n\na. b. c. d. ",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1177,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P15",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el objetivo de la evaluaci\u00c3\u00b3n perezosa?\n\na. Potenciar la recursi\u00c3\u00b3n de cola.\nb. Poner un l\u00c3\u00admite al espacio de memoria en stack a utilizar.\nc. Poner un l\u00c3\u00admite al espacio de memoria en heap a utilizar.\nd. Ahorrar computaci\u00c3\u00b3n.\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1178,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - D\u00c3\u00adaz Q4P11",
+            "pregunta": "\n\nEn relaci\u00c3\u00b3n a las listas en Scheme es falso que:\n\na. Las listas contemplan elementos de cualquier tipo.\nb. Una funci\u00c3\u00b3n se escribe como una lista donde el primer elemento es la funci\u00c3\u00b3n y los siguientes los par\u00c3\u00a1metros.\nc. Para que una lista sea evaluada se le antecede con una citaci\u00c3\u00b3n simple.\nd. Las funciones car y cdr se utilizan para obtener el primer elemento y una lista sin el primer elemento respectivamente.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1179,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P12",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de evaluar la siguiente expresi\u00c3\u00b3n en Scheme?\n    \na. b. c. d. ",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1180,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P13",
+            "pregunta": "\nSobre recursi\u00c3\u00b3n en Scheme es falso que:\n\na. Un procedimiento recursivo es aquel que se llama a s\u00c3\u00ad mismo.\nb. Recursi\u00c3\u00b3n de cola es cuando un procedimiento hace un llamado de cola hacia s\u00c3\u00ad mismo.\nc. Se puede hacer un n\u00c3\u00bamero indefinido de llamados de recursi\u00c3\u00b3n de cola sin causar overflow del stack.\nd. Una funci\u00c3\u00b3n no puede poseer recursi\u00c3\u00b3n de cola a la vez que otro tipo.\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1181,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P14",
+            "pregunta": "\nScheme no es un lenguaje funcional puro. Esto se debe a que:\n\na. Permite la definici\u00c3\u00b3n y asignaci\u00c3\u00b3n de variables por medio de let y define.\nb. Es posible programar con efectos laterales al asignar valores a variables con set!\nc. Las funciones son entidades de primera clase y se tratan como cualquier valor.\nd. A diferencia de LISP, los nombres tienen \u00c3\u00a1mbito est\u00c3\u00a1tico.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1182,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P15",
+            "pregunta": "\nConsidere la funci\u00c3\u00b3n combinatoria definida a continuaci\u00c3\u00b3n:\n            (cond [(or (= n k) (= k 0)) 1]\n            [else                             )]))\n\nSobre esta funci\u00c3\u00b3n es correcto decir que:\n\na. Es recursiva lineal y los llamados no son de cola.\nb. Al menos uno de los llamados recursivos no es de cola.\nc. Ambos llamados recursivos son de cola.\nd. Sin contar llamadas a otras funciones, hace uso de una sola instancia de registro de activaci\u00c3\u00b3n.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1183,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P11",
+            "pregunta": "\n\nDada la siguiente expresi\u00c3\u00b3n: (define e '((a 1) (b 2) (c 3))), y la consulta (assq 'b e), \u00c2\u00bfCu\u00c3\u00a1l es el resultado correcto?\n\na. true\nb. c. d. Ninguna de las anteriores.\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1184,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P12",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de ejecutar: (apply min 5 1 3 (5 -1 3 5))?\n\na. Hay un error en la expresi\u00c3\u00b3n.\nb. true\nc. -1\nd. Ninguna de las anteriores.\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1185,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P13",
+            "pregunta": "\n\u00c2\u00bfPor qu\u00c3\u00a9 no se puede ejecutar el siguiente c\u00c3\u00b3digo?\n            '\na. Porque la expresi\u00c3\u00b3n lambda no tiene nombre (debi\u00c3\u00b3 estar dentro de un let).\nb. Porque se requieren dos listas de igual longitud, una para ligar valores a x y otra para y.\nc. Porque estar dentro de un define y der ejecutada en una expresi\u00c3\u00b3n aparte (con let, probablemente).\nd. Todas las anteriores.\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1186,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P14",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de ejecutar: (filter odd? '(1 2 3 4 5 6))?\n\na. Error.\nb. No existe odd? en Scheme.\nc. 1 3 5\nd. ",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1187,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P15",
+            "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de evaluar la siguiente expresi\u00c3\u00b3n en Scheme?\n    \na. b. c. d. ",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1188,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2024-2] - Jose Luis Marti. Q4P11",
+            "pregunta": "\n\nEn la programacion funcional pura, valga la redundancia, las funciones deben ser puras, es decir:\na. Deben hacer uso de la recursion, en cualquiera de sus tipos.\nb. Tienen que considerar una composicion de dos o mas funciones.\nc. Siempre deben devolver las mismas salidas para las mismas entradas y no tener efectos secundarios\nd. Deben considerar objetos inmutables, es decir, objetos que no cambian de estado.\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1189,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2024-2] - Jose Luis Marti. Q4P12",
+            "pregunta": "\nCual de las siguientes consultas en Scheme fallara?\na. b. c. d. Ninguna\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1190,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2024-2] - Jose Luis Marti. Q4P13",
+            "pregunta": "\nCual de los siguientes operadores de Scheme se acerca a la logica de un lenguaje imperativo?\na. let*\nb. aplly\nc. map\nd. assoc\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1191,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "define a (lambda (x) (b x))",
+            "pregunta": "\nCual es el resultado de la ejecucion del siguiente codigo?\n\na. 4\nb. 8\nc. 16\nd. Error\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1192,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n([2024-2] - Jose Luis Marti. Q4P15) \nCual de las siguientes definiciones es incorrecta?\na. El operador let se recomeienda cuando no importa el orden de evaluacion de las operaciones, o sea, no hay dependencia\nb. El operador let* se recomienda cuando hay una dependiencia lineal entre los valores de las operaciones asociadas\nc. El operador letrec se recomienda cuando hay una dependencia circular entre las operaciones\nd. Ninguna de las anteriores\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1193,
+            "intAnswers": 4
+        }
+    ]
+}

@@ -1,16 +1,14 @@
 import json
-import os
 
 count = 1
 
 ## Have the number in a txt format:
-print("Current working directory:", os.getcwd())
 file = open("public/jsonFiles/idCount.txt",'r')
 idCount = int(file.read())
 file.close()
 
 while count < 6:
-    stringJson = "public/jsonFiles/quiz{}.json".format(count)
+    stringJson = "src/jsonFiles/quiz{}.json".format(count)
 
     with open(stringJson, 'r') as file:
         list = json.load(file)

@@ -1,0 +1,620 @@
+{
+    "vf": [
+        {
+            "pregunta": "Tipos de datos son: \n Primitivos, estructurados, definidos por usuario y abstractos ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 81
+        },
+        {
+            "pregunta": "Tipos de datos son: \n Primitivos, estructurados, definidios por usuario y lambda ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 82
+        },
+        {
+            "pregunta": "Sobre el dato de tipo Primitivo, se consideran enteros, punto flotante, y caracteres ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 83
+        },
+        {
+            "pregunta": "Sobre el dato de tipo Primitivo, se consideran enteros, punto flotante, y string ",
+            "respuesta": "F",
+            "explicacion": " String no es primitivo",
+            "referencia": "Original",
+            "id": 84
+        },
+        {
+            "pregunta": "Sobre el dato de tipo Primitivo, se consideran reales, punto flotante, y caracter ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 85
+        },
+        {
+            "pregunta": "Sobre el dato de tipo Estructurado, se consideran arreglos y registros ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 86
+        },
+        {
+            "pregunta": "Sobre el dato de tipo Estructurado, se consideran listas y registros ",
+            "respuesta": "F",
+            "explicacion": " La lista no es estructurado, se considera \"coleccion\"",
+            "referencia": "Original",
+            "id": 87
+        },
+        {
+            "pregunta": "Sobre el dato de tipo Estructurado, string no se considera ",
+            "respuesta": "F",
+            "explicacion": " Se entiende un string como un array de caracteres",
+            "referencia": "Original",
+            "id": 88
+        },
+        {
+            "pregunta": "El tipo Ordinal de dato incluye aquellos como entero, caracter, booleanos, enumerados y/o subrango ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 89
+        },
+        {
+            "pregunta": "El tipo Ordinal de dato incluye aquellos como entero, string, booleanos, enumerado y/o subrango ",
+            "respuesta": "F",
+            "explicacion": " String no cuenta",
+            "referencia": "Original",
+            "id": 90
+        },
+        {
+            "pregunta": "El tipo Ordinal de dato no incluye los enumerados y subrangos ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 91
+        },
+        {
+            "pregunta": "En C y Java, existen diferente tipos de enteros tales como signed o long ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 92
+        },
+        {
+            "pregunta": "En C y Java, existen diferente tipos de enteros tales como float y double ",
+            "respuesta": "F",
+            "explicacion": " No son enteros, son representaciones de punto flotante",
+            "referencia": "Original",
+            "id": 93
+        },
+        {
+            "pregunta": "En C y Java, existen diferente tipos de punto flotante, tales como float y double ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 94
+        },
+        {
+            "pregunta": "Existen varias representaciones de numeros enteros. Comunes son el C-1 y C-2 ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 95
+        },
+        {
+            "pregunta": "Los numeros complejos son representados como punto flotante en lenguajes como Python o Prolog ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 96
+        },
+        {
+            "pregunta": "Los numeros complejos son representados como punto flotante en lenguajes como Python o Scheme ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 97
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P1) Un tipo de datos define el conjunto de valores de datos y de operaciones predefinidas sobre los objetos de datos ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 98
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P2) Un conjunto es un tipo de datos definido por el usuario ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 99
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P3) Se llama coercion a la conversion automatica de tipos ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 100
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P4) En una tipificacion estatica, los tipos solo pueden ser determinados explicitamente (declarados). ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 101
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P5) En una tipificacion implicita, los tipos de datos no se declaran, y se pueden inferir a traves de reglas tal como nombre de variables a usar ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 102
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P6) Un arreglo es una coleccion ordenada de datos, mientras que los arreglos asociativos no lo son ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 103
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P7) La tecnica por expansion convierte un objeto a un tipo que no puede incluir todos los valores del tipo original ",
+            "respuesta": "F",
+            "explicacion": " Esto es estrechamiento",
+            "id": 104
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P8) Tanto una expresion relacional como una booleana entregan un resultado booleano, cuando el lenguaje de programacion tiene este tipo de datos ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 105
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P9) En el paso de parametros por valor-resultado, el valor de la variable se copia al heap al momento de la invocacion y desde esta la variable al retornar ",
+            "respuesta": "F",
+            "explicacion": " No hay uso del Heap",
+            "id": 106
+        },
+        {
+            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P10) En Java, todos los objetos son asignados desde el heap y accedidos mediante variables de referencia ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 107
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P4) El ambito de una variable corresponde al tiempo de vida de una variable desde el momento que se realiza el ligado hasta el momento que se destruye o termina la variable ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 108
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P5) Las variables dinamicas de la memoria Heap pueden ser asignadas y liberadas en forma explicita por el programador, lo que se realiza usando un operador del lenguaje o una llamada del sistema ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 109
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P6) La lapida sepulcral es un mecanismo para gestionar los punteros de la memoria Heap con el fin de evitar punteros a memoria que fue ya liberada. El acceso se realiza indirectamente a traves de una lapida y si un objeto es liberado, la lapida permanece.",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 110
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P7) En el codigo ASCII de 1Byte, la letra \"A\" tiene el valor entero de 65 y la letra \"a\" tiene el valor entero \"97\". Por lo cual, el resultado de la comparacion \"F\">\"f\" es ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 111
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P8) Un nombre puede ser asociado con diferentes direcciones de memoria en ambitos y tiempos de ejecucuion diferentes. Ejemplos de tipos de datos con estas caracteristicas son las uniones y los punteros en C y C++ ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 112
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P9) El l-value indica el contenido de la variable en memoria, mientras que el r-value indica donde esta localizada la variable ",
+            "respuesta": "F",
+            "explicacion": " Es al revez, l-value indica localizacion y r-value el contenido",
+            "id": 113
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P10) Antes de usar una variable, se debe realizar una asociacion a un tipo de dato, proceso que se conoce como ligado de tipo ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 114
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P11) En la tipificacion estatica, el chequeo de tipo se realiza en tiempo de compilacion y se aplica solo si todos los tipos son ligados estaticamente ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 115
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P12) Los contadores de referencias son un mecanismo de recoleccion de basura que consiste en marcar todos los objetos de memoria que no estan siendo utilizados y luego se libera la memoria asignada ",
+            "respuesta": "F",
+            "explicacion": " Toma conteo solo de los punteros, no los objetos en si",
+            "id": 116
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P13) El puntero es un tipo de dato estructurado que direcciona un espacio de memoria ",
+            "respuesta": "F",
+            "explicacion": " No es un tipo de dato estructurado",
+            "id": 117
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P14) El ligado se puede realizar de forma estatica o dinamica, dependiendo si se realiza en tiempo de compilacion (linking) o en tiempo de ejecucion (runtime), respectivamente. ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 118
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P15) Las variables son una abstraccion de un objeto de memoria que tienen los siguientes atributos: Nombre, Direccion, Valor, Tipo, Tiempo de Vida y Ambito ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 119
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P16) Una mala gestion de memoria podria generar una perdida de acceso a un objeto de memoria asignado en el heap, o podria generar punteros que apuntan a una localizacion de memoria del heap que ha sido liberada. Estos problemas se conocen como Basura y Danglin, respectivamente ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 120
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P17) Acorde a la taxonomia de los tipos de datos, los tipos de datos ordinal pueden ser primitivos o definidos por el usuario. Los tipos de datos primitivos corresponden a los numericos, booleanos y caracter; mientras que los definidos por el usuario estan el subrango y el enumerado ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 121
+        },
+        {
+            "pregunta": "([2022-1] - Salas Q2P18) La memoria se clasifica en: Memoria Estatica, Memoria de Stack y Memoria de Heap. En las memorias estaticas y de Stack el ligado es estatico, mientras que en la memoria heap el ligado es dinamico ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 122
+        },
+        {
+            "pregunta": "([2022-1] - Diaz Q2P1) La tipificacion fuerte ocurre cuando se determina el tipo de todas las variables antes de la ejecucion, y luego permanece fijo ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 123
+        },
+        {
+            "pregunta": "([2022-1] - Diaz Q2P2) En python, los enteros y strings son pasados por paso valor. ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 124
+        },
+        {
+            "pregunta": "([2022-1] - Diaz Q2P3) Las colas, stacks y diccionarios corresponden a tipos de datos de la categoria colecciones ordenadas ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 125
+        },
+        {
+            "pregunta": "([2022-1] - Diaz Q2P4) La definicion de trasparencia referencial es: \"dos tipos de datos son equivalentes si el operando de un tipo en una expresion puede ser sustituido por otro de manera explicita ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 126
+        },
+        {
+            "pregunta": "([2022-1] - Diaz Q2P5) El for en C es un eje,plo de bucles controlados por condicion ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 127
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P1) Un sistema de tipos de datos permite verificar el uso correcto del lenguaje y detectar errores de tipos solo en lenguajes compilados ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 128
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P2) La coercion, definida por el programador, ayuda a tener operaciones con operandos de tipos compatibles ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 129
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P3) En la equivalencia de tipo nominal, los tipos pueden tener nombres distintos pero una estructura identica ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 130
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P4) La tipificacion de datos estatica permite el interprete asignar memoria y generar codigo optimizado ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 131
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P5) Segun el estandar IEEE 754, la representacion de un numero flotante considera tres partes: signo, parte entera y parte decimal de 23 o 52 bits, segun corresponde a su precision ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 132
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P6) Los tipos subrango se implementan en base al tipo entero ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 133
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P7) En las dos modalidades de arreglos dinamicos de stack, la memoria del arreglo es ligada de forma dinamica ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 134
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P8) El tipo referencia es un tipo de variable que realiza desreferenciacion implicita en la asignacion, por lo que su uso es mas seguro ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 135
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P9) El problema de dangling se presenta cuando un puntero apunta a una localizacion de memoria del heal que ha sido liberada ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 136
+        },
+        {
+            "pregunta": "([2024-2] - Jose Luis Marti. Q2P10) Si solo se hace referencia a variables locales, no hay presencia de efectos laterales en las expresiones de control ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 137
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P5 MOD) Si las patentes vehiculares en chilse se pueden describir por la expresion regular \\^[A-Z]{2}\\.\\d{2}\\.\\{2}$/, para anteponer un digito obligatorio se tendria que usar la expresion /^[1-9]*\\ al inicio ",
+            "respuesta": "F",
+            "explicacion": "No explicacion entregada",
+            "id": 138
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P6) En un proceso de compilacion, la tabla de simbolos ayuda a resolver las ambiguedades de los arboles sintaticos ",
+            "respuesta": "F",
+            "explicacion": " Son los parse-tree",
+            "id": 139
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P7) La trasparencia referencial se refiere a que la evaluacion de una funcion siempre produce el mismo resultado ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 140
+        },
+        {
+            "pregunta": "([2021-x]  Jose Luis Marti C1P8) Una de las desventajas de la declaracion implicita de los tipos de datos, es que hace mas lenta la ejecucion debido a la verificacion dinamica de estos ",
+            "respuesta": "V",
+            "explicacion": "No explicacion entregada",
+            "id": 141
+        }
+    ],
+    "alt": [
+        {
+            "pregunta": "\nConsiderando la Taxonomia de tipos de datos, se pueden clasificar segun:\n    I. Estatica o dinamica\n    II. Explicita o implicita\n    III- Primitivos o operadores\n    IV. Fuerte o debil\n    \na. Solo III\nb. Solo I y II\nc. Solo I, II y III\nd. Todas las anteriores.\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1048,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\nEn la conversion de tipos, se pueden presentar diversos errores, siendo uno de ellos:\na. Efecto lateral.\nb. Division por cero.\nc. dangling\nd. Ambiguedad\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "referencia": "Original",
+            "id": 1049,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\nConsiderando la Taxonomia de tipo de datos, cuales de las siguientes son verdad\n    I. Estatica es cuando se declara el tipo de dato de las variables, mientras que dinamico se determina en la ejecucion\n    II. Explicita indica que todo se debe declarar, mientras que implicita no se requiere declaracion\n    III. Tipificacion fuerte es generealmente mas restrictiva, a diferencia de la debil que permite mas flexibilidad\n    IV. Es obligatorio que el sistema sea: Estatico, explicito y fuerte, o dinamico, implicito, y debil.\na. Solo I, II\nb. Solo II y III\nc. Solo I, II, y IV\nd. Todas las anteriores\n\n",
+            "respuesta": "c",
+            "explicacion": " Notar que, no es obligatorio. Generalmente se apoyan",
+            "referencia": "Original",
+            "id": 1050,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P11",
+            "pregunta": "\nEn el lenguaje de programacion C, dado un arreglo A de 10 enteros, \u00c2\u00bfcual(es) de los siguientes expresiones es(son) equivalente(s) para obtener el elemento ubicado en la quinta posicion?\n    I. A[5]\n    II. A[4]\n    III. *    IV.  *a. Solo I\nb. Solo II\nc. Solo I y IV\nd. Solo II y III\n\n",
+            "respuesta": "d",
+            "explicacion": "Ni yo sabia de la III...",
+            "id": 1051,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P12",
+            "pregunta": "\nUn metodo de recoleccion de basura impaciente:\n    I. Acumula basura hasta que se agota la memoria. x\n    II. Us aun contador de referencias\n    III. Se decrementa un contador cuando se pierde una referencia\n    IV. Puede producir tiempos muertos significativos que afectan al funcionamiento del programa\n    \na. Solo I y II\nb. Solo I, II y III\nc. Solo II y III\nd. Solo II, III y IV\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1052,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P13",
+            "pregunta": "\nSe produce dangling cuando una celda en el heap:\na. Tiene referencias y esta marcada correctamente como libre por el administrador de memoria.\nb. Tiene al menos una referencia y esta asignada, es decir, marcada correctamente por el administrador como ocupada\nc. No tiene referencia y no esta marcada como libre, por ende, el administrador no la puede reasignar\nd. Tiene alguna referencia y esta marcada como libre, luego el administrador la podria reasignar\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1053,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P14",
+            "pregunta": "\nCual de los siguientes pares de funciones en C++ son un ejemplo de sobrecargar de funciones?\n\na. {\n    int f(int a, int b){...}\n    int f(int x, int y){...}\n}\nb. {\n    int f(int a, int b){...}\n    int f(int a, int b, int c){...}\n}\nc. {\n    int f(int a, int b){...}\n    int g(int a, int b){...}\n}\nd. {\n    int f(int a, int b){...}\n    int g(int a, int b, int c){...}\n}\n\n",
+            "respuesta": "b",
+            "explicacion": " Recordar que la sobrecarga es funcion con mismo nombre pero recibe distinta cantidad de parametross",
+            "id": 1054,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P15",
+            "pregunta": "\nDado el siguiente codigo en C:\n\n    int x;\n    void f    {\n        a = 2;\n        x++;\n    }\n    void main    {\n        x = 1;\n        f(x);\n        printf(\"%d\",x);\n    }\n    \n\u00c2\u00bfCual sera el resultado del printf() si el parametro hubiera sido pasado por valor-resultado y por referencia, respectivamente?\na. por Valor-resultado; 2, por Referencia; 1.\nb. por Valor-resultado; 3, por Referencia; 3.\nc. por Valor-resultado; 2, por Referencia; 2.\nd. por Valor-resultado; 2, por Referencia; 3.\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1055,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P19",
+            "pregunta": "\n\nLa siguiente definicion...\n    \"Es un tipo estructurado de elementos de datos posiblemente heterogeno, donde cada elemento individual es identificado con un nombre\".\n\nCorresponde a una definicion de:\na. Registro\nb. Enumerado\nc. Diccionario\nd. Array\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1056,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P20",
+            "pregunta": "La siguiente definicion...\n    \"Es un tipo estructurado que permite almacenar diferentes tipos de datos en diferentes tiempo de una misma variable\".\n\nCorresponde a una definicion de:\na. Lista\nb. Uniones\nc. Subrango\nd. Arreglo\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1057,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P21",
+            "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato ordinal definido por el usuario que consiste en una subsecuencia contigua de un tipo ordinal ya definido\".\n\nCorresponde a una definicion de:\na. Lista\nb. Arreglo\nc. Subrango\nd. Diccionario\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1058,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P23",
+            "pregunta": "La siguiente definicion...\n    \"Corresponde a tipos de datos que no estan definidos en terminos de otros tipos\".\n\nCorresponde a una definicion de:\na. Caracter\nb. Ordinal\nc. Estructurado\nd. Primitivo\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1059,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P23",
+            "pregunta": "Tipos de datos ordinales son...\n    I. Caracter\n    II. Booleano\n    III. Numerico\na. Solo I\nb. Solo I y III\nc. Solo II y III\nd. Todas las anteriores    \n\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1060,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P25",
+            "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato estructurado que corresponde a una secuencia de caracteres usado para procesamiento de texto y para E/S\".\n\nCorresponde a una definicion de:\na. UTF-8\nb. String\nc. Arreglo\nd. punto flotante\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1061,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P26",
+            "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato ordinal definido por el usuario donde se enumeran todos los posibles valores a traves de constantes literales. Se establece una relacion de orden\".\n\nCorresponde a una definicion de:\na. Diccionario\nb. Hash\nc. Enumerado\nd. Arreglo\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1062,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Salas Q2P26",
+            "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato estructurado que agrupa conjunto de elementos (que pueden ser de diferentes tipos), con operadores para construirlos y acceder a sus elementos. Existen de dos tipos: Ordenadas y No Ordenadas\".\n\nCorresponde a una definicion de:\na. Enumerados\nb. Relaciones de orden\nc. Lista\nd. Colecciones\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1063,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Diaz Q2P2 alt",
+            "pregunta": "\nCual de los siguientes tipos de datos esta mal clasificado?\n\na. Arreglo: tipo estructurado\nb. String: tipo primitivos\nc. Enumerado: tipo definido por el usuario\nd. Conjunto: tipo estructurado\n\n",
+            "respuesta": "b",
+            "explicacion": " Caracter es primitivo, no string",
+            "id": 1064,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Diaz Q2P3 alt",
+            "pregunta": "\nUna variable declarada como int a[20] dentro de una funcion C, corresponde a un arreglo:\n\na. Estatico\nb. Dinamico de heap.\nc. Dinamico fijo de stack.\nd. Fijo de heap\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1065,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Diaz Q2P4 alt",
+            "pregunta": "\n\u00c2\u00bfCual de los sigientes elementos no es parte de la estructura de registro de activacion de un subprograma?\n\na. Variables globales\nb. Variables locales\nc. Direccion de retorno\nd. Enlace dinamico\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1066,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Diaz Q2P5 alt",
+            "pregunta": "\nAl clasificar las sentencias de iteracion, una de las siguientes posibilidades no es una forma real de controlar un ciclo... \u00c2\u00bfCual es?\n\na. Por contador\nb. Por condicion\nc. Por alternativa\nd. Por estructura de datos\n\n",
+            "respuesta": "c",
+            "explicacion": " Alternativa no es algo bien definido. Por estructura de datos si se puede, considere el for x in lista de python",
+            "id": 1067,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2022-1] - Diaz Q2P6 alt",
+            "pregunta": "\nUn arreglo asociativo es...\n\na. Conjunto ordenado de elementos de datos, que son accesados via referencias\nb. Conjunto no ordenado de elementos de datos, que son indexados por igual numero de valores, llamados \"claves\".\nc. Conjunto no ordenado de elementos de datos, que se identifican por su posicion relativa mediante un indice.\nd. Conjunto ordenado de elementos de datos, donde el tama\u00c3\u00b1o permanece fijo una vez creado.\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1068,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2024-2] - Jose Luis Marti. Q2P11",
+            "pregunta": "\n\nEn Java, que tipo de strings se manejan?\na. Estaticos\nb. Dinamicos limitados\nc. Dinamicos\nd. Todos los anteriores\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1069,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2024-2] - Jose Luis Marti. Q2P12",
+            "pregunta": "\nEn el lenguaje de programacion C, dado un arreglo A de 10 enteros, cual(es) de las siguientes expresiones es(son) equivalente(s) para obtener el elemento ubicado en la quinta posicion?\n    I. A[5]\n    II. A[4]\n    III. *A+4\n    IV. *A+5\na. Solo I\nb. Solo II\nc. Solo I y IV\nd. Solo II y III\n\n",
+            "respuesta": "b",
+            "explicacion": "No explicacion entregada",
+            "id": 1070,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2024-2] - Jose Luis Marti. Q2P13",
+            "pregunta": "\nCual de los siguientes operaciones no es permitida en Python, sobre la base de que a y b son del tipo conjunto?\na. c = a|b \nb. c = a&b \nc. c = a-b\nd. c = a*b\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1071,
+            "intAnswers": 4
+        },
+        {
+            "pregunta": "\n([2021]  Jose Luis Marti C1P24) \nCuales de las siguientes frases son ciertas sobre un metodo de recoleccion de basura impaciente?\n    I. Se ejecuta tan pronto se agota la memoria\n    II. Usa un contador de referencias\n    III. Se decrementa un contador cuando se pierde una referencia\n    IV. Requiere de mayor tiempo de ejecucion y uso de memoria que un recolector perezoso\na. I y II\nb. I, II y III\nc. II y IV\nd. II, III y IV\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1072,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2021]  Jose Luis Marti C1P25",
+            "pregunta": "\nEn que situacion la instruccion malloc() de C podria generar un stack overflow?\na. Un ciclo b. Una funcion recursiva mal programada\nc. Una lista de nodos que crecio sin control \nd. Nunca\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1073,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2021]  Jose Luis Marti C1P26",
+            "pregunta": "\nEn la siguiente funcion de C, es cierto que:\n\n    char *f    {\n        static int k = 0\n        int a = strlen        char *p = malloc        \n        return p ? strcpy(p, s+k): NULL;\n    }\na. a es una variable de stack y s una de heap\nb. k es una variable estatica, y p una de heap\nc. a es una variable de stack, y *p una de heap\nd. a es una variable de heap y p una de heap\n\n",
+            "respuesta": "c",
+            "explicacion": "No explicacion entregada",
+            "id": 1074,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2021]  Jose Luis Marti C1P27",
+            "pregunta": "\nTomar en cuenta el siguiente programa escrito en sintaxis tipo Javascript\n\n    // main\n    var x,y,z;\n    \n    function sub1() {\n        var a, y, z;\n        ...\n    }\n    \n    function sub2() {\n        var a, b, z;\n        ...\n    }\n    \n    function sub3() {\n        var a, x, w;\n        ...\n    }\n    \nDada la siguiente secuencia en un ambito dinamico: main -> sub1() -> sub3() -> sub2(), cuales son todas las variables durante la ejecucion de sub2?\n\na. a local, b local, x de main, y de main, z local\nb. a local, b local, x de main, y de sub1(), z local\nc. a local, b local, z local\nd. a local, b local, w de sub3(), x de sub3(), y de sub1(), z local\n\n",
+            "respuesta": "d",
+            "explicacion": "No explicacion entregada",
+            "id": 1075,
+            "intAnswers": 4
+        },
+        {
+            "referencia": "[2021]  Jose Luis Marti C1P28",
+            "pregunta": "\n\nCual de las siguientes afirmaciones no es correcta, dependiendo del tipo de paso por parametros?\n\n    void f    {\n        a = 1;\n        b++;\n    }\n    \n    int main    {\n        int i = 10;\n        int j = 20;\n        \n        f(i,j);\n        printf(\"%d $d\", i, j);\n    }\n    \na. Por resultado, la salida de printf() de la funcion main() es: 10 20\nb. Por referencia, la salida del printf() de la funcion f() es: 1 21\nc. Por valor, la salida del printf() de la funcion main() es: 10 20\nd. Por valor-resultado, la salida del printf() de la funcion f() es: 1 21\n\n",
+            "respuesta": "a",
+            "explicacion": "No explicacion entregada",
+            "id": 1076,
+            "intAnswers": 4
+        }
+    ]
+}

@@ -19,3 +19,4 @@ Falta hacer la lista para seleccionar pregunta, y dejarlo mas bonito
 # Json
 
 - Parece que las preguntas del quiz4 se bugearon. Verlas despues
+- No solo eso, si no que tuve que crear una copia de los json en src ya que en public da error. investigar en un futuro
