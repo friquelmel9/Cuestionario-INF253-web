@@ -13,7 +13,7 @@ function Documentacion() {
         pregunta: "\nCual de las siguientes definiciones respecto a la sintaxis son correctas?\n    I. Sintaxis lexica: Define reglas para los tokens (tales como identificadores, literales, operadores...)\n    II. Sintaxis concreta: Refiere a una representacion de un programa segun simbolos del alfabeto\n    III. Sintaxis abstracta: Solo lleva la informacion escencial del programa, util para usar previo a la generacion del codigo\na. Solo II\nb. Solo I y II\nc. Solo II y III\nd. Todas las anteriores\n\n",
         respuesta: "V",
         explicacion: "No explicacion entregada",
-        id: 67
+        id: 100
     }
 
     const [selectedQuestion, setSelectedQuestion] = useState(exampleQuestion)
@@ -24,7 +24,7 @@ function Documentacion() {
     return (
         <>
             <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
-            <QuestionBox question={selectedQuestion} boxState="visualizacion"></QuestionBox>
+            <QuestionBox question={exampleQuestion} mostrarRespuesta={false}></QuestionBox>
         </>
     );
 }

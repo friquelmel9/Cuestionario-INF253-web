@@ -7,11 +7,12 @@
 
 # QuestionBox.jsx && QuestionBox.css
 
-- Crear las tres vistas: "visualizacion", "pregunta" y "respuesta".
+- Existen la vistas segun los props: showAnswer y isTest
 
-    - Visualizacion: Mostrar alternativas segun corresponda.
-    - Pregunta: No muestra la respuesta correcta
-    - Respuesta: Muestra respuesta correcta y explicacion
+    - ShowAnswer permite cambiar entre visualizar pregunta y explicacion
+    - isTest == true permite que no se pueda visualizar la explicacion
+
+Falta hacer la lista para seleccionar pregunta, y dejarlo mas bonito
 
 - Buscar si vale la pena realizar pregunta y respuesta, puesto que para usarla se tendria que ver en la otra seccion.
 
