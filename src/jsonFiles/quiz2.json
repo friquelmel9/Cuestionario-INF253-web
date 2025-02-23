@@ -390,202 +390,231 @@
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1048
+            "id": 1048,
+            "intAnswers": 4
         },
         {
             "pregunta": "\nEn la conversion de tipos, se pueden presentar diversos errores, siendo uno de ellos:\na. Efecto lateral.\nb. Division por cero.\nc. dangling\nd. Ambiguedad\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1049
+            "id": 1049,
+            "intAnswers": 4
         },
         {
             "pregunta": "\nConsiderando la Taxonomia de tipo de datos, cuales de las siguientes son verdad\n    I. Estatica es cuando se declara el tipo de dato de las variables, mientras que dinamico se determina en la ejecucion\n    II. Explicita indica que todo se debe declarar, mientras que implicita no se requiere declaracion\n    III. Tipificacion fuerte es generealmente mas restrictiva, a diferencia de la debil que permite mas flexibilidad\n    IV. Es obligatorio que el sistema sea: Estatico, explicito y fuerte, o dinamico, implicito, y debil.\na. Solo I, II\nb. Solo II y III\nc. Solo I, II, y IV\nd. Todas las anteriores\n\n",
             "respuesta": "c",
             "explicacion": " Notar que, no es obligatorio. Generalmente se apoyan",
             "referencia": "Original",
-            "id": 1050
+            "id": 1050,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P11",
             "pregunta": "\nEn el lenguaje de programacion C, dado un arreglo A de 10 enteros, \u00c2\u00bfcual(es) de los siguientes expresiones es(son) equivalente(s) para obtener el elemento ubicado en la quinta posicion?\n    I. A[5]\n    II. A[4]\n    III. *    IV.  *a. Solo I\nb. Solo II\nc. Solo I y IV\nd. Solo II y III\n\n",
             "respuesta": "d",
             "explicacion": "Ni yo sabia de la III...",
-            "id": 1051
+            "id": 1051,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P12",
             "pregunta": "\nUn metodo de recoleccion de basura impaciente:\n    I. Acumula basura hasta que se agota la memoria. x\n    II. Us aun contador de referencias\n    III. Se decrementa un contador cuando se pierde una referencia\n    IV. Puede producir tiempos muertos significativos que afectan al funcionamiento del programa\n    \na. Solo I y II\nb. Solo I, II y III\nc. Solo II y III\nd. Solo II, III y IV\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1052
+            "id": 1052,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P13",
             "pregunta": "\nSe produce dangling cuando una celda en el heap:\na. Tiene referencias y esta marcada correctamente como libre por el administrador de memoria.\nb. Tiene al menos una referencia y esta asignada, es decir, marcada correctamente por el administrador como ocupada\nc. No tiene referencia y no esta marcada como libre, por ende, el administrador no la puede reasignar\nd. Tiene alguna referencia y esta marcada como libre, luego el administrador la podria reasignar\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1053
+            "id": 1053,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P14",
             "pregunta": "\nCual de los siguientes pares de funciones en C++ son un ejemplo de sobrecargar de funciones?\n\na. {\n    int f(int a, int b){...}\n    int f(int x, int y){...}\n}\nb. {\n    int f(int a, int b){...}\n    int f(int a, int b, int c){...}\n}\nc. {\n    int f(int a, int b){...}\n    int g(int a, int b){...}\n}\nd. {\n    int f(int a, int b){...}\n    int g(int a, int b, int c){...}\n}\n\n",
             "respuesta": "b",
             "explicacion": " Recordar que la sobrecarga es funcion con mismo nombre pero recibe distinta cantidad de parametross",
-            "id": 1054
+            "id": 1054,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q2P15",
             "pregunta": "\nDado el siguiente codigo en C:\n\n    int x;\n    void f    {\n        a = 2;\n        x++;\n    }\n    void main    {\n        x = 1;\n        f(x);\n        printf(\"%d\",x);\n    }\n    \n\u00c2\u00bfCual sera el resultado del printf() si el parametro hubiera sido pasado por valor-resultado y por referencia, respectivamente?\na. por Valor-resultado; 2, por Referencia; 1.\nb. por Valor-resultado; 3, por Referencia; 3.\nc. por Valor-resultado; 2, por Referencia; 2.\nd. por Valor-resultado; 2, por Referencia; 3.\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1055
+            "id": 1055,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P19",
             "pregunta": "\n\nLa siguiente definicion...\n    \"Es un tipo estructurado de elementos de datos posiblemente heterogeno, donde cada elemento individual es identificado con un nombre\".\n\nCorresponde a una definicion de:\na. Registro\nb. Enumerado\nc. Diccionario\nd. Array\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1056
+            "id": 1056,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P20",
             "pregunta": "La siguiente definicion...\n    \"Es un tipo estructurado que permite almacenar diferentes tipos de datos en diferentes tiempo de una misma variable\".\n\nCorresponde a una definicion de:\na. Lista\nb. Uniones\nc. Subrango\nd. Arreglo\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1057
+            "id": 1057,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P21",
             "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato ordinal definido por el usuario que consiste en una subsecuencia contigua de un tipo ordinal ya definido\".\n\nCorresponde a una definicion de:\na. Lista\nb. Arreglo\nc. Subrango\nd. Diccionario\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1058
+            "id": 1058,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P23",
             "pregunta": "La siguiente definicion...\n    \"Corresponde a tipos de datos que no estan definidos en terminos de otros tipos\".\n\nCorresponde a una definicion de:\na. Caracter\nb. Ordinal\nc. Estructurado\nd. Primitivo\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1059
+            "id": 1059,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P23",
             "pregunta": "Tipos de datos ordinales son...\n    I. Caracter\n    II. Booleano\n    III. Numerico\na. Solo I\nb. Solo I y III\nc. Solo II y III\nd. Todas las anteriores    \n\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1060
+            "id": 1060,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P25",
             "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato estructurado que corresponde a una secuencia de caracteres usado para procesamiento de texto y para E/S\".\n\nCorresponde a una definicion de:\na. UTF-8\nb. String\nc. Arreglo\nd. punto flotante\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1061
+            "id": 1061,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P26",
             "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato ordinal definido por el usuario donde se enumeran todos los posibles valores a traves de constantes literales. Se establece una relacion de orden\".\n\nCorresponde a una definicion de:\na. Diccionario\nb. Hash\nc. Enumerado\nd. Arreglo\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1062
+            "id": 1062,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q2P26",
             "pregunta": "La siguiente definicion...\n    \"Es un tipo de dato estructurado que agrupa conjunto de elementos (que pueden ser de diferentes tipos), con operadores para construirlos y acceder a sus elementos. Existen de dos tipos: Ordenadas y No Ordenadas\".\n\nCorresponde a una definicion de:\na. Enumerados\nb. Relaciones de orden\nc. Lista\nd. Colecciones\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1063
+            "id": 1063,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Diaz Q2P2 alt",
             "pregunta": "\nCual de los siguientes tipos de datos esta mal clasificado?\n\na. Arreglo: tipo estructurado\nb. String: tipo primitivos\nc. Enumerado: tipo definido por el usuario\nd. Conjunto: tipo estructurado\n\n",
             "respuesta": "b",
             "explicacion": " Caracter es primitivo, no string",
-            "id": 1064
+            "id": 1064,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Diaz Q2P3 alt",
             "pregunta": "\nUna variable declarada como int a[20] dentro de una funcion C, corresponde a un arreglo:\n\na. Estatico\nb. Dinamico de heap.\nc. Dinamico fijo de stack.\nd. Fijo de heap\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1065
+            "id": 1065,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Diaz Q2P4 alt",
             "pregunta": "\n\u00c2\u00bfCual de los sigientes elementos no es parte de la estructura de registro de activacion de un subprograma?\n\na. Variables globales\nb. Variables locales\nc. Direccion de retorno\nd. Enlace dinamico\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1066
+            "id": 1066,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Diaz Q2P5 alt",
             "pregunta": "\nAl clasificar las sentencias de iteracion, una de las siguientes posibilidades no es una forma real de controlar un ciclo... \u00c2\u00bfCual es?\n\na. Por contador\nb. Por condicion\nc. Por alternativa\nd. Por estructura de datos\n\n",
             "respuesta": "c",
             "explicacion": " Alternativa no es algo bien definido. Por estructura de datos si se puede, considere el for x in lista de python",
-            "id": 1067
+            "id": 1067,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Diaz Q2P6 alt",
             "pregunta": "\nUn arreglo asociativo es...\n\na. Conjunto ordenado de elementos de datos, que son accesados via referencias\nb. Conjunto no ordenado de elementos de datos, que son indexados por igual numero de valores, llamados \"claves\".\nc. Conjunto no ordenado de elementos de datos, que se identifican por su posicion relativa mediante un indice.\nd. Conjunto ordenado de elementos de datos, donde el tama\u00c3\u00b1o permanece fijo una vez creado.\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1068
+            "id": 1068,
+            "intAnswers": 4
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q2P11",
             "pregunta": "\n\nEn Java, que tipo de strings se manejan?\na. Estaticos\nb. Dinamicos limitados\nc. Dinamicos\nd. Todos los anteriores\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1069
+            "id": 1069,
+            "intAnswers": 4
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q2P12",
             "pregunta": "\nEn el lenguaje de programacion C, dado un arreglo A de 10 enteros, cual(es) de las siguientes expresiones es(son) equivalente(s) para obtener el elemento ubicado en la quinta posicion?\n    I. A[5]\n    II. A[4]\n    III. *A+4\n    IV. *A+5\na. Solo I\nb. Solo II\nc. Solo I y IV\nd. Solo II y III\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1070
+            "id": 1070,
+            "intAnswers": 4
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q2P13",
             "pregunta": "\nCual de los siguientes operaciones no es permitida en Python, sobre la base de que a y b son del tipo conjunto?\na. c = a|b \nb. c = a&b \nc. c = a-b\nd. c = a*b\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1071
+            "id": 1071,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2021]  Jose Luis Marti C1P24) \nCuales de las siguientes frases son ciertas sobre un metodo de recoleccion de basura impaciente?\n    I. Se ejecuta tan pronto se agota la memoria\n    II. Usa un contador de referencias\n    III. Se decrementa un contador cuando se pierde una referencia\n    IV. Requiere de mayor tiempo de ejecucion y uso de memoria que un recolector perezoso\na. I y II\nb. I, II y III\nc. II y IV\nd. II, III y IV\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1072
+            "id": 1072,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021]  Jose Luis Marti C1P25",
             "pregunta": "\nEn que situacion la instruccion malloc() de C podria generar un stack overflow?\na. Un ciclo b. Una funcion recursiva mal programada\nc. Una lista de nodos que crecio sin control \nd. Nunca\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1073
+            "id": 1073,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021]  Jose Luis Marti C1P26",
             "pregunta": "\nEn la siguiente funcion de C, es cierto que:\n\n    char *f    {\n        static int k = 0\n        int a = strlen        char *p = malloc        \n        return p ? strcpy(p, s+k): NULL;\n    }\na. a es una variable de stack y s una de heap\nb. k es una variable estatica, y p una de heap\nc. a es una variable de stack, y *p una de heap\nd. a es una variable de heap y p una de heap\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1074
+            "id": 1074,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021]  Jose Luis Marti C1P27",
             "pregunta": "\nTomar en cuenta el siguiente programa escrito en sintaxis tipo Javascript\n\n    // main\n    var x,y,z;\n    \n    function sub1() {\n        var a, y, z;\n        ...\n    }\n    \n    function sub2() {\n        var a, b, z;\n        ...\n    }\n    \n    function sub3() {\n        var a, x, w;\n        ...\n    }\n    \nDada la siguiente secuencia en un ambito dinamico: main -> sub1() -> sub3() -> sub2(), cuales son todas las variables durante la ejecucion de sub2?\n\na. a local, b local, x de main, y de main, z local\nb. a local, b local, x de main, y de sub1(), z local\nc. a local, b local, z local\nd. a local, b local, w de sub3(), x de sub3(), y de sub1(), z local\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1075
+            "id": 1075,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021]  Jose Luis Marti C1P28",
             "pregunta": "\n\nCual de las siguientes afirmaciones no es correcta, dependiendo del tipo de paso por parametros?\n\n    void f    {\n        a = 1;\n        b++;\n    }\n    \n    int main    {\n        int i = 10;\n        int j = 20;\n        \n        f(i,j);\n        printf(\"%d $d\", i, j);\n    }\n    \na. Por resultado, la salida de printf() de la funcion main() es: 10 20\nb. Por referencia, la salida del printf() de la funcion f() es: 1 21\nc. Por valor, la salida del printf() de la funcion main() es: 10 20\nd. Por valor-resultado, la salida del printf() de la funcion f() es: 1 21\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1076
+            "id": 1076,
+            "intAnswers": 4
         }
     ]
 }

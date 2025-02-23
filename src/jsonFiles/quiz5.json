@@ -1439,265 +1439,303 @@
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1194
+            "id": 1194,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nAsuma que los siguientes hechos y reglas existen en Prolog:\n\n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n\n    progenitor(X,Y). % Linea1\n    masculino(X). % Linea2\n    femenino(Y). % Linea3\n    papa(X,Y) :- progenitor(X,Y), masculino(X). % Linea4\n    mama(X,Y) :- progenitor(X,Y), femenino(Y). % Linea5\n    hermana(X,Y) :- progenitor(Z,X), progenitor(Z,Y), femenino(X). % Linea6\n    \nSi se llama a la regla hermana(X,Y), habra algo que no deberia de hacer. Cual de las siguientes es el error que posee la funcion?\n\na. La regla hermana no esta bien definida, puesto que Z no fue definida previamente\nb. La regla hermana tiene definido el Z como X, tendria que darse vuelta para de verdad devolver un hermana\nc. La regla hermana no se asegura que si misma sea hermana de si misma, puesto que ella misma cumple sus propias condiciones\nd. La regla hermana no se asegura que compartan padre y madre, pueden ser medios hermanos y no contaria como hermano\n\n",
             "respuesta": "c",
             "explicacion": " En estricto rigor, la d podria ser, pero habla de un \"hermano\", cuando no tiene nada que ver",
             "referencia": "Original",
-            "id": 1195
+            "id": 1195,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nAsuma que los siguientes hechos y reglas existen en Prolog:\n\n    progenitor(maria, pedro).\n    progenitor(juan, pedro).\n    progenitor(juan, carola).\n    progenitor(pedro, ana).\n    progenitor(pedro, paty).\n    progenitor(paty, aldo).\n\n\n    progenitor(X,Y). % Linea1\n    masculino(X). % Linea2\n    femenino(Y). % Linea3\n    papa(X,Y) :- progenitor(X,Y), masculino(X). % Linea4\n    mama(X,Y) :- progenitor(X,Y), femenino(Y). % Linea5\n    hermana(X,Y) :- progenitor(Z,X), progenitor(Z,Y), femenino(X). % Linea6\n    \n\nSi se llama a hermana(X, paty), que sera lo que devolvera? (asumiendo que nombre femenino se asocia al hecho femenino)\na. X = ana;\nb. X = ana; false.\nc. X = ana; X = paty.\nd. X = ana; X = paty; false.\n\n",
             "respuesta": "d",
             "explicacion": " Cuidado con el false y como la funcion no revisa si hermana y la buscada son distintos",
             "referencia": "Original",
-            "id": 1196
+            "id": 1196,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere la siguiente operacion en Prolog:\n    X = 3 + 5\n\nCual sera el resultado que retornara?\na. X = 3 + 5\nb. X = 8\nc. true.\nd. Error\n\n",
             "respuesta": "a",
             "explicacion": " Notar que = indica que va a ser explicitamente lo dicho",
             "referencia": "Original",
-            "id": 1197
+            "id": 1197,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere la siguiente operacion en Prolog:\n    X is 3 + 5\n\nCual sera el resultado que retornara?\na. X = 3 + 5\nb. X = 8\nc. true.\nd. Error\n\n",
             "respuesta": "b",
             "explicacion": " Notar que el is realiza la operacion",
             "referencia": "Original",
-            "id": 1198
+            "id": 1198,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes codigos en Prolog:\n    I. [1,2] = [1,2]\n    II. [1,2] =:= [1,2]\n    III. 3 + 5 = 5 + 3\n    IV.  3 + 5 =:= 5 +3\n\nCual de aquellos retornara true=\na. I y III\nb. I y IV\nc. II y III\nd. II y IV\n\n",
             "respuesta": "b",
             "explicacion": " El comparador = revisa si son exactamente iguales, mientras que =:= revisa su evaluacion (pendiente de revision esta explicacion)",
             "referencia": "Original",
-            "id": 1199
+            "id": 1199,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nCual de estas listas no es una definicion correcta? (En Prolog):\na. L1 = [perro,gato,rata,loro]\nb. L2 = .(perro, .(gato, .(rata, .(loro, []))))\nc. L3 = [perro | [gato | [raton | [loro]]]]\nd. L4 = cons(perro, cons(gato, cons(raton, cons(loro, nil))))\n\n",
             "respuesta": "c",
             "explicacion": " Notar que a c usa constructor pero le falta la lista vacia al final de esta",
             "referencia": "Original",
-            "id": 1200
+            "id": 1200,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\nCual de las siguientes frases son correctas respecto al operador de Corte?\n    I. Una ventaja es que la operacion es util para aumentar la eficiencia\n    II. Una desventaja es que se pueden expresar reglas mutuamente excluyentes\n    III. Una desventaja es que el significado declarativo y procedural se pierde en cierta parte\na. Solo I\nb. Solo II\nc. Solo III\nd. Solo I y II\ne. Solo II y III\nf. Solo I y III\ng. Solo I, II y III\nh. Ninguna de las anteriores\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1201
+            "id": 1201,
+            "intAnswers": 8
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P1",
             "pregunta": "\nEn Prolog, una de las siguientes expresiones no es equivalente al resto.\n\na. .b. [perro, gato, raton, loro]\nc. [perro | [gato, raton, loro]]\nd. .",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1202
+            "id": 1202,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P2",
             "pregunta": "\nDado el siguiente c\u00c3\u00b3digo C:\n\nchar codigo{\n    switch    {\n        case 4: return('x'); break;\n        case 8: return('y'); break;\n        default: return('z'):\n    }\n}\n\nCual es la version equivalente en el lenguaje Prolog?\n\na. codigo(_,'z').\n   codigo(4,'x').\n   codigo(8,'y').\nb. codigo(_,'z'):-!.\n   codigo(4,'x').\n   codigo(8,'y').\nc. codigo(4,'x'):-!.\n   codigo(8,'y'):-!.\n   codigo(_,'z').\nd. codigo(4,'x').\n   codigo(8,'y').\n   codigo(_,'z').\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1203
+            "id": 1203,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P3",
             "pregunta": "\nConsiderando los siguientes predicados sobre activades:\n    comienzo    duracion\u00c2\u00bfCu\u00c3\u00a1l de las siguientes definiciones es la correcta para el predicado fin(Actividad, Tiempo), que permite saber\ncu\u00c3\u00a1ndo terminar\u00c3\u00a1 una actividad?\n\na. fin(Actividad, Tiempo):-\n    comienzo(Actividad, Tiempo1),\n    duracion(Actividad, Duracion),\n    Tiempo is Tiempo1 + Duracion.\nb. fin(Actividad, Tiempo):-\n    comienzo(Actividad, tiempo),\n    duracion(Actividad, duracion),\n    Tiempo is tiempo + duracion.\na. fin(Actividad, Tiempo):-\n    comienzo(Actividad, Tiempo),\n    duracion(Actividad, Duracion),\n    Tiempo += Duracion.\na. fin(Actividad, Tiempo):-\n    comienzo(Actividad1, Tiempo),\n    duracion(Actividad1, Duracion),\n    Tiempo is Tiempo + Duracion.\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1204
+            "id": 1204,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q5P4",
             "pregunta": "\nCu\u00c3\u00a1ntos llamados recursivos y qu\u00c3\u00a9 tipo de resultado queda en el par\u00c3\u00a1metro R, al ejecutar el siguiente programa\nProlog, para una lista de N n\u00c3\u00bameros enteros?\n\nqueHago([], R):- R is 0, !, fail.\nqueHago([X | Z ] , R):-queHago(Z, R1), R is (X + R1).\n\na. N llamadas, false.\nb. N llamadas, R = 0.\nc. 1 llamada, true.\nd. 1 llamada, R = 0.\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1205
+            "id": 1205,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q5P1",
             "pregunta": "\n\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- br(X,c).\n\na. true\nb. false\nc. X = a\n   false\nd. X = b\n   false\ne. X = c\n   false\nf. X = d\n   False\ng. X = e\n   False\nh. X = f\n   false\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1206
+            "id": 1206,
+            "intAnswers": 8
         },
         {
             "referencia": "[2022-1] - Salas Q5P2",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- co(d,Y).\n\na. true\nb. false\nc. Y = a\nd. Y = b\ne. Y = c\nf. Y = d\ng. Y = e\nh. Y = f\n",
             "respuesta": "h",
             "explicacion": "No explicacion entregada",
-            "id": 1207
+            "id": 1207,
+            "intAnswers": 8
         },
         {
             "referencia": "[2022-1] - Salas Q5P3",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- gr(X,c).\n\na. true\nb. false\nc. X = b, Y = a\nd. X = d, Y = b\ne. X = e, Y = c\nf. X = f, Y = a\ng. X = c, Y = d\nh. X = a, Y = f\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1208
+            "id": 1208,
+            "intAnswers": 8
         },
         {
             "referencia": "[2022-1] - Salas Q5P5",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- br(b,c).\n\na. true\nb. false\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1209
+            "id": 1209,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q5P6",
             "pregunta": "\n\n    fa(a,b).\n    fa(a,c).\n    fa(b,d).\n    fa(b,e).\n    fa(c,f).\n    br(X,Y):- fa(Z,X), fa(Z,Y), not(X=Y).\n    co(X,Y):- fa(Z,X), fa(W,Y), br(Z,W).\n    gr(X,Y):- fa(Z,X), fa(Y,Z).\n    de(X,Y):- fa(Y,X).\n    de(X,Y):- fa(Z,X), de(Z,Y).\n\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- de(e,a).\n\na. true\nb. false\nc. true, true\nd. true, false\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1210
+            "id": 1210,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q5P7",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- f1\na. true\nb. false\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1211
+            "id": 1211,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q5P8",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- 5 + 3 = 2 + 6.\n\na. true\nb. false\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1212
+            "id": 1212,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q5P9",
             "pregunta": "\nDado los siguientes predicados:\n\nsl([], 0).\nsl([H|T], Sum):- sl(T, Rest), Sum is H + Rest.\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- sl([3,2,4], N).\n\na. True\nb. false\nc. 3\nd. 9\ne. 4\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1213
+            "id": 1213,
+            "intAnswers": 5
         },
         {
             "referencia": "[2022-1] - Salas Q5P10",
             "pregunta": "\nDados los siguientes predicados:\n\ndj([],_).\ndj([X|L],K):- not(member(X,K)), dj(L,K).\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- dj([a, c, e, f], [b, d]).\n\na. true\nb. false\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1214
+            "id": 1214,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q5P11",
             "pregunta": "\nDados los siguientes predicados:\n\nocc(1,[X|_],X):-!.\nocc(N,[_|L],X):- N > 1, M is N-1, occ(M,L,X).\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente consulta?\n\n?- occ(3,[a, c, e, f],X).\n\na. true\nb. false\nc. X = a\nd. X = e\ne. X = f\nf. X = a; false\ng. X = e; false\nh. X = f; false\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1215
+            "id": 1215,
+            "intAnswers": 8
         },
         {
             "referencia": "[2022-2] - Carmona Q5P11",
             "pregunta": "\n\n\nDado el siguiente c\u00c3\u00b3digo, \u00c2\u00bfCu\u00c3\u00a1les ser\u00c3\u00a1n las respuestas a la consulta\ncodigo([1, 2, 3, 4, 5], X)?\n\ncodigo([X], X).\ncodigo([X|_],X).\ncodigo([_|R],X):-\n    codigo(R,X).\n\na. X = 5\nb. X = 1\nc. X = 1;\n   X = 2;\n   X = 3;\n   X = 4;\n   X = 5\nd. X = 1;\n   X = 2;\n   X = 3;\n   X = 4;\n   X = 5;\n   X = 5\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1216
+            "id": 1216,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q5P12 (MOD)",
             "pregunta": "\nCon respecto al operador cut en Prolog, su uso puede:\n(1) Disminuir el tiempo de ejecuci\u00c3\u00b3n.\n(2) Expresar reglas mutuamente excluyentes.\n(3) Permitir la reducci\u00c3\u00b3n de c\u00c3\u00b3digo.\n\u00c2\u00bfCu\u00c3\u00a1les de estas sentencias son verdaderas?\n\na. 1 y 3.\nb. 2 y 3.\nc. Solo 2.\nd. Ninguna de las anteriores.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1217
+            "id": 1217,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q5P13",
             "pregunta": "\nSi la cl\u00c3\u00a1usula de convergencia (o condici\u00c3\u00b3n de t\u00c3\u00a9rmino) del predicado\nlargo(Lista, Largo) fuera largo([], 0), \u00c2\u00bfCu\u00c3\u00a1l ser\u00c3\u00ada la definici\u00c3\u00b3n correcta\nde la cl\u00c3\u00a1usula recursiva?\n\na. largo([H|T], Largo):- largo(T, LargoT), Largo is LargoT + 1.\nb. largo([H|T], Largo):- largo(T, Largo), Largo = Largo + 1.\nc. largo([H|T], Largo):- largo(T, LargoT), Largo = LargoT + 1.\nd. largo([H|T], Largo):- largo(T, LargoT), return(LargoT + 1).\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1218
+            "id": 1218,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q5P14",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes definiciones permite chequear si el argumento recibido es una lista,\nincluyendo la posibilidad de que sea una lista vac\u00c3\u00ada?\n\na. esLista(L, resultado):-\n   append(L/2, L/2, L),\n   resultado = true.\nb. esLista(L, Resultado):-\n   append([H1|T1], [H2|T2], L),\n   Resultado = true.\nc. esLista(L, Resultado):-\n   L = [H|T],\n   true.\nd. esLista(L):-\n   append(_, _, L).\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1219
+            "id": 1219,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q5P15",
             "pregunta": "\nDada la siguiente base de conocimiento, \u00c2\u00bfCu\u00c3\u00a1l es la tercera\nsalida que entrega la consulta: ?- b(M,N).?\n\na(0,1).\na(2,2).\na(2,1).\nb(3,1).\nb(1,1):- !.\nb(1,2):- !, fail.\nb(X,Y):-\n    !, a(X,Y1), a(Y,X), not(b(Y1,X)).\nb(X,Y):-\n    b(A,B), b(B,A), X is A\u00e2\u02c6\u20191, Y is B + 1 .\n\na. No hay.\nb. M = 1, N = 2\nc. false.\nd. No alcanza a generarse, pues se cae en un ciclo infinito producto de la recursividad mal controlada.\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1220
+            "id": 1220,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P11",
             "pregunta": "\n\n\u00c2\u00bfCu\u00c3\u00a1l es la salida de la siguiente consulta?\n\n?. [1, 2, [], 4, [5, 6, [7]]] = [_,_,_|[H,_|T]].\n\na. false\nb. H = 4, T = []\nc. H = [4], t = [5, 6, [7]]\nd. H = 4, T = [[5, 6, [7]]]\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1221
+            "id": 1221,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P12",
             "pregunta": "\nSi la cl\u00c3\u00a1usula de convergencia (o condici\u00c3\u00b3n de t\u00c3\u00a9rmino) del predicado\nlargo(Lista, Largo), fuera largo([], 0), \u00c2\u00bfCu\u00c3\u00a1l ser\u00c3\u00ada la definici\u00c3\u00b3n\ncorrecta de la cl\u00c3\u00a1usula recursiva?\n\na. largo([H|T], Largo):- largo(T, LargoT), Largo is LargoT + 1.\nb. largo([H|T], Largo):- largo(T, Largo), Largo = Largo + 1.\nc. largo([H|T], Largo):- largo(T, LargoT), Largo = LargoT + 1.\nd. largo([H|T], Largo):- largo(T, LargoT), return(LargoT + 1).\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1222
+            "id": 1222,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P13",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes definiciones permite chequear si el argumento\nrecibido es una lista, incluyendo la posibilidad de que sea una lista vac\u00c3\u00ada?\n\na. esLista(L, resultado):- append(L/2, L/2, L), resultado = true.\nb. esLista(L, Resultado):- append([H1|T1], [H2|T2], L), Resultado = true.\nc. esLista(L, Resultado):- L = [H|T], true.\nd. esLista(L) :- append(_,_,L).\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1223
+            "id": 1223,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P14",
             "pregunta": "\nDados hechos del tipo: cargo(nombreCargo, jefatura), para saber si dos cargos distintos\ntienen misma jefatura, la consulta correcta debe ser:\n\na. ?- cargo(C, J), cargo(C1, J).\nb. ?- cargo(_,J), cargo(_,J).\nc. ?- cargo(C, J), cargo(C1, J), not(C = C1).\nd. ?- cargo",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1224
+            "id": 1224,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q5P15",
             "pregunta": "\nDada la siguiente base de conocimiento, \u00c2\u00bfCu\u00c3\u00a1l es la tercera\nsalida que entrega la consulta: ?- b(M,N).?\n\na(0,1).\na(2,2).\na(2,1).\nb(3,1).\nb(1,1):\u00e2\u02c6\u2019 !.\nb(1,2):\u00e2\u02c6\u2019 !, fail.\nb(X,Y):\u00e2\u02c6\u2019\n    !, a(X,Y1), a(Y,X), not(b(Y1,X)).\nb(X,Y):\u00e2\u02c6\u2019\n    b(A,B), b(B,A), X is A\u00e2\u02c6\u20191, Y is B + 1 .\n\na. No hay.\nb. M = 1, N = 2\nc. false.\nd. No alcanza a generarse, pues se cae en un ciclo\ninfinito producto de la recursividad mal controlada.\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1225
+            "id": 1225,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P11",
             "pregunta": "\n\n\nUsando solo un predicado append, una definici\u00c3\u00b3n correcta de ultimo(L, U) es:\n\na. ultimo(Lista, Ultimo):- append(_, [Ultimo], Lista).\nb. ultimo(Lista, Ultimo):- append(_, [Ultimo|_], Lista).\nc. ultimo(Lista, Ultimo):- append([Ultimo|_], _, Lista).\nd. ultimo(Lista, Ultimo):- append([Ultimo|_], _, Lista).\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1226
+            "id": 1226,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2022-2] - D\u00c3\u00adaz Q5P12) \n\nConsidere la siguiente consulta:\n\n?- mascota(A, A, macho) = mascota(canada, gato, X).\n\nEl resultado de esta consulta ser\u00c3\u00a1:\n\na. true, ya que ambas tienen el mismo functor y n\u00c3\u00bamero de componentes.\nb. false, debido a que hay una variable repetida.\nc. false, pues no es posible que hayan dos variables a cada lado de la unificaci\u00c3\u00b3n.\nd. false, puesto que no es posible calzar A con los \u00c3\u00a1tomos canada y gato a la vez.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1227
+            "id": 1227,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P13",
             "pregunta": "\nConsidere las siguientes reglas en Prolog:\n\ndelit(0, [_|L1], L1).\ndelit(S, [A|L1], [A|L2]):- S1 is S-1, delit(S1,L1,L2), !.\n\nSe puede interpretar declarativamente la consulta delit(S, L1, L2) como:\n\na. L2 es la lista L1 sin el elemento S.\nb. L2 es la lista L1 sin el elemento en la posici\u00c3\u00b3n S.\nc. L2 es la lista L1 sin las instancias que est\u00c3\u00a1n en la lista S.\nd. L2 es la lista L1 con cada elemento decrementado en uno.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1228
+            "id": 1228,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P14",
             "pregunta": "\nConsidere la siguiente consulta:\n\n?- transportarse(paris, roma, Costo), alojamiento(roma, hotel, Costo).\n\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes corresponde a una interpretaci\u00c3\u00b3n procedural de esta consulta?\n\na. Calcular el valor del Costo de transportarse de paris a roma y alojarse en un hotel.\nb. \u00c2\u00bfCu\u00c3\u00a1l es el Costo de transportarse de par\u00c3\u00ads a roma si me alojo en un hotel?\nc. Se debe encontrar un valor para Costo tal que se satisface transportarse entre paris y roma\nalojamiento en un hotel en roma.\nd. Existe un Costo tal que es posible transportarse entre paris y toma y alojarse en un hotel.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1229
+            "id": 1229,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q5P15",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes listas no es equivalente al resto?\n\na. [comun|[raro, epico, legendario]].\nb. [comun|[raro|[epico][legendario|[]]]].\nc. [comun[raro, epico, legendario, []]].\nd. [comun, raro, epico, legendario].\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1230
+            "id": 1230,
+            "intAnswers": 4
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q5P11",
             "pregunta": "\nUsando solo un predicado append, \u00c2\u00bfel codigo correcto para insertar un nuevo elemento al final de una lista?\na. insertarAlFinalb. insertarAlFinalc. insertarAlFinald. insertarAlFinal\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1231
+            "id": 1231,
+            "intAnswers": 4
         }
     ]
 }

@@ -1914,601 +1914,687 @@
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1108
+            "id": 1108,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (+ 1/2 0.5+0.i)\nQue sera lo que retornara?\na. 1.0 \nb. 1\nc. 1.0+0i\nd. Dara error\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1109
+            "id": 1109,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (+ 0.5 5e-1)\nQue sera lo que retornara?\na. 1.0 \nb. 1e0\nc. 1\nd. Dara error\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1110
+            "id": 1110,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '(a b c) '(1 2))\nQue sera lo que retornara?\na. ((a b c).(1 2))\nb. ((a b c) 1 2)\nc. (a b c 1 2)\nd. Dara error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1111
+            "id": 1111,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '(a b c) '())\nQue sera lo que retornara?\na. ((a b c))\nb. (a b c)\nc. ()\nd. Dara error\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1112
+            "id": 1112,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '() '(1 2))\nQue sera lo que retornara?\na. (() (1 2)) \nb. (1 2)\nc. (() 1 2)\nd. Dara error\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1113
+            "id": 1113,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons '() '())\nQue sera lo que retornara?\na. (() ()) \nb. (())\nc. ()\nd. Dara error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1114
+            "id": 1114,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (list '(a b c) '(1 2))\nQue sera lo que retornara?\na. ((a b c) (1 2))\nb. ((a b c) 1 2)\nc. (a b c 1 2)\nd. (a b c (1 2))\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1115
+            "id": 1115,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (list '(a b c) '())\nQue sera lo que retornara?\na. ((a b c))\nb. (a b c)\nc. (a b c ())\nd. ((a b c) ())\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1116
+            "id": 1116,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (list '() '(1 2))\nQue sera lo que retornara?\na. (1 2)\nb. (() 1 2)\nc. (() (1 2))\nd. ()\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1117
+            "id": 1117,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (append '(a b c) '(1 2))\nQue sera lo que retornara?\na. ((a b c).(1 2))\nb. ((a b c) 1 2)\nc. (a b c 1 2)\nd. Dara error\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1118
+            "id": 1118,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (append '(a b c) '())\nQue sera lo que retornara?\na. ((a b c))\nb. (a b c)\nc. (a b c ())\nd. ((a b c) ())\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1119
+            "id": 1119,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cdr '(a b))\nQue sera lo que retornara?\na. a\nb. b\nc. (a)\nd. (b)\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1120
+            "id": 1120,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cdr '(b))\nQue sera lo que retornara?\na. b\nb. (b)\nc. ()\nd. Dara error\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1121
+            "id": 1121,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cdr '(a . b))\nQue sera lo que retornara?\na. b\nb. (b)\nc. ()\nd. Dara error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1122
+            "id": 1122,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons 'a '(b))\nQue sera lo que retornara?\na. (a b)\nb. (a (b))\nc. (a . b)\nd. (a . (b))\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1123
+            "id": 1123,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (cons 'a 'b)\nQue sera lo que retornara?\na. (a b)\nb. (a (b))\nc. (a . b)\nd. (a . (b))\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1124
+            "id": 1124,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    ('(a b . ()))\nQue sera lo que retornara?\na. (a b)\nb. (a (b))\nc. (a . b)\nd. (a . (b))\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1125
+            "id": 1125,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (let\n        ((a 3))\n        (* (+ a a) (+ a a))\n    )\nCual seria el resultado que entregara?\na. 3\nb. 9\nc. 36\nd. 81\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1126
+            "id": 1126,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente comando en Scheme:\n    (let\n        ((- +))\n        (- 1 1)\n    )\nCual seria el resultado que entregara?\na. 2\nb. 0\nc. 1\nd. Dara error, puesto que no podemos asignar este tipo de operaciones a otras\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1127
+            "id": 1127,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    (let ((x 1) (y 2)) (+ x y)) ; Funcion1\n    ((lambda (x y) (+ x y)) 1 2) ; Funcion2\nEn relacion con estos, hemos de decir que:\n    I. Ambos arrojaran el mismo resultado\n    II. El comando eqv? retornara #f si usamos de argumentos ambas funciones\n    III. Se puede decir que Funcion1 posee variables, mientras que la Funcion2 no\na. Solo I\nb. I y II\nc. I y III\nd. Todas las anteriores\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1128
+            "id": 1128,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    ((lambda x (list x)) 1 2 3) ; Funcion1\n    ((lambda (x y) (list x y)) 1 2 3) ; Funcion2 \nCual de los siguientes retornos es el correcto?\na. ((1 2 3)) | Error\nb. ((1 2 3)) | ((1 2 3))\nc. Error | '((1 2 3))\nd. Error | Error\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1129
+            "id": 1129,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    (\n    let (\n            (duplicador (lambda (x) (* 2 x)))\n        )\n    (list   (duplicador 2)\n            (duplicador 3)\n            (duplicador 4))\n    )\nQue sera lo que retornara este let?\na. Error, puesto que el list esta llamando fuera del contexto del let\nb. Retornara la lista '(4 6 8), puesto que se llaman individualmente y se unen en una lista\nc. Retornara las listas '(4), '(6) y '(8), puesto que list crea una lista para cada resultado\nd. Ninguna de las anteriores\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1130
+            "id": 1130,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes codigos en Scheme:\n    ((lambda (x y) (list x y)) 1 2 3) ; lambda1\n    ((lambda (x . y) (list x y)) 1 2 3) ;lambda2\nQue se puede decir sobre ambas funciones lambda?\na. Ninguna funcionara puesto que recibe 3 parametros cuando se piden 2.\nb. Ambas retornaran la misma lista si se les entregara la cantidad de parametros correctos\nc. Solo lambda2 es capaz de devolver un resultado, ya que lambda1 da error\nd. Solo lambda1 es capaz de devolver un resultado, ya que lambda2 da error\n\n",
             "respuesta": "c",
             "explicacion": " Note que al ser impropia los parametros en lambda2, considera x como el primer elemento recibido e y como todos los demas, uniendolos en una lista",
             "referencia": "Original",
-            "id": 1131
+            "id": 1131,
+            "intAnswers": 4
         },
         {
             "pregunta": "(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes codigos en Scheme:\n    ((lambda (x y) (list x y)) 1 2) ; lambda1\n    ((lambda (x . y) (list x y)) 1 2) ; lambda2\n    ((lambda x (list x)) 1 2) ;  lambda3\nCuales seran los resultados de las funciones lambda? Considere el orden lambda1 / lambda2 / lambda3\na. (1 2) / (1 (2)) / ((1 2))\nb. ((1) (2)) / (1 2) / ((1) (2))\nc. (1 2) / (1 2) / ((1) (2))\nd. (1 2) / (1 (2)) / (1 2)\ne. ((1) (2)) / (1 (2)) / ((1 2))\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1132
+            "id": 1132,
+            "intAnswers": 5
         },
         {
             "pregunta": "\n\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere los siguientes comandos en Scheme:\n    (define (length ls)\n            (if (null? ls)\n                0\n                (+ 1 (length (cdr ls)))\n            )\n    )\nCual de las siguientes comandos son validos para el codigo (o sea, que no retornaran error)?\n    I. (length '())\n    II. (length '(1 2))\n    III. (length '(1 . 2))\na. Solo I\nb. Solo II\nc. I y II\nd. II y III \n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1133
+            "id": 1133,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define lista '(a b c d e))\nCual de estas operaciones hara un cambio a la asignacion de lista?\n    I. (assign lista '(a b))\n    II. (cdr lista)\n    III. (set! lista)\na. Solo I\nb. Solo II\nc. I y III\nd. Solo III\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1134
+            "id": 1134,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (+ x x) ;Linea1\n    (define x 10) ;Linea2\n    (+ x x) ;Linea3\nQue se puede deducir sobre este codigo?\n    I. Habra un error en la Linea1, al no definirse x previamente\n    II. Si cambiamos Linea1 y Linea2, el resultado que nos dara la suma en la linea3 sera 30, mas no quedara asignado\n    III. Si cambiamos Linea1 y Linea2, el x quedara asignado como 30.\na. Solo I\nb. I y II\nc. I y III\nd. Ninguna de las anteriores\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1135
+            "id": 1135,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define duplicador_2 (lambda (x) (duplicador x))) ;Linea1\n    (duplicador_2 2) ;Linea2\n    (define duplicador (lambda (x) (* 2 x))) ;Linea3\nQue se puede deducir sobre este codigo?\n    I. Habra un error en la linea1 ya que duplicador no esta definido\n    II. Para que el codigo funcione, la Linea2 ha de estar antes de la Linea1\n    III. Como duplicador esta dentro de duplicador2, solo se puede llamar si se llama a duplicador2\na. Solo I\nb. I y II\nc. I y III\nd. Ninguna de las anteriores\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1136
+            "id": 1136,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (let ((x 1) (y 2));\n        (let ((x y) (y x));\n            (list x y)\n        )\n    )\nEl valor que retornara este let sera;\na. (1 2)\nb. (1 1)\nc. (2 2)\nd. (2 1)\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1137
+            "id": 1137,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (let ((x 1) (y 2));\n        (let* ((x y) (y x));\n            (list x y)\n        )\n    )\nEl valor que retornara este let sera;\na. (1 2)\nb. (1 1)\nc. (2 2)\nd. (2 1)\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1138
+            "id": 1138,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (let ((suma (lambda (ls)\n                    (if (null? ls)\n                    0\n                    (+ (car ls) (suma (cdr ls)))\n                    )\n                )\n            ))\n        (suma '(1 2 3 4 5 6))\n    )\nQue es cierto sobre este programa?\na. Se recibe una lista y se suma todos los numeros en orden. Retorna el numero\nb. El programa se cae si recibe una lista vacia\nc. El codigo no funciona debido a que suma no esta definido para el procedimiento\nd. Ninguna de las anteriores\n\n",
             "respuesta": "c",
             "explicacion": " El problema es que let no deja que suma se defina previo  a la definicion del lambda",
             "referencia": "Original",
-            "id": 1139
+            "id": 1139,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (letrec ((suma (lambda (ls)\n                    (if (null? ls)\n                    0\n                    (+ (car ls) (suma (cdr ls)))\n                    )\n                )\n            ))\n        (suma '(1 2 3 4 5 6))\n    )\nQue es cierto sobre este programa?\na. Se recibe una lista y se suma todos los numeros en orden. Retorna el numero\nb. El programa se cae si recibe una lista vacia\nc. El codigo no funciona debido a que suma no esta definido para el procedimiento\nd. Ninguna de las anteriores\n\n",
             "respuesta": "a",
             "explicacion": " Letrec si permite que suma se refiera a si misma dentro de la definicion",
             "referencia": "Original",
-            "id": 1140
+            "id": 1140,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (letrec ((y (+ x 2)) \n            (x 1)\n            )\n    y)\nQue es cierto sobre este programa?\na. El programa retorna la suma de y + 2\nb. El programa utiliza variables que han de ser evaluadas de izquierda a derecha, ya que importa el orden de evaluacion\nc. El programa no funciona, debido a que y no esta definido previamente\nd. Ninguna de las anteriores\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1141
+            "id": 1141,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (letrec ((f (lambda () (+ x 2)));\n            (x 1)\n            )\n    (f)\n    )\nQue es cierto sobre este programa?\na. El programa retorna la suma de x + 2\nb. El programa no devuelve nada puesto que no se llama a nada.\nc. El programa no funciona, debido a que x no esta definido previamente\nd. Ninguna de las anteriores\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1142
+            "id": 1142,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (eq? '(a b c) '(a b c . ())) ; Retorno1\n    (eqv? '(a b c) '(a b c . ())) ; retorno2\n    (equal? '(a b c) '(a b c . ())) ; Retorno3\nQue sera lo que retornara cada funcion? Considere el orden retorno1, retorno2 y retorno3\na. #t #f #t\nb. #f #f #t\nc. #t #t #f\nd. #t #t #t\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1143
+            "id": 1143,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (apply + '(5 -1 3 5)) ;Linea1\n    (+ 5 -1 3 5) ;Linea2\nCual de los siguientes procedimientos devolvera #t al tener de argumentos linea1 y linea2?\n    I. (eq? (+ 5 -1 3 5) (apply + '(5 -1 3 5)))\n    II. (eqv? (+ 5 -1 3 5) (apply + '(5 -1 3 5)))\n    III. (equal? (+ 5 -1 3 5) (apply + '(5 -1 3 5)))\na. I y II\nb. I y III\nc. Todas las anteriores\nd. Ninguna de las anteriores\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1144
+            "id": 1144,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (map (lambda (x y z) (+ y x z))\n        '(1 2 -1)\n        '(0 2 -1)\n        '(0 2 -1)\n    )\nCual sera el resultado que va a entregar?\na. (2 1 1)\nb. (1 6 -3)\nc. (1 1 1)\nd. (2 3 4)\n\n",
             "respuesta": "b",
             "explicacion": " Notar que pese a que este escrito con enter, las listas son (1 2 -1) (0 2 -1) y (0 2 -1), el map evaluara por indice, o sea, x,y,z = 1,0,0 / 2,2,2 / -1,-1,-1 para cada caso",
             "referencia": "Original",
-            "id": 1145
+            "id": 1145,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define (plus1 n)\n            (delay (+ 1 n) ))\n\n    (define prom1 (plus1 1))\n    (define prom2 (plus1 -1))\nQue se vera en pantalla cuando se llame:\n    (display prom1)\n    (display prom2)\na. 2 0\nb. 2 1\nc. #<promise:plus1>\nd. #<promise:plus1>#<promise:plus1>\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1146
+            "id": 1146,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejercicios de clases Wladimir 2024-2)\nConsidere el siguiente codigo en Scheme:\n    (define (plus1 n)\n            (delay (+ 1 n) ))\n\n    (define prom1 (plus1 1))\n    (define prom2 (plus1 -1))\nQue se vera en pantalla cuando se llame:\n    (force prom1)\n    (force prom2)\na. 2 0\nb. 2 1\nc. #<promise:plus1>\nd. #<promise:plus1>#<promise:plus1>\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1147
+            "id": 1147,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n\n\nCon respecto a pair?, se puede decir que...\na. Recibe una lista y devuelve #t si esta contiene un numero par de elementos contenidos en ella\nb. (pair? (cons 1 2)) dara #f ya que no se le especifico con que elemento termina la lista\nc. Como las listas estan hechas de pares, entregarle argumentos como '(a b c) y '() dara #t, ya que son listas y por tanto, contienen pares\nd. pair? no es equivalente a list? debido a que hay casos donde algo es una lista pero no es par\n\n",
             "respuesta": "d",
             "explicacion": " Considera que (pair? '()) dara #f, mientras que (list '()) dara #t",
             "referencia": "Original",
-            "id": 1148
+            "id": 1148,
+            "intAnswers": 4
         },
         {
             "pregunta": "\nCon respecto al siguiente codigo en Scheme:\n    (cdr '(a b)) ; Linea1\n    (cdr '(b)) ; Linea2\n    (cdr '(a . b)) ; Linea3\nQue sera lo que se imprimira cuando se ande el codigo? Cosnidere el orden Linea1 / Linea2 / Linea3\na. (b) -|- b -|- ()\nb. (b) -|- () -|- b\nc. (b) -|- (b) -|- b\nd. (b) -|- () -|- (b)\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1149
+            "id": 1149,
+            "intAnswers": 4
         },
         {
             "pregunta": "\nSi consideramos las siguientes lineas de codigo en Scheme:\n    (define lista '(1 2 3)) ; Linea1\n    (append lista '(4 5)) ; Linea2\n    (display lista) ; Linea3\nQue ocurre en la ejecucion del codigo?\na. Ocurre un error en la linea2, puesto que append no puede modificar un define\nb. La linea3 mostrara por pantalla (1 2 3 4 5)\nc. La linea3 mostrara por pantalla (1 2 3)\nd. Ocurre un error en la linea2, puesto que necesita tener un set! para funcionar\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1150
+            "id": 1150,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q4P4",
             "pregunta": "\n\u00c2\u00bfQu\u00c3\u00a9 tipos de recursi\u00c3\u00b3n se tiene en el siguiente c\u00c3\u00b3digo?:\n    (define maximo\n                                                                            \na. Recursi\u00c3\u00b3n directa, de \u00c3\u00a1rbol, no de cola.\nb. Recursi\u00c3\u00b3n no directa, lineal, no de cola.\nc. Recursi\u00c3\u00b3n directa, lineal, de cola.\nd. Recursi\u00c3\u00b3n no directa, de \u00c3\u00a1rbol, de cola.\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1151
+            "id": 1151,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q4P6",
             "pregunta": "\nEn relaci\u00c3\u00b3n a las listas en Scheme es falso que:\n\na. Las funciones first y rest se utilizan para obtener el primer elemento y una lista con el resto de los elementos\nrespectivamente.\nb. Las listas pueden contener elementos de cualquier tipo.\nc. Una funci\u00c3\u00b3n se escribe como una lista, donde el primer elemento es la funci\u00c3\u00b3n y los\nsiguientes los par\u00c3\u00a1metros.\nd. Para que una lista sea evaluada, necesariamente, se debe considerar el uso de las funciones map o eval.\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1152
+            "id": 1152,
+            "intAnswers": 4
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q4P15",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes funciones siempre usar\u00c3\u00a1 la cantidad m\u00c3\u00adnima de memoria en el stack?:\n\na. (define factorizacion\n                                                                            \nb. (define remove\n                                                    \nc.(define fibonacci\n                                0\n                                            a1\n                \nd. Todas las alternativas.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1153
+            "id": 1153,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q4P1",
             "pregunta": "\n\nDado el siguiente c\u00c3\u00b3digo, indique cu\u00c3\u00a1l es la salida:\n                        #f)))\na. hola\nb. chao\nc. #F\nd. Ninguna de las anteriores.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1154
+            "id": 1154,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q4P3",
             "pregunta": "\nDada la siguiente ecuaci\u00c3\u00b3n matem\u00c3\u00a1tica, cu\u00c3\u00a1l ser\u00c3\u00ada el c\u00c3\u00b3digo correcto para realizar el c\u00c3\u00a1lculo?\n    (4 + (5 * ((6/2)-5))) - 2\n\na. b. c. d. e. Ninguna de las anteriores.\n",
             "respuesta": "e",
             "explicacion": "No explicacion entregada",
-            "id": 1155
+            "id": 1155,
+            "intAnswers": 5
         },
         {
             "referencia": "[2022-1] - Salas Q4P4",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                                            \na. b. c. d. e. Ninguna de las anteriores.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1156
+            "id": 1156,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q4P5",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                                                                                        x)\n                \na. b. a \nc. d. e. Ninguna de las anteriores.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1157
+            "id": 1157,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q4P6",
             "pregunta": "\n6. \u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n    (define neg-relu \n                                    0\n                x)))\n    \na. b. c. d. e. Ninguna de las anteriores.\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1158
+            "id": 1158,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q4P7",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n    (define funcion \n                    (cond [(not (number? n)) \"no es numero\"]\n                [(= n 0) \"infinito]\n                [#t    \na. b. 2/3\nc. d. e. Ninguna de las anteriores.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1159
+            "id": 1159,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Salas Q4P8",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                        1\n                \na. 5\nb. 15\nc. 16\nd. 30\ne. Ninguna de los anteriores.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1160
+            "id": 1160,
+            "intAnswers": 5
         },
         {
             "referencia": "[2022-1] - Salas Q4P9",
             "pregunta": "\nLa siguiente expresi\u00c3\u00b3n:\n                                            variable\n                                \na. Retorna 15 y es recursi\u00c3\u00b3n simple.\nb. Retorna 15 y es recursi\u00c3\u00b3n de cola.\nc. Retorna 5 y es recursi\u00c3\u00b3n simple.\nd. Retorna 15 y es recursi\u00c3\u00b3n de cola.\ne. Ninguna de los anteriores.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1161
+            "id": 1161,
+            "intAnswers": 5
         },
         {
             "referencia": "[2022-1] - Salas Q4P10",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de la siguiente expresi\u00c3\u00b3n?\n                \na. 0\nb. 1\nc. 2\nd. tic\ne. f. Ninguna de las anteriores.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1162
+            "id": 1162,
+            "intAnswers": 6
         },
         {
             "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P1",
             "pregunta": "\n\n\nUna de las siguientes frases sobre la Programaci\u00c3\u00b3n Funcional y/o Scheme no es cierta:\na. La programaci\u00c3\u00b3n funcional pura no usa variables ni asignaci\u00c3\u00b3n.\nb. En la programaci\u00c3\u00b3n funcional, la evaluaci\u00c3\u00b3n de las funciones est\u00c3\u00a1 controlada por secuencias e iteraciones.\nc. En Scheme, las funciones son entidades de primera clase.\nd. Scheme tiene recolecci\u00c3\u00b3n autom\u00c3\u00a1tica de basura.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1163
+            "id": 1163,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P2",
             "pregunta": "\n\u00c2\u00bfCual de las siguientes expresiones lambda no entrega el resultado asociado?\na. ((lambda (x y z) (+ x y z)) 3 4 5) --> resultado: 12\nb. c. d. ",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1164
+            "id": 1164,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P3",
             "pregunta": "\n\u00c2\u00bfQu\u00c3\u00a9 tipos de recursi\u00c3\u00b3n se tiene en el siguiente c\u00c3\u00b3digo?\n    (define maximo\n                                                                            \na. Recursi\u00c3\u00b3n directa, de \u00c3\u00a1rbol, no de cola.\nb. Recursi\u00c3\u00b3n directa, lineal, de cola.\nc. Recursi\u00c3\u00b3n no directa, lineal, no de cola.\nd. Recursi\u00c3\u00b3n no directa, de \u00c3\u00a1rbol, de cola.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1165
+            "id": 1165,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P4",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es la salida que entrega la ejecuci\u00c3\u00b3n de los siguientes c\u00c3\u00b3digos?\n                        \n                        \na. b. c. d. ",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1166
+            "id": 1166,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - Mart\u00c3\u00ad Q4P5",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes funciones usar\u00c3\u00a1 la menor cantidad de memoria en el stack?\n\na.                         \nb.                         a\n            \nc.                                     \nd. Todas usan la misma cantidad de memoria.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1167
+            "id": 1167,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - D\u00c3\u00adaz Q4P16",
             "pregunta": "\n\nEn relaci\u00c3\u00b3n a lo visto sobre predicados en Scheme, se puede afirmar que:\n\na. Scheme no soporta expresiones relacionales como =, < y >.\nb. el operador null? elimina todos los elementos de una lista.\nc. Scheme soporta los operadores l\u00c3\u00b3gicos or, and y not.\nd. number? verifica si un n\u00c3\u00bamero es flotante.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1168
+            "id": 1168,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-1] - D\u00c3\u00adaz Q4P17",
             "pregunta": "\nRespecto a recursi\u00c3\u00b3n de cola, es incorrecto decir que:\n\na. Es un tipo de recursi\u00c3\u00b3n directa.\nb. Debe necesariamente existir m\u00c3\u00a1s de una invocaci\u00c3\u00b3n recursiva para ser llamada recursi\u00c3\u00b3n en cola.\nc. Corresponde a una recursi\u00c3\u00b3n de cola cuando el llamado del procedimiento aparece al final de la expresi\u00c3\u00b3n lambda.\nd. Se puede hacer un n\u00c3\u00bamero indefinido de llamadas de cola sin provocar overflow.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1169
+            "id": 1169,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q4P11",
             "pregunta": "\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado del siguiente programa?\n                                    )\n    )\n\na. 5\nb. 6\nc. 7\nd. Error en tiempo de ejecuci\u00c3\u00b3n.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1170
+            "id": 1170,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q4P12",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1les de los siguientes principios no corresponde a la Programaci\u00c3\u00b3n Funcional?\n\na. Se debe asegurar la transparencia referencial.\nb. Las funciones son elementos de primer orden en el lenguaje.\nc. Las funciones pueden ser puras.\nd. Programar considerando objetos inmutables.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1171
+            "id": 1171,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q4P13",
             "pregunta": "\nEl siguiente c\u00c3\u00b3digo corresponde a un lenguaje desconocido. \u00c2\u00bfQu\u00c3\u00a9 l\u00c3\u00adnea le indica que no es funcional y por qu\u00c3\u00a9?\n\n    d =\n        [x, y] =>\n            {x - y}\n    \n    f =\n        [x, y] =>\n            {x + y}\n    \n    f\na. La l\u00c3\u00adnea 3 y 6, porque no usa la notaci\u00c3\u00b3n prefija.\nb. La l\u00c3\u00adnea 1 y 4, porque tiene asignaciones directas con el s\u00c3\u00admbolo =\nc. La l\u00c3\u00adnea 8, porque las funciones no son puras.\nd. Ninguna l\u00c3\u00adnea puede indicar que el paradigma no es funcional.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1172
+            "id": 1172,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Carmona Q4P14",
             "pregunta": "\nEn relaci\u00c3\u00b3n a las listas de Scheme es falso que:\n\na. Las listas contemplan elementos de cualquier tipo.\nb. Una funci\u00c3\u00b3n se escribe como una lista donde el primer elemento es la funci\u00c3\u00b3n y los siguientes los par\u00c3\u00a1metros.\nc. Para que una lista sea evaluada se le antecede con una citaci\u00c3\u00b3n simple.\nd. Las funciones first y rest se utilizan para obtener el primer elemento y una lista con el resto de los elementos respectivamente.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1173
+            "id": 1173,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P11",
             "pregunta": "\n\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de evaluar las siguientes dos expresiones?\n        \na. b. c. d. 1\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1174
+            "id": 1174,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P12",
             "pregunta": "\nAl intentar ejecutar las siguientes dos expresiones:\n        Se obtiene:\n\na. El mismo valor para ambas.\nb. Solo se puede ejecutar la expresi\u00c3\u00b3n apply.\nc. Solo se puede ejecutar la expresi\u00c3\u00b3n min.\nd. Ninguna se puede ejecutar.\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1175
+            "id": 1175,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P13",
             "pregunta": "\nLa ejecuci\u00c3\u00b3n de la siguiente expresi\u00c3\u00b3n:\n            '        'entrega como resultado:\n\na. b. c. Un error, dado que solo puede tener sublistas de largo 2 para ligar a x e y.\nd. Un error, dado que no es posible mapear una expresi\u00c3\u00b3n lambda a un c\u00c3\u00b3digo.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1176
+            "id": 1176,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P14",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes expresiones no entregar\u00c3\u00a1 una lista vac\u00c3\u00ada en su ejecuci\u00c3\u00b3n?\n\na. b. c. d. ",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1177
+            "id": 1177,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P15",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el objetivo de la evaluaci\u00c3\u00b3n perezosa?\n\na. Potenciar la recursi\u00c3\u00b3n de cola.\nb. Poner un l\u00c3\u00admite al espacio de memoria en stack a utilizar.\nc. Poner un l\u00c3\u00admite al espacio de memoria en heap a utilizar.\nd. Ahorrar computaci\u00c3\u00b3n.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1178
+            "id": 1178,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - D\u00c3\u00adaz Q4P11",
             "pregunta": "\n\nEn relaci\u00c3\u00b3n a las listas en Scheme es falso que:\n\na. Las listas contemplan elementos de cualquier tipo.\nb. Una funci\u00c3\u00b3n se escribe como una lista donde el primer elemento es la funci\u00c3\u00b3n y los siguientes los par\u00c3\u00a1metros.\nc. Para que una lista sea evaluada se le antecede con una citaci\u00c3\u00b3n simple.\nd. Las funciones car y cdr se utilizan para obtener el primer elemento y una lista sin el primer elemento respectivamente.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1179
+            "id": 1179,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P12",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de evaluar la siguiente expresi\u00c3\u00b3n en Scheme?\n    \na. b. c. d. ",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1180
+            "id": 1180,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P13",
             "pregunta": "\nSobre recursi\u00c3\u00b3n en Scheme es falso que:\n\na. Un procedimiento recursivo es aquel que se llama a s\u00c3\u00ad mismo.\nb. Recursi\u00c3\u00b3n de cola es cuando un procedimiento hace un llamado de cola hacia s\u00c3\u00ad mismo.\nc. Se puede hacer un n\u00c3\u00bamero indefinido de llamados de recursi\u00c3\u00b3n de cola sin causar overflow del stack.\nd. Una funci\u00c3\u00b3n no puede poseer recursi\u00c3\u00b3n de cola a la vez que otro tipo.\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1181
+            "id": 1181,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P14",
             "pregunta": "\nScheme no es un lenguaje funcional puro. Esto se debe a que:\n\na. Permite la definici\u00c3\u00b3n y asignaci\u00c3\u00b3n de variables por medio de let y define.\nb. Es posible programar con efectos laterales al asignar valores a variables con set!\nc. Las funciones son entidades de primera clase y se tratan como cualquier valor.\nd. A diferencia de LISP, los nombres tienen \u00c3\u00a1mbito est\u00c3\u00a1tico.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1182
+            "id": 1182,
+            "intAnswers": 4
         },
         {
             "referencia": "[2022-2] - Mart\u00c3\u00ad Q4P15",
             "pregunta": "\nConsidere la funci\u00c3\u00b3n combinatoria definida a continuaci\u00c3\u00b3n:\n            (cond [(or (= n k) (= k 0)) 1]\n            [else                             )]))\n\nSobre esta funci\u00c3\u00b3n es correcto decir que:\n\na. Es recursiva lineal y los llamados no son de cola.\nb. Al menos uno de los llamados recursivos no es de cola.\nc. Ambos llamados recursivos son de cola.\nd. Sin contar llamadas a otras funciones, hace uso de una sola instancia de registro de activaci\u00c3\u00b3n.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1183
+            "id": 1183,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P11",
             "pregunta": "\n\nDada la siguiente expresi\u00c3\u00b3n: (define e '((a 1) (b 2) (c 3))), y la consulta (assq 'b e), \u00c2\u00bfCu\u00c3\u00a1l es el resultado correcto?\n\na. true\nb. c. d. Ninguna de las anteriores.\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1184
+            "id": 1184,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P12",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de ejecutar: (apply min 5 1 3 (5 -1 3 5))?\n\na. Hay un error en la expresi\u00c3\u00b3n.\nb. true\nc. -1\nd. Ninguna de las anteriores.\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1185
+            "id": 1185,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P13",
             "pregunta": "\n\u00c2\u00bfPor qu\u00c3\u00a9 no se puede ejecutar el siguiente c\u00c3\u00b3digo?\n            '\na. Porque la expresi\u00c3\u00b3n lambda no tiene nombre (debi\u00c3\u00b3 estar dentro de un let).\nb. Porque se requieren dos listas de igual longitud, una para ligar valores a x y otra para y.\nc. Porque estar dentro de un define y der ejecutada en una expresi\u00c3\u00b3n aparte (con let, probablemente).\nd. Todas las anteriores.\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1186
+            "id": 1186,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P14",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de ejecutar: (filter odd? '(1 2 3 4 5 6))?\n\na. Error.\nb. No existe odd? en Scheme.\nc. 1 3 5\nd. ",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1187
+            "id": 1187,
+            "intAnswers": 4
         },
         {
             "referencia": "[2023-2] - Mart\u00c3\u00ad Q4P15",
             "pregunta": "\n\u00c2\u00bfCu\u00c3\u00a1l es el resultado de evaluar la siguiente expresi\u00c3\u00b3n en Scheme?\n    \na. b. c. d. ",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1188
+            "id": 1188,
+            "intAnswers": 4
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q4P11",
             "pregunta": "\n\nEn la programacion funcional pura, valga la redundancia, las funciones deben ser puras, es decir:\na. Deben hacer uso de la recursion, en cualquiera de sus tipos.\nb. Tienen que considerar una composicion de dos o mas funciones.\nc. Siempre deben devolver las mismas salidas para las mismas entradas y no tener efectos secundarios\nd. Deben considerar objetos inmutables, es decir, objetos que no cambian de estado.\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1189
+            "id": 1189,
+            "intAnswers": 4
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q4P12",
             "pregunta": "\nCual de las siguientes consultas en Scheme fallara?\na. b. c. d. Ninguna\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1190
+            "id": 1190,
+            "intAnswers": 4
         },
         {
             "referencia": "[2024-2] - Jose Luis Marti. Q4P13",
             "pregunta": "\nCual de los siguientes operadores de Scheme se acerca a la logica de un lenguaje imperativo?\na. let*\nb. aplly\nc. map\nd. assoc\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1191
+            "id": 1191,
+            "intAnswers": 4
         },
         {
             "referencia": "define a (lambda (x) (b x))",
             "pregunta": "\nCual es el resultado de la ejecucion del siguiente codigo?\n\na. 4\nb. 8\nc. 16\nd. Error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1192
+            "id": 1192,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2024-2] - Jose Luis Marti. Q4P15) \nCual de las siguientes definiciones es incorrecta?\na. El operador let se recomeienda cuando no importa el orden de evaluacion de las operaciones, o sea, no hay dependencia\nb. El operador let* se recomienda cuando hay una dependiencia lineal entre los valores de las operaciones asociadas\nc. El operador letrec se recomienda cuando hay una dependencia circular entre las operaciones\nd. Ninguna de las anteriores\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1193
+            "id": 1193,
+            "intAnswers": 4
         }
     ]
 }

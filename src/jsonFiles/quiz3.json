@@ -2601,215 +2601,246 @@
             "respuesta": "c",
             "explicacion": " Solo se llama al constructor respectivo",
             "referencia": "Original",
-            "id": 1077
+            "id": 1077,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase()\n\u00c2\u00bfQue constructores y en que orden se llamaran?\na. SuperClase() -> SubClase()\nb. SubClase()\nc. SuperClase()\nd. Ninguna de las anteriores\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1078
+            "id": 1078,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub2 = new SubClase(0)\n\u00c2\u00bfQue constructores y en que orden se llamaran?\na. SuperClase() -> SubClase() -> SubClase(int i)\nb. SuperClase() -> SubClase(int i)\nc. SuperClase(int i) -> SubClase(int i) \nd. Ninguna de las anteriores\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1079
+            "id": 1079,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase()\n    System.out.println(sub1.Suma());\n\u00c2\u00bfQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"6\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1080
+            "id": 1080,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SuperClase sub3 = new Subclase();\n    System.out.println(sub3.Suma());\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"6\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1081
+            "id": 1081,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase();\n    System.out.println(sub1.nombre);\nQue sera lo que se vera por pantalla?\na. \"SuperClase\"\nb. \"SubClase\"\nc. \"SubSubClase\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1082
+            "id": 1082,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SuperClase sub3 = new SubClase();\n    System.out.println(sub3.superSuma());\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"8\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1083
+            "id": 1083,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase();\n    System.out.println(sub1.superSuma());\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"8\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1084
+            "id": 1084,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P1)\nAl usar el operador new, cual de las siguientes acciones no se llevan a cabo?\na. Lanza una excepcion para activar el runtime\nb. El runtime crea un objeto\nc. Se asigna suficiente memoria en el heap\nd. Se invoca un constructor para inicializar un objeto\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1085
+            "id": 1085,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P2)\nCual de los siguientes operadores o funcionalidades no esta bien definido?\n\na. super: para acceder a un atributo de la superclase cuando el modificador de acceso lo permita\nb. Modificador de acceso protected, que permite a un objeto de una clase, por ejemplo, acceder directamente a un atributo definido en otro paquete\nc. Ligado dinamico de metodos: Variable del tipo base que pueden referenciar objetos de alguna clase descendiente, y asi ejectuar el metodo redefinido es esta\nd. this: permite pasar una referencia del objeto actual como parametro a otro metodo.\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1086
+            "id": 1086,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P3)\nCual de las siguientes formas de polimorfismo no se encuentran en Java?\na. Sobrecarga de metodos\nb. Punteros a void\nc. Clases genericas\nd. Ligado dinamico de metodos\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1087
+            "id": 1087,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P4)\n\nEn relaci\u00c3\u00b3n al uso de la memoria para implantar la herencia, es necesario el heap porque:\na La sobrecarga de m\u00c3\u00a9todos hace variaciones en el c\u00c3\u00b3digo que no se pueden guardar en el stack.\nb El tama\u00c3\u00b1o de las referencias mismas puede cambiar dependiendo de la clase del objeto a la que se haga alusi\u00c3\u00b3n.\nc El que una referencia a una clase pueda ser reemplazada constantemente por otra a una subclase, conlleva el acceso a objetos de tama\u00c3\u00b1o variable, lo que no es manejable directamente en el stack.\nd Las continuas invocaciones a m\u00c3\u00a9todos pueden afectar el rendimiento si los registros de activaci\u00c3\u00b3n se crearan en el stack, en lugar del heap.\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1088
+            "id": 1088,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P5)\n\nEn relaci\u00c3\u00b3n a la redefinici\u00c3\u00b3n de m\u00c3\u00a9todos dentro de una jerarqu\u00c3\u00ada de herencia, \u00c2\u00bfcu\u00c3\u00a1l de las siguientes afirmaciones es la \u00c3\u00banica verdadera?\na. Los m\u00c3\u00a9todos de la superclase y subclase s\u00c3\u00b3lo pueden diferir en el tipo de retorno.\nb. Se puede invocar el m\u00c3\u00a9todo redefinido desde la subclase con la referencia this.\nc. Un m\u00c3\u00a9todo final de la superclase se puede redefinir por \u00c3\u00baltima vez en la subclase que la extiende.\nd. Un m\u00c3\u00a9todo redefinido puede tener modificadores de acceso, pero s\u00c3\u00b3lo puede entregar mayor acceso, no restringirlo.\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
-            "id": 1089
+            "id": 1089,
+            "intAnswers": 4
         },
         {
             "referencia": "Certamen 1 - Marti, p1",
             "pregunta": "\nDado el siguiente codigo en java:\n\n    class Base {\n        Base         {Systen.out.println(\"base constructor\");}\n    }\n    public class Sup extends Base{\n        public static void main(String argv[]){\n            Sup s = new Sup();\n            //Uno\n        }\n        Sup(){ //Dos }\n        public void derivada(){ //Tres }\n    }\n\n\u00c2\u00bfComo se debe invocar el constructor Base para que muestre por la salida estandar el string \"base constructor\"?\na. Una linea despues de //Tres poner: Baseb. Una linea despues de //Dos poner: superc. Una linea despues de //Uno poner: Based. Una linea despues de //Uno poner: super\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1090
+            "id": 1090,
+            "intAnswers": 4
         },
         {
             "referencia": "Certamen 1 - Marti, p11",
             "pregunta": "\nDado el siguiente codigo en java:\n    \n    public Class A {\n        int x;\n        private int y;\n        protected int z;\n        public int w;\n    }\n\nUna clase B que la extiende y que se encuentra en otro paquete, \u00c2\u00bfCual seria la visibilidad que tendria sobre los atributos miembros de A?\na. Puede accesar a todos los atributos, menos x, w\nb. Puede accesar a todos los atributos, menos x\nc. Puede accesar a todos los atributos, menos y\nd. Puede accesar a todos los atributos, menos x, y\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1091
+            "id": 1091,
+            "intAnswers": 4
         },
         {
             "referencia": "Certamen 1 - Marti, p12",
             "pregunta": "\nSi una subclase tiene un m\u00c3\u00a9todo sobreescrito con modificador de acceso protected, significa que el mismo m\u00c3\u00a9todo en la superclase tiene acceso:\na. Privado o protegido\nb. Protegido o de paquete\nc. Publico o protegido\nd. Protegido\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1092
+            "id": 1092,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Certamen 1 - Marti, p14) \nCu\u00c3\u00a1l de los siguientes no es un uso real del modificador final de java?\n\na. Establecer que un m\u00c3\u00a9todo no puede ser sobreescrito\nb. Reforzar que se trata del \u00c3\u00baltimo m\u00c3\u00a9todo a ejecutar por un objeto a eliminar\nc. Indicar que un atributo tendr\u00c3\u00a1 un valor constante, que no podr\u00c3\u00a1 ser modificado\nd. Se\u00c3\u00b1alar que una clase no puede ser extendida\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1093
+            "id": 1093,
+            "intAnswers": 4
         },
         {
             "referencia": "Certamen 1 - Marti, p26",
             "pregunta": "\nDado las siguientes declaraciones en java:\n    Interface I {...}\n    Class A implements I {...}\n    Class B extends A {...}\n\u00c2\u00bfCual de las siguientes sentencias es la unica correcta?\na. B x = new I();\nb. I x = new B();\nc. I x = new I();\nd. B x = new A();\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1094
+            "id": 1094,
+            "intAnswers": 4
         },
         {
             "referencia": "Control 3 2022 - Gabriel Carmona p2.1",
             "pregunta": "\nSi se tiene el siguiente codigo:\n    Class A {\n        public int a;\n        public int b;\n    }\n    A(){\n        a = 0;\n        b = 0:\n    }\n    A(int a){\n        this.a = a+2\n        b = a\n    }\n    Class B extends A {\n        public int a\n        B(int a){\n            super(a);\n            this.a = 2;\n            super.b = 2;\n        }\n    }\nSi se crea una instancia de B de esta forma:\n    A c = new B(3);\nCual de las siguientes alternativas es verdadera?\na. c.a valdra 2\nb. c.a valdra 4\nc. c.b valdra 3\nd. c.b valdra 2\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1095
+            "id": 1095,
+            "intAnswers": 4
         },
         {
             "referencia": "Control 3 2022 - Gabriel Carmona p2.2",
             "pregunta": "\nPor haber herencia, la asignacion dinamica de memoria no puede hacerse en el stack por:\na. Delays en el acceso a los objetos, dada la ubicacion aleatoria de estos dentro de los registros de activacion\nb. Imposibilidad de realizar el ligado dinamico de metodos, dado que no siempre es posible que tengan la misma firma y tipo de retorno\nc. Dificultad para analizar estaticamente el tama\u00c3\u00b1o de memoria requerido en el stack, ya que a una variable de tipo base se le pueden asignar referencias de cualquier tipo derivado\nd. Todas las anteriores\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1096
+            "id": 1096,
+            "intAnswers": 4
         },
         {
             "referencia": "Control 3 2022 - Gabriel Carmona p2.3",
             "pregunta": "\nConsidere la siguiente organizacion de archivos:\n    src\n    |---Lector\n        |--- Romance.java\n        |--- Fantasia.java\n        |--- Lector.java\n    |---Jugador\n        |--- PC.java\n        |--- Consola.java\n        |--- Jugador.java\nCual de las siguientes alternativas es falso?\na. Lector y Fantasian heredan de Lector\nb. Lector y Fantasia son tipos de Lector\nc. Lector y Jugador pueden tener relacion entre ellos\nd. PC puede tener metodos que no tiene Consola\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1097
+            "id": 1097,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 2022 CC - Jose Luis Marti p2.1",
             "pregunta": "\nCual de las siguientes alternativas NO se consideraria una ventaja del control de acceso a miembros?\na. Simplifica la interfaz del objeto, ocultando detalles irrelevantes para el usuario\nb. Mejora la legibilidad pues deja claro que debera ser implementado en las subclases\nc. Mejora la confiabilidad de la clase, pues usos incorrectos accidentales seran alertados con errores de compilacion\nd. Facilita y encauza la reutilizacion de la clase ocultando detalles no extensibles\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1098
+            "id": 1098,
+            "intAnswers": 4
         },
         {
             "pregunta": "\n(Quiz 3 2022 CC - Jose Luis Marti p2.2) \nEn Java, se debera declarar que un metodo lanza una excepcion verificada (con throws) si es que al incluir una sentencia throw esta se encuentra:\n    I. Dentro de cualquier bloque try\n    II. Dentro de cualquier bloque catch\n    III. Dentro de cualquier bloque finally\n    IV.  Fuera de los bloques previamente mencionados\na. Solo I\nb. II y IV\nc. II, III y IV\nd. I, II, III y IV\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1099
+            "id": 1099,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 2022 CC - Jose Luis Marti p2.3",
             "pregunta": "\nSobre Java, cual de las siguientes afirmaciones son correctas?\n    I. Una clase puede contener varios metodos con el mismo nombre siempre que tengan distintos parametros\n    II. Java soporta herencia multiple para Clases\n    III. Java soporta herencia multiple para Interfaces\na. Solo II\nb. Solo III\nc. I y II\nd. I y III\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1100
+            "id": 1100,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 2022 CC - Jose Luis Marti p2.4",
             "pregunta": "\nUn tipo de dato abstracto debe satisfacer dos restricciones que son:\na. Encapsulamiento y Ocultamiento de la informacion\nb. Ocultamiento de la informacion y Polimorfismo\nc. Encapsulamiento y Modularidad\nd. Polimorfismo y Modularidad\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1101
+            "id": 1101,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 2022 CC - Jose Luis Marti p2.5",
             "pregunta": "\nCual de las siguientes definiciones de clase esta permitida en Java?\na. public final abstract class ClaseA { }\nb. final class ClaseA extends ClaseB { }\nc. abstract class ClaseA extends ClaseB { }\nd. class ClaseA extends ClaseB, ClaseC { }\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1102
+            "id": 1102,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 P2 SJ - Jose Luis Marti p2.1",
             "pregunta": "\nDentro de los \"sabores\" de la programacion orientada objeto, cual de las siguientes afirmaciones es incorrecta?\na. Python es un ejemplo de lenguaje orientado al objeto puro\nb. C++ es un ejemplo de un lenguaje que soporta tanto la progamacion imperativa como la orientada a objeto\nc. C# es un ejemplo de lenguaje que no soporta otro paradigma que no sea el orientado al objeto, pero que usa una estructura imperativa\nd. CLOS es un ejemplo de lenguaje funcional que soporta la orientacion a objeto\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1103
+            "id": 1103,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 P2 SJ - Jose Luis Marti p2.2",
             "pregunta": "\nEn Java, la palabra static no se puede usar para\na. Clases\nb. Bloques de inicializacion\nc. Parametros\nd. Metodos\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
-            "id": 1104
+            "id": 1104,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 P2 SJ - Jose Luis Marti p2.3",
             "pregunta": "\nSobre las reglas de herencia en Java, cual de las siguientes frases es la unica correcta?\na. Una subclase hereda todos los atributos miembros privados, protegidos y publicos de la superclase.\nb. Una subclase no hereda los atributos miembros de la superclase que tienen el mismo nombre de un miembro de la subclase\nc. Una subclase hereda todos los atributos miembros sin modificador de la superclase, no importando el paquete en que se encuentre\nd. Una subclase hereda todos los atributos miembros de la superclase, asi como los de las interfaces que esta deba implementar\n\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
-            "id": 1105
+            "id": 1105,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 P2 SJ - Jose Luis Marti p2.4",
             "pregunta": "\nCual de las siguientes funciones no esta presente en la clase Object?\na. cloneb. equalsc. getClassd. move\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
-            "id": 1106
+            "id": 1106,
+            "intAnswers": 4
         },
         {
             "referencia": "Quiz 3 P2 SJ - Jose Luis Marti p2.5",
             "pregunta": "\nEn una interfaz en Java es falso\na. Puede tener algunos metodos implementados\nb. No puede tener atributos miembros\nc. Puede tener constantes\nd. Puede extender multiples interfaces\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
-            "id": 1107
+            "id": 1107,
+            "intAnswers": 4
         }
     ]
 }
