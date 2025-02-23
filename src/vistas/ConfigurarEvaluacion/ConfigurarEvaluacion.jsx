@@ -1,23 +1,22 @@
-import { useState } from 'react';
-import TopMenu from '/src/componentes/TopMenu';
+import { useState, useEffect } from 'react';
+import TopMenu from '@/vistas/TopMenu/TopMenu';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import ReactDOM from 'react-dom/client'; 
-import RendirEvaluacion from './RendirEvaluacion/RendirEvaluacion';
+import RendirEvaluacion from '../RendirEvaluacion/RendirEvaluacion';
+import quiz1 from "@/jsonFiles/quiz1.json";
+import quiz2 from "@/jsonFiles/quiz2.json";
+import quiz3 from "@/jsonFiles/quiz3.json";
+import quiz4 from "@/jsonFiles/quiz4.json";
+import quiz5 from "@/jsonFiles/quiz5.json";
+
+const archivos = [quiz1, quiz2, quiz3, quiz4, quiz5];
 
 async function obtenerPreguntas(cantidadPreguntas, seccion) {
-  // Genera las URLs dinámicamente usando import.meta.env.BASE_URL
-  const urls = Array.from({ length: 5 }, (_, i) => 
-    `${import.meta.env.BASE_URL}jsonFiles/quiz${i + 1}.json`
-  );
-
   try {
-    // Obtiene todas las preguntas de cada archivo
-    const respuestas = await Promise.all(urls.map(url => fetch(url).then(res => res.json())));
-    
-    // Combina todas las preguntas de la sección especificada ("vf" o "alt")
-    const todasLasPreguntas = respuestas.flatMap(data => data[seccion] || []);
+    // Extrae las preguntas de cada JSON
+    const todasLasPreguntas = archivos.flatMap(data => data[seccion] || []);
 
-    // Mezcla las preguntas aleatoriamente y selecciona la cantidad deseada
+    // Mezcla aleatoriamente y selecciona la cantidad deseada
     const preguntasAleatorias = todasLasPreguntas
       .sort(() => Math.random() - 0.5)
       .slice(0, cantidadPreguntas);
@@ -28,6 +27,7 @@ async function obtenerPreguntas(cantidadPreguntas, seccion) {
     console.error("Error al obtener las preguntas:", error);
   }
 }
+
 
 
 
@@ -50,7 +50,23 @@ function ConfigurarEvaluacion() {
     preguntasAlt: []
   });
 
-  //const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+  useEffect(() => {
+    if (DatosDelCertamen.preguntas.length > 0) {
+      ReactDOM.createRoot(document.getElementById('root')).render(
+        <RendirEvaluacion datosEvaluacion={DatosDelCertamen} />
+      );
+    }
+  }, [DatosDelCertamen.preguntas]);
+
+  useEffect(() => {
+    if (DatosDelQuiz.preguntasAlt.length > 0) {
+      ReactDOM.createRoot(document.getElementById('root')).render(
+        <RendirEvaluacion datosEvaluacion={DatosDelQuiz} />
+      );
+    }
+  }, [DatosDelQuiz.preguntasAlt]);
 
   return (
     <>
@@ -193,18 +209,21 @@ function ConfigurarEvaluacion() {
                     const preguntasVF = await obtenerPreguntas(15, "vf");
                     const nuevasPreguntas = await obtenerPreguntas(20, "alt");
 
-                    // Combina y actualiza el estado en una sola llamada
-                    setDatosDelCertamen((prev) => {
-                      const updatedCertamen = { ...prev };
-                      updatedCertamen.preguntas = [...preguntasVF, ...nuevasPreguntas];
-                    
-                      // Desordena el arreglo aleatoriamente
-                      updatedCertamen.preguntas.sort(() => Math.random() - 0.5);
-                    
-                      return updatedCertamen;
-                    });
+                    // Usar variables temporales para almacenar los cambios
+                    const preguntasActualizadas = [...preguntasVF, ...nuevasPreguntas];
 
-                    ReactDOM.createRoot(document.getElementById('root')).render(<RendirEvaluacion datosEvaluacion={DatosDelCertamen} />)
+                    // Desordenar las preguntas aleatoriamente
+                    preguntasActualizadas.sort(() => Math.random() - 0.5);
+
+                    // Preparar el objeto actualizado de DatosDelCertamen
+                    const updatedCertamen = {
+                      ...DatosDelCertamen, // Mantén los datos previos
+                      preguntas: preguntasActualizadas, // Actualiza solo el campo preguntas
+                    };
+
+                    // Finalmente, actualizar el estado con el objeto completo
+                    setDatosDelCertamen(updatedCertamen);
+
                   } catch (error) {
                     
                     console.error("Error al obtener las preguntas:", error);

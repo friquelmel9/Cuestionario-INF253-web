@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import TopMenu from '/src/componentes/TopMenu';
+import TopMenu from "@/vistas/TopMenu/TopMenu";
+
 function Inicio() {
   const [count, setCount] = useState(0);
 

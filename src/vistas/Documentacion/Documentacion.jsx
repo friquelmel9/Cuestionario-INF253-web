@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
-import QuestionBox from '/src/componentes/QuestionBox.jsx'
-import TopMenu from '/src/componentes/TopMenu.jsx'
+import QuestionBox from './QuestionBox.jsx'
+import TopMenu from '@/vistas/TopMenu/TopMenu'
 
 import data1 from '/src/jsonFiles/quiz1.json'
 import data2 from '/src/jsonFiles/quiz2.json'

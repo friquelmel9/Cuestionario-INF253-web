@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import '/src/componentes/QuestionBox.css';
+import './QuestionBox.css';
 
 // question is the question to show, boxState the type of box
 const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
