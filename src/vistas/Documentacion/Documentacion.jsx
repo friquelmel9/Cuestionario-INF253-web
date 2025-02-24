@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Markdown from 'react-markdown'
 
 import QuestionBox from './QuestionBox.jsx'
 import TopMenu from '@/vistas/TopMenu/TopMenu'
@@ -95,7 +96,7 @@ function Documentacion() {
                     )}
                     {selectedFilter === 1 && (
                         questionsArray.map(item => (
-                            <option value={item.id}>{item.id}</option>
+                            <option value={item.id}>{item.id} {item.referencia}</option>
                         ))
                     )} 
                     

@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import './QuestionBox.css';
+import Markdown from 'react-markdown'
+import remarkBreaks from 'remark-breaks'
+
 
 // question is the question to show, boxState the type of box
 const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
@@ -9,8 +12,13 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
         setShowAnswer(prevState => !prevState)
     }
 
+    const markdown = `
+    #This is perfect!
+    `
+
     return (
-        <div className="container">
+        <>
+            <div className="container">
             {question.id == null ? (
                 <p className="enunciado">Seleccione una pregunta</p>
             ) : (
@@ -20,7 +28,7 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
                         <div class="top-right-elements">{question.referencia}</div>
                     </div>
                     {!showAnswer ? (
-                        <div className="enunciado">{question.pregunta} </div>
+                        <Markdown remarkPlugins={[remarkBreaks]}>{question.pregunta}</Markdown>
                     ) : (
                         <>
                             <div className="enunciado">La respuesta correcta es: "{question.respuesta}" </div>
@@ -41,7 +49,8 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
                     
                 </>
             )}
-        </div>
+            </div>
+        </>
     )
 
 }

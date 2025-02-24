@@ -1,147 +1,147 @@
 {
     "vf": [
         {
-            "pregunta": "En paradigmas de la programacion, imperativo es aquel de ejecucion secuencial, tales como procedural o Orientado a objetos ",
+            "pregunta": "En paradigmas de la programacion, imperativo es aquel de ejecucion secuencial, tales como procedural o Orientado a objetos",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 1
         },
         {
-            "pregunta": "En paradigmas de la programacion, imperativo es aquel que se define como se quiere hacer o no, tales como procedural o Orientado a objetos ",
+            "pregunta": "En paradigmas de la programacion, imperativo es aquel que se define como se quiere hacer o no, tales como procedural o Orientado a objetos",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 2
         },
         {
-            "pregunta": "En paradigmas de la programacion, declarativo es aquel que se define como se quiere hacer o no, como el funcional o Logico ",
+            "pregunta": "En paradigmas de la programacion, declarativo es aquel que se define como se quiere hacer o no, como el funcional o Logico",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 3
         },
         {
-            "pregunta": "En paradigmas de la programacion, declarativo es aquel de ejecucion secuencial, como el funcional o Logico ",
+            "pregunta": "En paradigmas de la programacion, declarativo es aquel de ejecucion secuencial, como el funcional o Logico",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 4
         },
         {
-            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C ",
+            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 5
         },
         {
-            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C++ ",
+            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C++",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 6
         },
         {
-            "pregunta": "Ejemplos de lenguaje orientado a Objeto son SmallTalk, C++ y Java ",
+            "pregunta": "Ejemplos de lenguaje orientado a Objeto son SmallTalk, C++ y Java",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 7
         },
         {
-            "pregunta": "Ejemplos de lenguaje orientado a Objeto son Algol, C++ y Java ",
+            "pregunta": "Ejemplos de lenguaje orientado a Objeto son Algol, C++ y Java",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 8
         },
         {
-            "pregunta": "Ejemplos de lenguaje funcional son LISP, Scheme, Haskell ",
+            "pregunta": "Ejemplos de lenguaje funcional son LISP, Scheme, Haskell",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 9
         },
         {
-            "pregunta": "Ejemplos de lenguaje funcional son LISP, Scheme, Prolog ",
+            "pregunta": "Ejemplos de lenguaje funcional son LISP, Scheme, Prolog",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 10
         },
         {
-            "pregunta": "Ejemplos de lenguaje logico son Prolog, LISP ",
+            "pregunta": "Ejemplos de lenguaje logico son Prolog, LISP",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 11
         },
         {
-            "pregunta": "La sintaxis de un lenguaje de programacion es la descripcion precisa de todos los programas gramaticalmente correctos ",
+            "pregunta": "La sintaxis de un lenguaje de programacion es la descripcion precisa de todos los programas gramaticalmente correctos",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 12
         },
         {
-            "pregunta": "La sintaxis de un lenguaje de programacion puede ser definido mediante BNF ",
+            "pregunta": "La sintaxis de un lenguaje de programacion puede ser definido mediante BNF",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 13
         },
         {
-            "pregunta": "La sintaxis de un lenguaje de programacion puede ser definido mediante expresiones regulares, mas no BNF ",
+            "pregunta": "La sintaxis de un lenguaje de programacion puede ser definido mediante expresiones regulares, mas no BNF",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 14
         },
         {
-            "pregunta": "La sintaxis de un lenguaje establece estructura, mas no su significado ",
+            "pregunta": "La sintaxis de un lenguaje establece estructura, mas no su significado",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 15
         },
         {
-            "pregunta": "La sintaxis de un lenguaje establece su significado, mas no su estructura ",
+            "pregunta": "La sintaxis de un lenguaje establece su significado, mas no su estructura",
             "respuesta": "F",
             "explicacion": " Al revez",
             "referencia": "Original",
             "id": 16
         },
         {
-            "pregunta": "La semantica de un lenguaje habla respecto al significado del lenguaje, a diferencia de la forma que es especificada por la sintaxis ",
+            "pregunta": "La semantica de un lenguaje habla respecto al significado del lenguaje, a diferencia de la forma que es especificada por la sintaxis",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 17
         },
         {
-            "pregunta": "La semantica de un lenguaje habla respecto a la forma del lenguaje, a diferencia del significado que es especificado por la sintaxis ",
+            "pregunta": "La semantica de un lenguaje habla respecto a la forma del lenguaje, a diferencia del significado que es especificado por la sintaxis",
             "respuesta": "F",
             "explicacion": " Las referencias estan al revez",
             "referencia": "Original",
             "id": 18
         },
         {
-            "pregunta": "La Backus-Naur Form (BNF) es un metalenguaje creado para especificar gramaticas libre de contexto ",
+            "pregunta": "La Backus-Naur Form (BNF) es un metalenguaje creado para especificar gramaticas libre de contexto",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 19
         },
         {
-            "pregunta": "La Backus-Naur Form (BNF) es un metalenguaje creado para especificar lenguajes regulares ",
+            "pregunta": "La Backus-Naur Form (BNF) es un metalenguaje creado para especificar lenguajes regulares",
             "respuesta": "F",
             "explicacion": " Es para gramaticas libre de contexto",
             "referencia": "Original",
             "id": 20
         },
         {
-            "pregunta": "Las expresiones regulares permiten describir patrones de cadenas de caracteres, utiles para reconocer tokens ",
+            "pregunta": "Las expresiones regulares permiten describir patrones de cadenas de caracteres, utiles para reconocer tokens",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -149,119 +149,119 @@
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P1",
-            "pregunta": "Un \u00c3\u00a1mbito est\u00c3\u00a1tico es determinado analizando c\u00c3\u00b3digo fuente. ",
+            "pregunta": "Un \u00c3\u00a1mbito est\u00c3\u00a1tico es determinado analizando c\u00c3\u00b3digo fuente.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 22
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P2",
-            "pregunta": "Prolog es un lenguaje funcional, que incorpora elementos de programaci\u00c3\u00b3n imperativa. ",
+            "pregunta": "Prolog es un lenguaje funcional, que incorpora elementos de programaci\u00c3\u00b3n imperativa.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 23
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P3",
-            "pregunta": "Uno de los tipos de \u00c3\u00a1mbitos para subprogramas es permitir el anidamiento de \u00c3\u00a9stos, definiendo una ascendencia de tipo din\u00c3\u00a1mico en tiempo de ejecuci\u00c3\u00b3n. ",
+            "pregunta": "Uno de los tipos de \u00c3\u00a1mbitos para subprogramas es permitir el anidamiento de \u00c3\u00a9stos, definiendo una ascendencia de tipo din\u00c3\u00a1mico en tiempo de ejecuci\u00c3\u00b3n.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 24
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P4",
-            "pregunta": "Una definici\u00c3\u00b3n especifica el nombre de la variable y liga tipo, entre otros atributos, pero no asigna memoria. ",
+            "pregunta": "Una definici\u00c3\u00b3n especifica el nombre de la variable y liga tipo, entre otros atributos, pero no asigna memoria.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 25
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P5",
-            "pregunta": "Las variables din\u00c3\u00a1micas de heap pueden ser manipuladas en forma impl\u00c3\u00adcita o expl\u00c3\u00adcita, dependiendo del lenguaje. ",
+            "pregunta": "Las variables din\u00c3\u00a1micas de heap pueden ser manipuladas en forma impl\u00c3\u00adcita o expl\u00c3\u00adcita, dependiendo del lenguaje.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 26
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P6",
-            "pregunta": "C es un lenguaje imperativo, que permite elementos de la programaci\u00c3\u00b3n l\u00c3\u00b3gica. ",
+            "pregunta": "C es un lenguaje imperativo, que permite elementos de la programaci\u00c3\u00b3n l\u00c3\u00b3gica.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 27
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P8",
-            "pregunta": "Un \u00c3\u00a1mbito global define una estructura del programa como una secuencia de definiciones de funciones, donde las variables pueden aparecer definidas fuera de ellas. ",
+            "pregunta": "Un \u00c3\u00a1mbito global define una estructura del programa como una secuencia de definiciones de funciones, donde las variables pueden aparecer definidas fuera de ellas.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 28
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P9",
-            "pregunta": "El proceso de compilaci\u00c3\u00b3n sigue las siguientes etapas: An\u00c3\u00a1lisis L\u00c3\u00a9xico --> An\u00c3\u00a1lisis Sem\u00c3\u00a1ntico --> An\u00c3\u00a1lisis Sint\u00c3\u00a1ctico --> Generaci\u00c3\u00b3n de C\u00c3\u00b3digo ",
+            "pregunta": "El proceso de compilaci\u00c3\u00b3n sigue las siguientes etapas: An\u00c3\u00a1lisis L\u00c3\u00a9xico --> An\u00c3\u00a1lisis Sem\u00c3\u00a1ntico --> An\u00c3\u00a1lisis Sint\u00c3\u00a1ctico --> Generaci\u00c3\u00b3n de C\u00c3\u00b3digo",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 29
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P10",
-            "pregunta": "Python es un lenguaje scripting, que permite la orientaci\u00c3\u00b3n a objetos. ",
+            "pregunta": "Python es un lenguaje scripting, que permite la orientaci\u00c3\u00b3n a objetos.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 30
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P11",
-            "pregunta": "En la modalidad de compilaci\u00c3\u00b3n separada, las unidades de programas pueden compilarse en diferentes tiempos, pero considerando las dependencias entre ellas. ",
+            "pregunta": "En la modalidad de compilaci\u00c3\u00b3n separada, las unidades de programas pueden compilarse en diferentes tiempos, pero considerando las dependencias entre ellas.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 31
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P13",
-            "pregunta": "La memoria del heap permite mantener objetos que se asignan y liberar autom\u00c3\u00a1ticamente al activar o desactivar un ambiente de ejecuci\u00c3\u00b3n. ",
+            "pregunta": "La memoria del heap permite mantener objetos que se asignan y liberar autom\u00c3\u00a1ticamente al activar o desactivar un ambiente de ejecuci\u00c3\u00b3n.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 32
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P15",
-            "pregunta": "Java y C# son lenguajes de programaci\u00c3\u00b3n que usan una m\u00c3\u00a1quina virtual para interpretar directamente el c\u00c3\u00b3digo fuente durante su ejecuci\u00c3\u00b3n. ",
+            "pregunta": "Java y C# son lenguajes de programaci\u00c3\u00b3n que usan una m\u00c3\u00a1quina virtual para interpretar directamente el c\u00c3\u00b3digo fuente durante su ejecuci\u00c3\u00b3n.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 33
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P16",
-            "pregunta": "Las variables din\u00c3\u00a1micas de stack son ligadas a memoria en el momento que la ejecuci\u00c3\u00b3n alcanza el c\u00c3\u00b3digo ligado a la declaraci\u00c3\u00b3n. ",
+            "pregunta": "Las variables din\u00c3\u00a1micas de stack son ligadas a memoria en el momento que la ejecuci\u00c3\u00b3n alcanza el c\u00c3\u00b3digo ligado a la declaraci\u00c3\u00b3n.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 34
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P17",
-            "pregunta": "Las variables est\u00c3\u00a1ticas soportan recursi\u00c3\u00b3n. ",
+            "pregunta": "Las variables est\u00c3\u00a1ticas soportan recursi\u00c3\u00b3n.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 35
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P18",
-            "pregunta": "En \u00c3\u00a1mbitos anidados, la correspondencia entre una referencia a un nombre y su declaraci\u00c3\u00b3n se busca desde el \u00c3\u00a1mbito m\u00c3\u00a1s cercano al m\u00c3\u00a1s externo. ",
+            "pregunta": "En \u00c3\u00a1mbitos anidados, la correspondencia entre una referencia a un nombre y su declaraci\u00c3\u00b3n se busca desde el \u00c3\u00a1mbito m\u00c3\u00a1s cercano al m\u00c3\u00a1s externo.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 36
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P1",
-            "pregunta": "Dada una gram\u00c3\u00a1tica dada por un EBNF, el \u00c3\u00a1rbol sint\u00c3\u00a1ctico resultante es \u00c3\u00banico. ",
+            "pregunta": "Dada una gram\u00c3\u00a1tica dada por un EBNF, el \u00c3\u00a1rbol sint\u00c3\u00a1ctico resultante es \u00c3\u00banico.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 37
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P2",
-            "pregunta": "La expresi\u00c3\u00b3n regular [a-fA-F0-9]+ permite identificar n\u00c3\u00bameros hexadecimales. ",
+            "pregunta": "La expresi\u00c3\u00b3n regular [a-fA-F0-9]+ permite identificar n\u00c3\u00bameros hexadecimales.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 38
@@ -373,7 +373,7 @@
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P8",
-            "pregunta": "La sintaxis de un lenguaje de programacion se puede describir usando una gramatica libre de contexto. ",
+            "pregunta": "La sintaxis de un lenguaje de programacion se puede describir usando una gramatica libre de contexto.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 54
@@ -563,10 +563,7 @@
     ],
     "alt": [
         {
-            "pregunta": "\nCual de las siguientes definiciones respecto a la sintaxis son correctas?\n    I. Sintaxis lexica: Define reglas para los tokens (tales como identificadores, literales, operadores...)\n    II. Sintaxis concreta: Refiere a una representacion de un programa segun simbolos del alfabeto\n    III. Sintaxis abstracta: Solo lleva la informacion escencial del programa, util para usar previo a la generacion del codigo\na. Solo II\nb. Solo I y II\nc. Solo II y III\nd. Todas las anteriores\n\n",
-            "respuestas": [
-                "a"
-            ],
+            "pregunta": "Cual de las siguientes definiciones respecto a la sintaxis son correctas?\n I. Sintaxis lexica: Define reglas para los tokens (tales como identificadores, literales, operadores...)\n II. Sintaxis concreta: Refiere a una representacion de un programa segun simbolos del alfabeto\n III. Sintaxis abstracta: Solo lleva la informacion escencial del programa, util para usar previo a la generacion del codigo\na. Solo II\nb. Solo I y II\nc. Solo II y III\nd. Todas las anteriores",
             "respuesta": "b",
             "explicacion": " La III es falsa por que se utiliza para la generacion del codigo, no previa a esta",
             "referencia": "Original",
@@ -574,7 +571,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n\nCon respecto a los tipos de la semantica, se puede decir...\n    I. La semantica estatica define restricciones sobre respecto a que textos son validos para la sintaxis\n    II. Ejemplos de semantica estatica son : Verificar que switch tenga rotulos diferentes, o que una variable sea identificada antes de usarla\n    III. La semantica dinamica define el comportamiento de los constructos del lenguaje\n    IV. La semantica dinamica ha de ser especificada de manera informal para mayor libertad del codigo\na. Solo I y II\nb. Solo II y III\nc. Solo III y IV\nd. Solo I, II y III\ne. Todas las anteriores\n\n",
+            "pregunta": "Con respecto a los tipos de la semantica, se puede decir...\n    I. La semantica estatica define restricciones sobre respecto a que textos son validos para la sintaxis\n    II. Ejemplos de semantica estatica son : Verificar que switch tenga rotulos diferentes, o que una variable sea identificada antes de usarla\n    III. La semantica dinamica define el comportamiento de los constructos del lenguaje\n    IV. La semantica dinamica ha de ser especificada de manera informal para mayor libertad del codigo\na. Solo I y II\nb. Solo II y III\nc. Solo III y IV\nd. Solo I, II y III\ne. Todas las anteriores",
             "respuesta": "d",
             "explicacion": " Tecnicamente la d no es incorrecta pues se puede definir informalmente, sin embargo, no es necesario hacerlo asi, de hecho se recomienda lo contrario.",
             "referencia": "Original",
@@ -582,7 +579,7 @@
             "intAnswers": 5
         },
         {
-            "pregunta": "\n\nCon respecto a la semantica dinamica, los siguientes metodos de especificacion...\n    I. Semantica Operacional: Significado ha de ser establecido especificando los efectos de una ejecucion\n    II. Semantica Denotacional: Significado se denota mediante sentencias explicitas que denotan el efecto de la computacion\n    III. Semantica Axiomatica: Especifica propiedades de los efectos de afirmaciones logicas.\n    \nCuales son verdad?\na. Solo II\nb. Solo III\nc. Solo I y II\nd. Solo I y III\ne. Solo II y III\n\n",
+            "pregunta": "Con respecto a la semantica dinamica, los siguientes metodos de especificacion...\n    I. Semantica Operacional: Significado ha de ser establecido especificando los efectos de una ejecucion\n    II. Semantica Denotacional: Significado se denota mediante sentencias explicitas que denotan el efecto de la computacion\n    III. Semantica Axiomatica: Especifica propiedades de los efectos de afirmaciones logicas.\n    \nCuales son verdad?\na. Solo II\nb. Solo III\nc. Solo I y II\nd. Solo I y III\ne. Solo II y III",
             "respuesta": "d",
             "explicacion": " La II no se denota mediante sentencias explicitas, si no mediante objetos matematicos",
             "referencia": "Original",
@@ -590,7 +587,7 @@
             "intAnswers": 5
         },
         {
-            "pregunta": "\n\nCual de las siguientes alternativas corresponde al orden correcto del proceso de compilacion?\na. Programa fuente -> Analisis Sintactico -> Analisis Semantico -> Analisis Lexico -> Generacion del codigo -> Programa\nb. Programa fuente -> Analisis Semantico  -> Analisis Sintactico -> Analisis Lexico -> Generacion del codigo -> Programa\nc. Programa fuente -> Analisis Lexico -> Analisis Sintactico -> Analisis Semantico -> Generacion del codigo -> Programa\nd. Ninguna de las anteriores esta correcta, puesto que no existe el analisis semantico\n\n",
+            "pregunta": "Cual de las siguientes alternativas corresponde al orden correcto del proceso de compilacion?\na. Programa fuente -> Analisis Sintactico -> Analisis Semantico -> Analisis Lexico -> Generacion del codigo -> Programa\nb. Programa fuente -> Analisis Semantico  -> Analisis Sintactico -> Analisis Lexico -> Generacion del codigo -> Programa\nc. Programa fuente -> Analisis Lexico -> Analisis Sintactico -> Analisis Semantico -> Generacion del codigo -> Programa\nd. Ninguna de las anteriores esta correcta, puesto que no existe el analisis semantico",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -598,7 +595,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n\nCon respecto a la jerarquia de Chomsky: Cual es el orden correcto de los lenguajes considerando de menor a mayor su tipo?\na. Recursivamente Enumerables -> Sensibles al contextos -> Lenguajes regulares -> Independientes del contextos\nb. Recursivamente Enumerables -> Sensibles al contexto -> Independientes de Contexto -> Lenguajes regulares\nc. Sensibles al contexto -> Recursivamente enumerables -> Lenguajes regulares -> Independientes del contextos\nd. Sensibles al contexto -> Recursivamente enumerables -> Independientes de Contexto -> Lenguajes regulares\n\n",
+            "pregunta": "Con respecto a la jerarquia de Chomsky: Cual es el orden correcto de los lenguajes considerando de menor a mayor su tipo?\na. Recursivamente Enumerables -> Sensibles al contextos -> Lenguajes regulares -> Independientes del contextos\nb. Recursivamente Enumerables -> Sensibles al contexto -> Independientes de Contexto -> Lenguajes regulares\nc. Sensibles al contexto -> Recursivamente enumerables -> Lenguajes regulares -> Independientes del contextos\nd. Sensibles al contexto -> Recursivamente enumerables -> Independientes de Contexto -> Lenguajes regulares",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -606,23 +603,23 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n\nConsidere la siguiente gramatica libre de contexto:\n\n    A -> X|Y\n    aX -> aX|Z\n    Y -> A|X|bb\n    \nCuales es el problema de esta gramatica?\na. Esta mal escrita puesto que posee un simbolo terminal en la parte de no terminales\nb. No esta definido la 4-tupla, por lo que no puede ser definida correctamente\nc. No tiene simbolo de partida S, el cual si o si debe ser este simbolo\nd. Esta fea\n\n",
+            "pregunta": "Considere la siguiente gramatica libre de contexto:    \n```\nA -> X|Y\naX -> aX|Z\nY -> A|X|bb\n```\nCuales es el problema de esta gramatica?\na. Esta mal escrita puesto que posee un simbolo terminal en la parte de no terminales\nb. No esta definido la 4-tupla, por lo que no puede ser definida correctamente\nc. No tiene simbolo de partida S, el cual si o si debe ser este simbolo\n d.Esta mala porque usar gramaticas libres de contexto esta mal en general",
             "respuesta": "a",
-            "explicacion": " Si pusiste la d, que problema tienes con esta gramatica...",
+            "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 1025,
             "intAnswers": 4
         },
         {
-            "pregunta": "\n\nCaracteristicas de la Backus-Naur Form (BNF) son...\n    I. Lado izquierdo es un simbolo terminal, mientras derecho corresponde a un no terminal\n    II. La expresion \"|\" indica alternar entre opciones\n    III. La ultima regla corresponde siempre a la que terminara la expresion\n    IV. Los parentesis permiten agrupar elementos\n    \na. Solo II\nb. Solo I y II\nc. Solo II y IV\nd. Solo II, III y IV\n\n",
+            "pregunta": "Caracteristicas de la Backus-Naur Form (BNF) son...\n \tI. Lado izquierdo es un simbolo terminal, mientras derecho corresponde a un no terminal\n   II. La expresion \"|\" indica alternar entre opciones\n    III. La ultima regla corresponde siempre a la que terminara la expresion\n    IV. Los parentesis permiten agrupar elementos\n    \na. Solo II\nb. Solo I y II\nc. Solo II y IV\nd. Solo II, III y IV",
             "respuesta": "a",
-            "explicacion": " I: Derecho puede ser o no un terminal. III. No necesariamente IV. Corresponde a EBNF, no BNF.",
+            "explicacion": " I: Derecho puede ser o no un terminal.\nIII. No necesariamente IV.\nCorresponde a EBNF, no BNF.",
             "referencia": "Original",
             "id": 1026,
             "intAnswers": 4
         },
         {
-            "pregunta": "\n\nCaracteristicas de la extended Backus-Naur Form (eBNF) son...\n    I. Lado izquierdo es un simbolo no terminal, mientras derecho corresponde a un terminal\n    II. Elementos opcionales son aquellos que se encuentran dentro parentesis cuadrados []\n    III. La llave {x} indica que la palabra a repetirse x veces, con x entre 1 o mas\n    IV. Los parentesis permiten agrupar elementos\n\na. Solo I y II\nb. Solo I y IV\nc. Solo II y IV\nd. Solo I, II y IV\n\n",
+            "pregunta": "Caracteristicas de la extended Backus-Naur Form (eBNF) son...\n    I. Lado izquierdo es un simbolo no terminal, mientras derecho corresponde a un terminal\n    II. Elementos opcionales son aquellos que se encuentran dentro parentesis cuadrados []\n    III. La llave {x} indica que la palabra a repetirse x veces, con x entre 1 o mas\n    IV. Los parentesis permiten agrupar elementos.\nSolo I y II\nb. Solo I y IV\nc. Solo II y IV\nd. Solo I, II y IV",
             "respuesta": "c",
             "explicacion": " I. Derecho no necesariamente a de ser terminal. III. La llave puede ser 0",
             "referencia": "Original",
@@ -630,7 +627,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n\nCuales de los siguientes no son definidos como tipos de tokens?\n    I. Palabras claves reservadas\n    II. Literales y constantes\n    III. Identificadores\n    IV. Simbolos de Operadores\n    V. Comentarios\n\na. Solo II\nb. Solo III\nc. Solo IV\nd. Solo II y IV\ne. Ninguno esta mal definido\nf. Todos estan mal definidos\n\n",
+            "pregunta": "Cuales de los siguientes no son definidos como tipos de tokens?\n    I. Palabras claves reservadas\n    II. Literales y constantes\n    III. Identificadores\n    IV. Simbolos de Operadores\n    V. Comentarios\na. Solo II\nb. Solo III\nc. Solo IV\nd. Solo II y IV\ne. Ninguno esta mal definido\nf. Todos estan mal definidos\n",
             "respuesta": "e",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -638,8 +635,8 @@
             "intAnswers": 6
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P7",
-            "pregunta": "A partir de las siguientes reglas de precedencia para operadores:\n\nMayor Precedencia   , /, not\n                    +, &, mod\n                    -, -                     =, /=, <, <=, >=, >\n                    and\nMenor Precedencia   or, xor\n\nY considerando asociatividad de izquierda a derecha, \u00c2\u00bfcu\u00c3\u00a1l es el orden correcto de evaluaci\u00c3\u00b3n de la expresi\u00c3\u00b3n: a * b \u00e2\u20ac\u201c 1 + c?\nSeleccione una:\na. ((a * b )1 \u00e2\u20ac\u201c (1 + c)2 )3\nb. c. (((a * b )1 - 1)2 + c)3\nd. \n*Los numeros son el orden en la cual  se evalua la expresion que tiene a la izquierda en parentsis*\n",
+            "referencia": "[2021-2] Mart\u00c3\u00ad Q1P7 ",
+            "pregunta": "A partir de las siguientes reglas de precedencia para operadores:\n```\nMayor Precedencia   *, /, not\n                    +, &, mod\n                    -, -\n                     =, /=, <, <=, >=, >\n                    and\nMenor Precedencia   or, xor\n```\nY considerando asociatividad de izquierda a derecha, \u00c2\u00bfcu\u00c3\u00a1l es el orden correcto de evaluaci\u00c3\u00b3n de la expresi\u00c3\u00b3n: a * b - 1 + c?\nSeleccione una:\na. (a * b) -> (1 + c) -> ((a * b) - (1 + c))\nb.(b - 1) -> (a * (b - 1)) -> ((a * (b - 1) + c) \nc. (a * b) -> ((a * b) - 1 -> (((a * b) - 1) + c\nd. (1 + c) -> (b - (1 + c)) -> (( a * (b - ( 1 + c)))",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "id": 1029,
@@ -647,7 +644,7 @@
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P12",
-            "pregunta": "\nTomar en cuenta el siguiente programa, escrito en sintaxis tipo Javascript:\n\n    // main\n    var x, y, z;\n    function sub1() {\n        var a, y, z;\n        \u00e2\u20ac\u00a6\n    }\n   function sub2() {\n        var a, b, z;\n        \u00e2\u20ac\u00a6\n    }\n    function sub3() {\n        var a, x, w;\n        \u00e2\u20ac\u00a6\n    }\n\nDada la siguiente secuencia de llamadas en un \u00c3\u00a1mbito din\u00c3\u00a1mico: main --> sub1() --> sub3() --> sub2(), \u00c2\u00bfcu\u00c3\u00a1les\nson todas las variables visibles durante la ejecuci\u00c3\u00b3n de sub2()?\n\na. a local, b local, x de main, y de sub1(), z local\nb. a local, b local, x de main, y de main, z local\nc. a local, b local, z local\nd. a local, b local, w de sub3(), x de sub3(), y de sub1(), z local\n",
+            "pregunta": "Tomar en cuenta el siguiente programa, escrito en sintaxis tipo Javascript:\n```js\nvar x, y, z;\nfunction sub1() {\n     var a, y, z;\n     ...\n    }\nfunction sub2() {\n     var a, b, z;\n     ...\n    }\nfunction sub3() {\n     var a, x, w;\n     ...\n    }\n```\nDada la siguiente secuencia de llamadas en un \u00c3\u00a1mbito din\u00c3\u00a1mico: main --> sub1() --> sub3() --> sub2(), \u00c2\u00bfcu\u00c3\u00a1les\nson todas las variables visibles durante la ejecuci\u00c3\u00b3n de sub2()?\n\na. a local, b local, x de main, y de `sub1()`, z local\nb. a local, b local, x de main, y de main, z local\nc. a local, b local, z local\nd. a local, b local, w de `sub3()`, x de `sub3()`, y de `sub1()`, z local",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "id": 1030,
@@ -655,15 +652,15 @@
         },
         {
             "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P14 - PREGUNTA ADAPTADA",
-            "pregunta": "\nDada la siguiente BNF:\n\n    Sentencia :: = ( [Operador] Sentencia [Expresion] ) | Constante | Reservada\n    Expresion :: = Sentencia |     Operador :: = + | *\n    Constante :: = 0 | 1 | 2 | 3 | 4 | 5\n    Reservada :: = if | else | while\n\n\u00c2\u00bfCu\u00c3\u00a1les de las siguientes expresiones no son v\u00c3\u00a1lidas para esta gram\u00c3\u00a1tica?\n\nI)   II)  (* (0 1 +)) \nIII) IV)  \na. Solo I\nb. Solo II\nc. Solo III\nd. Solo IV\nd. I, II y III\ne. II, III y IV\n",
+            "pregunta": "\nDada la siguiente BNF:\n```\n    Sentencia :: = ( [Operador] Sentencia [Expresion] ) | Constante | Reservada\n    Expresion :: = Sentencia |     Operador :: = + | *\n    Constante :: = 0 | 1 | 2 | 3 | 4 | 5\n    Reservada :: = if | else | while\n```\nCuales de las siguientes expresiones no son v\u00c3\u00a1lidas para esta gram\u00c3\u00a1tica?\nI. ( + 4 5)  II)  (* (0 1 +)) \nIII. (else if)\nIV. (* if (4 + else))  \na. Solo I\nb. Solo II\nc. Solo III\nd. Solo IV\nd. I, II y III\ne. II, III y IV\n",
             "respuesta": "e",
             "explicacion": "No explicacion entregada",
             "id": 1031,
             "intAnswers": 5
         },
         {
-            "referencia": "[2022-1] - Rodrigo S.  Q1P6",
-            "pregunta": "\nDado el siguiente EBNF\n\n    <inicio> ::= <variable> = <expresion>\n    <variable> ::= x|y|z\n    <expresion> ::= <expresion> @ <termino> | <termino>\n    <termino> ::= <termino> # <expresion> | <variable>\n\n\u00c2\u00bfCu\u00c3\u00a1l de las siguientes expresiones no es v\u00c3\u00a1lida para la gram\u00c3\u00a1tica?\n\na. todas son v\u00c3\u00a1lidas\nb. x = x@y#z \nc. z = x@y@z#z\nd. y = y#z@x\n\n",
+            "referencia": "[2022-1] - Rodrigo S. Q1P6",
+            "pregunta": "Dado el siguiente EBNF \n```\n    <inicio> ::= <variable> = <expresion>\n    <variable> ::= x|y|z\n    <expresion> ::= <expresion> @ <termino> | <termino>\n    <termino> ::= <termino> # <expresion> | <variable>\n```\n¿Cual de las siguientes expresiones no es válida para la gramática?\na. Todas son válidas\nb. x = x@y#z \nc. z = x@y@z#z\nd. y = y#z@x",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "id": 1032,
@@ -671,7 +668,7 @@
         },
         {
             "referencia": "[2022-1] - Rodrigo S.  Q1P12",
-            "pregunta": "\nLa siguiente BNF genera \u00c3\u00a1rboles sint\u00c3\u00a1cticos ambiguos:\n\n    <inicio> ::= <variable> = <expresion>\n    <variable> ::= x|y|z\n    <expresion> ::= <expresion> @ <termino> | <termino>\n    <termino> ::= <termino> # <expresion> | <variable>\n\nSeleccione la respuesta correcta:\n\na. Falso, el # tiene mayor precedencia que el @\nb. Verdadero\nc. Falso, el @ tiene mayor precedencia que el # \n",
+            "pregunta": "La siguiente BNF genera árboles sint\u00c3\u00a1cticos ambiguos:\n```\n    <inicio> ::= <variable> = <expresion>\n    <variable> ::= x|y|z\n    <expresion> ::= <expresion> @ <termino> | <termino>\n    <termino> ::= <termino> # <expresion> | <variable>\n```\nSeleccione la respuesta correcta:\na. Falso, el # tiene mayor precedencia que el @\nb. Verdadero\nc. Falso, el @ tiene mayor precedencia que el # \n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "id": 1033,
