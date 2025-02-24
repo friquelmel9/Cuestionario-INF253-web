@@ -55,7 +55,17 @@ function Documentacion() {
 
     const handleFilterArray = (event) => {
         const selectedFilter = parseInt(event.target.value);
-        setFilteredArray(questionsArray.filter(item => item.quiz === selectedFilter) || nullQuestion )
+        if (selectedFilter <= 5 ) {
+            setFilteredArray(questionsArray.filter(item => item.quiz === selectedFilter) || nullQuestion )
+        }
+        if (selectedFilter === 6) 
+            {setFilteredArray(questionsArray.filter(item => item.referencia ==="Original") || nullQuestion )
+
+            }
+        if (selectedFilter === 7) 
+            {setFilteredArray(questionsArray.filter(item => item.referencia != "Original") || nullQuestion )
+
+            }
     }
 
     const handleSelectedChange = (event) => {
@@ -72,7 +82,7 @@ function Documentacion() {
                     <option value={-1}>--Seleccione--</option>
                     <option value={1}>No filtro</option>
                     <option value={2}>Filtrar por Quiz</option>
-                    <option value={3}>Filtrar por tema (no disponible)</option>
+                    <option value={3}>Filtrar por Referencia</option>
                 </select>
                 
                 {selectedFilter === 2 && (
@@ -86,17 +96,25 @@ function Documentacion() {
                     </select>
                 )}
 
+                {selectedFilter === 3 && (
+                    <select onChange={handleFilterArray}>
+                        <option value={-1}>--Seleccione--</option>
+                        <option value={6}>Preguntas Originales</option>
+                        <option value={7}>Preguntas de Evaluaciones</option>
+                    </select>
+                )}
+
                 {!(selectedFilter === -1) && (
                     <select onChange={handleSelectedChange}>
                     <option value={-1}>--Seleccione--</option>
-                    {selectedFilter === 2 && (
+                    {selectedFilter >= 2 && (
                         filteredArray.map(item => (
-                            <option value={item.id}>{item.id}</option>
+                            <option value={item.id}>{item.id} {item.referencia}</option>
                         ))
                     )}
                     {selectedFilter === 1 && (
                         questionsArray.map(item => (
-                            <option value={item.id}>{item.id} {item.referencia}</option>
+                            <option value={item.id}>#{item.id} {item.referencia}</option>
                         ))
                     )} 
                     
