@@ -21,7 +21,7 @@ const TopMenu = ({ link, text, inicio }) => {
         <a href={link} className="text-decoration-none me-3">
           {inicio ? <img src={`${import.meta.env.BASE_URL}icon.svg`} alt="Icono" width="50" height="50"/> : <span className="fs-4">&larr;</span>} {/* Flecha hacia la izquierda */}
         </a>
-        {inicio ? '' : <span className="fs-5">{text}</span>}
+        {inicio ? <span className="fs-3">Bienvenido</span> : <span className="fs-5">{text}</span>}
       </div>
       <button onClick={toggleTheme} className="btn btn-link text-decoration-none">
         {isDarkTheme ? <FaSun className="fs-4 text-warning" /> : <FaMoon className="fs-4 text-secondary" />}
