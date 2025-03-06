@@ -1,587 +1,587 @@
 {
     "vf": [
         {
-            "pregunta": "En paradigmas de la programacion, imperativo es aquel de ejecucion secuencial, tales como procedural o Orientado a objetos",
+            "pregunta": "En los paradigmas de la programación, el paradigma imperativo es aquel centrado en la ejecución secuencial. Enfoques relacionados a este paradigma son el procedural y el Orientado a Objetos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El paradigma de programación imperativo se basa en un conjunto de instrucciones predefinidas en cada código que se ejecutan de manera secuencial. Dentro de los enfoques relacionados se encuentra el procedural y el Orientado a Objetos porque ambos se codifican pensando en cómo debe proceder el programa.",
             "referencia": "Original",
             "id": 1
         },
         {
-            "pregunta": "En paradigmas de la programacion, imperativo es aquel que se define como se quiere hacer o no, tales como procedural o Orientado a objetos",
-            "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "pregunta": "En los paradigmas de la programación, el paradigma imperativo es aquel donde se define el cómo se deben hacer las cosas dentro del código.",
+            "respuesta": "V",
+            "explicacion": "El paradigma imperativo de la programación está basado en código que posea secuencias de instrucciones precisas y bien definidas, por lo que es necesario programar pensando desde el cómo hacer las cosas.",
             "referencia": "Original",
             "id": 2
         },
         {
-            "pregunta": "En paradigmas de la programacion, declarativo es aquel que se define como se quiere hacer o no, como el funcional o Logico",
+            "pregunta": "En los paradigmas de la programación, el paradigma declarativo es aquel en el que se define qué se quiere hacer con el programa. Sus enfoques son el funcional y el lógico",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El paradigma declarativo se basa, como su nombre lo indica, en declaraciones que pretenden obtener lo que se espera con una instrucción en particular. Los programas creados bajo este paradigma como los que comúnmente se ven en el enfoque funcional y el lógico se hacen pensando más en la obtención del objetivo final que en la manera en la que se debe obtener.",
             "referencia": "Original",
             "id": 3
         },
         {
-            "pregunta": "En paradigmas de la programacion, declarativo es aquel de ejecucion secuencial, como el funcional o Logico",
+            "pregunta": "En los paradigmas de la programación, el paradigma declarativo es aquel que se construye a través de código que se ejecuta de manera secuencial.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El paradigma declarativo se centra en el qué se debe hacer, por lo que la riqueza del código no está pensada para ser ejecutada de manera secuencial por medio de instrucciones precisas.",
             "referencia": "Original",
             "id": 4
         },
         {
-            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C",
+            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Estos ejemplos de lenguajes se basan en la utilización de bloques de código llamados funciones o procedimientos que permiten la creación de programas bajo un enfoque imperativo.",
             "referencia": "Original",
             "id": 5
         },
         {
-            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C++",
+            "pregunta": "Ejemplos de lenguajes procedural son Fortran, Algol, Pascal y C++.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C++ no es un lenguaje procedural, sino un lenguaje mayormente Orientado a Objetos.",
             "referencia": "Original",
             "id": 6
         },
         {
-            "pregunta": "Ejemplos de lenguaje orientado a Objeto son SmallTalk, C++ y Java",
+            "pregunta": "Ejemplos de lenguajes Orientados a Objetos son SmallTalk, C++ y Java.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Todos estos lenguajes funcionan bajo la premisa del uso de objetos y todas las características que los rodean.",
             "referencia": "Original",
             "id": 7
         },
         {
-            "pregunta": "Ejemplos de lenguaje orientado a Objeto son Algol, C++ y Java",
+            "pregunta": "Ejemplos de lenguajes Orientado a Objetos son Algol, C++ y Java.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Algol es un lenguaje con enfoque procedural.",
             "referencia": "Original",
             "id": 8
         },
         {
-            "pregunta": "Ejemplos de lenguaje funcional son LISP, Scheme, Haskell",
+            "pregunta": "Ejemplos de lenguajes funcionales son LISP, Scheme y Haskell.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Estos lenguajes pertenecen al enfoque funcional porque trabajan teniendo presente la inmutabilidad de las variables y la naturaleza pura de las funciones matemáticas.",
             "referencia": "Original",
             "id": 9
         },
         {
-            "pregunta": "Ejemplos de lenguaje funcional son LISP, Scheme, Prolog",
+            "pregunta": "Ejemplos de lenguajes funcionales son LISP, Scheme y Prolog.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Prolog es un lenguaje con enfoque lógico, no funcional.",
             "referencia": "Original",
             "id": 10
         },
         {
-            "pregunta": "Ejemplos de lenguaje logico son Prolog, LISP",
+            "pregunta": "Ejemplos de lenguajes lógicos son Prolog y LISP.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "LISP es un lenguaje con enfoque funcional.",
             "referencia": "Original",
             "id": 11
         },
         {
-            "pregunta": "La sintaxis de un lenguaje de programacion es la descripcion precisa de todos los programas gramaticalmente correctos",
+            "pregunta": "La sintaxis de un lenguaje de programación es la descripción precisa de todos los programas gramaticalmente correctos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La sintaxis de una sentencia radica en si esta o no cumple con lo propuesto en la grámatica del lenguaje en particular.",
             "referencia": "Original",
             "id": 12
         },
         {
-            "pregunta": "La sintaxis de un lenguaje de programacion puede ser definido mediante BNF",
+            "pregunta": "La sintaxis de un lenguaje de programación puede ser definida mediante BNF.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Backus-Naur Form (BNF) es una notación especial creada para describir gramáticas de libre contexto. Estas gramáticas permiten el poder crear expresiones regulares, lo que lógicamente permite describir la sintaxis de un lenguaje.",
             "referencia": "Original",
             "id": 13
         },
         {
-            "pregunta": "La sintaxis de un lenguaje de programacion puede ser definido mediante expresiones regulares, mas no BNF",
+            "pregunta": "La sintaxis de un lenguaje de programación puede ser definida mediante expresiones regulares, mas no por BNF.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La notación de Backus-Naur describe gramáticas de libre contexto que permiten la presencia de expresiones regulares, por lo que la sintaxis de un lenguaje puede ser descrita mediante BNF.",
             "referencia": "Original",
             "id": 14
         },
         {
-            "pregunta": "La sintaxis de un lenguaje establece estructura, mas no su significado",
+            "pregunta": "La sintaxis de un lenguaje establece la estructura de una sentencia, mas no su significado.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El área encargada de evaluar el significado de una sentencia es la semántica.",
             "referencia": "Original",
             "id": 15
         },
         {
-            "pregunta": "La sintaxis de un lenguaje establece su significado, mas no su estructura",
+            "pregunta": "La sintaxis de un lenguaje establece el significado de una sentencia, mas no su estructura.",
             "respuesta": "F",
-            "explicacion": " Al revez",
+            "explicacion": "La sintaxis describe la estructura de una sentencia mediante la gramática definida.",
             "referencia": "Original",
             "id": 16
         },
         {
-            "pregunta": "La semantica de un lenguaje habla respecto al significado del lenguaje, a diferencia de la forma que es especificada por la sintaxis",
+            "pregunta": "La semántica de un lenguaje está relacionada con el significado de las sentencias presentes en este a diferencia de la sintaxis.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La semántica radica en el significado de las expresiones del lenguaje y la sintaxis en las estructuras en las que estas son descritas.",
             "referencia": "Original",
             "id": 17
         },
         {
-            "pregunta": "La semantica de un lenguaje habla respecto a la forma del lenguaje, a diferencia del significado que es especificado por la sintaxis",
+            "pregunta": "La semántica de un lenguaje está ligada con la estructura del lenguaje y el significado lo está con la sintaxis.",
             "respuesta": "F",
-            "explicacion": " Las referencias estan al revez",
+            "explicacion": "La semántica está relacionada con el significado y la sintaxis con la estructura.",
             "referencia": "Original",
             "id": 18
         },
         {
-            "pregunta": "La Backus-Naur Form (BNF) es un metalenguaje creado para especificar gramaticas libre de contexto",
+            "pregunta": "Backus-Naur Form (BNF) es un metalenguaje creado para especificar gramáticas libre de contexto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La notación BNF está hecha para describir gramáticas libres de contexto.",
             "referencia": "Original",
             "id": 19
         },
         {
-            "pregunta": "La Backus-Naur Form (BNF) es un metalenguaje creado para especificar lenguajes regulares",
+            "pregunta": "Backus-Naur Form (BNF) es un metalenguaje creado para especificar lenguajes regulares.",
             "respuesta": "F",
-            "explicacion": " Es para gramaticas libre de contexto",
+            "explicacion": "La notación BNF está hecha para describir gramáticas libres de contexto.",
             "referencia": "Original",
             "id": 20
         },
         {
-            "pregunta": "Las expresiones regulares permiten describir patrones de cadenas de caracteres, utiles para reconocer tokens",
+            "pregunta": "Las expresiones regulares permiten describir patrones de cadenas de caracteres útiles para reconocer tokens.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las expresiones regulares se utilizan para verificar la sintaxis, por lo que sirven para identificar patrones y tokens.",
             "referencia": "Original",
             "id": 21
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P1",
-            "pregunta": "Un \u00c3\u00a1mbito est\u00c3\u00a1tico es determinado analizando c\u00c3\u00b3digo fuente.",
+            "referencia": "[2021-2] - Martí Q1P1",
+            "pregunta": "Un ámbito estático es determinado analizando código fuente.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El ámbito estático se genera durante el tiempo de compilación. Por lo tanto, necesita revisar el código fuente.",
             "id": 22
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P2",
-            "pregunta": "Prolog es un lenguaje funcional, que incorpora elementos de programaci\u00c3\u00b3n imperativa.",
+            "referencia": "[2021-2] - Martí Q1P2",
+            "pregunta": "Prolog es un lenguaje funcional que incorpora elementos de programación imperativa.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Prolog es un lenguaje lógico que NO incorpora elementos de programación imperativa.,",
             "id": 23
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P3",
-            "pregunta": "Uno de los tipos de \u00c3\u00a1mbitos para subprogramas es permitir el anidamiento de \u00c3\u00a9stos, definiendo una ascendencia de tipo din\u00c3\u00a1mico en tiempo de ejecuci\u00c3\u00b3n.",
+            "referencia": "[2021-2] - Martí Q1P3",
+            "pregunta": "Uno de los tipos de ámbitos para subprogramas es permitir el anidamiento de estos, definiendo una ascendencia de tipo dinámico en tiempo de ejecución.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El anidamiento de subprogramas hace referencia a la capacidad de poder definir funciones dentro de procedimientos más grandes. Se dice que es dinámico en tiempo de ejecución porque permite que la función interna pueda acceder a lo definido en la función exterior de manera dinámica, pues depende del contexto en el que se invocó a esta última.",
             "id": 24
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P4",
-            "pregunta": "Una definici\u00c3\u00b3n especifica el nombre de la variable y liga tipo, entre otros atributos, pero no asigna memoria.",
+            "referencia": "[2021-2] - Martí Q1P4",
+            "pregunta": "Una definición especifica el nombre de la variable y liga tipo, entre otros atributos, pero no asigna memoria.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La definición de una variable sí asigna memoria.",
             "id": 25
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P5",
-            "pregunta": "Las variables din\u00c3\u00a1micas de heap pueden ser manipuladas en forma impl\u00c3\u00adcita o expl\u00c3\u00adcita, dependiendo del lenguaje.",
+            "referencia": "[2021-2] - Martí Q1P5",
+            "pregunta": "Las variables dinámicas de heap pueden ser manipuladas en forma implícita o explícita, dependiendo del lenguaje.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La manipulación de variables dinámicas de heap está relacionada con la gestión de memoria que utiliza el lenguaje. En casos como Java, la gestión del heap es automática (o ímplicita, si se prefiere) mientras que, por ejemplo, en C, la gestión es manual (o explícita).",
             "id": 26
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P6",
-            "pregunta": "C es un lenguaje imperativo, que permite elementos de la programaci\u00c3\u00b3n l\u00c3\u00b3gica.",
+            "referencia": "[2021-2] - Martí Q1P6",
+            "pregunta": "C es un lenguaje imperativo que permite elementos de la programación lógica.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C no permite elementos de la programación lógica.",
             "id": 27
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P8",
-            "pregunta": "Un \u00c3\u00a1mbito global define una estructura del programa como una secuencia de definiciones de funciones, donde las variables pueden aparecer definidas fuera de ellas.",
+            "referencia": "[2021-2] - Martí Q1P8",
+            "pregunta": "Un ámbito global define una estructura del programa como una secuencia de definiciones de funciones donde las variables pueden aparecer definidas fuera de ellas.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Es posible definir variables dentro de un contexto global que pueden ser vistas por las definiciones de funciones con un contexto independiente.",
             "id": 28
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P9",
-            "pregunta": "El proceso de compilaci\u00c3\u00b3n sigue las siguientes etapas: An\u00c3\u00a1lisis L\u00c3\u00a9xico --> An\u00c3\u00a1lisis Sem\u00c3\u00a1ntico --> An\u00c3\u00a1lisis Sint\u00c3\u00a1ctico --> Generaci\u00c3\u00b3n de C\u00c3\u00b3digo",
+            "referencia": "[2021-2] - Martí Q1P9",
+            "pregunta": "El proceso de compilación sigue las siguientes etapas: \n```Análisis Léxico --> Análisis Semántico --> Análisis Sintáctico --> Generación de Código```",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "A grandes rasgos, el proceso de compilación sigue este orden: Análisis Léxico -->  Análisis Sintáctico --> Análisis Semántico --> Generación de Código",
             "id": 29
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P10",
-            "pregunta": "Python es un lenguaje scripting, que permite la orientaci\u00c3\u00b3n a objetos.",
+            "referencia": "[2021-2] - Martí Q1P10",
+            "pregunta": "Python es un lenguaje scripting que permite la orientación a objetos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Python es un lenguaje multiparadigma que permite la OO.",
             "id": 30
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P11",
-            "pregunta": "En la modalidad de compilaci\u00c3\u00b3n separada, las unidades de programas pueden compilarse en diferentes tiempos, pero considerando las dependencias entre ellas.",
+            "referencia": "[2021-2] - Martí Q1P11",
+            "pregunta": "En la modalidad de compilación separada, las unidades de programas pueden compilarse en diferentes tiempos, pero considerando las dependencias entre ellas.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La compilación separada se basa en la división del código fuente en varios archivos de códigos más pequeños. Es necesario que se considere las dependencias entre archivos para poder aprovechar lo que la modalidad permite.",
             "id": 31
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P13",
-            "pregunta": "La memoria del heap permite mantener objetos que se asignan y liberar autom\u00c3\u00a1ticamente al activar o desactivar un ambiente de ejecuci\u00c3\u00b3n.",
+            "referencia": "[2021-2] - Martí Q1P13",
+            "pregunta": "La memoria del heap permite mantener objetos que se asignan y liberar automáticamente al activar o desactivar un ambiente de ejecución.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Ciertos lenguajes, como C, necesitan que se indique la liberación de memoria de manera manual.",
             "id": 32
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P15",
-            "pregunta": "Java y C# son lenguajes de programaci\u00c3\u00b3n que usan una m\u00c3\u00a1quina virtual para interpretar directamente el c\u00c3\u00b3digo fuente durante su ejecuci\u00c3\u00b3n.",
+            "referencia": "[2021-2] - MartíQ1P15",
+            "pregunta": "Java y C# son lenguajes de programación que usan una máquina virtual para interpretar directamente el código fuente durante su ejecución.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java y C# son lenguajes híbridos que si bien interpretan código, primero necesitan transformarlo a un código intermedio con una compilación previa.",
             "id": 33
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P16",
-            "pregunta": "Las variables din\u00c3\u00a1micas de stack son ligadas a memoria en el momento que la ejecuci\u00c3\u00b3n alcanza el c\u00c3\u00b3digo ligado a la declaraci\u00c3\u00b3n.",
+            "referencia": "[2021-2] - Martí Q1P16",
+            "pregunta": "Las variables dinámicas de stack son ligadas a memoria en el momento que la ejecución alcanza el código ligado a la declaración.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las variables dinámicas de stack están presentes del contexto de una función, por lo que es necesario que se invoque a la función en cuestión para que sean definidas.",
             "id": 34
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P17",
-            "pregunta": "Las variables est\u00c3\u00a1ticas soportan recursi\u00c3\u00b3n.",
+            "referencia": "[2021-2] - Martí Q1P17",
+            "pregunta": "Las variables estáticas soportan recursión.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las variables estáticas no soportan recursión porque son de instancia única.",
             "id": 35
         },
         {
-            "referencia": "[2021-2] - Mart\u00c3\u00ad Q1P18",
-            "pregunta": "En \u00c3\u00a1mbitos anidados, la correspondencia entre una referencia a un nombre y su declaraci\u00c3\u00b3n se busca desde el \u00c3\u00a1mbito m\u00c3\u00a1s cercano al m\u00c3\u00a1s externo.",
+            "referencia": "[2021-2] - Martí Q1P18",
+            "pregunta": "En ámbitos anidados, la correspondencia entre una referencia a un nombre y su declaración se busca desde el ámbito más cercano al más externo.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Es posible sobreescribir la declaración de una variable ya referenciada dentro de un contexto de funciones anidadas. Por lo tanto, el programa empieza a buscar referencias desde el contexto más interno hacia el más externo.",
             "id": 36
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P1",
-            "pregunta": "Dada una gram\u00c3\u00a1tica dada por un EBNF, el \u00c3\u00a1rbol sint\u00c3\u00a1ctico resultante es \u00c3\u00banico.",
+            "pregunta": "Dada una gramática dada por un eBNF, el árbol sintáctico resultante es único.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La particularidad única de un árbol sintáctico no depende de la notación que la describa sino de la ambigüedad de la grámatica y su construcción.",
             "id": 37
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P2",
-            "pregunta": "La expresi\u00c3\u00b3n regular [a-fA-F0-9]+ permite identificar n\u00c3\u00bameros hexadecimales.",
+            "pregunta": "La expresión regular [a-fA-F0-9]+ permite identificar números hexadecimales.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La expresión regular permite la combinación de todos los caracteres utilizados en los números hexadecimales.",
             "id": 38
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P3",
-            "pregunta": "Los Tokens corresponden solo a palabras claves y reservadas. ",
+            "pregunta": "Los Tokens corresponden solo a palabras claves y reservadas.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los tokens correspondena todo símbolo con un significado especial como lo son las palabras reservadas, literales, operadores, entre otros.",
             "id": 39
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P4",
-            "pregunta": "La sem\u00c3\u00a1ntica revisa el significado un programa o sentencia. La sem\u00c3\u00a1ntica puede ser del tipo denotacional o din\u00c3\u00a1mica. ",
+            "pregunta": "La semántica revisa el significado un programa o sentencia. La semántica puede ser del tipo denotacional o dinámica.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Si bien la semántica revisa el significado, no existe el tipo dinámico en su clasificación.",
             "id": 40
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P5",
-            "pregunta": "Un ejemplo de an\u00c3\u00a1lisis sint\u00c3\u00a1ctico consiste en revisar si una variable fue previamente declarada antes de usarla. ",
+            "pregunta": "Un ejemplo de análisis sintáctico consiste en revisar si una variable fue previamente declarada antes de usarla.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La verificación de la declaración previa de una variable a utilizar es parte del análisis semántico.",
             "id": 41
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P8",
-            "pregunta": "La siguiente expresi\u00c3\u00b3n regular 0[a|b](0|1)* no puede ser representado en un aut\u00c3\u00b3mata finito. ",
+            "pregunta": "La siguiente expresión regular: ```0[a|b](0|1)*``` no puede ser representado en un autómata finito.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las expresiones regulares describen, como su nombre lo indica, a los lenguajes regulares. Por definición, todos los lenguajes regulares pueden ser representados ya sea por un DFA o un NFA.",
             "id": 42
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P9",
-            "pregunta": "El \u00c3\u00a1rbol sint\u00c3\u00a1ctico o Parse Tree es el resultado del analizador sint\u00c3\u00a1ctico donde se representa la estructura sint\u00c3\u00a1ctica de una cadena de acuerdo a una gram\u00c3\u00a1tica libre de contexto ",
+            "pregunta": "El árbol sintáctico o Parse Tree es el resultado del analizador sintáctico donde se representa la estructura sintáctica de una cadena de acuerdo a una gramática libre de contexto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El análisis sintáctico es el encargado de verificar si la construcción de la instrucción o sentencia es gramaticalmente correcta. El árbol sintáctico no es más que la representación de la grámatica descrita.",
             "id": 43
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P10",
-            "pregunta": "Los lenguajes de alto nivel corresponden a los lenguajes que permiten crear programas manipulando objetos gr\u00c3\u00a1ficos. ",
+            "pregunta": "Los lenguajes de alto nivel corresponden a los lenguajes que permiten crear programas manipulando objetos gráficos.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los lenguajes de alto nivel son clasificados a partir de su nivel de abstracción siendo el caso de estos aquellos que son más fáciles de entender por el lado del programdor que por el de la máquina.",
             "id": 44
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P11",
-            "pregunta": "Para reconocer los Tokens el analizador sem\u00c3\u00a1ntico utiliza expresiones regulares. ",
+            "pregunta": "Para reconocer los Tokens el analizador semántico utiliza expresiones regulares.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El analizador léxico es que el utiliza expresiones regulares para reconocer los tokens.",
             "id": 45
         },
         {
             "referencia": "[2022-1] - Rodrigo S. Q1P13",
-            "pregunta": "El analizador sint\u00c3\u00a1ctico de un lenguaje es un reconocedor de que un programa est\u00c3\u00a9 correctamente escrito. ",
+            "pregunta": "El analizador sintáctico de un lenguaje es un reconocedor de que un programa está correctamente escrito. ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El analizador sintáctico revisa la correctitud del programa con respecto a lo que dice la gramática que lo gobierna.",
             "id": 46
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P1",
-            "pregunta": "En un proceso de compilacion, la tabla de simbolos ayuda a resolver las ambiguedades en los arboles sintacticos. ",
+            "pregunta": "En un proceso de compilación, la tabla de simbolos ayuda a resolver las ambiguedades en los árboles sintácticos.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La ambigüedad de un árbol sintáctico depende únicamente de la ambigüedad de la gramática que lo genera. Una ambigüedad no se puede arreglar desde el proceso de compilación.",
             "id": 47
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P2",
-            "pregunta": "Durante la etapa de analisis sintactico, un error sintactico se produce porque es posible construir mas de un parse-tree para una misma expresion. ",
+            "pregunta": "Durante la etapa de analisis sintáctico, un error sintáctico se produce porque es posible construir mas de un parse-tree para una misma expresion.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Que exista más de un parse-tree para una misma expresión implica que la gramática utilizada es ambigüa, mas no un error de construcción per se.",
             "id": 48
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P3",
-            "pregunta": "En ambitos anidados, la correspondencia entre una referencia a un nombre y su declaracion se busca desde el ambito mas cercano al mas externo. ",
+            "pregunta": "En ámbitos anidados, la correspondencia entre una referencia a un nombre y su declaración se busca desde el ámbito más cercano al más externo. ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Es posible sobreescribir la declaración de una variable ya referenciada dentro de un contexto de funciones anidadas. Por lo tanto, el programa empieza a buscar referencias desde el contexto más interno hacia el más externo.",
             "id": 49
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P4",
-            "pregunta": "En la compilacion separada, las unidades del programa pueden compilarse en diferentes tiempos, pero se consideran las dependencias entre si. ",
+            "pregunta": "En la compilación separada, las unidades del programa pueden compilarse en diferentes tiempos, pero se consideran las dependencias entre si. ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La compilación separada se basa en la división del código fuente en varios archivos de códigos más pequeños. Es necesario que se considere las dependencias entre archivos para poder aprovechar lo que la modalidad permite.",
             "id": 50
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P5",
-            "pregunta": "En BNF se puede describir alteraciony en EBNF alternacion, agrupacion, elementos opcionales y repeticion. ",
+            "pregunta": "En BNF se puede describir alternación y en eBNF alternación, agrupación, elementos opcionales y repetición.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "eBNF es una forma extendida de la notación BNF original. Por lo tanto, esta notación extendida permite describir más tipos de operaciones.",
             "id": 51
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P6",
-            "pregunta": "Una gram\u00c3\u00a1tica ambigua se produce cuando el ligado de memoria se hace de manera implicita. ",
+            "pregunta": "Una gramática ambigüa se produce cuando el ligado de memoria se hace de manera implícita.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La gramática es ambigüa netamente por su construcción.",
             "id": 52
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P7",
-            "pregunta": "Una expresion regular permite describir patrones de cadenas de caracteres teniendo asociado un arbol sintactico. ",
+            "pregunta": "Una expresión regular permite describir patrones de cadenas de caracteres teniendo asociado un arbol sintáctico.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los árboles sintácticos no pueden asociarse a una expresión regular.",
             "id": 53
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P8",
-            "pregunta": "La sintaxis de un lenguaje de programacion se puede describir usando una gramatica libre de contexto.",
+            "pregunta": "La sintaxis de un lenguaje de programación se puede describir usando una gramática libre de contexto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Una manera de describir la sintaxis es mediante la notación BNF la cual se basa en gramáticas libres de contexto.",
             "id": 54
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P9",
-            "pregunta": "El orden de las etapas de compilacion es: An\u00c3\u00a1lisis Lexico -> Analisis Semanticos -> Anilisis Sintactico -> Generacion de cosdigo. ",
+            "pregunta": "El orden de las etapas de compilación es: \n```Análisis Léxico -> Análisis Semántico -> Análisis Sintáctico -> Generación de código```",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El orden común de las etapas de compilación es: Análisis Léxico -> Análisis Sintáctico -> Análisis Semántico -> Generación de código",
             "id": 55
         },
         {
             "referencia": "[2022-1] - Jorge D. Q1P10",
-            "pregunta": "C es un lenguaje de scripting, de ligado de memoria implicito, y ambito dinamico. ",
+            "pregunta": "C es un lenguaje de scripting, de ligado de memoria implicito, y ambito dinamico.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C es un lenguaje procedural con ligado de memoria explícito y de ámbito estático.",
             "id": 56
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P1",
-            "pregunta": "Una de las pricipales caracter\u00c3\u00adsticas de los lenguajes imperativos es que se declara lo qu\u00c3\u00a9 se quiere hacer, no el c\u00c3\u00b3mo. ",
+            "pregunta": "Una de las principales características de los lenguajes imperativos es que se declara lo que se quiere hacer, no el cómo.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los lenguajes imperativos tienen como fundamento programar pensando en el cómo resolver los problemas, no lo que se pretende lograr.",
             "id": 57
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P2",
-            "pregunta": "Dentro de los lenguajes declarativos podemos encontrar a C, C++ y Java (entre otros). ",
+            "pregunta": "Dentro de los lenguajes declarativos podemos encontrar a C, C++ y Java (entre otros).",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C, C++ y Java son ejemplos de lenguajes imperativos.",
             "id": 58
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P3",
-            "pregunta": "Los lenguajes funcionales son aquellos que se basan en el c\u00c3\u00a1lculo Lambda. ",
+            "pregunta": "Los lenguajes funcionales son aquellos que se basan en el cálculo Lambda. ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los lenguajes funcionales nacen bajo el fundamento del cálculo Lambda.",
             "id": 59
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P4",
-            "pregunta": "Si bien la sem\u00c3\u00a1ntica implica el significado, esta se puede ver influenciada por la sintaxis. ",
+            "pregunta": "Si bien la semántica implica el significado, esta se puede ver influenciada por la sintaxis.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La sintaxis está relacionada con la correcta escritura de una sentencia y, por lo tanto, es lógico que tenga implicancia en su significado posterior.",
             "id": 60
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P5",
-            "pregunta": "La sintaxis corresponde al proceso de dotar de un significado no ambiguo a la gram\u00c3\u00a1tica. ",
+            "pregunta": "La sintaxis corresponde al proceso de dotar de un significado no ambigüo a la gramática.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El significado no ambigüo de una gramática solo se puede lograr con el correcto diseño de esta.",
             "id": 61
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P6",
-            "pregunta": "La Jerarqu\u00c3\u00ada de Chomsky ilustra como el aprender nuevos paradigmas nos puede llevar al nivel 3 del programador: poder escribir expresiones regulares. ",
+            "pregunta": "La Jerarquía de Chomsky ilustra como el aprender nuevos paradigmas nos puede llevar al nivel 3 del programador: poder escribir expresiones regulares.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La Jerarquía de Chomsky sirve para clasificar los lenguajes con respecto a su representación por medio de los diversos tipos de autómatas disponibles.",
             "id": 62
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P7",
-            "pregunta": "A diferencia C o C++, en Python se interpreta directamente el c\u00c3\u00b3digo fuente durante la ejecuci\u00c3\u00b3n. ",
+            "pregunta": "A diferencia C o C++, en Python se interpreta directamente el código fuente durante la ejecución. ",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Python es un lenguaje interpretado y, por ende, revisa el código directamente en tiempo de ejecución.",
             "id": 63
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P8",
-            "pregunta": "Una caracter\u00c3\u00adstica de la gram\u00c3\u00a1tica libre de contexto es que debe ser representado por un automata finito. ",
+            "pregunta": "Una característica de la gramática libre de contexto es que debe ser representado por un autómata finito.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Una gramática de contexto libre no puede ser representada por un autómata finito porque esta no describe lenguajes regulares.",
             "id": 64
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P9",
-            "pregunta": "En las gram\u00c3\u00a1ticas libres de contexto el simbolo  representa representa una cadena vac\u00c3\u00ada. ",
+            "pregunta": "En las gramáticas libres de contexto el simbolo ```ε``` representa una cadena vacía.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El símbolo ε se utiliza convencionalmente para representar una cadena vacía.",
             "id": 65
         },
         {
             "referencia": "[2024-2] - Wladimir O. Q1P10",
-            "pregunta": "Lenguajes orientados a objeto, como Java y C, son claros ejemplos de lenguajes imperativos. ",
+            "pregunta": "Lenguajes orientados a objetos, como Java y C, son claros ejemplos de lenguajes imperativos.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C es un lenguaje procedural que no permite la OO.",
             "id": 66
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P1",
-            "pregunta": "Pascal es un lenguaje imperativo, que no permite elementos de la programacion orientada a objeto ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P1",
+            "pregunta": "Pascal es un lenguaje imperativo que no permite elementos de la programación orientada a objetos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Pascal es un lenguaje procedural que no permite la OO.",
             "id": 67
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P2",
-            "pregunta": "Java y C son lenguajes de programacion que interpretan directamente el codigo fuente durante su ejecucion ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P2",
+            "pregunta": "Java y C son lenguajes de programación que interpretan directamente el código fuente durante su ejecución",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Tanto Java como C necesitan de la compilación para revisar el código fuente.",
             "id": 68
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P3",
-            "pregunta": "La tendencia dentro del mundo de los lenguajes de programacion es que estos sean multiparadigmas, como es el caso de Python ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P3",
+            "pregunta": "La tendencia dentro del mundo de los lenguajes de programación es que estos sean multiparadigmas como es el caso de Python.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La tendencia de los lenguajes de programación avanzan hacia lenguajes que permitan hacer de todo y tengan un enfoque multiparadigma.",
             "id": 69
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P4",
-            "pregunta": "Las expresiones regulares son una tecnica para especificar y reconocer tokens, importantes al momento de analisis semantico del codigo ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P4",
+            "pregunta": "Las expresiones regulares son una técnica para especificar y reconocer tokens importante al momento de efectuar el analisis semántico en el código.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las expresiones regulares se utilizan en el análisis léxico.",
             "id": 70
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P5",
-            "pregunta": "La notacion BNF es un metalenguaje que permite especificar formalmente gramaticas libres de contexto ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P5",
+            "pregunta": "La notacion BNF es un metalenguaje que permite especificar formalmente gramáticas libres de contexto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La notación Backus-Naur Form está hecha para describir gramáticas de contexto libre.",
             "id": 71
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P6",
-            "pregunta": "Las variables dinamicas de stackk soportan recursion ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P6",
+            "pregunta": "Las variables dinámicas de stack soportan recursión.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las variables dinámicas de stack pueden ser instancias más de una vez, por lo que soportan recursión.",
             "id": 72
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P7",
-            "pregunta": "Las variables dinamicas del stack son ligadas a memoria en el momento que la ejecucion alcanza el codigo ligado a la declaracion ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P7",
+            "pregunta": "Las variables dinámicas del stack son ligadas a memoria en el momento que la ejecución alcanza el código ligado a la declaración.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las variables dinámicas del stack son las presentes dentro del contexto de cualquier función. Es necesario que el código de la función sea ejecutado para que estas puedan ser declaradas en la memoria.",
             "id": 73
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P8",
-            "pregunta": "La memoria del heap permite mantener objetos que se asignan y liberan automaticamente al activar o desactivar, respectivametne, un ambiente de ejecucion ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P8",
+            "pregunta": "La memoria del heap permite mantener objetos que se asignan y liberan automáticamente al activar o desactivar, respectivamente, un ambiente de ejecución.",
             "respuesta": "F",
-            "explicacion": " No automatico",
+            "explicacion": "Hay lenguajes como C que necesitan de una liberación manual de memoria.",
             "id": 74
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P9",
-            "pregunta": "En C++, una definicion especifica el nombre de la variable, liga tipo, y asigna memoria ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P9",
+            "pregunta": "En C++, una definición especifica el nombre de la variable, liga tipo, y asigna memoria.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Dado que C++ posee una ámbito estático, una definición correcta necesita conocer el nombre, tipo y espacio en memoria que ocupara la nueva variable a crear durante el tiempo de compilación.",
             "id": 75
         },
         {
-            "referencia": "[2024-2] - Jose Luis Marti. Q1P10",
-            "pregunta": "En cuanto al tiempo de ligado, este sera dinamico cuando sucede en cualquier momento posterior al proceso de compilacion ",
+            "referencia": "[2024-2] - José Luis Martí. Q1P10",
+            "pregunta": "En cuanto al tiempo de ligado, este será dinámico cuando sucede en cualquier momento posterior al proceso de compilación.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El ligado dinámico solo sucede durante el tiempo de ejecución del programa.",
             "id": 76
         },
         {
-            "referencia": "[2021-x]  Jose Luis Marti C1P1",
-            "pregunta": "C es un lenguaje imperativo, que permite elementros de la programacion orientada al objeto ",
+            "referencia": "[2021-x]  José Luis Martí C1P1",
+            "pregunta": "C es un lenguaje imperativo que permite elementos de la programación orientada al objeto.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C es un lenguaje procedural que no soporta OO.",
             "id": 77
         },
         {
-            "referencia": "[2021-x]  Jose Luis Marti C1P2",
-            "pregunta": "Java es un lenguaje orientado al objeto, con ciertos elementos propios de un lenguaje imperativo ",
+            "referencia": "[2021-x]  José Luis Martí C1P2",
+            "pregunta": "Java es un lenguaje orientado al objeto con ciertos elementos propios de un lenguaje imperativo.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java es un lenguaje OO que posee características de los lenguajes imperativos.",
             "id": 78
         },
         {
-            "referencia": "[2021-x]  Jose Luis Marti C1P3",
-            "pregunta": "Scheme es un lenguaje funcional, que incorpora elementos de programacion imperativa ",
+            "referencia": "[2021-x]  José Luis Martí C1P3",
+            "pregunta": "Scheme es un lenguaje funcional que incorpora elementos de programación imperativa.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Aunque es un lenguaje basado en el esquema funcional, Scheme incorpora elementos imperativos como el control de flujo y asignación de variables.",
             "id": 79
         },
         {
-            "referencia": "[2021-x]  Jose Luis Marti C1P4",
-            "pregunta": "Python es un lenguaje scripting, que no permite la orientacion a objetos ",
+            "referencia": "[2021-x]  José Luis Martí C1P4",
+            "pregunta": "Python es un lenguaje scripting que no permite la orientacion a objetos.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Python es un lenguaje de scripting que soporta OO.",
             "id": 80
         }
     ],
     "alt": [
         {
-            "pregunta": "Cual de las siguientes definiciones respecto a la sintaxis son correctas?\n I. Sintaxis lexica: Define reglas para los tokens (tales como identificadores, literales, operadores...)\n II. Sintaxis concreta: Refiere a una representacion de un programa segun simbolos del alfabeto\n III. Sintaxis abstracta: Solo lleva la informacion escencial del programa, util para usar previo a la generacion del codigo\na. Solo II\nb. Solo I y II\nc. Solo II y III\nd. Todas las anteriores",
+            "pregunta": "¿Cuál de las siguientes definiciones respecto a la sintaxis son correctas?\n I. Sintaxis léxica: Define reglas para los tokens (tales como identificadores, literales, operadores...).\n II. Sintaxis concreta: Refiere a una representación de un programa según símbolos del alfabeto.\n III. Sintaxis abstracta: Solo lleva la información esencial del programa. Útil para usar previo a la generación del código.\na. Solo II.\nb. Solo I y II.\nc. Solo II y III.\nd. Todas las anteriores.",
             "respuesta": "b",
-            "explicacion": " La III es falsa por que se utiliza para la generacion del codigo, no previa a esta",
+            "explicacion": "La sintaxis abstracta es utilizada para la generación de código, no en una etapa previa a este.",
             "referencia": "Original",
             "id": 1020,
             "intAnswers": 4
         },
         {
-            "pregunta": "Con respecto a los tipos de la semantica, se puede decir...\n    I. La semantica estatica define restricciones sobre respecto a que textos son validos para la sintaxis\n    II. Ejemplos de semantica estatica son : Verificar que switch tenga rotulos diferentes, o que una variable sea identificada antes de usarla\n    III. La semantica dinamica define el comportamiento de los constructos del lenguaje\n    IV. La semantica dinamica ha de ser especificada de manera informal para mayor libertad del codigo\na. Solo I y II\nb. Solo II y III\nc. Solo III y IV\nd. Solo I, II y III\ne. Todas las anteriores",
+            "pregunta": "Con respecto a los tipos de la semántica, se puede decir que...\n I. La semántica estática define restricciones respecto a qué textos son válidos para la sintaxis.\n II. Ejemplos de semántica estática son: Verificar que Switch tenga rótulos diferentes o que una variable sea identificada antes de usarla.\n III. La semántica dinámica define el comportamiento de los constructos del lenguaje.\n IV. La semántica dinámica ha de ser especificada de manera informal para mayor libertad del código.\na. Solo I y II.\nb. Solo II y III.\nc. Solo III y IV.\nd. Solo I, II y III.\ne. Todas las anteriores.",
             "respuesta": "d",
-            "explicacion": " Tecnicamente la d no es incorrecta pues se puede definir informalmente, sin embargo, no es necesario hacerlo asi, de hecho se recomienda lo contrario.",
+            "explicacion": "Tecnicamente la d no es incorrecta pues se puede definir informalmente, sin embargo, no es necesario hacerlo asi, de hecho se recomienda lo contrario.",
             "referencia": "Original",
             "id": 1021,
             "intAnswers": 5
         },
         {
-            "pregunta": "Con respecto a la semantica dinamica, los siguientes metodos de especificacion...\n    I. Semantica Operacional: Significado ha de ser establecido especificando los efectos de una ejecucion\n    II. Semantica Denotacional: Significado se denota mediante sentencias explicitas que denotan el efecto de la computacion\n    III. Semantica Axiomatica: Especifica propiedades de los efectos de afirmaciones logicas.\n    \nCuales son verdad?\na. Solo II\nb. Solo III\nc. Solo I y II\nd. Solo I y III\ne. Solo II y III",
+            "pregunta": "Con respecto a la semántica dinámica, los siguientes metodos de especificacion...\n    I. Semantica Operacional: Significado ha de ser establecido especificando los efectos de una ejecucion\n    II. Semantica Denotacional: Significado se denota mediante sentencias explicitas que denotan el efecto de la computacion\n    III. Semantica Axiomatica: Especifica propiedades de los efectos de afirmaciones logicas.\n    \nCuales son verdad?\na. Solo II\nb. Solo III\nc. Solo I y II\nd. Solo I y III\ne. Solo II y III",
             "respuesta": "d",
-            "explicacion": " La II no se denota mediante sentencias explicitas, si no mediante objetos matematicos",
+            "explicacion": "La II no se denota mediante sentencias explicitas, si no mediante objetos matematicos",
             "referencia": "Original",
             "id": 1022,
             "intAnswers": 5

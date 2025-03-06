@@ -1,121 +1,121 @@
 {
     "vf": [
         {
-            "pregunta": "Tipos de datos son: \n Primitivos, estructurados, definidos por usuario y abstractos ",
+            "pregunta": "Tipos de datos son: \n Primitivos, estructurados, definidos por usuario y abstractos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los tipos de datos comúnmente utilizados son los primitivos, los estructurados, los definidos por el usuario y los abstractos.",
             "referencia": "Original",
             "id": 81
         },
         {
-            "pregunta": "Tipos de datos son: \n Primitivos, estructurados, definidios por usuario y lambda ",
+            "pregunta": "Tipos de datos son: \n Primitivos, estructurados, definidos por usuario y tipo lambda.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las variables tipo lambda no existen.",
             "referencia": "Original",
             "id": 82
         },
         {
-            "pregunta": "Sobre el dato de tipo Primitivo, se consideran enteros, punto flotante, y caracteres ",
+            "pregunta": "El tipo primitivo considera como datos a los enteros, los números punto flotante y caracteres.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los datos primitivos comprenden a los enteros, los números flotantes y a los caracteres.",
             "referencia": "Original",
             "id": 83
         },
         {
-            "pregunta": "Sobre el dato de tipo Primitivo, se consideran enteros, punto flotante, y string ",
+            "pregunta": "El tipo primitivo considera como datos a los enteros, los números punto flotante y los strings.",
             "respuesta": "F",
-            "explicacion": " String no es primitivo",
+            "explicacion": "Los strings son un tipo de dato estructurado.",
             "referencia": "Original",
             "id": 84
         },
         {
-            "pregunta": "Sobre el dato de tipo Primitivo, se consideran reales, punto flotante, y caracter ",
+            "pregunta": "El tipo primitivo considera como datos a los números reales, los números punto flotante, y los caracteres.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los números reales no pueden ser incorporados en un sistema de manera íntegra, es decir, necesitan ser aproximados para coincidir con un tipo de dato legible por la computadora.",
             "referencia": "Original",
             "id": 85
         },
         {
-            "pregunta": "Sobre el dato de tipo Estructurado, se consideran arreglos y registros ",
+            "pregunta": "El tipo estructurado considera como datos a los arreglos y los registros.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Ejemplos de datos estructrados son los arreglos y los registros.",
             "referencia": "Original",
             "id": 86
         },
         {
-            "pregunta": "Sobre el dato de tipo Estructurado, se consideran listas y registros ",
+            "pregunta": "El tipo estructurado considera como datos listas y registros.",
             "respuesta": "F",
-            "explicacion": " La lista no es estructurado, se considera \"coleccion\"",
+            "explicacion": " La lista no es un dato estructurado, pues se considera como \"colección\"",
             "referencia": "Original",
             "id": 87
         },
         {
-            "pregunta": "Sobre el dato de tipo Estructurado, string no se considera ",
+            "pregunta": "El tipo estructurado no considera a los strings como dato.",
             "respuesta": "F",
-            "explicacion": " Se entiende un string como un array de caracteres",
+            "explicacion": "Los strings, en teoría, pueden considerarse como un arreglo de caracteres. Por lo tanto, son considerados como datos estructurados.",
             "referencia": "Original",
             "id": 88
         },
         {
-            "pregunta": "El tipo Ordinal de dato incluye aquellos como entero, caracter, booleanos, enumerados y/o subrango ",
+            "pregunta": "El tipo ordinal incluye como datos a los enteros, los caracteres, los booleanos, los enumerados y/o los subrangos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Ejemplos de datos ordinales son los enteros, los caracteres, los booleanos, los enumerados y los subrangos.",
             "referencia": "Original",
             "id": 89
         },
         {
-            "pregunta": "El tipo Ordinal de dato incluye aquellos como entero, string, booleanos, enumerado y/o subrango ",
+            "pregunta": "El tipo ordinal incluye como datos a los enteros, los strings, los booleanos, los enumerados y/o los subrangos.",
             "respuesta": "F",
-            "explicacion": " String no cuenta",
+            "explicacion": "Los strings son datos estructurados.",
             "referencia": "Original",
             "id": 90
         },
         {
-            "pregunta": "El tipo Ordinal de dato no incluye los enumerados y subrangos ",
+            "pregunta": "El tipo ordinal no incluye a los enumerados y los subrangos como datos.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los enumerados y los subrangos son considerados como datos ordinales.",
             "referencia": "Original",
             "id": 91
         },
         {
-            "pregunta": "En C y Java, existen diferente tipos de enteros tales como signed o long ",
+            "pregunta": "En C y Java existen diferentes tipos de enteros tales como signed o long",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El prefijo para enteros en Java y C permite otorgarles una mayor cantidad de espacio en memoria. Esto da pie a que puedan almacenar un mayor rango de números enteros.",
             "referencia": "Original",
             "id": 92
         },
         {
-            "pregunta": "En C y Java, existen diferente tipos de enteros tales como float y double ",
+            "pregunta": "En C y Java existen diferentes tipos de enteros tales como float y double.",
             "respuesta": "F",
-            "explicacion": " No son enteros, son representaciones de punto flotante",
+            "explicacion": "Si bien Java y C permiten estos prefijos, estos se utilizan no para números enteros sino para números flotantes.",
             "referencia": "Original",
             "id": 93
         },
         {
-            "pregunta": "En C y Java, existen diferente tipos de punto flotante, tales como float y double ",
+            "pregunta": "En C y Java existen diferentes tipos de punto flotante tales como float y double.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java y C permiten dotar de prefijos como float y double a los números flotantes con el objetivo de que utilicen más espacio en memoria a cambio de una mejor precisión.",
             "referencia": "Original",
             "id": 94
         },
         {
-            "pregunta": "Existen varias representaciones de numeros enteros. Comunes son el C-1 y C-2 ",
+            "pregunta": "Existen varias representaciones de los números enteros. Algunas conocidas son el C-1 y el C-2",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los complementos 1 y 2 son una forma de relacionar los números binarios con los enteros.",
             "referencia": "Original",
             "id": 95
         },
         {
-            "pregunta": "Los numeros complejos son representados como punto flotante en lenguajes como Python o Prolog ",
+            "pregunta": "Los números complejos son representados como punto flotante en lenguajes como Python o Prolog.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Prolog no tiene soporte para números complejos de manera nativa.",
             "referencia": "Original",
             "id": 96
         },
         {
-            "pregunta": "Los numeros complejos son representados como punto flotante en lenguajes como Python o Scheme ",
+            "pregunta": "Los números complejos son representados como punto flotante en lenguajes como Python o Scheme.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "No explicación entregada",
             "referencia": "Original",
             "id": 97
         },
