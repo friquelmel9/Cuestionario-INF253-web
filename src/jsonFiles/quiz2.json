@@ -115,272 +115,272 @@
         {
             "pregunta": "Los números complejos son representados como punto flotante en lenguajes como Python o Scheme.",
             "respuesta": "F",
-            "explicacion": "No explicación entregada",
+            "explicacion": "Los números complejos no son representados como punto flotante en Scheme.",
             "referencia": "Original",
             "id": 97
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P1) Un tipo de datos define el conjunto de valores de datos y de operaciones predefinidas sobre los objetos de datos ",
+            "pregunta": "([2023-2] - Martí Q2P1) Un tipo de datos define el conjunto de valores de datos y de operaciones predefinidas sobre los objetos de datos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los tipos de datos son la manera de clasificar los distintas naturalezas de estos y, con ello, pueden facilitar la creación de operaciones que se pueden hacer sobre estos.",
             "id": 98
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P2) Un conjunto es un tipo de datos definido por el usuario ",
+            "pregunta": "([2023-2] - Martí Q2P2) Un conjunto es un tipo de datos definido por el usuario.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los conjuntos se clasifican como una colección.",
             "id": 99
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P3) Se llama coercion a la conversion automatica de tipos ",
+            "pregunta": "([2023-2] - MartíQ2P3) Se llama coerción a la conversion automática de tipos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La conversión automática de tipos de denomina coerción.",
             "id": 100
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P4) En una tipificacion estatica, los tipos solo pueden ser determinados explicitamente (declarados). ",
+            "pregunta": "([2023-2] - Martí Q2P4) En una tipificación estática, los tipos solo pueden ser determinados explícitamente (declarados).",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Existen lenguajes de programación donde el compilador puede deducir el tipo de dato asignado a la variable durante el tiempo de compilación.",
             "id": 101
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P5) En una tipificacion implicita, los tipos de datos no se declaran, y se pueden inferir a traves de reglas tal como nombre de variables a usar ",
+            "pregunta": "([2023-2] - Martí Q2P5) En una tipificacion implícita, los tipos de datos no se declaran, y se pueden inferir a traves de reglas tal como nombre de variables a usar.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Hay lenguajes de programación, como Python, que no requiere una declaración de tipo para crear una variable.",
             "id": 102
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P6) Un arreglo es una coleccion ordenada de datos, mientras que los arreglos asociativos no lo son ",
+            "pregunta": "([2023-2] - MartíQ2P6) Un arreglo es una colección ordenada de datos mientras que los arreglos asociativos no lo son.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Un arreglo asociativo es similar a un diccionario clave-valor, por lo que su orden es irrelevante al menos para efectos prácticos.",
             "id": 103
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P7) La tecnica por expansion convierte un objeto a un tipo que no puede incluir todos los valores del tipo original ",
+            "pregunta": "([2023-2] - Martí Q2P7) La técnica por expansión convierte un objeto a un tipo que no puede incluir todos los valores del tipo original.",
             "respuesta": "F",
-            "explicacion": " Esto es estrechamiento",
+            "explicacion": "La técnica que convierte un objeto a un tipo más particular que el original es estrechamiento.",
             "id": 104
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P8) Tanto una expresion relacional como una booleana entregan un resultado booleano, cuando el lenguaje de programacion tiene este tipo de datos ",
+            "pregunta": "([2023-2] - Martí Q2P8) Tanto una expresión relacional como una booleana entregan un resultado booleano, cuando el lenguaje de programación tiene este tipo de datos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La expresiones relacionales se encargan de resolver una situación booleana. Por lo tanto, deben entregar un booleano como resultado.",
             "id": 105
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P9) En el paso de parametros por valor-resultado, el valor de la variable se copia al heap al momento de la invocacion y desde esta la variable al retornar ",
+            "pregunta": "([2023-2] - Martí Q2P9) En el paso de parámetros por valor-resultado, el valor de la variable se copia al heap al momento de la invocación y desde esta la variable al retornar.",
             "respuesta": "F",
-            "explicacion": " No hay uso del Heap",
+            "explicacion": "En el paso de parámetros por valor-resultado no se utiliza el Heap.",
             "id": 106
         },
         {
-            "pregunta": "([2023-2] - Mart\u00c3\u00ad Q2P10) En Java, todos los objetos son asignados desde el heap y accedidos mediante variables de referencia ",
+            "pregunta": "([2023-2] - Martí Q2P10) En Java, todos los objetos son asignados desde el heap y accedidos mediante variables de referencia.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java maneja los objetos por referencia y siempre desde el Heap.",
             "id": 107
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P4) El ambito de una variable corresponde al tiempo de vida de una variable desde el momento que se realiza el ligado hasta el momento que se destruye o termina la variable ",
+            "pregunta": "([2022-1] - Salas Q2P4) El ámbito de una variable corresponde al tiempo de vida de una variable desde el momento que se realiza el ligado hasta el momento que se destruye o termina la variable.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El ámbito de una variable corresponde al contexto en el que es accesible por el resto del código. El tiempo de vida de la variable no está ligado a su tipo de ámbito como tal.",
             "id": 108
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P5) Las variables dinamicas de la memoria Heap pueden ser asignadas y liberadas en forma explicita por el programador, lo que se realiza usando un operador del lenguaje o una llamada del sistema ",
+            "pregunta": "([2022-1] - Salas Q2P5) Las variables dinámicas de la memoria Heap pueden ser asignadas y liberadas en forma explícita por el programador, lo que se realiza usando un operador del lenguaje o una llamada del sistema.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Hay lenguajes como C donde el asignamiento y liberación de la memoria es manual.",
             "id": 109
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P6) La lapida sepulcral es un mecanismo para gestionar los punteros de la memoria Heap con el fin de evitar punteros a memoria que fue ya liberada. El acceso se realiza indirectamente a traves de una lapida y si un objeto es liberado, la lapida permanece.",
+            "pregunta": "([2022-1] - Salas Q2P6) La lápida sepulcral es un mecanismo para gestionar los punteros de la memoria Heap con el fin de evitar punteros a memoria que fue ya liberada. El acceso se realiza indirectamente a traves de una lapida y si un objeto es liberado, la lapida permanece.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La lápida sepulcral es una técnica utilizada para combatir el dangling en los punteros.",
             "id": 110
         },
         {
             "pregunta": "([2022-1] - Salas Q2P7) En el codigo ASCII de 1Byte, la letra \"A\" tiene el valor entero de 65 y la letra \"a\" tiene el valor entero \"97\". Por lo cual, el resultado de la comparacion \"F\">\"f\" es ",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El valor númerico de F es menor que f en representación ASCII.",
             "id": 111
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P8) Un nombre puede ser asociado con diferentes direcciones de memoria en ambitos y tiempos de ejecucuion diferentes. Ejemplos de tipos de datos con estas caracteristicas son las uniones y los punteros en C y C++ ",
+            "pregunta": "([2022-1] - Salas Q2P8) Un nombre puede ser asociado con diferentes direcciones de memoria en ámbitos y tiempos de ejecución diferentes. Ejemplos de tipos de datos con estas características son las uniones y los punteros en C y C++.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El contexto de un ámbito puede hacer variar la accesibilidad del resto del código a las variables dentro de este. Esta situación hace posible que se puedan \"sobreescribir\" los nombres de variables sin que el código reclame por errores.",
             "id": 112
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P9) El l-value indica el contenido de la variable en memoria, mientras que el r-value indica donde esta localizada la variable ",
+            "pregunta": "([2022-1] - Salas Q2P9) El l-value indica el contenido de la variable en memoria, mientras que el r-value indica donde esta localizada la variable.",
             "respuesta": "F",
-            "explicacion": " Es al revez, l-value indica localizacion y r-value el contenido",
+            "explicacion": "El l-value indica la localización de la variable en memoria y el r-value el contenido de esta.",
             "id": 113
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P10) Antes de usar una variable, se debe realizar una asociacion a un tipo de dato, proceso que se conoce como ligado de tipo ",
+            "pregunta": "([2022-1] - Salas Q2P10) Antes de usar una variable, se debe realizar una asociación a un tipo de dato, proceso que se conoce como ligado de tipo.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El ligado de tipo es el proceso por el cuál una variable y su contenido se asocia con algún tipo de dato.",
             "id": 114
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P11) En la tipificacion estatica, el chequeo de tipo se realiza en tiempo de compilacion y se aplica solo si todos los tipos son ligados estaticamente ",
+            "pregunta": "([2022-1] - Salas Q2P11) En la tipificación estática, el chequeo de tipo se realiza en tiempo de compilación y se aplica solo si todos los tipos son ligados estáticamente.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Lenguajes con tipificación estática como C revisan el tipo asociado a las variables durante el tiempo de compilación.",
             "id": 115
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P12) Los contadores de referencias son un mecanismo de recoleccion de basura que consiste en marcar todos los objetos de memoria que no estan siendo utilizados y luego se libera la memoria asignada ",
+            "pregunta": "([2022-1] - Salas Q2P12) Los contadores de referencias son un mecanismo de recolección de basura que consiste en marcar todos los objetos de memoria que no estan siendo utilizados y luego se libera la memoria asignada.",
             "respuesta": "F",
-            "explicacion": " Toma conteo solo de los punteros, no los objetos en si",
+            "explicacion": "Los contadores de referencia guardan los punteros utilizados, más no el objeto asociado per se",
             "id": 116
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P13) El puntero es un tipo de dato estructurado que direcciona un espacio de memoria ",
+            "pregunta": "([2022-1] - Salas Q2P13) El puntero es un tipo de dato estructurado que direcciona un espacio de memoria.",
             "respuesta": "F",
-            "explicacion": " No es un tipo de dato estructurado",
+            "explicacion": "Los punteros no son datos estructurados.",
             "id": 117
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P14) El ligado se puede realizar de forma estatica o dinamica, dependiendo si se realiza en tiempo de compilacion (linking) o en tiempo de ejecucion (runtime), respectivamente. ",
+            "pregunta": "([2022-1] - Salas Q2P14) El ligado se puede realizar de forma estática o dinámica, dependiendo si se realiza en tiempo de compilación (linking) o en tiempo de ejecución (runtime), respectivamente.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El tipo de ligado está relacionado con el contexto de su verificación, siendo el caso ya sea durante el tiempo de compilación (estático) o en el tiempo de ejecución (dinámico).",
             "id": 118
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P15) Las variables son una abstraccion de un objeto de memoria que tienen los siguientes atributos: Nombre, Direccion, Valor, Tipo, Tiempo de Vida y Ambito ",
+            "pregunta": "([2022-1] - Salas Q2P15) Las variables son una abstracción de un objeto de memoria que tienen los siguientes atributos: Nombre, Dirección, Valor, Tipo, Tiempo de Vida y Ámbito.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las variables son la abstracción de un objeto de memoria y tiene esos atributos.",
             "id": 119
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P16) Una mala gestion de memoria podria generar una perdida de acceso a un objeto de memoria asignado en el heap, o podria generar punteros que apuntan a una localizacion de memoria del heap que ha sido liberada. Estos problemas se conocen como Basura y Danglin, respectivamente ",
+            "pregunta": "([2022-1] - Salas Q2P16) Una mala gestión de memoria podria generar una pérdida de acceso a un objeto de memoria asignado en el heap o podria generar punteros que apuntan a una localización de memoria del heap que ha sido liberada. Estos problemas se conocen como Basura y Danglin, respectivamente.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La mala gestión de memoria puede crear problemas durante la ejecución del programa. Estos problemas a menudo suelen ser los denominados como basura o dangling.",
             "id": 120
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P17) Acorde a la taxonomia de los tipos de datos, los tipos de datos ordinal pueden ser primitivos o definidos por el usuario. Los tipos de datos primitivos corresponden a los numericos, booleanos y caracter; mientras que los definidos por el usuario estan el subrango y el enumerado ",
+            "pregunta": "([2022-1] - Salas Q2P17) Acorde a la taxonomía de los tipos de datos, los tipos de datos ordinal pueden ser primitivos o definidos por el usuario. Los tipos de datos primitivos corresponden a los numéricos, booleanos y caracter; mientras que los definidos por el usuario estan el subrango y el enumerado.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los tipos de datos ordinal pueden ser primitivos o definidos por el usuario.",
             "id": 121
         },
         {
-            "pregunta": "([2022-1] - Salas Q2P18) La memoria se clasifica en: Memoria Estatica, Memoria de Stack y Memoria de Heap. En las memorias estaticas y de Stack el ligado es estatico, mientras que en la memoria heap el ligado es dinamico ",
+            "pregunta": "([2022-1] - Salas Q2P18) La memoria se clasifica en: Memoria Estática, Memoria de Stack y Memoria de Heap. En las memorias estaticas y de Stack el ligado es estático, mientras que en la memoria heap el ligado es dinámico.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El tipo de ligado va asociado con el contexto donde ocurre su verificación, no en el tipo de memoria donde esté declarada su dato respectivo.",
             "id": 122
         },
         {
-            "pregunta": "([2022-1] - Diaz Q2P1) La tipificacion fuerte ocurre cuando se determina el tipo de todas las variables antes de la ejecucion, y luego permanece fijo ",
+            "pregunta": "([2022-1] - Díaz Q2P1) La tipificación fuerte ocurre cuando se determina el tipo de todas las variables antes de la ejecución, y luego permanece fijo.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La tipificación fuerte se encarga de restringir las operaciones inválidas entre tipos incompatibles. Esta clasificación no está relacionada con el contexto de la verificación de tipo.",
             "id": 123
         },
         {
-            "pregunta": "([2022-1] - Diaz Q2P2) En python, los enteros y strings son pasados por paso valor. ",
+            "pregunta": "([2022-1] - Díaz Q2P2) En Python, los enteros y strings son pasados por paso valor.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Python utiliza el paso por referencia.",
             "id": 124
         },
         {
-            "pregunta": "([2022-1] - Diaz Q2P3) Las colas, stacks y diccionarios corresponden a tipos de datos de la categoria colecciones ordenadas ",
+            "pregunta": "([2022-1] - Díaz Q2P3) Las colas, stacks y diccionarios corresponden a tipos de datos de la categoria colecciones ordenadas.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Un diccionario es una colección no ordenada.",
             "id": 125
         },
         {
-            "pregunta": "([2022-1] - Diaz Q2P4) La definicion de trasparencia referencial es: \"dos tipos de datos son equivalentes si el operando de un tipo en una expresion puede ser sustituido por otro de manera explicita ",
+            "pregunta": "([2022-1] - Díaz Q2P4) La definición de trasparencia referencial es: \"dos tipos de datos son equivalentes si el operando de un tipo en una expresión puede ser sustituido por otro de manera explícita\".",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La transparencia referencial es una característica de las funciones puras que está ligada a que una función siempre va a entregar el mismo resultado con los mismos argumentos. No está relacionada con lo que dice el enunciado.",
             "id": 126
         },
         {
-            "pregunta": "([2022-1] - Diaz Q2P5) El for en C es un eje,plo de bucles controlados por condicion ",
+            "pregunta": "([2022-1] - Díaz Q2P5) El for en C es un ejemplo de bucles controlados por condición.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El for en C y en otros lenguajes corresponde a un bucle controlado por contador.",
             "id": 127
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P1) Un sistema de tipos de datos permite verificar el uso correcto del lenguaje y detectar errores de tipos solo en lenguajes compilados ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P1) Un sistema de tipos de datos permite verificar el uso correcto del lenguaje y detectar errores de tipos solo en lenguajes compilados.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los lenguajes interpretados también pueden detectar problemas de ligado de tipo.",
             "id": 128
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P2) La coercion, definida por el programador, ayuda a tener operaciones con operandos de tipos compatibles ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P2) La coerción, definida por el programador, ayuda a tener operaciones con operandos de tipos compatibles.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La coerción es una conversión de tipos automática exclusiva del lenguaje, no del programador.",
             "id": 129
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P3) En la equivalencia de tipo nominal, los tipos pueden tener nombres distintos pero una estructura identica ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P3) En la equivalencia de tipo nominal, los tipos pueden tener nombres distintos pero una estructura idéntica.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La equivalencia de tipo nominal revisa si dos tipos tienen el mismo nombre, mas no si tienen la misma estructura.",
             "id": 130
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P4) La tipificacion de datos estatica permite el interprete asignar memoria y generar codigo optimizado ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P4) La tipificación de datos estática permite el interprete asignar memoria y generar código optimizado.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La tipificación estática solo determina el contexto donde se verifica el ligado de tipo.",
             "id": 131
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P5) Segun el estandar IEEE 754, la representacion de un numero flotante considera tres partes: signo, parte entera y parte decimal de 23 o 52 bits, segun corresponde a su precision ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P5) Según el estándar IEEE 754, la representación de un número flotante considera tres partes: signo, parte entera y parte decimal de 23 o 52 bits, según corresponde a su precisión.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El estándar IEEE 754 considera el signo (1b), el exponente (8b) y la mantisa (23b).",
             "id": 132
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P6) Los tipos subrango se implementan en base al tipo entero ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P6) Los tipos subrango se implementan en base al tipo entero.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los tipos subrango tienen como base un conjunto de números enteros.",
             "id": 133
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P7) En las dos modalidades de arreglos dinamicos de stack, la memoria del arreglo es ligada de forma dinamica ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P7) En las dos modalidades de arreglos dinámicos de stack, la memoria del arreglo es ligada de forma dinámica.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La memoria de un arreglo es ligada dinámicamente cuando es un arreglo creado en la memoria Heap.",
             "id": 134
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P8) El tipo referencia es un tipo de variable que realiza desreferenciacion implicita en la asignacion, por lo que su uso es mas seguro ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P8) El tipo referencia es un tipo de variable que realiza desreferenciación implícita en la asignación, por lo que su uso es más seguro.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El tipo referencia permite apuntar directamente a un objeto en particular dentro de la memoria, por lo que en un uso correcto garantiza la manipulación completa de este objeto y no de cualquier otro.",
             "id": 135
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P9) El problema de dangling se presenta cuando un puntero apunta a una localizacion de memoria del heal que ha sido liberada ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P9) El problema de dangling se presenta cuando un puntero apunta a una localizacion de memoria del heap que ha sido liberada.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El dangling ocurre cuando un puntero sigue apuntando a una localización de memoria que ha sido previamente liberada.",
             "id": 136
         },
         {
-            "pregunta": "([2024-2] - Jose Luis Marti. Q2P10) Si solo se hace referencia a variables locales, no hay presencia de efectos laterales en las expresiones de control ",
+            "pregunta": "([2024-2] - José Luis Martí. Q2P10) Si solo se hace referencia a variables locales, no hay presencia de efectos laterales en las expresiones de control.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los efectos laterales surgen a partir del choque entre variables con distinto ámbito.",
             "id": 137
         },
         {
-            "pregunta": "([2021-x]  Jose Luis Marti C1P5 MOD) Si las patentes vehiculares en chilse se pueden describir por la expresion regular \\^[A-Z]{2}\\.\\d{2}\\.\\{2}$/, para anteponer un digito obligatorio se tendria que usar la expresion /^[1-9]*\\ al inicio ",
+            "pregunta": "([2021-x] José Luis Martí C1P5 MOD) Si las patentes vehiculares en chile se pueden describir por la expresion regular ```^[A-Z]{2}\\.[0-9]{2}\\.[0-9]{2}$```, para anteponer un digito obligatorio se tendria que usar la expresion /^[1-9]*\\ al inicio.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El asterisco en la modificación hace que el dígito se pueda omitir.",
             "id": 138
         },
         {
-            "pregunta": "([2021-x]  Jose Luis Marti C1P6) En un proceso de compilacion, la tabla de simbolos ayuda a resolver las ambiguedades de los arboles sintaticos ",
+            "pregunta": "([2021-x] José Luis Martí C1P6) En un proceso de compilación, la tabla de simbolos ayuda a resolver las ambigüedades de los arboles sintáticos",
             "respuesta": "F",
-            "explicacion": " Son los parse-tree",
+            "explicacion": "La ambigüedad de los árboles sintácticos solo se pueden arreglar mejorando el diseño de la gramática que representan.",
             "id": 139
         },
         {
-            "pregunta": "([2021-x]  Jose Luis Marti C1P7) La trasparencia referencial se refiere a que la evaluacion de una funcion siempre produce el mismo resultado ",
+            "pregunta": "([2021-x]  José Luis Martí C1P7) La trasparencia referencial se refiere a que la evaluación de una función siempre produce el mismo resultado.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La transparencia referencial está ligada con el comportamiento de una función pura, siendo el caso que se cumpla que mismos argumentos siempre darán un mismo resultado.",
             "id": 140
         },
         {
-            "pregunta": "([2021-x]  Jose Luis Marti C1P8) Una de las desventajas de la declaracion implicita de los tipos de datos, es que hace mas lenta la ejecucion debido a la verificacion dinamica de estos ",
+            "pregunta": "([2021-x]  José Luis Martí C1P8) Una de las desventajas de la declaración implícita de los tipos de datos, es que hace mas lenta la ejecucion debido a la verificación dinámica de estos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Si bien la declaración implícita le otorga mayor flexibilidad al programador, el tiempo que toma la verificación del código es mayor por todas las nuevos factores que el intérprete o compilador debe revisar.",
             "id": 141
         }
     ],
