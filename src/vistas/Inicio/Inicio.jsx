@@ -1,25 +1,27 @@
-import { useState } from 'react';
 import TopMenu from "@/vistas/TopMenu/TopMenu";
+import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
 
 function Inicio() {
-  const [count, setCount] = useState(0);
-  
+  const { isDarkTheme } = useTheme(); // Acceder al tema global
+
   return (
     <>
-      <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>
-        <TopMenu text='' link='' inicio={true}/>  
-        <div style={{display: 'flex',justifyContent: 'center'}}>
+      <TopMenu text='' link='' inicio={true}/>
+      <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>  
+        <div style={{display: 'flex', justifyContent: 'center'}}>
           <h1><strong>Cuestionario INF-253</strong></h1>
         </div>
+  
         {/* Material de estudio Personal */}
-        <div className='container mt-4'>
-        <h3>Material de Estudio Personal</h3>
+        <div 
+          className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`} 
+          style={{ padding: '20px', borderRadius: '10px' }}
+        >
+          <h3>Material de Estudio Personal</h3>
           <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '25px'}}>
-
-
-
+  
             {/* Practica */}
-            <div className='border p-4 rounded' style={{width: '80%', display: 'flex', flexDirection: 'column'}}>
+            <div className={`border p-4 rounded ${isDarkTheme ? 'border-white' : 'border-black'}`} style={{width: '80%', display: 'flex', flexDirection: 'column'}}>
               <h4> Practicar </h4>
               <p style={{textAlign: 'justify'}}>
                 Aquí podras realizar <strong>quices</strong> y <strong>certamenes</strong> de 
@@ -29,17 +31,15 @@ function Inicio() {
               </p>
               <div style={{display: 'flex', justifyContent: 'center'}}>
                 <a 
-                  href={`${import.meta.env.BASE_URL}ConfigurarEvaluacion`} 
+                  href={`${import.meta.env.BASE_URL}SimularEvaluacion`} 
                   className="btn btn-primary w-80">
-                     Simulacion de Cuestionario
+                    Simulacion de Cuestionario
                 </a>
               </div>
             </div>
-
-
-
+  
             {/* Documentacion */}
-            <div className='border p-4 rounded' style={{width: '80%', display: 'flex', flexDirection: 'column'}}>
+            <div className={`border p-4 rounded ${isDarkTheme ? 'border-white' : 'border-black'}`} style={{width: '80%', display: 'flex', flexDirection: 'column'}}>
               <h4> Revisar Documentación </h4>
               <div style={{display: 'flex', flexDirection: 'column', gap: '30px'}}>
                 <p style={{textAlign: 'justify'}}>
@@ -56,9 +56,7 @@ function Inicio() {
                 </div>
               </div>
             </div>
-
-
-          
+  
           </div>
         </div>
       </div>

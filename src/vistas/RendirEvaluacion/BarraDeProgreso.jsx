@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-
-const BarraDeProgreso = ({ progress, onIncrease, onDecrease }) => {
-    const containerStyle = {
+import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
+const BarraDeProgreso = ({ progress, onIncrease, onDecrease, mostrarBotones }) => {
+  const { isDarkTheme } = useTheme(); // Acceder al tema global  
+  const containerStyle = {
         width: '95%',
         height: '30px',
         backgroundColor: '#f3f3f3',
@@ -40,24 +41,56 @@ const BarraDeProgreso = ({ progress, onIncrease, onDecrease }) => {
   };
 
   return (
-    <div style={containerStyle}>
-        
-      <div style={fillerStyle}>
-        <span style={labelStyle}>{`${progress}%`}</span>
+    <div style={{ 
+      ...containerStyle, 
+      backgroundColor: isDarkTheme ? '#333' : '#f4f4f4', 
+      border: isDarkTheme ? '2px solid white' : 'none', 
+      boxShadow: isDarkTheme ? 'none' : '0px 4px 6px rgba(0, 0, 0, 0.1)', // Sombra en modo claro
+      borderRadius: '8px', // Bordes redondeados para mejor apariencia
+      padding: '0px' // Espaciado para que el borde no quede pegado al contenido
+    }}>
+      <div style={{ 
+        ...fillerStyle, 
+        backgroundColor: '#4caf50' 
+      }}>
+        <span style={{ 
+          ...labelStyle, 
+          color: isDarkTheme ? 'white' : 'black' 
+        }}>
+          {`${progress}%`}
+        </span>
       </div>
-      <button
-        style={{ ...buttonStyle, left: '10px' }}
-        onClick={onDecrease}
-      >
-        &lt;
-      </button>
-      <button
-        style={{ ...buttonStyle, right: '10px' }}
-        onClick={onIncrease}
-      >
-        &gt;
-      </button>
+    
+      {/* Mostrar el botón de disminuir */}
+      {mostrarBotones.botonDisminuir && (
+        <button
+          style={{ 
+            ...buttonStyle, 
+            left: '10px',
+            backgroundColor: 'transparent',  // Fondo transparente
+          }}
+          onClick={onDecrease}
+        >
+          &lt;
+        </button>
+      )}
+    
+      {/* Mostrar el botón de aumentar */}
+      {mostrarBotones.botonAumentar && (
+        <button
+          style={{ 
+            ...buttonStyle, 
+            right: '10px',
+            backgroundColor: 'transparent',  // Fondo transparente
+          }}
+          onClick={onIncrease}
+        >
+          &gt;
+        </button>
+      )}
     </div>
+    
+    
   );
 };
 
