@@ -10,6 +10,9 @@ import data3 from '/src/jsonFiles/quiz3.json'
 import data4 from '/src/jsonFiles/quiz4.json'
 import data5 from '/src/jsonFiles/quiz5.json'
 
+import './Documentacion.css';
+
+
 function Documentacion() {
 
     const nullQuestion = {
@@ -74,54 +77,68 @@ function Documentacion() {
         setShowQuestion(false)
     }
 
+    const handleRightArrow = (event) => {
+
+    }
+
+    const handleLeftArrow = (event) => {
+        
+    }
+
+    useEffect(() => {
+        setSelectedQuestion(nullQuestion);
+    }, [selectedFilter]);
+
     return (
         <>
             <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
-            <div>
-                <select onChange={handleFilterChange}>
-                    <option value={-1}>--Seleccione--</option>
-                    <option value={1}>No filtro</option>
-                    <option value={2}>Filtrar por Quiz</option>
-                    <option value={3}>Filtrar por Referencia</option>
-                </select>
-                
-                {selectedFilter === 2 && (
-                    <select onChange={handleFilterArray}>
+            <body className="documentacion">
+                <div className="options-bar">
+                    <select className="custom-select" onChange={handleFilterChange}>
                         <option value={-1}>--Seleccione--</option>
-                        <option value={1}>Quiz 1</option>
-                        <option value={2}>Quiz 2</option>
-                        <option value={3}>Quiz 3</option>
-                        <option value={4}>Quiz 4</option>
-                        <option value={5}>Quiz 5</option>
+                        <option value={1}>No filtro</option>
+                        <option value={2}>Filtrar por Quiz</option>
+                        <option value={3}>Filtrar por Referencia</option>
                     </select>
-                )}
-
-                {selectedFilter === 3 && (
-                    <select onChange={handleFilterArray}>
-                        <option value={-1}>--Seleccione--</option>
-                        <option value={6}>Preguntas Originales</option>
-                        <option value={7}>Preguntas de Evaluaciones</option>
-                    </select>
-                )}
-
-                {!(selectedFilter === -1) && (
-                    <select onChange={handleSelectedChange}>
-                    <option value={-1}>--Seleccione--</option>
-                    {selectedFilter >= 2 && (
-                        filteredArray.map(item => (
-                            <option value={item.id}>{item.id} {item.referencia}</option>
-                        ))
-                    )}
-                    {selectedFilter === 1 && (
-                        questionsArray.map(item => (
-                            <option value={item.id}>#{item.id} {item.referencia}</option>
-                        ))
-                    )} 
                     
-                    </select>
-                )}
-            </div>
-            <QuestionBox question={selectedQuestion} mostrarRespuesta={showQuestion} isTest={false}></QuestionBox>
+                    {selectedFilter === 2 && (
+                        <select className="custom-select" onChange={handleFilterArray}>
+                            <option value={-1}>--Seleccione--</option>
+                            <option value={1}>Quiz 1</option>
+                            <option value={2}>Quiz 2</option>
+                            <option value={3}>Quiz 3</option>
+                            <option value={4}>Quiz 4</option>
+                            <option value={5}>Quiz 5</option>
+                        </select>
+                    )}
+
+                    {selectedFilter === 3 && (
+                        <select className="custom-select" onChange={handleFilterArray}>
+                            <option value={-1}>--Seleccione--</option>
+                            <option value={6}>Preguntas Originales</option>
+                            <option value={7}>Preguntas de Evaluaciones</option>
+                        </select>
+                    )}
+
+                    {!(selectedFilter === -1) && (
+                        <select className="custom-select" onChange={handleSelectedChange}>
+                        <option value={-1}>--Seleccione--</option>
+                        {selectedFilter >= 2 && (
+                            filteredArray.map(item => (
+                                <option value={item.id}>{item.id} {item.referencia}</option>
+                            ))
+                        )}
+                        {selectedFilter === 1 && (
+                            questionsArray.map(item => (
+                                <option value={item.id}>#{item.id} {item.referencia}</option>
+                            ))
+                        )} 
+                        
+                        </select>
+                    )}
+                </div>
+                <QuestionBox className="content-box" question={selectedQuestion} mostrarRespuesta={showQuestion} isTest={false}></QuestionBox>
+            </body>
         </>
     );
 }

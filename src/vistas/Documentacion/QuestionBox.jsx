@@ -12,9 +12,10 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
         setShowAnswer(prevState => !prevState)
     }
 
-    const markdown = `
-    #This is perfect!
-    `
+    useEffect(() => {
+        setShowAnswer(false);
+    }, [question]);
+
 
     return (
         <>
@@ -27,14 +28,16 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
                         <div class="id-number"># {question.id}</div>
                         <div class="top-right-elements">{question.referencia}</div>
                     </div>
+                    <div>
                     {!showAnswer ? (
-                        <Markdown remarkPlugins={[remarkBreaks]}>{question.pregunta}</Markdown>
+                            <Markdown remarkPlugins={[remarkBreaks]}>{question.pregunta}</Markdown>
                     ) : (
                         <>
-                            <div className="enunciado">La respuesta correcta es: "{question.respuesta}" </div>
-                            <div className="enunciado">Explicacion: {question.explicacion} </div>
+                            <Markdown remarkPlugins={[remarkBreaks]}>{"La respuesta correcta es: "+question.respuesta}</Markdown>
+                            <Markdown remarkPlugins={[remarkBreaks]}>{"Explicacion: "+question.explicacion}</Markdown>
                         </>
                     )}
+                    </div>
                     {isTest ? 
                     (
                         <div></div>
