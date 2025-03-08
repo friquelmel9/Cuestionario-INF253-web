@@ -78,22 +78,39 @@ function Documentacion() {
     }
 
     const handleRightArrow = (event) => {
-
+        if (selectedFilter === 1) {
+            selectedQuestion.id+1 <= questionsArray.length ? setSelectedQuestion(questionsArray.find(item => item.id === selectedQuestion.id+1)) : null
+        }
+        if (selectedFilter >= 2) {
+            const index = filteredArray.indexOf(selectedQuestion)
+            index+1 < filteredArray.length ? setSelectedQuestion(filteredArray[index + 1]) : null
+        }
+    
     }
 
     const handleLeftArrow = (event) => {
-        
+        if (selectedFilter === 1) {
+            selectedQuestion.id-1 >= 1 ? setSelectedQuestion(questionsArray.find(item => item.id === selectedQuestion.id-1)) : false
+        }
+        if (selectedFilter >= 2) {
+            const index = filteredArray.indexOf(selectedQuestion)
+            index-1 >= 0 ? setSelectedQuestion(filteredArray[index - 1]) : null
+        }
     }
 
+    // To see the question if the previous question was showing the answer
     useEffect(() => {
         setSelectedQuestion(nullQuestion);
     }, [selectedFilter]);
 
     return (
-        <>
+        <body className="documentacion">
             <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
-            <body className="documentacion">
+            <h1 className="title">Documentacion</h1>
+            <>
+                
                 <div className="options-bar">
+                    <button onClick={handleLeftArrow} className="buttonStyle">&lt;</button>
                     <select className="custom-select" onChange={handleFilterChange}>
                         <option value={-1}>--Seleccione--</option>
                         <option value={1}>No filtro</option>
@@ -121,25 +138,28 @@ function Documentacion() {
                     )}
 
                     {!(selectedFilter === -1) && (
-                        <select className="custom-select" onChange={handleSelectedChange}>
-                        <option value={-1}>--Seleccione--</option>
-                        {selectedFilter >= 2 && (
-                            filteredArray.map(item => (
-                                <option value={item.id}>{item.id} {item.referencia}</option>
-                            ))
-                        )}
-                        {selectedFilter === 1 && (
-                            questionsArray.map(item => (
-                                <option value={item.id}>#{item.id} {item.referencia}</option>
-                            ))
-                        )} 
-                        
-                        </select>
+                        <>
+                            <select className="custom-select" onChange={handleSelectedChange}>
+                            <option value={-1}>--Seleccione--</option>
+                            {selectedFilter >= 2 && (
+                                filteredArray.map(item => (
+                                    <option value={item.id}>{item.id} {item.referencia}</option>
+                                ))
+                            )}
+                            {selectedFilter === 1 && (
+                                questionsArray.map(item => (
+                                    <option value={item.id}>#{item.id} {item.referencia}</option>
+                                ))
+                            )} 
+                            
+                            </select>
+                        </>
                     )}
+                    <button onClick={handleRightArrow} className="buttonStyle">&gt;</button>
                 </div>
                 <QuestionBox className="content-box" question={selectedQuestion} mostrarRespuesta={showQuestion} isTest={false}></QuestionBox>
-            </body>
-        </>
+            </>
+        </body>
     );
 }
 
