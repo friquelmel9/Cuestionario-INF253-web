@@ -104,14 +104,14 @@ function Documentacion() {
     }, [selectedFilter]);
 
     return (
-        <body className="documentacion">
+        <body className="documentacion" >
             <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
+
             <h1 className="title">Documentacion</h1>
-            <>
-                
-                <div className="options-bar">
-                    <button onClick={handleLeftArrow} className="buttonStyle">&lt;</button>
-                    <select className="custom-select" onChange={handleFilterChange}>
+            <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', gap:'20px'}}>    
+                <div className="options-bar" style={{display: 'flex', flexDirection: 'row', alignItems:'center'}}>
+                    <button onClick={handleLeftArrow} className="btn btn-primary">&lt;</button>
+                    <select className="btn btn-primary dropdown-toggle" onChange={handleFilterChange}>
                         <option value={-1}>--Seleccione--</option>
                         <option value={1}>No filtro</option>
                         <option value={2}>Filtrar por Quiz</option>
@@ -119,7 +119,7 @@ function Documentacion() {
                     </select>
                     
                     {selectedFilter === 2 && (
-                        <select className="custom-select" onChange={handleFilterArray}>
+                        <select className="btn btn-primary dropdown-toggle" onChange={handleFilterArray}>
                             <option value={-1}>--Seleccione--</option>
                             <option value={1}>Quiz 1</option>
                             <option value={2}>Quiz 2</option>
@@ -130,7 +130,7 @@ function Documentacion() {
                     )}
 
                     {selectedFilter === 3 && (
-                        <select className="custom-select" onChange={handleFilterArray}>
+                        <select className="btn btn-primary dropdown-toggle" onChange={handleFilterArray}>
                             <option value={-1}>--Seleccione--</option>
                             <option value={6}>Preguntas Originales</option>
                             <option value={7}>Preguntas de Evaluaciones</option>
@@ -139,7 +139,7 @@ function Documentacion() {
 
                     {!(selectedFilter === -1) && (
                         <>
-                            <select className="custom-select" onChange={handleSelectedChange}>
+                            <select className="btn btn-primary dropdown-toggle" onChange={handleSelectedChange}>
                             <option value={-1}>--Seleccione--</option>
                             {selectedFilter >= 2 && (
                                 filteredArray.map(item => (
@@ -155,10 +155,10 @@ function Documentacion() {
                             </select>
                         </>
                     )}
-                    <button onClick={handleRightArrow} className="buttonStyle">&gt;</button>
+                    <button onClick={handleRightArrow} className="btn btn-primary">&gt;</button>
                 </div>
                 <QuestionBox className="content-box" question={selectedQuestion} mostrarRespuesta={showQuestion} isTest={false}></QuestionBox>
-            </>
+            </div>
         </body>
     );
 }
