@@ -7,7 +7,7 @@ function Agradecimientos(){
     return(
         <>
             <div style={{display: 'flex', flexDirection: 'column', gap: '20px', minHeight:'100vh'}}>
-                <TopMenu text='' link='' inicio={false}/> 
+                <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
             </div>
             <FooterMenu inicio={false}/> 
         </>
