@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  }
+  
+.documentacion {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.title {
+  background:  #fdfdfd;
+  text-align: center;
+  margin: 10px;
+}
+
+.options-bar {
+  background-color: #fdfdfd;
+  padding: 10px;
+  gap: 10px;
+  text-align: center;
+  margin-top: 50px; /* Adjust based on navbar height */
+  position: sticky; /* Keeps it visible when scrolling */
+  top: 50px; /* Adjust based on navbar height */
+  z-index: 500;
+}
+
+.custom-select {
+  margin: 10px; /* Adds spacing around the select dropdown */
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.content-box {
+  margin: 100px;
+  margin-top: 100px; /* Adjust as needed */
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+}
+
+.buttonStyle {
+  background: transparent;
+  cursor: pointer;
+}

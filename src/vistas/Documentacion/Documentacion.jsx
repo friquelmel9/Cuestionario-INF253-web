@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Markdown from 'react-markdown'
 
 import QuestionBox from './QuestionBox.jsx'
 import TopMenu from '@/vistas/TopMenu/TopMenu'
@@ -9,7 +10,11 @@ import data3 from '/src/jsonFiles/quiz3.json'
 import data4 from '/src/jsonFiles/quiz4.json'
 import data5 from '/src/jsonFiles/quiz5.json'
 
+import './Documentacion.css';
+
+
 function Documentacion() {
+
 
     const nullQuestion = {
         id: null
@@ -54,7 +59,17 @@ function Documentacion() {
 
     const handleFilterArray = (event) => {
         const selectedFilter = parseInt(event.target.value);
-        setFilteredArray(questionsArray.filter(item => item.quiz === selectedFilter) || nullQuestion )
+        if (selectedFilter <= 5 ) {
+            setFilteredArray(questionsArray.filter(item => item.quiz === selectedFilter) || nullQuestion )
+        }
+        if (selectedFilter === 6) 
+            {setFilteredArray(questionsArray.filter(item => item.referencia ==="Original") || nullQuestion )
+
+            }
+        if (selectedFilter === 7) 
+            {setFilteredArray(questionsArray.filter(item => item.referencia != "Original") || nullQuestion )
+
+            }
     }
 
     const handleSelectedChange = (event) => {
@@ -63,47 +78,89 @@ function Documentacion() {
         setShowQuestion(false)
     }
 
-    return (
-        <>
-            <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
-            <div>
-                <select onChange={handleFilterChange}>
-                    <option value={-1}>--Seleccione--</option>
-                    <option value={1}>No filtro</option>
-                    <option value={2}>Filtrar por Quiz</option>
-                    <option value={3}>Filtrar por tema (no disponible)</option>
-                </select>
-                
-                {selectedFilter === 2 && (
-                    <select onChange={handleFilterArray}>
-                        <option value={-1}>--Seleccione--</option>
-                        <option value={1}>Quiz 1</option>
-                        <option value={2}>Quiz 2</option>
-                        <option value={3}>Quiz 3</option>
-                        <option value={4}>Quiz 4</option>
-                        <option value={5}>Quiz 5</option>
-                    </select>
-                )}
+    const handleRightArrow = (event) => {
+        if (selectedFilter === 1) {
+            selectedQuestion.id+1 <= questionsArray.length ? setSelectedQuestion(questionsArray.find(item => item.id === selectedQuestion.id+1)) : null
+        }
+        if (selectedFilter >= 2) {
+            const index = filteredArray.indexOf(selectedQuestion)
+            index+1 < filteredArray.length ? setSelectedQuestion(filteredArray[index + 1]) : null
+        }
+    
+    }
 
-                {!(selectedFilter === -1) && (
-                    <select onChange={handleSelectedChange}>
-                    <option value={-1}>--Seleccione--</option>
-                    {selectedFilter === 2 && (
-                        filteredArray.map(item => (
-                            <option value={item.id}>{item.id}</option>
-                        ))
-                    )}
-                    {selectedFilter === 1 && (
-                        questionsArray.map(item => (
-                            <option value={item.id}>{item.id}</option>
-                        ))
-                    )} 
-                    
+    const handleLeftArrow = (event) => {
+        if (selectedFilter === 1) {
+            selectedQuestion.id-1 >= 1 ? setSelectedQuestion(questionsArray.find(item => item.id === selectedQuestion.id-1)) : false
+        }
+        if (selectedFilter >= 2) {
+            const index = filteredArray.indexOf(selectedQuestion)
+            index-1 >= 0 ? setSelectedQuestion(filteredArray[index - 1]) : null
+        }
+    }
+
+    // To see the question if the previous question was showing the answer
+    useEffect(() => {
+        setSelectedQuestion(nullQuestion);
+    }, [selectedFilter]);
+
+    return (
+        <body className="documentacion" >
+            <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
+
+            <h1 className="title">Documentacion</h1>
+            <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', gap:'20px'}}>    
+                <div className="options-bar" style={{display: 'flex', flexDirection: 'row', alignItems:'center'}}>
+                    <button onClick={handleLeftArrow} className="btn btn-primary">&lt;</button>
+                    <select className="btn btn-primary dropdown-toggle" onChange={handleFilterChange}>
+                        <option value={-1}>--Seleccione--</option>
+                        <option value={1}>No filtro</option>
+                        <option value={2}>Filtrar por Quiz</option>
+                        <option value={3}>Filtrar por Referencia</option>
                     </select>
-                )}
+                    
+                    {selectedFilter === 2 && (
+                        <select className="btn btn-primary dropdown-toggle" onChange={handleFilterArray}>
+                            <option value={-1}>--Seleccione--</option>
+                            <option value={1}>Quiz 1</option>
+                            <option value={2}>Quiz 2</option>
+                            <option value={3}>Quiz 3</option>
+                            <option value={4}>Quiz 4</option>
+                            <option value={5}>Quiz 5</option>
+                        </select>
+                    )}
+
+                    {selectedFilter === 3 && (
+                        <select className="btn btn-primary dropdown-toggle" onChange={handleFilterArray}>
+                            <option value={-1}>--Seleccione--</option>
+                            <option value={6}>Preguntas Originales</option>
+                            <option value={7}>Preguntas de Evaluaciones</option>
+                        </select>
+                    )}
+
+                    {!(selectedFilter === -1) && (
+                        <>
+                            <select className="btn btn-primary dropdown-toggle" onChange={handleSelectedChange}>
+                            <option value={-1}>--Seleccione--</option>
+                            {selectedFilter >= 2 && (
+                                filteredArray.map(item => (
+                                    <option value={item.id}>{item.id} {item.referencia}</option>
+                                ))
+                            )}
+                            {selectedFilter === 1 && (
+                                questionsArray.map(item => (
+                                    <option value={item.id}>#{item.id} {item.referencia}</option>
+                                ))
+                            )} 
+                            
+                            </select>
+                        </>
+                    )}
+                    <button onClick={handleRightArrow} className="btn btn-primary">&gt;</button>
+                </div>
+                <QuestionBox className="content-box" question={selectedQuestion} mostrarRespuesta={showQuestion} isTest={false}></QuestionBox>
             </div>
-            <QuestionBox question={selectedQuestion} mostrarRespuesta={showQuestion} isTest={false}></QuestionBox>
-        </>
+        </body>
     );
 }
 
