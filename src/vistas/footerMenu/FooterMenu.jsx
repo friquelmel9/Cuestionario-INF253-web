@@ -28,7 +28,7 @@ const FooterMenu = ({inicio = false }) => {
                                 <a href="">
                                     Repositorio
                                 </a>
-                                <a href="">
+                                <a href={`${import.meta.env.BASE_URL}Agradecimientos`} >
                                     Agradecimientos
                                 </a>
                                 <a href="">
