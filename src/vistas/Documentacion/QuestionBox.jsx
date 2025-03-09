@@ -43,7 +43,7 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
                         <div></div>
                     ) : (
                         <div className="button-container">
-                            <button onClick={toggleAnswer}>
+                            <button className="btn btn-primary" onClick={toggleAnswer}>
                                 {!showAnswer ? "Mostrar respuesta" : "Volver a pregunta"}
                             </button>
                         </div>  
