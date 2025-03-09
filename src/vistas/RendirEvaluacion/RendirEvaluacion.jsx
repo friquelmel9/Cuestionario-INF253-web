@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import TopMenu from '@/vistas/TopMenu/TopMenu';
+import  FooterMenu from "@/vistas/FooterMenu/FooterMenu";
 import BarraDeProgreso from './BarraDeProgreso';
 import VisualizadorDePregunta from './VisualizadorDePregunta';
 import ControlEvaluacion from "./ControlEvaluacion";
@@ -95,6 +96,7 @@ function RendirEvaluacion({ datosEvaluacion }) {
 
   return (
     <>
+    <div style={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}> 
     <TopMenu text='Ir a configurar evaluacion' link={`${import.meta.env.BASE_URL}SimularEvaluacion`} />
       <ControlEvaluacion addTime={datosEvaluacion.agregarTiempo} initialTime={tiempo} onFinish={handleFinish} onGoToResults={handleGoResults}/> 
       <BarraDeProgreso
@@ -107,17 +109,18 @@ function RendirEvaluacion({ datosEvaluacion }) {
         }}
       />
       <div 
-  className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`} 
-  style={{ padding: '20px', borderRadius: '10px' }}
->
-  <VisualizadorDePregunta 
-    pregunta={pregunta} 
-    numeroPregunta={currentQuestionIndex} 
-    manejadorRespuesta={manejarRespuestaSeleccionada} 
-    tiempoCero={tiempo === 0}
-  />
-</div>
-
+        className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`} 
+        style={{ padding: '20px', borderRadius: '10px' }}
+      >
+      <VisualizadorDePregunta 
+        pregunta={pregunta} 
+        numeroPregunta={currentQuestionIndex} 
+        manejadorRespuesta={manejarRespuestaSeleccionada} 
+        tiempoCero={tiempo === 0}
+      />
+      </div>
+      <FooterMenu inicio={false}/> 
+    </div>
     </>
   );
 };

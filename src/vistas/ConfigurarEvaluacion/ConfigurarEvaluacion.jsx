@@ -210,8 +210,8 @@ function ConfigurarEvaluacion() {
 
   return (
     <>
-      <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
-      <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', gap: '20px', minHeight:'100vh'}}>
+      <div style={{display: 'flex', flexDirection: 'column', gap: '20px', minHeight:'100vh'}}>
+        <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
         <h1 className={`title ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`}>Configurar una evaluación</h1>
         <div className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`}>
           <div className="row justify-content-center">
@@ -230,66 +230,66 @@ function ConfigurarEvaluacion() {
 
                 <div style={{ position: 'absolute', bottom: '130px', width: '80%' }}>
 
-                {/* Dropdown unidad */}
-                <div className="dropdown mt-4">
-                  <button
-                    className="btn btn-primary dropdown-toggle w-100"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    {DatosDelQuiz.unidad ? "Unidad " + DatosDelQuiz.unidad : "Elige la unidad"}
-                  </button>
-                  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    {[1, 2, 3, 4, 5].map((unidad) => (
-                      <li key={unidad}>
-                        <a
-                          className="dropdown-item"
-                          onClick={() => setDatosDelQuiz((prev) => {
-                            const updatedQuiz = { ...prev };
-                            updatedQuiz.unidad = unidad;
-                            return updatedQuiz;
-                          })}
-                        >
-                          Unidad {unidad}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                  {/* Dropdown unidad */}
+                  <div className="dropdown mt-4">
+                    <button
+                      className="btn btn-primary dropdown-toggle w-100"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      {DatosDelQuiz.unidad ? "Unidad " + DatosDelQuiz.unidad : "Elige la unidad"}
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      {[1, 2, 3, 4, 5].map((unidad) => (
+                        <li key={unidad}>
+                          <a
+                            className="dropdown-item"
+                            onClick={() => setDatosDelQuiz((prev) => {
+                              const updatedQuiz = { ...prev };
+                              updatedQuiz.unidad = unidad;
+                              return updatedQuiz;
+                            })}
+                          >
+                            Unidad {unidad}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
 
-                {/* Dropdown Tipo de pregunta */}
-                <div className="dropdown mt-4">
-                  <button
-                    className="btn btn-primary dropdown-toggle w-100"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    
-                  >
-                    {Object.keys(DatosDelQuiz.tipoPregunta).length === 0 ? "Tipo de pregunta" : DatosDelQuiz.tipoPregunta.texto}
-                  </button>
-                  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    {[{tipo: 1, texto: "De evaluaciones pasadas"}, 
-                      {tipo: 2, texto: "Inventadas por la comunidad"},
-                      {tipo: 3, texto: "Ambas"}].map((tipoPregunta) => (
-                      <li key={tipoPregunta.tipo}>
-                        <a
-                          className="dropdown-item"
-                          onClick={() => setDatosDelQuiz((prev) => {
-                            const updatedQuiz = { ...prev };
-                            updatedQuiz.tipoPregunta = tipoPregunta;
-                            return updatedQuiz;
-                          })}
-                        >
-                          {tipoPregunta.texto}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                  {/* Dropdown Tipo de pregunta */}
+                  <div className="dropdown mt-4">
+                    <button
+                      className="btn btn-primary dropdown-toggle w-100"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      
+                    >
+                      {Object.keys(DatosDelQuiz.tipoPregunta).length === 0 ? "Tipo de pregunta" : DatosDelQuiz.tipoPregunta.texto}
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      {[{tipo: 1, texto: "De evaluaciones pasadas"}, 
+                        {tipo: 2, texto: "Inventadas por la comunidad"},
+                        {tipo: 3, texto: "Ambas"}].map((tipoPregunta) => (
+                        <li key={tipoPregunta.tipo}>
+                          <a
+                            className="dropdown-item"
+                            onClick={() => setDatosDelQuiz((prev) => {
+                              const updatedQuiz = { ...prev };
+                              updatedQuiz.tipoPregunta = tipoPregunta;
+                              return updatedQuiz;
+                            })}
+                          >
+                            {tipoPregunta.texto}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
 
                 <div style={{ position: 'absolute', bottom: '30px', width: '80%' }}>

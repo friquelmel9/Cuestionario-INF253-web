@@ -8,17 +8,15 @@ function Inicio() {
 
   return (
     <>
-      <div style={{display: 'flex', flexDirection: 'column', gap: '20px', minHeight: '100vh'}}> 
+      <div className="topMenu-Titulo" style={{display: 'flex', flexDirection: 'column', gap: '20px'}}> 
         <TopMenu text='' link='' inicio={true}/> 
-        <div style={{display: 'flex', justifyContent: 'center'}}>
-          <h1><strong>Cuestionario INF-253</strong></h1>
-        </div>
-  
+        <h1 style={{textAlign:'center'}}><strong>Cuestionario INF-253</strong></h1>
+      </div>
+      <div style={{display: 'flex', flexDirection: 'column', gap: '20px', minHeight: '80vh',alignItems:'center'}}> 
         {/* Material de estudio Personal */}
         <div 
           className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`} 
-          style={{ padding: '20px', borderRadius: '10px', display:'flex', flexDirection: 'column', gap:'20px' }}
-        >
+          style={{ padding: '20px', borderRadius: '10px', display:'flex', flexDirection: 'column', gap:'20px' }}>
           <h3>Material de Estudio Personal</h3>
           <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '25px'}}>
   

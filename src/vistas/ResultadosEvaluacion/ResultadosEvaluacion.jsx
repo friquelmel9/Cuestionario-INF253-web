@@ -1,6 +1,7 @@
 import React from "react";
 import TopMenu from '@/vistas/TopMenu/TopMenu';
 import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
+import  FooterMenu from "@/vistas/FooterMenu/FooterMenu";
 
 const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
    const { isDarkTheme } = useTheme();
@@ -50,6 +51,7 @@ const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
 
   return (
     <>
+  <div style={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}> 
   <TopMenu text="Ir a inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
   <div
     className={`container mt-5 ${isDarkTheme ? "bg-dark text-white" : "bg-light text-black"}`}
@@ -106,6 +108,8 @@ const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
       <h4>Respuestas Correctas: {respuestasCorrectas} de {preguntas.length}</h4>
       <h5>Puntaje Obtenido: {puntajeTotal.toFixed(2)} {tipoEvaluacion === "Certamen" ? "%" : "puntos"}</h5>
     </div>
+  </div>
+  <FooterMenu inicio={false}/> 
   </div>
 </>
 
