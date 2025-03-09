@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import TopMenu from '@/vistas/TopMenu/TopMenu';
+import  FooterMenu from "@/vistas/FooterMenu/FooterMenu";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import ReactDOM from 'react-dom/client';
 import RendirEvaluacion from '../RendirEvaluacion/RendirEvaluacion';
@@ -210,218 +211,219 @@ function ConfigurarEvaluacion() {
   return (
     <>
       <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
+      <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', gap: '20px', minHeight:'100vh'}}>
+        <h1 className={`title ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`}>Configurar una evaluación</h1>
+        <div className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`}>
+          <div className="row justify-content-center">
+            {/* Cuadro para Quiz */}
+            <div className="col-12 col-md-5 mb-4">
+              <div  className={`border p-4 rounded ${isDarkTheme ? 'bg-dark text-white border-white' : 'bg-light text-black  border-black'}`} 
+                    style={{ minHeight: '500px', position: 'relative' }}>
+                <h4>Quiz</h4>
+                <p style={{ textAlign: 'justify' }}>
+                  Evaluacion que se debe realizar al final
+                  de cada  unidad  de manera   obligatoria
+                  para evaluar los  contenidos adquiridos,
+                  son  10 preguntas  de verdadero y  falso
+                  y 5 preguntas de alternativas.
+                </p>
 
-      <h2 className="mt-4 ms-3">
-        Configurar una evaluación
-      </h2>
+                <div style={{ position: 'absolute', bottom: '130px', width: '80%' }}>
 
-      <div className={`container mt-4 border p-4 rounded ${isDarkTheme ? 'bg-dark text-white' : 'bg-light text-black'}`}>
-        <div className="row justify-content-center">
-          {/* Cuadro para Quiz */}
-          <div className="col-12 col-md-5 mb-4">
-            <div className="border p-4 rounded" style={{ minHeight: '490px', position: 'relative' }}>
-              <h4>Quiz</h4>
-              <p style={{ textAlign: 'justify' }}>
-                Evaluacion que se debe realizar al final
-                de cada  unidad  de manera   obligatoria
-                para evaluar los  contenidos adquiridos,
-                son  10 preguntas  de verdadero y  falso
-                y 5 preguntas de alternativas.
-              </p>
-
-              <div style={{ position: 'absolute', bottom: '130px', width: '80%' }}>
-
-              {/* Dropdown unidad */}
-              <div className="dropdown mt-4">
-                <button
-                  className="btn btn-primary dropdown-toggle w-100"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  {DatosDelQuiz.unidad ? "Unidad " + DatosDelQuiz.unidad : "Elige la unidad"}
-                </button>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  {[1, 2, 3, 4, 5].map((unidad) => (
-                    <li key={unidad}>
-                      <a
-                        className="dropdown-item"
-                        onClick={() => setDatosDelQuiz((prev) => {
-                          const updatedQuiz = { ...prev };
-                          updatedQuiz.unidad = unidad;
-                          return updatedQuiz;
-                        })}
-                      >
-                        Unidad {unidad}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Dropdown Tipo de pregunta */}
-              <div className="dropdown mt-4">
-                <button
-                  className="btn btn-primary dropdown-toggle w-100"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  
-                >
-                  {Object.keys(DatosDelQuiz.tipoPregunta).length === 0 ? "Tipo de pregunta" : DatosDelQuiz.tipoPregunta.texto}
-                </button>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  {[{tipo: 1, texto: "De evaluaciones pasadas"}, 
-                    {tipo: 2, texto: "Inventadas por la comunidad"},
-                    {tipo: 3, texto: "Ambas"}].map((tipoPregunta) => (
-                    <li key={tipoPregunta.tipo}>
-                      <a
-                        className="dropdown-item"
-                        onClick={() => setDatosDelQuiz((prev) => {
-                          const updatedQuiz = { ...prev };
-                          updatedQuiz.tipoPregunta = tipoPregunta;
-                          return updatedQuiz;
-                        })}
-                      >
-                        {tipoPregunta.texto}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              </div>
-
-              <div style={{ position: 'absolute', bottom: '30px', width: '80%' }}>
-                {/* Checkbox tiempo quiz */}
-                <div className="form-check mt-4">
-                    <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" checked={DatosDelQuiz.agregarTiempo} onChange={() => {
-                      setDatosDelQuiz((prev) => {
-                        const updatedQuiz = { ...prev };
-                        updatedQuiz.agregarTiempo = !updatedQuiz.agregarTiempo;
-                        return updatedQuiz;
-                      }
-                    )}}/>
-                    <label className="form-check-label" htmlFor="defaultCheck1">
-                    Agregar tiempo (15 min)
-                    </label>
+                {/* Dropdown unidad */}
+                <div className="dropdown mt-4">
+                  <button
+                    className="btn btn-primary dropdown-toggle w-100"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    {DatosDelQuiz.unidad ? "Unidad " + DatosDelQuiz.unidad : "Elige la unidad"}
+                  </button>
+                  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    {[1, 2, 3, 4, 5].map((unidad) => (
+                      <li key={unidad}>
+                        <a
+                          className="dropdown-item"
+                          onClick={() => setDatosDelQuiz((prev) => {
+                            const updatedQuiz = { ...prev };
+                            updatedQuiz.unidad = unidad;
+                            return updatedQuiz;
+                          })}
+                        >
+                          Unidad {unidad}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                {/* Botón para realizar el quiz */}
-                <button className="btn btn-primary mt-3 w-100" onClick={async () => {
-                  
 
-                  try {
-                    // Obtiene las preguntas de forma asíncrona
-                    const preguntasVF = await obtenerPreguntasDeUnidad(10, "vf", DatosDelQuiz.unidad, DatosDelQuiz.tipoPregunta.tipo);
-                    const nuevasPreguntas = await obtenerPreguntasDeUnidad(5, "alt", DatosDelQuiz.unidad, DatosDelQuiz.tipoPregunta.tipo);
-
-                    //Revisamos que hay seleccionado las opciones
-                    if (!DatosDelQuiz.unidad || !DatosDelQuiz.tipoPregunta.tipo) return;
-
+                {/* Dropdown Tipo de pregunta */}
+                <div className="dropdown mt-4">
+                  <button
+                    className="btn btn-primary dropdown-toggle w-100"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
                     
-                    //Revisamos que hayan suficientes preguntas de VF y alternativas
-                    if (preguntasVF.length < 10) {
-                      mostrarAlertaVF();
-                      return;
+                  >
+                    {Object.keys(DatosDelQuiz.tipoPregunta).length === 0 ? "Tipo de pregunta" : DatosDelQuiz.tipoPregunta.texto}
+                  </button>
+                  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    {[{tipo: 1, texto: "De evaluaciones pasadas"}, 
+                      {tipo: 2, texto: "Inventadas por la comunidad"},
+                      {tipo: 3, texto: "Ambas"}].map((tipoPregunta) => (
+                      <li key={tipoPregunta.tipo}>
+                        <a
+                          className="dropdown-item"
+                          onClick={() => setDatosDelQuiz((prev) => {
+                            const updatedQuiz = { ...prev };
+                            updatedQuiz.tipoPregunta = tipoPregunta;
+                            return updatedQuiz;
+                          })}
+                        >
+                          {tipoPregunta.texto}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                </div>
+
+                <div style={{ position: 'absolute', bottom: '30px', width: '80%' }}>
+                  {/* Checkbox tiempo quiz */}
+                  <div className="form-check mt-4">
+                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" checked={DatosDelQuiz.agregarTiempo} onChange={() => {
+                        setDatosDelQuiz((prev) => {
+                          const updatedQuiz = { ...prev };
+                          updatedQuiz.agregarTiempo = !updatedQuiz.agregarTiempo;
+                          return updatedQuiz;
+                        }
+                      )}}/>
+                      <label className="form-check-label" htmlFor="defaultCheck1">
+                      Agregar tiempo (15 min)
+                      </label>
+                  </div>
+                  {/* Botón para realizar el quiz */}
+                  <button className="btn btn-primary mt-3 w-100" onClick={async () => {
+                    
+
+                    try {
+                      // Obtiene las preguntas de forma asíncrona
+                      const preguntasVF = await obtenerPreguntasDeUnidad(10, "vf", DatosDelQuiz.unidad, DatosDelQuiz.tipoPregunta.tipo);
+                      const nuevasPreguntas = await obtenerPreguntasDeUnidad(5, "alt", DatosDelQuiz.unidad, DatosDelQuiz.tipoPregunta.tipo);
+
+                      //Revisamos que hay seleccionado las opciones
+                      if (!DatosDelQuiz.unidad || !DatosDelQuiz.tipoPregunta.tipo) return;
+
+                      
+                      //Revisamos que hayan suficientes preguntas de VF y alternativas
+                      if (preguntasVF.length < 10) {
+                        mostrarAlertaVF();
+                        return;
+                      }
+
+                      //Revisamos que hayan suficientes preguntas de VF y alternativas
+                      if (nuevasPreguntas.length < 5) {
+                        mostrarAlertaAlt();
+                        return;
+                      }
+
+                      // Usar variables temporales para almacenar los cambios
+                      const preguntasActualizadas = [...preguntasVF, ...nuevasPreguntas];
+
+
+                      // Preparar el objeto actualizado de DatosDelCertamen
+                      const updatedQuiz = {
+                        ...DatosDelQuiz, // Mantén los datos previos
+                        preguntas: preguntasActualizadas, // Actualiza solo el campo preguntas
+                      };
+
+                      // Finalmente, actualizar el estado con el objeto completo
+                      setDatosDelQuiz(updatedQuiz);
+
+                    } catch (error) {
+                      
+                      console.error("Error al obtener las preguntas:", error);
+                    
                     }
 
-                    //Revisamos que hayan suficientes preguntas de VF y alternativas
-                    if (nuevasPreguntas.length < 5) {
-                      mostrarAlertaAlt();
-                      return;
-                    }
-
-                    // Usar variables temporales para almacenar los cambios
-                    const preguntasActualizadas = [...preguntasVF, ...nuevasPreguntas];
-
-
-                    // Preparar el objeto actualizado de DatosDelCertamen
-                    const updatedQuiz = {
-                      ...DatosDelQuiz, // Mantén los datos previos
-                      preguntas: preguntasActualizadas, // Actualiza solo el campo preguntas
-                    };
-
-                    // Finalmente, actualizar el estado con el objeto completo
-                    setDatosDelQuiz(updatedQuiz);
-
-                  } catch (error) {
                     
-                    console.error("Error al obtener las preguntas:", error);
-                  
-                  }
-
-                  
-                  }}>Realizar quiz</button>
+                    }}>Realizar quiz</button>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Cuadro para Certamen */}
-          <div className="col-12 col-md-5 mb-4" >
-            <div className="border p-4 rounded" style={{ minHeight: '490px', position: 'relative' }}>
-              <h4>Certamen</h4>
-              <p style={{ textAlign: 'justify' }}>
-                La  evaluación final  del curso,  donde se
-                mezclan todas las unidades en un  certamen
-                de 35 preguntas con una mezcla de 15
-                preguntas de  verdadero y falso  junto con
-                20 preguntas de alternativas.
-              </p>
+            {/* Cuadro para Certamen */}
+            <div className="col-12 col-md-5 mb-4" >
+            <div  className={`border p-4 rounded ${isDarkTheme ? 'bg-dark text-white border-white' : 'bg-light text-black  border-black'}`} 
+                  style={{ minHeight: '500px', position: 'relative' }}>
+                <h4>Certamen</h4>
+                <p style={{ textAlign: 'justify' }}>
+                  La  evaluación final  del curso,  donde se
+                  mezclan todas las unidades en un  certamen
+                  de 35 preguntas con una mezcla de 15
+                  preguntas de  verdadero y falso  junto con
+                  20 preguntas de alternativas.
+                </p>
 
-              <div style={{ position: 'absolute', bottom: '30px', width: '80%' }}>
-                {/* Checkbox tiempo certamen */}
-                <div className="form-check mt-4">
-                    <input className="form-check-input" type="checkbox" value="" id="defaultCheck2" checked={DatosDelCertamen.agregarTiempo} onChange={() => {
-                      setDatosDelCertamen((prev) => {
-                        const updatedCertamen = { ...prev };
-                        updatedCertamen.agregarTiempo = !updatedCertamen.agregarTiempo;
-                        return updatedCertamen;
-                      })
-                    }}/>
-                    <label className="form-check-label" htmlFor="defaultCheck2">
-                    Agregar tiempo (70 min)
-                    </label>
+                <div style={{ position: 'absolute', bottom: '30px', width: '80%' }}>
+                  {/* Checkbox tiempo certamen */}
+                  <div className="form-check mt-4">
+                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck2" checked={DatosDelCertamen.agregarTiempo} onChange={() => {
+                        setDatosDelCertamen((prev) => {
+                          const updatedCertamen = { ...prev };
+                          updatedCertamen.agregarTiempo = !updatedCertamen.agregarTiempo;
+                          return updatedCertamen;
+                        })
+                      }}/>
+                      <label className="form-check-label" htmlFor="defaultCheck2">
+                      Agregar tiempo (70 min)
+                      </label>
+                  </div>
+                  {/* Botón para realizar el certamen */}
+                  <button className="btn btn-primary mt-3 w-100" onClick={async () => {
+                    
+
+                    try {
+                      // Obtiene las preguntas de forma asíncrona
+                      const preguntasVF = await obtenerPreguntas(15, "vf");
+                      const nuevasPreguntas = await obtenerPreguntas(20, "alt");
+
+                      
+
+                      // Usar variables temporales para almacenar los cambios
+                      const preguntasActualizadas = [...preguntasVF, ...nuevasPreguntas];
+
+                      // Desordenar las preguntas aleatoriamente
+                      preguntasActualizadas.sort(() => Math.random() - 0.5);
+
+                      // Preparar el objeto actualizado de DatosDelCertamen
+                      const updatedCertamen = {
+                        ...DatosDelCertamen, // Mantén los datos previos
+                        preguntas: preguntasActualizadas, // Actualiza solo el campo preguntas
+                      };
+
+                      // Finalmente, actualizar el estado con el objeto completo
+                      setDatosDelCertamen(updatedCertamen);
+
+                    } catch (error) {
+                      
+                      console.error("Error al obtener las preguntas:", error);
+                    
+                    }
+
+                    
+                    }}>Realizar Certamen</button>
                 </div>
-                {/* Botón para realizar el certamen */}
-                <button className="btn btn-primary mt-3 w-100" onClick={async () => {
-                  
-
-                  try {
-                    // Obtiene las preguntas de forma asíncrona
-                    const preguntasVF = await obtenerPreguntas(15, "vf");
-                    const nuevasPreguntas = await obtenerPreguntas(20, "alt");
-
-                    
-
-                    // Usar variables temporales para almacenar los cambios
-                    const preguntasActualizadas = [...preguntasVF, ...nuevasPreguntas];
-
-                    // Desordenar las preguntas aleatoriamente
-                    preguntasActualizadas.sort(() => Math.random() - 0.5);
-
-                    // Preparar el objeto actualizado de DatosDelCertamen
-                    const updatedCertamen = {
-                      ...DatosDelCertamen, // Mantén los datos previos
-                      preguntas: preguntasActualizadas, // Actualiza solo el campo preguntas
-                    };
-
-                    // Finalmente, actualizar el estado con el objeto completo
-                    setDatosDelCertamen(updatedCertamen);
-
-                  } catch (error) {
-                    
-                    console.error("Error al obtener las preguntas:", error);
-                  
-                  }
-
-                  
-                  }}>Realizar Certamen</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <FooterMenu inicio={false}/> 
     </>
   );
 }

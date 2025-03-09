@@ -1,13 +1,15 @@
 import TopMenu from "@/vistas/TopMenu/TopMenu";
 import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
+import  FooterMenu from "@/vistas/FooterMenu/FooterMenu";
+
 
 function Inicio() {
   const { isDarkTheme } = useTheme(); // Acceder al tema global
 
   return (
     <>
-      <TopMenu text='' link='' inicio={true}/>
-      <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>  
+      <div style={{display: 'flex', flexDirection: 'column', gap: '20px', minHeight: '100vh'}}> 
+        <TopMenu text='' link='' inicio={true}/> 
         <div style={{display: 'flex', justifyContent: 'center'}}>
           <h1><strong>Cuestionario INF-253</strong></h1>
         </div>
@@ -56,9 +58,10 @@ function Inicio() {
                 </div>
               </div>
             </div>
-  
           </div>
         </div>
+        {/* Footer*/}
+        <FooterMenu inicio={true}/> 
       </div>
     </>
   );

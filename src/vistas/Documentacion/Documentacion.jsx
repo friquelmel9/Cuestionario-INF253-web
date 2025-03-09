@@ -3,6 +3,7 @@ import Markdown from 'react-markdown'
 
 import QuestionBox from './QuestionBox.jsx'
 import TopMenu from '@/vistas/TopMenu/TopMenu'
+import  FooterMenu from "@/vistas/FooterMenu/FooterMenu"
 import { useTheme } from '@/vistas/ThemeContext/ThemeContext'
 
 import data1 from '/src/jsonFiles/quiz1.json'
@@ -107,13 +108,13 @@ function Documentacion() {
     }, [selectedFilter]);
 
     return (
-        <body className={`documentacion ${isDarkTheme ? 'bg-dark text-white' : ''}`} >
+        <body className={`documentacion ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`} style={{minHeight: '100vh'}}>
             <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
-            <h1 className={`title ${isDarkTheme ? 'bg-dark text-white' : ''}`}>Documentacion</h1>
+            <h1 className={`title ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`}>Documentacion</h1>
             <div  
                 className={` ${isDarkTheme ? 'bg-dark text-white' : ''}`}
                 style={{display: 'flex', flexDirection: 'column', alignItems:'center', gap:'20px'}}>    
-                <div className={`options-bar ${isDarkTheme ? 'bg-dark text-white' : ''}`} style={{display: 'flex', flexDirection: 'row', alignItems:'center'}}>
+                <div className={`options-bar ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`} style={{display: 'flex', flexDirection: 'row', alignItems:'center'}}>
                     <button onClick={handleLeftArrow} className="btn btn-primary">&lt;</button>
                     <select className="btn btn-primary dropdown-toggle" onChange={handleFilterChange}>
                         <option value={-1}>--Seleccione--</option>
@@ -163,6 +164,7 @@ function Documentacion() {
                 </div>
                 <QuestionBox className="content-box" question={selectedQuestion} mostrarRespuesta={showQuestion} isTest={false}></QuestionBox>
             </div>
+            <FooterMenu inicio={false}/> 
         </body>
     );
 }

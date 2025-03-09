@@ -7,7 +7,8 @@ const TopMenu = ({ link = '#', text = 'Default Text', inicio = false }) => {
   const { isDarkTheme, toggleTheme } = useTheme(); // Usar el tema global
 
   return (
-    <div className={`d-flex align-items-center justify-content-between p-3 ${!isDarkTheme ? 'bg-light text-black' : 'bg-dark text-white'} border-bottom`}>
+    <div className={`d-flex align-items-center justify-content-between p-3 ${!isDarkTheme ? 'bg-light text-black' : 'bg-dark text-white'} border-bottom`}
+         style ={{minHeight: '100px'}}> {/* Le puse un minHeight asi se ve igual en cualquier parte de la pagina */}
       <div className="d-flex align-items-center">
         <a href={link} className="text-decoration-none me-3">
           {inicio ? <img src={`${import.meta.env.BASE_URL}icon.svg`} alt="Icono" width="50" height="50"/> : <span className="fs-4">&larr;</span>} {/* Flecha hacia la izquierda */}
