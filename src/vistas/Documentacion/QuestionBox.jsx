@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react'
 import './QuestionBox.css';
 import Markdown from 'react-markdown'
 import remarkBreaks from 'remark-breaks'
+import { useTheme } from '@/vistas/ThemeContext/ThemeContext'
 
 
 // question is the question to show, boxState the type of box
 const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
+
+    const { isDarkTheme } = useTheme();
 
     const [showAnswer, setShowAnswer] = useState(mostrarRespuesta);
     const toggleAnswer = () => {
@@ -19,7 +22,7 @@ const QuestionBox = ({ question, mostrarRespuesta, isTest }) => {
 
     return (
         <>
-            <div className="container">
+            <div className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-white text-black'}`} >
             {question.id == null ? (
                 <p className="enunciado">Seleccione una pregunta</p>
             ) : (

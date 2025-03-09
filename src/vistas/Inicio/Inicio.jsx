@@ -15,7 +15,7 @@ function Inicio() {
         {/* Material de estudio Personal */}
         <div 
           className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`} 
-          style={{ padding: '20px', borderRadius: '10px' }}
+          style={{ padding: '20px', borderRadius: '10px', display:'flex', flexDirection: 'column', gap:'20px' }}
         >
           <h3>Material de Estudio Personal</h3>
           <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '25px'}}>

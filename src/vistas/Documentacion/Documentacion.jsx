@@ -3,6 +3,7 @@ import Markdown from 'react-markdown'
 
 import QuestionBox from './QuestionBox.jsx'
 import TopMenu from '@/vistas/TopMenu/TopMenu'
+import { useTheme } from '@/vistas/ThemeContext/ThemeContext'
 
 import data1 from '/src/jsonFiles/quiz1.json'
 import data2 from '/src/jsonFiles/quiz2.json'
@@ -15,6 +16,7 @@ import './Documentacion.css';
 
 function Documentacion() {
 
+    const { isDarkTheme } = useTheme();
 
     const nullQuestion = {
         id: null
@@ -105,12 +107,13 @@ function Documentacion() {
     }, [selectedFilter]);
 
     return (
-        <body className="documentacion" >
+        <body className={`documentacion ${isDarkTheme ? 'bg-dark text-white' : ''}`} >
             <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
-
-            <h1 className="title">Documentacion</h1>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', gap:'20px'}}>    
-                <div className="options-bar" style={{display: 'flex', flexDirection: 'row', alignItems:'center'}}>
+            <h1 className={`title ${isDarkTheme ? 'bg-dark text-white' : ''}`}>Documentacion</h1>
+            <div  
+                className={` ${isDarkTheme ? 'bg-dark text-white' : ''}`}
+                style={{display: 'flex', flexDirection: 'column', alignItems:'center', gap:'20px'}}>    
+                <div className={`options-bar ${isDarkTheme ? 'bg-dark text-white' : ''}`} style={{display: 'flex', flexDirection: 'row', alignItems:'center'}}>
                     <button onClick={handleLeftArrow} className="btn btn-primary">&lt;</button>
                     <select className="btn btn-primary dropdown-toggle" onChange={handleFilterChange}>
                         <option value={-1}>--Seleccione--</option>

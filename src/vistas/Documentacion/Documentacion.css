@@ -3,7 +3,11 @@ body, html {
   padding: 0;
   box-sizing: border-box;
   background-color: #ffffff;
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
   
 .documentacion {
   display: flex;
