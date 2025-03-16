@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import RendirEvaluacion from '/src/vistas/RendirEvaluacion/RendirEvaluacion.jsx';
 import ConfigurarEvaluacion from '/src/vistas/ConfigurarEvaluacion/ConfigurarEvaluacion.jsx';
 import Documentacion from '/src/vistas/Documentacion/Documentacion.jsx'
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <ThemeProvider>
-        <BrowserRouter basename="/Cuestionario-INF253-web">
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Inicio />} />
                 <Route path="/Inicio" element={<Inicio />} />
@@ -22,7 +22,7 @@ function App() {
                 <Route path="/Documentacion" element={<Documentacion />} />
                 <Route path="/Agradecimientos" element={<Agradecimientos />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </ThemeProvider>
     </>
   );
