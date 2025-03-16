@@ -1,490 +1,490 @@
 {
     "vf": [
         {
-            "pregunta": "En Java, todos los datos son asignados desde el Heap",
+            "pregunta": "En Java, todos los datos son asignados desde el Heap.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java asigna todos los objetos desde el Heap.",
             "referencia": "Original",
             "id": 142
         },
         {
-            "pregunta": "En Java, todos los datos son asignados desde el Stack",
+            "pregunta": "En Java, todos los datos son asignados desde el Stack.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java asigna todos los objetos desde el Heap.",
             "referencia": "Original",
             "id": 143
         },
         {
-            "pregunta": "En Java, todos los datos son accedidos mediante variables de referencia",
+            "pregunta": "En Java, todos los datos son accedidos mediante variables de referencia.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java trata a todos los objetos como referencias.",
             "referencia": "Original",
             "id": 144
         },
         {
-            "pregunta": "En Java, los datos pueden ser accedidos tanto directamente como referenciado",
+            "pregunta": "En Java, los datos pueden ser accedidos tanto directamente como por referencias.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java trata a todos los objetos como referencias.",
             "referencia": "Original",
             "id": 145
         },
         {
-            "pregunta": "A diferencia de Java, C++ no tiene ambito de paquete",
+            "pregunta": "A diferencia de Java, C++ no tiene ámbito de paquete.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C++ no posee ámbito de paquete.",
             "referencia": "Original",
             "id": 146
         },
         {
-            "pregunta": "En Python, todo metodo de un TDA debe poseer el argumento self",
+            "pregunta": "En Python, todo metodo de un TDA debe poseer el argumento self.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La palabra self es un convenio utilizado en Python para referirse a la clase que está invocando el método (A sí misma, vaya).",
             "referencia": "Original",
             "id": 147
         },
         {
-            "pregunta": "En C, todo metodo de un TDA debe poseer el argumento self",
+            "pregunta": "En C, todo metodo de un TDA debe poseer el argumento self.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C no soporta la creación de TDAs ni tampoco utiliza self.",
             "referencia": "Original",
             "id": 148
         },
         {
-            "pregunta": "Python no soporta TDA",
+            "pregunta": "Python no soporta TDA.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Python tiene soporte OO.",
             "referencia": "Original",
             "id": 149
         },
         {
-            "pregunta": "Python soporta TDA Parametrizado",
+            "pregunta": "Python soporta TDA Parametrizado.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Python no permite crear estructuras de TDA válidas para cualquier tipo.",
             "referencia": "Original",
             "id": 150
         },
         {
-            "pregunta": "Java soporta TDA Parametrizado",
+            "pregunta": "Java soporta TDA Parametrizado.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Java no permite crear estructuras de TDA válidas para cualquier tipo.",
             "referencia": "Original",
             "id": 151
         },
         {
-            "pregunta": "En Java, se pueden definir clases genericas, que almacenan sus propios metodos y variables",
-            "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "pregunta": "En Java se pueden definir clases genéricas que almacenan sus propios métodos y variables.",
+            "respuesta": "V",
+            "explicacion": "Java permite la creación de estructuras que pueden ser válidas de forma genérica.",
             "referencia": "Original",
             "id": 152
         },
         {
-            "pregunta": "Ejemplos de clases genericas en Java son LinkedList y ArrayList",
+            "pregunta": "Ejemplos de clases genéricas en Java son LinkedList y ArrayList.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "LinkedList y ArrayLIst son estructuras genéricas que se pueden hacer en Java.",
             "referencia": "Original",
             "id": 153
         },
         {
-            "pregunta": "Stack es un tipo de dato abstracto",
+            "pregunta": "Stack es un tipo de dato abstracto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Un stack (pila) puede construirse como un TDA.",
             "referencia": "Original",
             "id": 154
         },
         {
-            "pregunta": "La POO consiste de TDA, Herencia y Polimorfismo",
+            "pregunta": "La POO consiste de TDA, Herencia y Polimorfismo.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La POO se basa en el concepto de herencia y polimorfismo sobre los TDA.",
             "referencia": "Original",
             "id": 155
         },
         {
-            "pregunta": "Ejemplos de lenguajes con OO puros son Smalltalk y Ruby",
+            "pregunta": "Ejemplos de lenguajes con OO puros son Smalltalk y Ruby.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Smalltalk y Ruby son lenguajes OO puros.",
             "referencia": "Original",
             "id": 156
         },
         {
-            "pregunta": "Ejemplos de lenguajes con OO puros son ADA y C++",
+            "pregunta": "Ejemplos de lenguajes con OO puros son ADA y C++.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C++ es un lenguaje multiparadigma.",
             "referencia": "Original",
             "id": 157
         },
         {
-            "pregunta": "Ejemplos de lenguajes con extensiones para POO son ADA y C++",
+            "pregunta": "Ejemplos de lenguajes con extensiones para POO son ADA y C++.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "ADA y C++ tienen soporte OO.",
             "referencia": "Original",
             "id": 158
         },
         {
-            "pregunta": "Ejemplos de lenguajes con extensiones para POO son ADA y C#",
-            "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "pregunta": "Ejemplos de lenguajes con extensiones para POO son ADA y C#.",
+            "respuesta": "V",
+            "explicacion": "C# y ADA tienen soporte OO.",
             "referencia": "Original",
             "id": 159
         },
         {
-            "pregunta": "Ejemplos de lenguajes POO pero poseen estructura imperativa son Java y C#",
+            "pregunta": "Ejemplos de lenguajes POO pero poseen estructura imperativa son Java y C#.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C# y Java son lenguajes OO con estructura imperativa.",
             "referencia": "Original",
             "id": 160
         },
         {
-            "pregunta": "Ejemplos de lenguajes POO pero poseen estructura imperativa son Java y C++",
+            "pregunta": "Ejemplos de lenguajes POO pero poseen estructura imperativa son Java y C++.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C# y Java son lenguajes OO con estructura imperativa.",
             "referencia": "Original",
             "id": 161
         },
         {
-            "pregunta": "Ejemplos de lenguajes POO pero poseen estructura imperativa son Java y C",
+            "pregunta": "Ejemplos de lenguajes POO pero poseen estructura imperativa son Java y C.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "C no es un lenguaje OO.",
             "referencia": "Original",
             "id": 162
         },
         {
             "pregunta": "Ejemplos de lenguajes que soporta POO son CLOSS",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "CLOSS tiene soporte OO.",
             "referencia": "Original",
             "id": 163
         },
         {
-            "pregunta": "En Java, un objeto corresponde a la instancia concreta de una clase",
+            "pregunta": "En Java, un objeto corresponde a la instancia concreta de una clase.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los objetos en Java son considerados como una instancia en particular de la clase a la que pertenecen.",
             "referencia": "Original",
             "id": 164
         },
         {
-            "pregunta": "Programa se define como conjunto de objectos interactuantes",
+            "pregunta": "Programa se define como conjunto de objectos interactuantes.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "En POO, un programa no es más que un conjunto de objetos que interactuan entre sí por medio de instrucciones.",
             "referencia": "Original",
             "id": 165
         },
         {
-            "pregunta": "Clase se define como declaracion de un tipo, que especifica su estado y comportamiento para las instancias de este",
+            "pregunta": "Clase se define como declaración de un tipo que especifica su estado y su comportamiento para las instancias de esta.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Una clase en POO se refiere a la declaración de una estructura junto a su estado y comportamiento en las instancias que surjan en el programa.",
             "referencia": "Original",
             "id": 166
         },
         {
-            "pregunta": "En modelo Objetual, el tipo quedara definido por la interfaz de la clase",
+            "pregunta": "En modelo objetual el tipo quedará definido por la interfaz de la clase.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La clase y su definición decide el tipo de la estructura.",
             "referencia": "Original",
             "id": 167
         },
         {
-            "pregunta": "En modelo Objetual, la implementacion del tipo queda especificado segun el codigo de sus metodos",
+            "pregunta": "En modelo objetual la implementación del tipo queda especificado según el código de sus métodos.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Las clases rigen su compartamiento en base a lo implementado en sus métodos.",
             "referencia": "Original",
             "id": 168
         },
         {
-            "pregunta": "En modelo Objetual, un mensaje corresponde a la invocacion del metodo que contiene su identificador, el metodo al que va, y sus parametros",
+            "pregunta": "En modelo objetual un mensaje corresponde a la invocación del método que contiene su identificador, el método al que va, y sus parámetros.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El mensaje es básicamente lo que se espera con la invocación del método.",
             "referencia": "Original",
             "id": 169
         },
         {
-            "pregunta": "En modelo Objetual, un mensaje corresponde a la implementacion de un metodo",
+            "pregunta": "En modelo objetual un mensaje corresponde a la implementación de un método.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El mensaje está ligado a la invocación del método, mas no su implementación como tal.",
             "referencia": "Original",
             "id": 170
         },
         {
-            "pregunta": "En Java, las clases contienen los metodos que definen la computacion",
+            "pregunta": "En Java las clases contienen los métodos que definen la computación.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Toda clase en java contiene los métodos que definen su comportamiento.",
             "referencia": "Original",
             "id": 171
         },
         {
-            "pregunta": "En Java, los campos o variables miembros definen el estado del objeto",
+            "pregunta": "En Java los campos o variables miembros definen el estado del objeto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los atributos definen el estado de un objeto en Java.",
             "referencia": "Original",
             "id": 172
         },
         {
-            "pregunta": "En Java, los campos o variables miembros definen el estado de la clase",
+            "pregunta": "En Java los campos o variables miembros definen el estado de la clase",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los atributos definen el estado de los objetos, no de la clase.",
             "referencia": "Original",
             "id": 173
         },
         {
-            "pregunta": "En Java, la implementacion define la semantica de un metodo",
+            "pregunta": "En Java, la implementación define la semántica de un método.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La implementación de un método define su semántica en Java.",
             "referencia": "Original",
             "id": 174
         },
         {
-            "pregunta": "En Java, la firma define la semantica de un metodo",
+            "pregunta": "En Java la firma define la semántica de un método.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La semántica de un método viene dada por su implementación, no por su firma.",
             "referencia": "Original",
             "id": 175
         },
         {
-            "pregunta": "En Java, la creacion de un objeto tiene sus propias instancias de cada variable miembro definida",
+            "pregunta": "En Java la creación de un objeto tiene sus propias instancias de cada variable miembro definida.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los objetos en Java son instancias de una clase en sí mismos, por lo que no pueden tener instancias múltiples de sus atributos al mismo tiempo.",
             "referencia": "Original",
             "id": 176
         },
         {
-            "pregunta": "En Java, se puede compartir las variables miembros entre objetos de una clase con el modificador static",
+            "pregunta": "En Java se puede compartir las variables miembros entre objetos de una clase con el modificador static.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El modificador static permite que los atributos sean compartidos entre los objetos de una misma clase en Java.",
             "referencia": "Original",
             "id": 177
         },
         {
-            "pregunta": "En Java, se puede compartir las variables miembros entre objetos de una clase con el modificador public",
+            "pregunta": "En Java se puede compartir las variables miembros entre objetos de una clase con el modificador public.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El modificador public en los atributo permite que puedan ser alcanzados por cualquier método dentro de la clase, mas no entre objetos independientes.",
             "referencia": "Original",
             "id": 178
         },
         {
-            "pregunta": "Un metodo de control de acceso para un miembro es private, solo permite acceder a esta en la propia clase",
+            "pregunta": "Un método de control de acceso para un miembro es private, lo que significa que solo permite acceder a este en la propia clase.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El modificador private para un atributo permite que solo pueda ser alcanzado desde la misma clase.",
             "referencia": "Original",
             "id": 179
         },
         {
-            "pregunta": "Un metodo de control de acceso para un miembro es private, genera que no se pueda cambiar el miembro en la clase",
+            "pregunta": "Un método de control de acceso para un miembro es private genera que no se pueda cambiar el miembro en la clase.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El modificador private para un atributo solo restringe su alcance, mas no su modificación.",
             "referencia": "Original",
             "id": 180
         },
         {
-            "pregunta": "Un metodo de control de acceso para un miembro es package, permite acceder a miembros sin modificador de acceso para todo codigo del paquete",
+            "pregunta": "Un método de control de acceso para un miembro es package, el cual permite acceder a miembros sin modificador de acceso para todo código del paquete.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método package para los atributos permite que estos sean alcanzados por todo el código dentro del mismo paquete.",
             "referencia": "Original",
             "id": 181
         },
         {
-            "pregunta": "Un metodo de control de acceso para un miembro es package, permite juntar clases entre si",
+            "pregunta": "Un método de control de acceso para un miembro es package, el cual permite juntar clases entre si.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método package para los atributos regula su acceso, no su compartamiento ni interacción con otras clases.",
             "referencia": "Original",
             "id": 182
         },
         {
-            "pregunta": "Un metodo de control de acceso para un miembro es protected, permite acceso a subclases o codigo del mismo paquete",
+            "pregunta": "Un método de control de acceso para un miembro es protected, el cual permite acceso a subclases o codigo del mismo paquete.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método protected para los atributos permite el acceso tanto a subclases como código del mismo paquete.",
             "referencia": "Original",
             "id": 183
         },
         {
-            "pregunta": "Un metodo de control de acceso para un miembro es protected, permite el acceso unicamente a las subclases",
+            "pregunta": "Un método de control de acceso para un miembro es protected, el cual permite el acceso únicamente a las subclases.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método protected para atributos también permite el acceso a código del mismo paquete.",
             "referencia": "Original",
             "id": 184
         },
         {
-            "pregunta": "Un metodo de control de acceso para un miembro es public, que permite acceso para cualquier clase",
+            "pregunta": "Un método de control de acceso para un miembro es public, el cual que permite acceso para cualquier clase.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método de control public para atributos permite que pueda ser alcanzado por cualquier clase.",
             "referencia": "Original",
             "id": 185
         },
         {
-            "pregunta": "La declaracion de una variable en Java no crea el objeto, si no un puntero null",
+            "pregunta": "La declaración de una variable en Java no crea el objeto si no un puntero null",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Dado que Java toma toda instancia como una referencia, la declaración de una variable será un puntero nulo hasta que se le asigne un valor.",
             "referencia": "Original",
             "id": 186
         },
         {
-            "pregunta": "La declaracion de una variable en Java no crea el objeto, si no una instancia de este",
+            "pregunta": "La declaración de una variable en Java no crea el objeto sino una instancia de este.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La declaración de una variable crea un puntero nulo en Java.",
             "referencia": "Original",
             "id": 187
         },
         {
-            "pregunta": "La declaracion de una variable en Java crea el objeto, inicialmente null",
+            "pregunta": "La declaración de una variable en Java crea el objeto inicialmente como nulo.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La declaración de una variable crea un puntero nulo en Java.",
             "referencia": "Original",
             "id": 188
         },
         {
-            "pregunta": "Para inicializar el objeto, es necesario usar el operador new en Java",
+            "pregunta": "Para inicializar el objeto es necesario usar el operador new en Java",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El operador new es necesario para inicializar un objeto en Java porque se usa la memoria del Heap.",
             "referencia": "Original",
             "id": 189
         },
         {
-            "pregunta": "El operador new hace que runtime cree un objeto para luego retornar una referencia a este",
+            "pregunta": "El operador new hace que runtime cree un objeto para luego retornar una referencia a este.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El operador new retorna la referencia al objeto inicializado con este.",
             "referencia": "Original",
             "id": 190
         },
         {
-            "pregunta": "El operador new hace que runtime cree un objeto para luego retornarlo",
+            "pregunta": "El operador new hace que runtime cree un objeto para luego retornarlo.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El operador new retorna la referencia al objeto inicializado con este.",
             "referencia": "Original",
             "id": 191
         },
         {
-            "pregunta": "Los constructores poseen el mismo nombre de la clase y pueden no recibir parametros",
+            "pregunta": "Los constructores poseen el mismo nombre de la clase y pueden no recibir parámetros.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los constructores tienen el mismo nombre de la clase y pueden no recibir parámetros, como lo es el caso del constructor por defecto.",
             "referencia": "Original",
             "id": 192
         },
         {
-            "pregunta": "Los constructores poseen el mismo nombre de la clase y pueden recibir parametros",
+            "pregunta": "Los constructores poseen el mismo nombre de la clase y pueden recibir parámetros",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Los constructores tienen el mismo nombre de la clase y pueden recibir parámetros.",
             "referencia": "Original",
             "id": 193
         },
         {
-            "pregunta": "Para tener varios constructores, es necesario definir uno como default",
+            "pregunta": "Para tener varios constructores es necesario definir uno por defecto.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Una clase puede tener los constructores que quiera y en el formato que desee. En caso de no haber ninguno explícitamente declarado, se usa automáticamente un constructor por defecto.",
             "referencia": "Original",
             "id": 194
         },
         {
-            "pregunta": "Los constructores son un metodo de la clase que permite inicializarla",
-            "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "pregunta": "Los constructores son un método de la clase que permite inicializarla.",
+            "respuesta": "V",
+            "explicacion": "Los constructores permiten inicializar las instancias de las clases a las que pertenecen.",
             "referencia": "Original",
             "id": 195
         },
         {
-            "pregunta": "Una clase puede tener mas de un constructor",
+            "pregunta": "Una clase puede tener más de un constructor.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Una clase puede tener todos los constructores que estime conveniente.",
             "referencia": "Original",
             "id": 196
         },
         {
             "pregunta": "Una clase debe tener, a lo mas, un constructor",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Una clase puede tener los constructores que deseé conveniente.",
             "referencia": "Original",
             "id": 197
         },
         {
-            "pregunta": "Un metodo de control de acceso para constructores es private, el cual puede solo ser instaciado por su propia clase",
+            "pregunta": "Un método de control de acceso para constructores es private, el cual puede solo ser instaciado por su propia clase.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método private para constructores permite que solo la propia clase pueda instanciar los objetos relacionados.",
             "referencia": "Original",
             "id": 198
         },
         {
-            "pregunta": "Un metodo de control de acceso para constructores es private, el cual puede solo ser instaciado por su propia clase o subclases",
+            "pregunta": "Un método de control de acceso para constructores es private, el cual puede solo ser instaciado por su propia clase o subclases.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método private en constructores no permite que las subclases puedan instanciar objetos de su clase madre.",
             "referencia": "Original",
             "id": 199
         },
         {
-            "pregunta": "Un metodo de control de acceso para constructores es protected, el cual puede ser instaciado por la propia clase, subclases o clases del paquete",
+            "pregunta": "Un método de control de acceso para constructores es protected, el cual puede ser instanciado por la propia clase, subclases o clases del paquete.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método protected para constructores permite que se puedan crear instancias desde la propia clase, las subclases relacionadas y el código presente en el mismo paquete.",
             "referencia": "Original",
             "id": 200
         },
         {
-            "pregunta": "Un metodo de control de acceso para constructores es protected, el cual puede solo ser instaciado por su propia clase",
+            "pregunta": "Un método de control de acceso para constructores es protected, el cual puede solo ser instaciado por su propia clase.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método protected para constructores permite que se puedan crear instancias desde la propia clase, las subclases relacionadas y el código presente en el mismo paquete.",
             "referencia": "Original",
             "id": 201
         },
         {
-            "pregunta": "Un metodo de control de acceso para constructores es public, el cual permite que cualquier clase pueda crear una instancia del objeto",
+            "pregunta": "Un método de control de acceso para constructores es public, el cual permite que cualquier clase pueda crear una instancia del objeto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método public para constructores permite que cualquier clase pueda usarlo para instanciar un objeto.",
             "referencia": "Original",
             "id": 202
         },
         {
-            "pregunta": "Si un constructor no se le especifica control de acceso, podra ser instanciado solo por su misma clase o clases compartidas del paquete",
+            "pregunta": "Si a un constructor no se le especifica control de acceso, podra ser instanciado solo por su misma clase o clases compartidas del paquete.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Por defecto, la omisión de modificador es asociado con el método package, por lo que las restricciones de acceso con las que indica este último.",
             "referencia": "Original",
             "id": 203
         },
         {
-            "pregunta": "Si un constructor no se le especifica control de acceso, podra ser instanciado por cualquier clase",
+            "pregunta": "Si a un constructor no se le especifica control de acceso, podra ser instanciado por cualquier clase.",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Por defecto, la omisión de modificador es asociado con el método package, por lo que las restricciones de acceso con las que indica este último.",
             "referencia": "Original",
             "id": 204
         },
         {
-            "pregunta": "Si no se define un constructor para una clase, se utiliza un constructor por defecto que no hace nada",
+            "pregunta": "Si no se define un constructor para una clase, se utiliza un constructor por defecto que no hace nada.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "Si no hay definiciones arbitrarias de constructores dentro de una clase, se utiliza un constructor por defecto de manera automática.",
             "referencia": "Original",
             "id": 205
         },
         {
             "pregunta": "Si no se define un constructor para una clase, se utiliza un constructor por defecto que deja toda variable miembro como null",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El constructor por defecto no tiene efecto alguno.",
             "referencia": "Original",
             "id": 206
         },
         {
-            "pregunta": "Si no se define un constructor para una clase, este sera publico siempre que la clase tambien lo sea",
+            "pregunta": "Si no se define un constructor para una clase, este sera publico siempre que la clase también lo sea",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El acceso del constructor por defecto está ligado al método de control de la clase.",
             "referencia": "Original",
             "id": 207
         },
         {
-            "pregunta": "Si no se define un constructor para una clase, este sera publico siempre",
+            "pregunta": "Si no se define un constructor para una clase este sera público siempre",
             "respuesta": "F",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El acceso del constructor por defecto está ligado al método de control de la clase.",
             "referencia": "Original",
             "id": 208
         },
         {
-            "pregunta": "Un metodo consiste en la accion de manipular el estado del Objeto, tal como sus variables miembro",
+            "pregunta": "Un método consiste en la acción de manipular tanto el estado del objeto como el de sus variables miembro",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "El método y su implementación definen el comportamiento de un objeto y cómo este interactua consigo mismo y con el resto de objetos dentro del programa.",
             "referencia": "Original",
             "id": 209
         },
         {
-            "pregunta": "Para llamar a un metodo, debe ser refenciado como objeto.metodo(args), siendo objeto una variable que referencia a un objeto",
+            "pregunta": "Para llamar a un método, debe ser refenciado como objeto.metodo(args), siendo objeto una variable que referencia a un objeto.",
             "respuesta": "V",
-            "explicacion": "No explicacion entregada",
+            "explicacion": "La sintaxis para invocar a un método es nombre_objeto.nombre.método(args).",
             "referencia": "Original",
             "id": 210
         },
         {
-            "pregunta": "En Java, cualquier parametro es pasado por valor, pese a que sea una referencia previamente",
+            "pregunta": "En Java, cualquier parametro es pasado por valor, pese a que sea una referencia previamente.",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -1597,14 +1597,14 @@
             "id": 369
         },
         {
-            "pregunta": "Los metodos de una interfaz son impl\u00c3\u00adcitamente public y abstract",
+            "pregunta": "Los metodos de una interfaz son implícitamente public y abstract",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 370
         },
         {
-            "pregunta": "Los metodos de una interfaz son impl\u00c3\u00adcitamente abstract y protected",
+            "pregunta": "Los metodos de una interfaz son implícitamente abstract y protected",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -1709,56 +1709,56 @@
             "id": 385
         },
         {
-            "pregunta": "Si existe un mismo nombre para varios m\u00c3\u00a9todos en mas de una interfaz implementada, habra sobrecarga siempre y cuando sus firmas no sean identicas",
+            "pregunta": "Si existe un mismo nombre para varios métodos en mas de una interfaz implementada, habra sobrecarga siempre y cuando sus firmas no sean identicas",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 386
         },
         {
-            "pregunta": "Si existe un mismo nombre para varios m\u00c3\u00a9todos en mas de una interfaz implementada, habra varios metodos que compartan la firma",
+            "pregunta": "Si existe un mismo nombre para varios métodos en mas de una interfaz implementada, habra varios metodos que compartan la firma",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 387
         },
         {
-            "pregunta": "Si existe un mismo nombre para varios m\u00c3\u00a9todos en mas de una interfaz implementada, habra unicamente un metodo con la misma firma",
+            "pregunta": "Si existe un mismo nombre para varios métodos en mas de una interfaz implementada, habra unicamente un metodo con la misma firma",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 388
         },
         {
-            "pregunta": "Si existe un mismo nombre para varios m\u00c3\u00a9todos en mas de una interfaz implementada, habra sobrecarga siempre y cuando sus retornos sean distintos",
+            "pregunta": "Si existe un mismo nombre para varios métodos en mas de una interfaz implementada, habra sobrecarga siempre y cuando sus retornos sean distintos",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 389
         },
         {
-            "pregunta": "Si existe un mismo nombre para varios miembros en mas de una interfaz implementada, habr\u00c3\u00a1 \u00c3\u00banicamente un miembro accesible",
+            "pregunta": "Si existe un mismo nombre para varios miembros en mas de una interfaz implementada, habrá únicamente un miembro accesible",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 390
         },
         {
-            "pregunta": "Si existe un mismo nombre para varios miembros en mas de una interfaz implementada, se podr\u00c3\u00a1n acceder mediante super",
+            "pregunta": "Si existe un mismo nombre para varios miembros en mas de una interfaz implementada, se podrán acceder mediante super",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 391
         },
         {
-            "pregunta": "Si existe un mismo nombre para varios miembros en mas de una interfaz implementada, se podr\u00c3\u00a1n acceder mediante la forma <NombreInterfaz>.<miembro>",
+            "pregunta": "Si existe un mismo nombre para varios miembros en mas de una interfaz implementada, se podrán acceder mediante la forma <NombreInterfaz>.<miembro>",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
             "id": 392
         },
         {
-            "pregunta": "Probemas de la herencia multiple son que si una clase tiene de superclase a otras dos clases que comparten el m\u00c3\u00a9todo, no se sabe a cual hara referencia",
+            "pregunta": "Probemas de la herencia multiple son que si una clase tiene de superclase a otras dos clases que comparten el método, no se sabe a cual hara referencia",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2205,13 +2205,13 @@
             "id": 457
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p9) La redefinici\u00c3\u00b3n de m\u00c3\u00a9todos dentro de una jerarqu\u00c3\u00ada de herencia da la posibilidad de que la superclase pueda saber todos los usos que se le dar\u00c3\u00a1n en las subclases",
+            "pregunta": "(Compilacion Quices - Marti quiz3p9) La redefinición de métodos dentro de una jerarquía de herencia da la posibilidad de que la superclase pueda saber todos los usos que se le darán en las subclases",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 458
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p10) Java permite que los m\u00c3\u00a9todos tengan una cantidad variable de argumentos, al igual que C++",
+            "pregunta": "(Compilacion Quices - Marti quiz3p10) Java permite que los métodos tengan una cantidad variable de argumentos, al igual que C++",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 459
@@ -2235,43 +2235,43 @@
             "id": 462
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p14) Si ocurre una excepci\u00c3\u00b3n del tipo IOException es debido a que el programador ha hecho algo mal",
+            "pregunta": "(Compilacion Quices - Marti quiz3p14) Si ocurre una excepción del tipo IOException es debido a que el programador ha hecho algo mal",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 463
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p15) En el control de acceso asociado a la herencia, una clase podr\u00c3\u00ada ocultar entidades a sus clientes y/o superclase.",
+            "pregunta": "(Compilacion Quices - Marti quiz3p15) En el control de acceso asociado a la herencia, una clase podría ocultar entidades a sus clientes y/o superclase.",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 464
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p16) La herencia favorece la reutilizaci\u00c3\u00b3n de clases que ya existen, permitiendo que desde \u00c3\u00a9stas se puedan definir otras clases con las que se relacionan",
+            "pregunta": "(Compilacion Quices - Marti quiz3p16) La herencia favorece la reutilización de clases que ya existen, permitiendo que desde éstas se puedan definir otras clases con las que se relacionan",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 465
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p17) En el caso de que no existiera la herencia y que los objetos se comporten como un tipo abstracto de datos, se podr\u00c3\u00ada usar tanto la memoria stack como la de heap para crear objetos",
+            "pregunta": "(Compilacion Quices - Marti quiz3p17) En el caso de que no existiera la herencia y que los objetos se comporten como un tipo abstracto de datos, se podría usar tanto la memoria stack como la de heap para crear objetos",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 466
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p18) Una clase puede extender varias interfaces, pero s\u00c3\u00b3lo implementar una \u00c3\u00banica superclase",
+            "pregunta": "(Compilacion Quices - Marti quiz3p18) Una clase puede extender varias interfaces, pero sólo implementar una única superclase",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 467
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p19) En el modelo objetual, la implementaci\u00c3\u00b3n del tipo asociado a una clase se especifica tanto por las variables como por su interfaz, donde esta \u00c3\u00baltima considera m\u00c3\u00a9todos y constantes",
+            "pregunta": "(Compilacion Quices - Marti quiz3p19) En el modelo objetual, la implementación del tipo asociado a una clase se especifica tanto por las variables como por su interfaz, donde esta última considera métodos y constantes",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 468
         },
         {
-            "pregunta": "(Compilacion Quices - Marti quiz3p20) Un m\u00c3\u00a9todo abstracto es uno que solamente tiene definido el protocolo de los mensajes",
+            "pregunta": "(Compilacion Quices - Marti quiz3p20) Un método abstracto es uno que solamente tiene definido el protocolo de los mensajes",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 469
@@ -2289,19 +2289,19 @@
             "id": 471
         },
         {
-            "pregunta": "(Certamen 1 - Marti p9) Un ejemplo de polimorfismo din\u00c3\u00a1mico son los subprogramas gen\u00c3\u00a9ricos, donde \u00c3\u00a9stos utilizan un mismo c\u00c3\u00b3digo (comportamiento) para distintos tipos de par\u00c3\u00a1metros",
+            "pregunta": "(Certamen 1 - Marti p9) Un ejemplo de polimorfismo dinámico son los subprogramas genéricos, donde éstos utilizan un mismo código (comportamiento) para distintos tipos de parámetros",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 472
         },
         {
-            "pregunta": "(Certamen 1 - Marti p19) Una de las desventajas de la declaraci\u00c3\u00b3n impl\u00c3\u00adcita de los tipos de datos, es que hace m\u00c3\u00a1s lenta la ejecuci\u00c3\u00b3n debido a la verificaci\u00c3\u00b3n din\u00c3\u00a1mica de \u00c3\u00a9stos",
+            "pregunta": "(Certamen 1 - Marti p19) Una de las desventajas de la declaración implícita de los tipos de datos, es que hace más lenta la ejecución debido a la verificación dinámica de éstos",
             "respuesta": "V",
             "explicacion": "No explicacion entregada",
             "id": 473
         },
         {
-            "pregunta": "(Certamen 1 - Marti p20) C es un lenguaje imperativo, que permite elementos de la programaci\u00c3\u00b3n orientada al objeto",
+            "pregunta": "(Certamen 1 - Marti p20) C es un lenguaje imperativo, que permite elementos de la programación orientada al objeto",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 474
@@ -2319,7 +2319,7 @@
             "id": 476
         },
         {
-            "pregunta": "(Certamen 1 - Marti p35) Un ejemplo de polimorfismo est\u00c3\u00a1tico es la sobrecarga de operadores. donde un operador tiene exactamente el mismo comportamiento, sin importar los tipos de datos de sus operandos",
+            "pregunta": "(Certamen 1 - Marti p35) Un ejemplo de polimorfismo estático es la sobrecarga de operadores. donde un operador tiene exactamente el mismo comportamiento, sin importar los tipos de datos de sus operandos",
             "respuesta": "F",
             "explicacion": "No explicacion entregada",
             "id": 477
@@ -2597,7 +2597,7 @@
     ],
     "alt": [
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere la figura 1:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SuperClase sup2 = new SuperClase(0);\n\u00c2\u00bfQue constructores y en que orden se llamaran?\na. SuperClase()\nb. SuperClase() -> SuperClase(int i)\nc. SuperClase(int i)\nd. Ninguna de las anteriores\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere la figura 1:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SuperClase sup2 = new SuperClase(0);\n\n¿Que constructores y en que orden se llamaran?\na. SuperClase()\nb. SuperClase() -> SuperClase(int i)\nc. SuperClase(int i)\nd. Ninguna de las anteriores\n\n",
             "respuesta": "c",
             "explicacion": " Solo se llama al constructor respectivo",
             "referencia": "Original",
@@ -2605,7 +2605,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase()\n\u00c2\u00bfQue constructores y en que orden se llamaran?\na. SuperClase() -> SubClase()\nb. SubClase()\nc. SuperClase()\nd. Ninguna de las anteriores\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere las figuras 1 y 2:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase()\n¿Que constructores y en que orden se llamaran?\na. SuperClase() -> SubClase()\nb. SubClase()\nc. SuperClase()\nd. Ninguna de las anteriores\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2613,7 +2613,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub2 = new SubClase(0)\n\u00c2\u00bfQue constructores y en que orden se llamaran?\na. SuperClase() -> SubClase() -> SubClase(int i)\nb. SuperClase() -> SubClase(int i)\nc. SuperClase(int i) -> SubClase(int i) \nd. Ninguna de las anteriores\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere las figuras 1 y 2:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SubClase sub2 = new SubClase(0)\n¿Que constructores y en que orden se llamaran?\na. SuperClase() -> SubClase() -> SubClase(int i)\nb. SuperClase() -> SubClase(int i)\nc. SuperClase(int i) -> SubClase(int i) \nd. Ninguna de las anteriores\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2621,7 +2621,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase()\n    System.out.println(sub1.Suma());\n\u00c2\u00bfQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"6\"\nd. No se mostrara nada por pantalla o habra error\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere las figuras 1 y 2:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase()\n    System.out.println(sub1.Suma());\n¿Que sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"6\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2629,7 +2629,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SuperClase sub3 = new Subclase();\n    System.out.println(sub3.Suma());\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"6\"\nd. No se mostrara nada por pantalla o habra error\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere las figuras 1 y 2:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SuperClase sub3 = new Subclase();\n    System.out.println(sub3.Suma());\n\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"6\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2637,7 +2637,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase();\n    System.out.println(sub1.nombre);\nQue sera lo que se vera por pantalla?\na. \"SuperClase\"\nb. \"SubClase\"\nc. \"SubSubClase\"\nd. No se mostrara nada por pantalla o habra error\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere las figuras 1 y 2:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase();\n    System.out.println(sub1.nombre);\n\nQue sera lo que se vera por pantalla?\na. \"SuperClase\"\nb. \"SubClase\"\nc. \"SubSubClase\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2645,7 +2645,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SuperClase sub3 = new SubClase();\n    System.out.println(sub3.superSuma());\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"8\"\nd. No se mostrara nada por pantalla o habra error\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere las figuras 1 y 2:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SuperClase sub3 = new SubClase();\n    System.out.println(sub3.superSuma());\n\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"8\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2653,7 +2653,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormaz\u00c3\u00a1bal)\nConsidere las figuras 1 y 2:\n\npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase();\n    System.out.println(sub1.superSuma());\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"8\"\nd. No se mostrara nada por pantalla o habra error\n\n",
+            "pregunta": "\n(Ejemplo visto en clases 2024-2, W. Ormazábal)\nConsidere las figuras 1 y 2:\n\n```java \npublic class SuperClase {\n    public String nombre = \"SuperClase\";\n    public SuperClase(){...}\n    public SuperClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SuperClase\");\n    }\n    public int Suma(){return 1+1;}\n    protected void Secreto(){\n        System.out.println(\"Secreto desde SuperClase\");\n    }\n}\n\n\npublic class SubClase extends SuperClase {\n    public String nombre = \"SubClase\";\n    public SubClase(){...}\n    public SubClase(int i){...}\n    public void Saludador(){\n        System.out.println(\"Saludo desde SubClase\");\n    }\n    public int Suma(){return 2+2;}\n    protected void Secreto(){super.Secreto()}\n    public int SuperSuma{return 4+4;}\n    public void SuperSaludador(){\n        System.out.println(\"SuperSaludo desde SubClase\");\n    }\n}\n\n ``` \nSi se realiza el siguiente codigo:\n    SubClase sub1 = new SubClase();\n    System.out.println(sub1.superSuma());\n\nQue sera lo que se vera por pantalla?\na. \"2\"\nb. \"4\"\nc. \"8\"\nd. No se mostrara nada por pantalla o habra error\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2685,7 +2685,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P4)\n\nEn relaci\u00c3\u00b3n al uso de la memoria para implantar la herencia, es necesario el heap porque:\na La sobrecarga de m\u00c3\u00a9todos hace variaciones en el c\u00c3\u00b3digo que no se pueden guardar en el stack.\nb El tama\u00c3\u00b1o de las referencias mismas puede cambiar dependiendo de la clase del objeto a la que se haga alusi\u00c3\u00b3n.\nc El que una referencia a una clase pueda ser reemplazada constantemente por otra a una subclase, conlleva el acceso a objetos de tama\u00c3\u00b1o variable, lo que no es manejable directamente en el stack.\nd Las continuas invocaciones a m\u00c3\u00a9todos pueden afectar el rendimiento si los registros de activaci\u00c3\u00b3n se crearan en el stack, en lugar del heap.\n\n",
+            "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P4)\n\nEn relación al uso de la memoria para implantar la herencia, es necesario el heap porque:\na La sobrecarga de métodos hace variaciones en el código que no se pueden guardar en el stack.\nb El tamaño de las referencias mismas puede cambiar dependiendo de la clase del objeto a la que se haga alusión.\nc El que una referencia a una clase pueda ser reemplazada constantemente por otra a una subclase, conlleva el acceso a objetos de tamaño variable, lo que no es manejable directamente en el stack.\nd Las continuas invocaciones a métodos pueden afectar el rendimiento si los registros de activación se crearan en el stack, en lugar del heap.\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2693,7 +2693,7 @@
             "intAnswers": 4
         },
         {
-            "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P5)\n\nEn relaci\u00c3\u00b3n a la redefinici\u00c3\u00b3n de m\u00c3\u00a9todos dentro de una jerarqu\u00c3\u00ada de herencia, \u00c2\u00bfcu\u00c3\u00a1l de las siguientes afirmaciones es la \u00c3\u00banica verdadera?\na. Los m\u00c3\u00a9todos de la superclase y subclase s\u00c3\u00b3lo pueden diferir en el tipo de retorno.\nb. Se puede invocar el m\u00c3\u00a9todo redefinido desde la subclase con la referencia this.\nc. Un m\u00c3\u00a9todo final de la superclase se puede redefinir por \u00c3\u00baltima vez en la subclase que la extiende.\nd. Un m\u00c3\u00a9todo redefinido puede tener modificadores de acceso, pero s\u00c3\u00b3lo puede entregar mayor acceso, no restringirlo.\n\n",
+            "pregunta": "\n([2024-2] - Jose Luis Marti. Q3P5)\n\nEn relación a la redefinición de métodos dentro de una jerarquía de herencia, ¿cuál de las siguientes afirmaciones es la única verdadera?\na. Los métodos de la superclase y subclase sólo pueden diferir en el tipo de retorno.\nb. Se puede invocar el método redefinido desde la subclase con la referencia this.\nc. Un método final de la superclase se puede redefinir por última vez en la subclase que la extiende.\nd. Un método redefinido puede tener modificadores de acceso, pero sólo puede entregar mayor acceso, no restringirlo.\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "referencia": "Original",
@@ -2702,7 +2702,7 @@
         },
         {
             "referencia": "Certamen 1 - Marti, p1",
-            "pregunta": "\nDado el siguiente codigo en java:\n\n    class Base {\n        Base         {Systen.out.println(\"base constructor\");}\n    }\n    public class Sup extends Base{\n        public static void main(String argv[]){\n            Sup s = new Sup();\n            //Uno\n        }\n        Sup(){ //Dos }\n        public void derivada(){ //Tres }\n    }\n\n\u00c2\u00bfComo se debe invocar el constructor Base para que muestre por la salida estandar el string \"base constructor\"?\na. Una linea despues de //Tres poner: Baseb. Una linea despues de //Dos poner: superc. Una linea despues de //Uno poner: Based. Una linea despues de //Uno poner: super\n",
+            "pregunta": "\nDado el siguiente codigo en java:\n\n ```java \n   class Base {\n        Base         {Systen.out.println(\"base constructor\");}\n    }\n    public class Sup extends Base{\n        public static void main(String argv[]){\n            Sup s = new Sup();\n            //Uno\n        }\n        Sup(){ //Dos }\n        public void derivada(){ //Tres }\n    }\n\n ``` \n¿Como se debe invocar el constructor Base para que muestre por la salida estandar el string \"base constructor\"?\na. Una linea despues de //Tres poner: Baseb. Una linea despues de //Dos poner: superc. Una linea despues de //Uno poner: Based. Una linea despues de //Uno poner: super\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "id": 1090,
@@ -2710,7 +2710,7 @@
         },
         {
             "referencia": "Certamen 1 - Marti, p11",
-            "pregunta": "\nDado el siguiente codigo en java:\n    \n    public Class A {\n        int x;\n        private int y;\n        protected int z;\n        public int w;\n    }\n\nUna clase B que la extiende y que se encuentra en otro paquete, \u00c2\u00bfCual seria la visibilidad que tendria sobre los atributos miembros de A?\na. Puede accesar a todos los atributos, menos x, w\nb. Puede accesar a todos los atributos, menos x\nc. Puede accesar a todos los atributos, menos y\nd. Puede accesar a todos los atributos, menos x, y\n\n",
+            "pregunta": "\nDado el siguiente codigo en java:\n```java    \n    public Class A {\n        int x;\n        private int y;\n        protected int z;\n        public int w;\n    }\n\n ``` \nUna clase B que la extiende y que se encuentra en otro paquete, ¿Cual seria la visibilidad que tendria sobre los atributos miembros de A?\na. Puede accesar a todos los atributos, menos x, w\nb. Puede accesar a todos los atributos, menos x\nc. Puede accesar a todos los atributos, menos y\nd. Puede accesar a todos los atributos, menos x, y\n\n",
             "respuesta": "d",
             "explicacion": "No explicacion entregada",
             "id": 1091,
@@ -2718,14 +2718,14 @@
         },
         {
             "referencia": "Certamen 1 - Marti, p12",
-            "pregunta": "\nSi una subclase tiene un m\u00c3\u00a9todo sobreescrito con modificador de acceso protected, significa que el mismo m\u00c3\u00a9todo en la superclase tiene acceso:\na. Privado o protegido\nb. Protegido o de paquete\nc. Publico o protegido\nd. Protegido\n\n",
+            "pregunta": "\nSi una subclase tiene un método sobreescrito con modificador de acceso protected, significa que el mismo método en la superclase tiene acceso:\na. Privado o protegido\nb. Protegido o de paquete\nc. Publico o protegido\nd. Protegido\n\n",
             "respuesta": "a",
             "explicacion": "No explicacion entregada",
             "id": 1092,
             "intAnswers": 4
         },
         {
-            "pregunta": "\n(Certamen 1 - Marti, p14) \nCu\u00c3\u00a1l de los siguientes no es un uso real del modificador final de java?\n\na. Establecer que un m\u00c3\u00a9todo no puede ser sobreescrito\nb. Reforzar que se trata del \u00c3\u00baltimo m\u00c3\u00a9todo a ejecutar por un objeto a eliminar\nc. Indicar que un atributo tendr\u00c3\u00a1 un valor constante, que no podr\u00c3\u00a1 ser modificado\nd. Se\u00c3\u00b1alar que una clase no puede ser extendida\n\n",
+            "pregunta": "\n(Certamen 1 - Marti, p14) \nCuál de los siguientes no es un uso real del modificador final de java?\n\na. Establecer que un método no puede ser sobreescrito\nb. Reforzar que se trata del último método a ejecutar por un objeto a eliminar\nc. Indicar que un atributo tendrá un valor constante, que no podrá ser modificado\nd. Señalar que una clase no puede ser extendida\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "id": 1093,
@@ -2733,7 +2733,7 @@
         },
         {
             "referencia": "Certamen 1 - Marti, p26",
-            "pregunta": "\nDado las siguientes declaraciones en java:\n    Interface I {...}\n    Class A implements I {...}\n    Class B extends A {...}\n\u00c2\u00bfCual de las siguientes sentencias es la unica correcta?\na. B x = new I();\nb. I x = new B();\nc. I x = new I();\nd. B x = new A();\n\n",
+            "pregunta": "\nDado las siguientes declaraciones en java:\n```java \n    Interface I {...}\n    Class A implements I {...}\n    Class B extends A {...}\n\n ``` \n¿Cual de las siguientes sentencias es la unica correcta?\na. B x = new I();\nb. I x = new B();\nc. I x = new I();\nd. B x = new A();\n\n",
             "respuesta": "b",
             "explicacion": "No explicacion entregada",
             "id": 1094,
@@ -2741,7 +2741,7 @@
         },
         {
             "referencia": "Control 3 2022 - Gabriel Carmona p2.1",
-            "pregunta": "\nSi se tiene el siguiente codigo:\n    Class A {\n        public int a;\n        public int b;\n    }\n    A(){\n        a = 0;\n        b = 0:\n    }\n    A(int a){\n        this.a = a+2\n        b = a\n    }\n    Class B extends A {\n        public int a\n        B(int a){\n            super(a);\n            this.a = 2;\n            super.b = 2;\n        }\n    }\nSi se crea una instancia de B de esta forma:\n    A c = new B(3);\nCual de las siguientes alternativas es verdadera?\na. c.a valdra 2\nb. c.a valdra 4\nc. c.b valdra 3\nd. c.b valdra 2\n\n",
+            "pregunta": "\nSi se tiene el siguiente codigo:\n```java \n    Class A {\n        public int a;\n        public int b;\n    }\n    A(){\n        a = 0;\n        b = 0:\n    }\n    A(int a){\n        this.a = a+2\n        b = a\n    }\n    Class B extends A {\n        public int a\n        B(int a){\n            super(a);\n            this.a = 2;\n            super.b = 2;\n        }\n    }\n\n ``` \nSi se crea una instancia de B de esta forma:\n    A c = new B(3);\nCual de las siguientes alternativas es verdadera?\na. c.a valdra 2\nb. c.a valdra 4\nc. c.b valdra 3\nd. c.b valdra 2\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "id": 1095,
@@ -2749,7 +2749,7 @@
         },
         {
             "referencia": "Control 3 2022 - Gabriel Carmona p2.2",
-            "pregunta": "\nPor haber herencia, la asignacion dinamica de memoria no puede hacerse en el stack por:\na. Delays en el acceso a los objetos, dada la ubicacion aleatoria de estos dentro de los registros de activacion\nb. Imposibilidad de realizar el ligado dinamico de metodos, dado que no siempre es posible que tengan la misma firma y tipo de retorno\nc. Dificultad para analizar estaticamente el tama\u00c3\u00b1o de memoria requerido en el stack, ya que a una variable de tipo base se le pueden asignar referencias de cualquier tipo derivado\nd. Todas las anteriores\n\n",
+            "pregunta": "\nPor haber herencia, la asignacion dinamica de memoria no puede hacerse en el stack por:\na. Delays en el acceso a los objetos, dada la ubicacion aleatoria de estos dentro de los registros de activacion\nb. Imposibilidad de realizar el ligado dinamico de metodos, dado que no siempre es posible que tengan la misma firma y tipo de retorno\nc. Dificultad para analizar estaticamente el tamaño de memoria requerido en el stack, ya que a una variable de tipo base se le pueden asignar referencias de cualquier tipo derivado\nd. Todas las anteriores\n\n",
             "respuesta": "c",
             "explicacion": "No explicacion entregada",
             "id": 1096,

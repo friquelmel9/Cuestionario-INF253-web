@@ -31,7 +31,7 @@ const FooterMenu = ({inicio = false }) => {
                                 <a href={`${import.meta.env.BASE_URL}Agradecimientos`} >
                                     Agradecimientos
                                 </a>
-                                <a href="">
+                                <a href="https://forms.gle/aLEkB8RaE66xFNwc8">
                                     Contacto
                                 </a>
                             </div>
@@ -65,9 +65,9 @@ const FooterMenu = ({inicio = false }) => {
                         <p>
                             © 2025 Cuestionario INF253-web 
                             <span> | </span>
-                            <a href=""> Derechos Reservados</a>
+                            Derechos Reservados
                             <span> | </span>
-                            <a href=""> Contacto</a>
+                            <a href="https://forms.gle/aLEkB8RaE66xFNwc8"> Contacto</a>
                         </p>
                     </div>
                 </div>
@@ -83,9 +83,9 @@ const FooterMenu = ({inicio = false }) => {
                         <p>
                             © 2025 Cuestionario INF253-web 
                             <span> | </span>
-                            <a href=""> Derechos Reservados</a>
+                             Derechos Reservados
                             <span> | </span>
-                            <a href=""> Contacto</a>
+                            <a href="https://forms.gle/aLEkB8RaE66xFNwc8"> Contacto</a>
                         </p>
                     </div>
                 </div>

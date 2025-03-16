@@ -1,7 +1,12 @@
 import React from 'react';
 import { useRef, useEffect } from "react";
 
+import ReactMarkdown from "react-markdown";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { dracula, solarizedlight } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { ThemeProvider, useTheme } from '@/vistas/ThemeContext/ThemeContext';
 const VisualizadorDePregunta = ({ pregunta, numeroPregunta, manejadorRespuesta, tiempoCero }) => {
+  const { isDarkTheme } = useTheme(); // Acceder al tema global
   let {
     pregunta: enunciado,
     respuesta,
@@ -15,18 +20,13 @@ const VisualizadorDePregunta = ({ pregunta, numeroPregunta, manejadorRespuesta, 
 
   const botonSeleccionado = useRef(null); // Referencia al botón seleccionado
 
-  function unicodeToChar(text) {
-    // Decodificar las secuencias de escape Unicode y reemplazar los saltos de línea por <br />
+  function ProcesarStringPregunta(text) {
+    // Reemplazar los saltos de línea por dos saltos para crear un nuevo párrafo
     return text
-        .replace(/\\u[\dA-F]{4}/gi, function (match) {
-            return String.fromCharCode(parseInt(match.replace(/\\u/g, ''), 16));
-        })
-        .replace(/\\u[\dA-F]{2}/gi, function (match) {
-            // Para algunos casos de caracteres de dos bytes Unicode (por ejemplo, \u00e1)
-            return String.fromCharCode(parseInt(match.replace(/\\u/g, ''), 16));
-        })
-        .replace(/\n/g, '<br />');  // Reemplazar saltos de línea por <br />
-}
+      .replace(/\n/g, '  \n') // Convertir los saltos de línea en Markdown (espacio doble seguido de salto de línea)
+  }
+  
+
 
 
 const handleResponseClick = (event, respuesta) => {
@@ -97,14 +97,32 @@ const handleResponseClick = (event, respuesta) => {
         <span style={styles.metadataItem}>Id pregunta: {id}</span>
       </div>
 
-      {/* Enunciado de la pregunta */}
-      <h3
-      style={styles.enunciado}
-      dangerouslySetInnerHTML={{
-        __html: 
-          unicodeToChar(enunciado)
-      }}
-    />
+        {/* Enunciado de la pregunta */}
+        <h3 style={styles.enunciado}>
+        <ReactMarkdown
+          components={{
+            code({ className, children, ...rest }) {
+              const match = /language-(\w+)/.exec(className || "");
+              return match ? (
+                <SyntaxHighlighter
+                  PreTag="div"
+                  language={match[1]}
+                  style={isDarkTheme ? dracula : solarizedlight}
+                  {...rest}
+                >
+                  {children}
+                </SyntaxHighlighter>
+              ) : (
+                <code {...rest} className={className}>
+                  {children}
+                </code>
+              );
+            },
+          }}
+        >
+          {ProcesarStringPregunta(enunciado)}
+        </ReactMarkdown>
+      </h3>
     
       {/* Si es una pregunta de Verdadero/Falso */}
       { !intAnswers && (

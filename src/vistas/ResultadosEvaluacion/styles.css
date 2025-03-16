@@ -1,0 +1,56 @@
+/* Estilos para la tabla con tema claro */
+.mi-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .mi-tabla th, .mi-tabla td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .mi-tabla th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .mi-tabla tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .mi-tabla tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Resaltar las filas correctas con verde */
+  .fila-correcta {
+    background-color: green !important;
+    color: white;
+  }
+  
+  /* Estilos para la tabla con tema oscuro */
+  .mi-tabla-dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .mi-tabla-dark th {
+    background-color: #444;
+    color: #ccc;
+  }
+  
+  .mi-tabla-dark tr:nth-child(even) {
+    background-color: #555;
+  }
+  
+  .mi-tabla-dark tr:hover {
+    background-color: #666;
+  }
+  
+  .mi-tabla-dark .fila-correcta {
+    background-color: green !important;
+    color: white;
+  }
+  
