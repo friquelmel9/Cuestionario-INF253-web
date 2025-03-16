@@ -11,7 +11,4 @@ export default defineConfig({
     },
   },
   base: '/Cuestionario-INF253-web/',
-  server: {
-    port: 4000, // El puerto en el que deseas ejecutar el servidor
-  }
 });
