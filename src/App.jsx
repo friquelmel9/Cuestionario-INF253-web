@@ -13,14 +13,14 @@ function App() {
   return (
     <>
     <ThemeProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/Cuestionario-INF253-web">
             <Routes>
-                <Route path={import.meta.env.BASE_URL} element={<Inicio/>} />
-                <Route path={`${import.meta.env.BASE_URL}Inicio`} element={<Inicio/>} />
-                <Route path={`${import.meta.env.BASE_URL}SimularEvaluacion`} element={<ConfigurarEvaluacion/>} />
-                <Route path={`${import.meta.env.BASE_URL}RendirEvaluacion`} element={<RendirEvaluacion/>} />
-                <Route path={`${import.meta.env.BASE_URL}Documentacion`} element={<Documentacion/>} />
-                <Route path={`${import.meta.env.BASE_URL}Agradecimientos`} element={<Agradecimientos/>} />
+                <Route path="/" element={<Inicio />} />
+                <Route path="/Inicio" element={<Inicio />} />
+                <Route path="/SimularEvaluacion" element={<ConfigurarEvaluacion />} />
+                <Route path="/RendirEvaluacion" element={<RendirEvaluacion />} />
+                <Route path="/Documentacion" element={<Documentacion />} />
+                <Route path="/Agradecimientos" element={<Agradecimientos />} />
             </Routes>
         </BrowserRouter>
     </ThemeProvider>
