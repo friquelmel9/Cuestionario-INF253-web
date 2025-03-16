@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
 
-
+//Menu inferior
 const FooterMenu = ({inicio = false }) => {
 
   const { isDarkTheme, toggleTheme } = useTheme(); // Usar el tema global
