@@ -96,7 +96,7 @@ function RendirEvaluacion({ datosEvaluacion }) {
 
   return (
     <>
-    <TopMenu text='Ir a configurar evaluacion' link={`${import.meta.env.BASE_URL}SimularEvaluacion`} />
+    <TopMenu text='Ir a configurar evaluacion' link={`${import.meta.env.BASE_URL}#/SimularEvaluacion`} />
       <ControlEvaluacion addTime={datosEvaluacion.agregarTiempo} initialTime={tiempo} onFinish={handleFinish} onGoToResults={handleGoResults}/> 
       <BarraDeProgreso
         progress={progress}

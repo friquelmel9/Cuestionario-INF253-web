@@ -109,7 +109,7 @@ function Documentacion() {
 
     return (
         <body className={`documentacion ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`} style={{minHeight: '100vh'}}>
-            <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
+            <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}#/Inicio`} />
             <h1 className={`title ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`}>Documentacion</h1>
             <div  
                 className={` ${isDarkTheme ? 'bg-dark text-white' : ''}`}

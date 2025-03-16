@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
+
 const TopMenu = ({ link = '#', text = 'Default Text', inicio = false }) => {
   const { isDarkTheme, toggleTheme } = useTheme(); // Usar el tema global
 

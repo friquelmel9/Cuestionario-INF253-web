@@ -14,7 +14,7 @@ function App() {
     <>
     <ThemeProvider>
         <HashRouter>
-            <Routes>
+            <Routes >
                 <Route path="/" element={<Inicio />} />
                 <Route path="/Inicio" element={<Inicio />} />
                 <Route path="/SimularEvaluacion" element={<ConfigurarEvaluacion />} />

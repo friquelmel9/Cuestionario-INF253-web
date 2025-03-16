@@ -211,7 +211,7 @@ function ConfigurarEvaluacion() {
   return (
     <>
       <div style={{display: 'flex', flexDirection: 'column', gap: '20px', minHeight:'100vh'}}>
-        <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}Inicio`} />
+        <TopMenu text="Ir al Inicio" link={`${import.meta.env.BASE_URL}#/Inicio`} />
         <h1 className={`title ${isDarkTheme ? 'bg-dark text-white' : 'bg-light'}`}>Configurar una evaluación</h1>
         <div className={`container mt-4 ${isDarkTheme ? 'bg-dark text-white border border-white' : 'bg-light text-black shadow'}`}>
           <div className="row justify-content-center">

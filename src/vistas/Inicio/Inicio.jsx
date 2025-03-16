@@ -31,7 +31,7 @@ function Inicio() {
               </p>
               <div style={{display: 'flex', justifyContent: 'center'}}>
                 <a 
-                  href={`${import.meta.env.BASE_URL}SimularEvaluacion`} 
+                  href={`${import.meta.env.BASE_URL}#/SimularEvaluacion`} 
                   className="btn btn-primary w-80">
                     Simulacion de Cuestionario
                 </a>
@@ -49,7 +49,7 @@ function Inicio() {
                 </p>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
                   <a
-                    href={`${import.meta.env.BASE_URL}Documentacion`} 
+                    href={`${import.meta.env.BASE_URL}#/Documentacion`} 
                     className="btn btn-primary w-80">
                     Documentación  
                   </a>
