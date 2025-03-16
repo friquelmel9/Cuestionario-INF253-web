@@ -1,6 +1,8 @@
 import React from "react";
 import TopMenu from '@/vistas/TopMenu/TopMenu';
 import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
+import './styles.css';  // Importa el archivo CSS
+
 
 const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
    const { isDarkTheme } = useTheme();
@@ -71,26 +73,35 @@ const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
         borderRadius: "8px",
       }}
     >
-      <table className={`table table-striped table-bordered ${"border-dark"}`}>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Id de la pregunta</th>
-            <th>Respuesta Correcta</th>
-            <th>Respuesta Ingresada</th>
-          </tr>
-        </thead>
-        <tbody>
-          {preguntas.map((resultado, index) => (
-            <tr key={index}>
+
+<table className={`mi-tabla ${isDarkTheme ? 'mi-tabla-dark' : ''} table-striped table-bordered border-dark`}>
+<thead>
+        <tr>
+          <th>#</th>
+          <th>Id de la pregunta</th>
+          <th>Respuesta Correcta</th>
+          <th>Respuesta Ingresada</th>
+        </tr>
+      </thead>
+      <tbody>
+        {preguntas.map((resultado, index) => {
+          // Verificar si la respuesta es correcta
+          const isCorrect = resultado.respuesta === resultado.respuestaIngresada;
+          return (
+            <tr
+              key={index}
+              className={isCorrect ? 'fila-correcta' : ''} // Aplica la clase fila-correcta si es correcta
+            >
               <td>{index + 1}</td>
               <td>{resultado.id}</td>
               <td>{resultado.respuesta}</td>
               <td>{resultado.respuestaIngresada || "No ingresada"}</td>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          );
+        })}
+      </tbody>
+</table>
+
     </div>
 
     {/* Estadísticas al final */}
