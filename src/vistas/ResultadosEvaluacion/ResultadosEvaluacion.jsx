@@ -52,7 +52,7 @@ const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
 
   return (
     <>
-  <TopMenu text="Ir a inicio" link={`${import.meta.env.BASE_URL}#/Inicio`} />
+  <TopMenu text="Ir a inicio" link={`${import.meta.env.BASE_URL}`} />
   <div
     className={`container mt-5 ${isDarkTheme ? "bg-dark text-white" : "bg-light text-black"}`}
     style={{
