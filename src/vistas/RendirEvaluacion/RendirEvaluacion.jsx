@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import TopMenu from '@/vistas/TopMenu/TopMenu';
 import BarraDeProgreso from './BarraDeProgreso';
 import VisualizadorDePregunta from './VisualizadorDePregunta';
@@ -7,7 +7,12 @@ import ReactDOM from 'react-dom/client';
 import ResultadosEvaluacion from "@/vistas/ResultadosEvaluacion/ResultadosEvaluacion";
 import { ThemeProvider, useTheme } from '@/vistas/ThemeContext/ThemeContext';
 import  FooterMenu from "@/vistas/FooterMenu/FooterMenu";
-function RendirEvaluacion({ datosEvaluacion }) {
+import { useLocation, useNavigate } from "react-router-dom";
+
+function RendirEvaluacion() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const datosEvaluacion = location.state?.datosEvaluacion;
   const { isDarkTheme } = useTheme(); // Acceder al tema global
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [pregunta, setPregunta] = useState(datosEvaluacion.preguntas[0]);
@@ -85,18 +90,15 @@ function RendirEvaluacion({ datosEvaluacion }) {
     setTiempo(0);
   };
 
-  const handleGoResults = () => {
-    ReactDOM.createRoot(document.getElementById('root')).render(
-          <ThemeProvider>
-            <ResultadosEvaluacion resultadosEvaluacion={datosEvaluacion} />
-            </ThemeProvider>
-          );
+  const handleGoResults = useCallback(() => {
     setTiempo(0);
-  };
+    navigate("/ResultadosEvaluacion", { state: { resultadosEvaluacion: datosEvaluacion } });
+  }, [navigate, datosEvaluacion, setTiempo]);
+  
 
   return (
     <>
-    <TopMenu text='Ir a configurar evaluacion' link={`${import.meta.env.BASE_URL}#/SimularEvaluacion`} />
+    <TopMenu text='Ir a configurar evaluacion' link={`${import.meta.env.BASE_URL}#/ConfigurarEvaluacion`} />
       <ControlEvaluacion addTime={datosEvaluacion.agregarTiempo} initialTime={tiempo} onFinish={handleFinish} onGoToResults={handleGoResults}/> 
       <BarraDeProgreso
         progress={progress}

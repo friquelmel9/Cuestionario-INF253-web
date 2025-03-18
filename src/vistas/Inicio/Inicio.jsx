@@ -31,7 +31,7 @@ function Inicio() {
               </p>
               <div style={{display: 'flex', justifyContent: 'center'}}>
                 <a 
-                  href={`${import.meta.env.BASE_URL}#/SimularEvaluacion`} 
+                  href={`${import.meta.env.BASE_URL}#/ConfigurarEvaluacion`} 
                   className="btn btn-primary w-80">
                     Simulacion de Cuestionario
                 </a>

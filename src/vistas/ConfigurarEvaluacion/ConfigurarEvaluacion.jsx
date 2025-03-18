@@ -10,6 +10,7 @@ import quiz3 from "@/jsonFiles/quiz3.json";
 import quiz4 from "@/jsonFiles/quiz4.json";
 import quiz5 from "@/jsonFiles/quiz5.json";
 import { ThemeProvider, useTheme } from '@/vistas/ThemeContext/ThemeContext';
+import { useNavigate } from "react-router-dom";
 
 const archivos = [quiz1, quiz2, quiz3, quiz4, quiz5];
 
@@ -170,6 +171,7 @@ function mostrarAlertaAlt() {
 
 function ConfigurarEvaluacion() {
 
+  const navigate = useNavigate();
   const { isDarkTheme } = useTheme(); // Acceder al tema global
   const [DatosDelCertamen, setDatosDelCertamen] = useState({
     type: "Certamen",
@@ -190,23 +192,19 @@ function ConfigurarEvaluacion() {
 
   useEffect(() => {
     if (DatosDelCertamen.preguntas.length > 0) {
-      ReactDOM.createRoot(document.getElementById('root')).render(
-        <ThemeProvider>
-        <RendirEvaluacion datosEvaluacion={DatosDelCertamen} />
-        </ThemeProvider>
-      );
+      navigate(`/RendirEvaluacion`, {
+        state: { datosEvaluacion: DatosDelCertamen },
+      });
     }
-  }, [DatosDelCertamen.preguntas]);
+  }, [DatosDelCertamen.preguntas, navigate]);
 
   useEffect(() => {
     if (DatosDelQuiz.preguntas.length > 0) {
-      ReactDOM.createRoot(document.getElementById('root')).render(
-        <ThemeProvider>
-        <RendirEvaluacion datosEvaluacion={DatosDelQuiz} />
-        </ThemeProvider>
-      );
+      navigate(`/RendirEvaluacion`, {
+        state: { datosEvaluacion: DatosDelQuiz },
+      });
     }
-  }, [DatosDelQuiz.preguntas]);
+  }, [DatosDelQuiz.preguntas, navigate]);
 
   return (
     <>

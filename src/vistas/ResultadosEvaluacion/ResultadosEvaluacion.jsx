@@ -3,8 +3,11 @@ import TopMenu from '@/vistas/TopMenu/TopMenu';
 import { useTheme } from '@/vistas/ThemeContext/ThemeContext';
 import './styles.css';  // Importa el archivo CSS
 import  FooterMenu from "@/vistas/FooterMenu/FooterMenu";
+import { useLocation, useNavigate } from "react-router-dom";
 
-const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
+const ResultadosEvaluacion = () => {
+  const location = useLocation();
+  const resultadosEvaluacion = location.state?.resultadosEvaluacion;
    const { isDarkTheme } = useTheme();
   // Accede al arreglo de preguntas dentro de la estructura de datos
   const preguntas = resultadosEvaluacion.preguntas || [];
@@ -52,7 +55,7 @@ const ResultadosEvaluacion = ({ resultadosEvaluacion }) => {
 
   return (
     <>
-  <TopMenu text="Ir a inicio" link={`${import.meta.env.BASE_URL}`} />
+  <TopMenu text="Ir a inicio" link={`${import.meta.env.BASE_URL}#/Inicio`} />
   <div
     className={`container mt-5 ${isDarkTheme ? "bg-dark text-white" : "bg-light text-black"}`}
     style={{
